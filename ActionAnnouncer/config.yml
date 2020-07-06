@@ -7,6 +7,6 @@ announcements:
 - '%progress_bar_{rankup_percent_done_formatted}_c:&a&l⛁_p:&e&l⛁_r:&c&l⛁_l:10_fullbar:&eReady!%
   &7(%rankup_percent_done_formatted%\u0025) &8┃ &6&lGrade %rankup_current_rank%'
 announce_on_join: false
-join_announcement: '&eWelcome to the server &b%player%! There are &f%online% &epeople
+join_announcement: '&eBienvenido al servidor &b%player%! There are &f%online% &epeople
   online!'
 disable_sounds: false
