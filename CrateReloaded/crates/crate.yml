@@ -1,0 +1,499 @@
+############################################
+# +---------------------------------------+#
+# |         Config Revision 17            |#
+# +---------------------------------------+#
+############################################
+
+# -------------------------------------------------------------------------------------------------------------------
+FoodChest:
+    type: SUPPLYCRATE # Place a chest down, and the chest will be filled with items
+    item: 'CHEST 1 name:&c[&6Foodie_&eChest&c]_&f#124 lore:&7Mmmm,_something_smells_good.|&8Place_the_chest_down_to_obtain_a_pack_of_food! glow:true'
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a &c[&6Foodie &eChest&c] &f#124'
+        broadcast: ''
+    effect:
+        1:
+          class: AtomEffect
+          radius: 1
+          iterations: 30
+        2:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+    reward:
+        minimum-rewards: 8
+        maximum-rewards: 15
+        rewards:
+            - 'unique:(),     always:(),           cmd:(heal {player}), display:(gold_ingot 1 name:&fHeal! lore:&r&eOpen_for_an_instant_heal! glow:true)'
+            - 'unique:(),     chance:(1),          item:(cake 1 name:&fThe_cake_is_a_lie!)'
+            - 'unique:(),     chance:(1),          item:(apple 1)'
+            - 'unique:(),     chance:(1),          item:(golden_apple 1)'
+            - 'unique:(),     chance:(1),          item:(bone 1)'
+            - 'unique:(),     chance:(1),          item:(bread 1)'
+            - 'unique:(),     chance:(1),          item:(melon_slice 1)'
+            - 'unique:(),     chance:(1),          item:(ice 1)'
+            - 'unique:(),     chance:(1),          item:(snow 1)'
+            - 'unique:(),     chance:(1),          item:(melon 1)'
+            - 'unique:(),     chance:(1),          item:(dirt 1)'
+            - 'unique:(),     chance:(1),          item:(sand 1)'
+            - 'unique:(),     chance:(1),          item:(birch_log 1)'
+            - 'unique:(),     chance:(1),          item:(cobweb 1)'
+            - 'unique:(),     chance:(1),          item:(porkchop 1)'
+            - 'unique:(),     chance:(1),          item:(beef 1)'
+            - 'unique:(),     chance:(1),          item:(cooked_beef 1)'
+            - 'unique:(),     chance:(1),          item:(mushroom_stew 1)'
+# -------------------------------------------------------------------------------------------------------------------
+FoodPack:
+    type: MYSTERYCRATE # Right, or left click to receive rewards
+    item: 'minecart 1 name:&c[&6Foodie_&ePack&c]_&f#125 lore:&7Mmmm,_something_smells_good.|&8Right_click_to_receive_a_pack_of_food! glow:true'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a &c[&6Foodie &ePack&c] &f#125'
+        broadcast: ''
+    effect:
+        1:
+          class: HeartEffect
+        2:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+    reward:
+        minimum-rewards: 3
+        maximum-rewards: 3
+        rewards:
+            - 'unique:(),     always:(),           cmd:(heal {player}), display:(gold_ingot 1 name:&fHeal! lore:&r&eOpen_for_an_instant_heal! glow:true)'
+            - 'unique:(),     chance:(1),          item:(cake 1 name:&fThe_cake_is_a_lie!)'
+            - 'unique:(),     chance:(1),          item:(apple 1)'
+            - 'unique:(),     chance:(1),          item:(golden_apple 1)'
+            - 'unique:(),     chance:(1),          item:(bone 1)'
+            - 'unique:(),     chance:(1),          item:(bread 1)'
+            - 'unique:(),     chance:(1),          item:(melon_slice 1)'
+            - 'unique:(),     chance:(1),          item:(ice 1)'
+            - 'unique:(),     chance:(1),          item:(snow 1)'
+            - 'unique:(),     chance:(1),          item:(melon 1)'
+            - 'unique:(),     chance:(1),          item:(dirt 1)'
+            - 'unique:(),     chance:(1),          item:(sand 1)'
+            - 'unique:(),     chance:(1),          item:(birch_log 1)'
+            - 'unique:(),     chance:(1),          item:(cobweb 1)'
+            - 'unique:(),     chance:(1),          item:(porkchop 1)'
+            - 'unique:(),     chance:(1),          item:(beef 1)'
+            - 'unique:(),     chance:(1),          item:(cooked_beef 1)'
+            - 'unique:(),     chance:(1),          item:(mushroom_stew 1)'
+# -------------------------------------------------------------------------------------------------------------------
+FoodKey:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'NETHER_STAR 1 name:&c[&6Foodie_Key&c]_&f#1 lore:&7Mmmm,_something_smells_good.|&8Right_click_a_chest_to_receive_a_pack_of_food! glow:true'
+    animation: 'none'
+    display-name: '&c[&6Foodie Key&c] &f#1'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: PERSISTENT
+        2:
+          class: Sound
+          category: OPEN
+          sound: ENTITY_BAT_TAKEOFF
+    reward:
+        minimum-rewards: 3
+        maximum-rewards: 3
+        rewards:
+            - 'unique:(),     always:(),           cmd:(heal {player}), display:(gold_ingot 1 name:&fHeal! lore:&r&eOpen_for_an_instant_heal! glow:true)'
+            - 'unique:(),     chance:(1),          item:(cake 1 name:&fThe_cake_is_a_lie!)'
+            - 'unique:(),     chance:(1),          item:(apple 1)'
+            - 'unique:(),     chance:(1),          item:(golden_apple 1)'
+            - 'unique:(),     chance:(1),          item:(bone 1)'
+            - 'unique:(),     chance:(1),          item:(bread 1)'
+            - 'unique:(),     chance:(1),          item:(melon_slice 1)'
+            - 'unique:(),     chance:(1),          item:(ice 1)'
+            - 'unique:(),     chance:(1),          item:(snow 1)'
+            - 'unique:(),     chance:(1),          item:(melon 1)'
+            - 'unique:(),     chance:(1),          item:(dirt 1)'
+            - 'unique:(),     chance:(1),          item:(sand 1)'
+            - 'unique:(),     chance:(1),          item:(birch_log 1)'
+            - 'unique:(),     chance:(1),          item:(cobweb 1)'
+            - 'unique:(),     chance:(1),          item:(porkchop 1)'
+            - 'unique:(),     chance:(1),          item:(beef 1)'
+            - 'unique:(),     chance:(1),          item:(cooked_beef 1)'
+            - 'unique:(),     chance:(1),          item:(mushroom_stew 1)'
+# -------------------------------------------------------------------------------------------------------------------
+# An example of a key crate with animations (Roulette)
+FoodKeyT2:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'NETHER_STAR 1 name:&c[&6Foodie_&eKey&c]_&f#2 lore:&7Mmmm,_something_smells_good.|&8Right_click_a_chest_to_receive_a_pack_of_food! glow:true'
+    animation: 'ROULETTE'
+    display-name: '&c[&6Foodie Crate&c] &f#2'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: PERSISTENT
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'unique:(),     always:(),           cmd:(heal {player}), display:(gold_ingot 1 name:&fHeal! lore:&r&eOpen_for_an_instant_heal! glow:true)'
+            - 'unique:(),     chance:(1),          item:(cake 1 name:&fThe_cake_is_a_lie!)'
+            - 'unique:(),     chance:(1),          item:(apple 1)'
+            - 'unique:(),     chance:(1),          item:(golden_apple 1)'
+            - 'unique:(),     chance:(1),          item:(bone 1)'
+            - 'unique:(),     chance:(1),          item:(bread 1)'
+            - 'unique:(),     chance:(1),          item:(melon_slice 1)'
+            - 'unique:(),     chance:(1),          item:(ice 1)'
+            - 'unique:(),     chance:(1),          item:(snow 1)'
+            - 'unique:(),     chance:(1),          item:(melon 1)'
+            - 'unique:(),     chance:(1),          item:(dirt 1)'
+            - 'unique:(),     chance:(1),          item:(sand 1)'
+            - 'unique:(),     chance:(1),          item:(birch_log 1)'
+            - 'unique:(),     chance:(1),          item:(cobweb 1)'
+            - 'unique:(),     chance:(1),          item:(porkchop 1)'
+            - 'unique:(),     chance:(1),          item:(beef 1)'
+            - 'unique:(),     chance:(1),          item:(cooked_beef 1)'
+            - 'unique:(),     chance:(1),          item:(mushroom_stew 1)'
+# -------------------------------------------------------------------------------------------------------------------
+# An example of a key crate with animations (CSGO)
+FoodKeyT3:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'NETHER_STAR 1 name:&c[&6Foodie_&eKey&c]_&f#3 lore:&7Mmmm,_something_smells_good.|&8Right_click_a_chest_to_receive_a_pack_of_food! glow:true'
+    animation: 'CSGO'
+    display-name: '&c[&6Foodie Key&c] &f#3'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: PERSISTENT
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'unique:(),     always:(),           cmd:(heal {player}), display:(gold_ingot 1 name:&fHeal! lore:&r&eOpen_for_an_instant_heal! glow:true)'
+            - 'unique:(),     chance:(1),          item:(cake 1 name:&fThe_cake_is_a_lie!)'
+            - 'unique:(),     chance:(1),          item:(apple 1)'
+            - 'unique:(),     chance:(1),          item:(golden_apple 1)'
+            - 'unique:(),     chance:(1),          item:(bone 1)'
+            - 'unique:(),     chance:(1),          item:(bread 1)'
+            - 'unique:(),     chance:(1),          item:(melon_slice 1)'
+            - 'unique:(),     chance:(1),          item:(ice 1)'
+            - 'unique:(),     chance:(1),          item:(snow 1)'
+            - 'unique:(),     chance:(1),          item:(melon 1)'
+            - 'unique:(),     chance:(1),          item:(dirt 1)'
+            - 'unique:(),     chance:(1),          item:(sand 1)'
+            - 'unique:(),     chance:(1),          item:(birch_log 1)'
+            - 'unique:(),     chance:(1),          item:(cobweb 1)'
+            - 'unique:(),     chance:(1),          item:(porkchop 1)'
+            - 'unique:(),     chance:(1),          item:(beef 1)'
+            - 'unique:(),     chance:(1),          item:(cooked_beef 1)'
+            - 'unique:(),     chance:(1),          item:(mushroom_stew 1)'
+Vote:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'PRISMARINE_SHARD 1 name:&a&lVote_&aKey lore:&fObtained_by_voting_for|&fserver_&_used_in_the|&e&lCrates_&farea.|&7|&e&nRight-click_in_crate_to_redeem! glow:true'
+    animation: 'CSGO'
+    display-name: '&8» Crates - Vote'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&7|&e&nClick_to_open!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&cNo'
+    preview:
+        enabled: true
+        rows: 6
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '&6&lCRATES &8| &fWe hope you enjoyed your reward opening a &a&nVote Crate&f!'
+        broadcast: ''
+    effect:
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(50),           cmd:(essentials:eco give {player} 30000), display:(gold_ingot 1 name:&6&l$30,000)'
+            - 'unique:(),     chance:(50),           cmd:(essentials:eco give {player} 40000), display:(gold_ingot 2 name:&6&l$40,000)'
+            - 'unique:(),     chance:(40),           cmd:(essentials:eco give {player} 50000), display:(gold_ingot 3 name:&6&l$50,000)'
+            - 'unique:(),     chance:(40),           cmd:(essentials:eco give {player} 75000), display:(gold_ingot 4 name:&6&l$75,000)'
+            - 'unique:(),     chance:(30),           cmd:(essentials:eco give {player} 100000), display:(gold_ingot 5 name:&6&l$100,000)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(50),           cmd:(eco give {player} 100), display:(prismarine_crystals 1 name:&6&l100_Orb)'
+            - 'unique:(),     chance:(40),           cmd:(eco give {player} 200), display:(prismarine_crystals 2 name:&6&l200_Orb)'
+            - 'unique:(),     chance:(30),           cmd:(eco give {player} 300), display:(prismarine_crystals 3 name:&6&l300_Orb)'
+            - 'unique:(),     chance:(20),           cmd:(eco give {player} 400), display:(prismarine_crystals 4 name:&6&l400_Orb)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0.5),           cmd:(vouchers give {player} rVIP 1), display:(ghast_tear 1 name:&6&lVIP_Rank_Voucher glow:true)'
+            - 'unique:(),     chance:(0.1),           cmd:(vouchers give {player} rVIP+ 1), display:(ghast_tear 1 name:&6&lVIP+_Rank_Voucher glow:true)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(50),           cmd:(xp give {player} 500), display:(EXPERIENCE_BOTTLE 1 name:&6&l500_XP)'
+            - 'unique:(),     chance:(40),           cmd:(xp give {player} 1000), display:(EXPERIENCE_BOTTLE 1 name:&6&l1000_XP)'
+            - 'unique:(),     chance:(30),           cmd:(xp give {player} 1500), display:(EXPERIENCE_BOTTLE 1 name:&6&l500_XP)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(20),           cmd:(ce dust success 1 {player} 100), display:(SUGAR 1 name:&6&lx1_Success_Dust)'
+            - 'unique:(),     chance:(10),           cmd:(give {player} diamond_boots 1 UNBREAKING:5 PROTECTION:4), display:(diamond_boots 1 name:&6&lIdunn_Boots lore:&7|&6&lENCHANTMENTS:|__&e&l*_&fUnbreaking_&f&lV|__&e&l*_&fProtection_&f&lIV glow:true)'
+            - 'unique:(),     chance:(30),           cmd:(give {player} name_tag), display:(name_tag 1 name:&6&lx1_Name_Tag)'
+Mystic:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'PRISMARINE_SHARD 1 name:&6&lMystic_Key lore:&fUsed_to_unlock_special_rewards|&frandomly_in_the_&e&lCrates_&farea.|&7|&e&nRight-click_in_crate_to_redeem! glow:true'
+    animation: 'CSGO'
+    display-name: '&8» Crates - Mystic'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&7|&e&nClick_to_open!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&cNo'
+    preview:
+        enabled: true
+        rows: 6
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '&6&lCRATES &8| &fWe hope you enjoyed your reward opening a &e&nMystic Crate&f!'
+        broadcast: ''
+    effect:
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(50),           cmd:(essentials:eco give {player} 6000000), display:(gold_ingot 2 name:&6&l$6,000,000)'
+            - 'unique:(),     chance:(30),           cmd:(essentials:eco give {player} 8000000), display:(gold_ingot 3 name:&6&l$8,000,000)'
+            - 'unique:(),     chance:(20),           cmd:(essentials:eco give {player} 10000000), display:(gold_ingot 4 name:&6&l$10,000,000)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(50),           cmd:(eco give {player} 7500), display:(prismarine_crystals 1 name:&6&l7,500_Orbs)'
+            - 'unique:(),     chance:(30),           cmd:(eco give {player} 10000), display:(prismarine_crystals 2 name:&6&l10,000_Orbs)'
+            - 'unique:(),     chance:(20),           cmd:(eco give {player} 15000), display:(prismarine_crystals 3 name:&6&l15,000_Orbs)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(1),           cmd:(vouchers give {player} rVIP+ 1), display:(ghast_tear 1 name:&6&lVIP+_Rank_Voucher glow:true)'
+            - 'unique:(),     chance:(0.5),           cmd:(vouchers give {player} rVIP++ 1), display:(ghast_tear 1 name:&6&lVIP++_Rank_Voucher glow:true)'
+            - 'unique:(),     chance:(0.1),           cmd:(vouchers give {player} rVIP+++ 1), display:(ghast_tear 1 name:&6&lVIP+++_Rank_Voucher glow:true)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(15),          cmd:(give {player} diamond_pickaxe 1 UNBREAKING:20 EFFICIENCY:20 FORTUNE:5), display:(diamond_pickaxe 1 name:&d&lLegendary_Pickaxe lore:&7|&6&lENCHANTMENTS:|__&e&l*_&fUnbreaking_&f&lXX|__&e&l*_&fEfficiency_&f&lXX glow:true)'
+            - 'unique:(),     chance:(3),           cmd:(vouchers give {player} yrim 1), display:(snowball 1 name:&6&lYrim_Boss_Egg glow:true)'
+            - 'unique:(),     chance:(15),           cmd:(give {player} diamond_boots 1 UNBREAKING:5 PROTECTION:4 FROST_WALKER:5 DEPTH_STRIDER:5 PROTECTION_FIRE:4), display:(diamond_boots 1 name:&d&lLegendary_Boots lore:&7|&6&lENCHANTMENTS:|__&e&l*_&fUnbreaking_&f&lV|__&e&l*_&fProtection_&f&lIV|__&e&l*_&fFrost_Walker_&f&lV|__&e&l*_&fDepth_Strider_&f&lV|__&e&l*_&fFire_Protection_&f&lIV glow:true)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(20),           cmd:(vouchers give {player} tagv 1), display:(name_tag 1 name:&6&lRandom_Tag_Voucher glow:true)'
+            - 'unique:(),     chance:(30),           cmd:(xp give {player} 150000), display:(EXPERIENCE_BOTTLE 1 name:&6&l150,000_XP)'
+            - 'unique:(),     chance:(10),           cmd:(cr give to {player} Mystic 2), display:(prismarine_shard 2 name:&6&lx1_Mystic_Key glow:true)'
+            - 'unique:(),     chance:(20),           cmd:(ce dust success 5 {player} 100), display:(SUGAR 5 name:&6&lx5_Success_Dust)'
+            - 'unique:(),     chance:(17),           cmd:(booster {player} 2 10), display:(SUNFLOWER 1 name:&6&l75%_Sell_Multiplier)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+Perks:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'PRISMARINE_SHARD 1 name:&d&lPerks_&dKey lore:&fUsed_to_unlock_any_perk|&frandomly_in_the_&e&lCrates_&farea.|&7|&e&nRight-click_in_crate_to_redeem! glow:true'
+    animation: 'CSGO'
+    display-name: '&8» Crates - Perks'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&7|&e&nClick_to_open!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&cNo'
+    preview:
+        enabled: true
+        rows: 6
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '&6&lCRATES &8| &fWe hope you enjoyed your reward opening a &d&nPerks Crate&f!'
+        broadcast: ''
+    effect:
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(15),           cmd:(pex user {player} add essentials.near), display:(clock 1 name:&6&lCommand_#1 lore:&7|__&e&l*_&fCommand:_&b/near)'
+            - 'unique:(),     chance:(15),           cmd:(pex user {player} add essentials.compass), display:(clock 1 name:&6&lCommand_#2 lore:&7|__&e&l*_&fCommand:_&b/compass)'
+            - 'unique:(),     chance:(15),           cmd:(pex user {player} add essentials.ptime), display:(clock 1 name:&6&lCommand_#3 lore:&7|__&e&l*_&fCommand:_&b/ptime)'
+            - 'unique:(),     chance:(6),           cmd:(pex user {player} add essentials.invsee), display:(clock 1 name:&6&lCommand_#4 lore:&7|__&e&l*_&fCommand:_&b/invsee)'
+            - 'unique:(),     chance:(5),           cmd:(pex user {player} add essentials.vanish), display:(clock 1 name:&6&lCommand_#5 lore:&7|__&e&l*_&fCommand:_&b/vanish)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(15),           cmd:(pex user {player} add tag.peace), display:(name_tag 1 name:&6&lPeace_Tag lore:&7|__&e&l*_&fCommand:_&b/tags)'
+            - 'unique:(),     chance:(15),           cmd:(pex user {player} add tag.scissors), display:(name_tag 1 name:&6&lScissors_Tag lore:&7|__&e&l*_&fCommand:_&b/tags)'
+            - 'unique:(),     chance:(15),           cmd:(pex user {player} add tag.flower), display:(name_tag 1 name:&6&lFlower_Tag lore:&7|__&e&l*_&fCommand:_&b/tags)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(8),           cmd:(pex user {player} add pet.mario), display:(player_head 1 name:&6&lMario_Pet skull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNkNTY0MmFiNmZmMTc0MzIxMGQ1Y2FiZTY5NjM0M2FiODIyZTNhZDZiZDk1YjFkYjBmOGI5ZTMyYTc2MzUifX19 lore:&7|__&e&l*_&fCommand:_&b/pets)'
+            - 'unique:(),     chance:(8),           cmd:(pex user {player} add pet.groot), display:(player_head 1 name:&6&lGroot_Pet skull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVkMWNmODYxMDc1ZjJlMzllNjI5Y2VhNmIzYTg4NWYzZGQzNWYwNDU1NmU2OTNiYzQ4ZWQ3MDI5NzI2MWY3In19fQ== lore:&7|__&e&l*_&fCommand:_&b/pets)'
+            - 'unique:(),     chance:(8),           cmd:(pex user {player} add pet.orc), display:(player_head 1 name:&6&lOrc_Pet skull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg1YjQxMGExZTkxZDExZjFjY2ZjYTM0OTk3ZTE0NmQxYmU3MWY3MjRmYzI5ZTdkZjQ1N2E4NTM4YTI5ZjViZiJ9fX0= lore:&7|__&e&l*_&fCommand:_&b/pets)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(20),           cmd:(pex user {player} add essentials.sethome.multiple.12), display:(red_bed 1 name:&6&lx12_Homes lore:&7|__&e&l*_&fCommand:_&b/sethome_[number])'
+            - 'unique:(),     chance:(13),           cmd:(pex user {player} add essentials.sethome.multiple.24), display:(red_bed 1 name:&6&lx24_Homes lore:&7|__&e&l*_&fCommand:_&b/sethome_[number])'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(10),           cmd:(tf give {player} -d 7), display:(elytra 1 name:&6&lOne_Week_Fly lore:&7|__&e&l*_&fCommand:_&b/fly)'
+            - 'unique:(),     chance:(1),           cmd:(tf give {player} -d 30), display:(elytra 1 name:&6&lOne_Month_Fly lore:&7|__&e&l*_&fCommand:_&b/fly)'
+Ancient:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'PRISMARINE_SHARD 1 name:&d&lPerks_&dCrate lore:&fUsed_to_unlock_money,_orbs|&f&_XP_randomly_in_the_&e&lCrates|&farea.|&7|&e&nRight-click_in_crate_to_redeem! glow:true'
+    animation: 'CSGO'
+    display-name: '&8» Crates - Ancient'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&7|&e&nClick_to_open!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&cNo'
+    preview:
+        enabled: true
+        rows: 3
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '&6&lCRATES &8| &fWe hope you enjoyed your reward opening a &d&nAncient Crate&f!'
+        broadcast: ''
+    effect:
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(0),           item:(apple 0)'
+            - 'unique:(),     chance:(50),           cmd:(essentials:eco give {player} 2000000), display:(gold_ingot 2 name:&6&l$2,000,000)'
+            - 'unique:(),     chance:(50),           cmd:(essentials:eco give {player} 3000000), display:(gold_ingot 3 name:&6&l$3,000,000)'
+            - 'unique:(),     chance:(30),           cmd:(essentials:eco give {player} 4000000), display:(gold_ingot 4 name:&6&l$4,000,000)'
+            - 'unique:(),     chance:(50),           cmd:(eco give {player} 7500), display:(prismarine_crystals 1 name:&6&l5,000_Orbs)'
+            - 'unique:(),     chance:(50),           cmd:(eco give {player} 10000), display:(prismarine_crystals 2 name:&6&l7,500_Orbs)'
+            - 'unique:(),     chance:(30),           cmd:(eco give {player} 15000), display:(prismarine_crystals 3 name:&6&l10,000_Orbs)'
+            - 'unique:(),     chance:(45),           cmd:(xp give {player} 100000), display:(EXPERIENCE_BOTTLE 1 name:&6&l100,000_XP)'

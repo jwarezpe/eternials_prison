@@ -1,0 +1,866 @@
+    menu_title: '&8» Pets (2/2)'
+    open_command:
+    - dfgdffsdfs
+    size: 54
+    items:
+      313asfh21s42:
+        material: black_stained_glass_pane
+        data: 3
+        amount: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: ''
+      '31342':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE2NWM3NjM2MGM5YzgyNWZjMmUzOTY4ZDdhZTc1NDA2MjkxZDRlOTQ0NDM5ZDRlZTNmYzdjNGU3ZTQ5MzkzNSJ9fX0=
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.cindythecat
+        slot: 10
+        priority: 1
+        display_name: '&6&lCindy The Cat'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.cindythecat %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Cindy The Cat %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.cindythecat %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Cindy The Cat %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      '3dsf22':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE2NWM3NjM2MGM5YzgyNWZjMmUzOTY4ZDdhZTc1NDA2MjkxZDRlOTQ0NDM5ZDRlZTNmYzdjNGU3ZTQ5MzkzNSJ9fX0=
+        data: 3
+        amount: 1
+        slot: 10
+        priority: 2
+        display_name: '&6&lCindy The Cat'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '31231cc42':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk5ZGVkM2U0YjJkMWRjYzVjZmY4NWUyYTRlODkxZTFlYTJkZTNhMWJmOTZjMDJlZmZhNmUxNzMxZmYyZWQyIn19fQ==
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.robot
+        slot: 11
+        priority: 1
+        display_name: '&6&lRobot'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.robot %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Robot %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.robot %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Robot %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      '31tfd22':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk5ZGVkM2U0YjJkMWRjYzVjZmY4NWUyYTRlODkxZTFlYTJkZTNhMWJmOTZjMDJlZmZhNmUxNzMxZmYyZWQyIn19fQ==  
+        data: 3
+        amount: 1
+        slot: 11
+        priority: 2
+        display_name: '&6&lRobot'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '3123frg4212':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhMmVkNWJiNDZjMjRlOGVkOTRjMjc5YzU3NjliYjg2NTU2YTQ4NDY5YTM3NDViMDNmMmFiZmIzZmRiNzUifX19
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.toad
+        slot: 12
+        priority: 1
+        display_name: '&6&lToad'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.toad %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Toad %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.toad %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Toad %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3ffd2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhMmVkNWJiNDZjMjRlOGVkOTRjMjc5YzU3NjliYjg2NTU2YTQ4NDY5YTM3NDViMDNmMmFiZmIzZmRiNzUifX19   
+        data: 3
+        amount: 1
+        slot: 12
+        priority: 2
+        display_name: '&6&lToad'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '312thj4212':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE5ZmI5MDc2NDcyZjhlNzQ0MDk2NjA2MTA2NTQ4YmRhY2Y1MWRiY2ZkYmI1MTI5YmYwNjYxNzdmMjA4ZGU3OSJ9fX0=    
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.gnome
+        slot: 13
+        priority: 1
+        display_name: '&6&lGnome'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.gnome %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Gnome %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.gnome %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Gnome %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3sd2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE5ZmI5MDc2NDcyZjhlNzQ0MDk2NjA2MTA2NTQ4YmRhY2Y1MWRiY2ZkYmI1MTI5YmYwNjYxNzdmMjA4ZGU3OSJ9fX0=
+        data: 3
+        amount: 1
+        slot: 13
+        priority: 2
+        display_name: '&6&lGnome'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '312thjoil12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThjZDNiMmQwMzE5YzgyMzkzOTUwN2UxMzI2YTdhNWI3Y2JjZGYwNTMzNmM5OWQ2Njc4YmQzZGIyZGI0ZTFlZiJ9fX0= 
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.angelslime
+        slot: 14
+        priority: 1
+        display_name: '&6&lAngel Slime'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.angelslime %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Angel Slime %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.angelslime %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Angel Slime %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3sd2p':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThjZDNiMmQwMzE5YzgyMzkzOTUwN2UxMzI2YTdhNWI3Y2JjZGYwNTMzNmM5OWQ2Njc4YmQzZGIyZGI0ZTFlZiJ9fX0=  
+        data: 3
+        amount: 1
+        slot: 14
+        priority: 2
+        display_name: '&6&lAngel Slime'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!' 
+      '312thjoil12p1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVmZjQ5ZmQ2MTcwN2Y0OTg1NmE5NGU4ZjhkY2U1M2MyODk3YmExMGFmNDc5NzAyOGFhZWY2MTU5MjAxYTE4ZiJ9fX0=
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.zetsu
+        slot: 15
+        priority: 1
+        display_name: '&6&lZetsu'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.zetsu %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Zetsu %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.zetsu %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Zetsu %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3sd2p12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVmZjQ5ZmQ2MTcwN2Y0OTg1NmE5NGU4ZjhkY2U1M2MyODk3YmExMGFmNDc5NzAyOGFhZWY2MTU5MjAxYTE4ZiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 15
+        priority: 2
+        display_name: '&6&lZetsu'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '3123fdd512p1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNzgyY2JhZTA0MzZhZTQ0NGU2OWMwYWVlNzhmMWFlZDI3YWVlY2JmOTFhMzU0ZGEzMTIzYmM5Nzc0M2NhNyJ9fX0=
+        data: 3
+        amount: 1   
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.jackskellington
+        slot: 16
+        priority: 1
+        display_name: '&6&lJack Skellington'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.jackskellington %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Jack Skellington %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.jackskellington %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Jack Skellington %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3ssds2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNzgyY2JhZTA0MzZhZTQ0NGU2OWMwYWVlNzhmMWFlZDI3YWVlY2JmOTFhMzU0ZGEzMTIzYmM5Nzc0M2NhNyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 16
+        priority: 2
+        display_name: '&6&lJack Skellington'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '31234222p1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDliZjUwODMyNzZjODMxNzlhOTJjY2U2MWE5ZTZjYmIxZjdhMmJlOWU4NjNiMjUyYWNjOTQ5NWE5ZDVkYiJ9fX0=   
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.kirby
+        slot: 19
+        priority: 1
+        display_name: '&6&lKirby'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.kirby %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Kirby %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.kirby %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Kirby %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3s22222':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDliZjUwODMyNzZjODMxNzlhOTJjY2U2MWE5ZTZjYmIxZjdhMmJlOWU4NjNiMjUyYWNjOTQ5NWE5ZDVkYiJ9fX0=      
+        data: 3
+        amount: 1
+        slot: 19
+        priority: 2
+        display_name: '&6&lKirby'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '3555p1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFiMWU5MjVhNTM5Njk5ZTU4ZTM2NmIyN2JlOTg5NDM2YmUzYjYzODBhOTM0NzZmMjUxZTA1OGUyOWRmYTFiIn19fQ==    
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.teemo
+        slot: 20
+        priority: 1
+        display_name: '&6&lTeemo'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.teemo %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Teemo %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.teemo %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Teemo %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3s55522':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFiMWU5MjVhNTM5Njk5ZTU4ZTM2NmIyN2JlOTg5NDM2YmUzYjYzODBhOTM0NzZmMjUxZTA1OGUyOWRmYTFiIn19fQ==
+        data: 3
+        amount: 1 
+        slot: 20
+        priority: 2
+        display_name: '&6&lTeemo'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '35fdgghds':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhjYjUyZTJjODIxZTg1ZDRiMjBhNTUwODI5N2E2MTMwOWQ5MjEyNTQ5NmM4MDlkZmE1MjUwOWQyNWViY2NmNyJ9fX0= 
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.sebastian
+        slot: 21
+        priority: 1
+        display_name: '&6&lSebastian'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.sebastian %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Sebastian %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.sebastian %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Sebastian %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3sdg322':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhjYjUyZTJjODIxZTg1ZDRiMjBhNTUwODI5N2E2MTMwOWQ5MjEyNTQ5NmM4MDlkZmE1MjUwOWQyNWViY2NmNyJ9fX0=
+        data: 3
+        amount: 1 
+        slot: 21
+        priority: 2
+        display_name: '&6&LSebastian'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '35ewefergtj':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM3MmRhYzA5ZDI1NWI4MDJkZjVhNTMyNzljMDgzNzYzOWJlNmQwZDA2NDhhNTM5ZWVhZDMwZjVmZDM1MWI3ZCJ9fX0=
+        data: 3
+        amount: 1    
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.bee
+        slot: 22
+        priority: 1
+        display_name: '&6&lBee'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.bee %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Bee %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.bee %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Bee %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3dgfgfd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM3MmRhYzA5ZDI1NWI4MDJkZjVhNTMyNzljMDgzNzYzOWJlNmQwZDA2NDhhNTM5ZWVhZDMwZjVmZDM1MWI3ZCJ9fX0=
+        data: 3
+        amount: 1     
+        slot: 22
+        priority: 2
+        display_name: '&6&LBee'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '35dgbergrfdf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJiODk4ZWUzN2U3MzI5ZGZlZGRiYWRjMjM5ZTFhZTY1MTZlMDZhMjQyMjQwYjZhMmRkZTU5ZTFjNjNmODMifX19  
+        data: 3
+        amount: 1      
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.doraemon
+        slot: 23
+        priority: 1
+        display_name: '&6&lDoraemon'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.doraemon %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Doraemon %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.doraemon %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Doraemon %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      'r3sdffagsdd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJiODk4ZWUzN2U3MzI5ZGZlZGRiYWRjMjM5ZTFhZTY1MTZlMDZhMjQyMjQwYjZhMmRkZTU5ZTFjNjNmODMifX19
+        data: 3
+        amount: 1       
+        slot: 23
+        priority: 2
+        display_name: '&6&LDoraemon'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      '1235dgbergrfdf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxM2QyZmFlM2JmNjg1NDRiNDY3MGNiM2Q4YjNhMzFlNTlhMmUyMzRkMzM2NTk0ZTNkNmI5NjhlNDRiNzZkIn19fQ==
+        data: 3
+        amount: 1     
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.totoro
+        slot: 24
+        priority: 1
+        display_name: '&6&lTotoro'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.totoro %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Totoro %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.totoro %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Totoro %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      '123sdffagsdd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxM2QyZmFlM2JmNjg1NDRiNDY3MGNiM2Q4YjNhMzFlNTlhMmUyMzRkMzM2NTk0ZTNkNmI5NjhlNDRiNzZkIn19fQ== 
+        data: 3
+        amount: 1     
+        slot: 24
+        priority: 2
+        display_name: '&6&LTotoro'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'  
+      'rgrdfsdsdf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdhMGU1YmZlMzJmMTYxOWM2ODkxNTk0ZmI5YzNiMjc0YzM4ZTQ3Y2QwMWI3YWFmYzVjNGVlYmUzZjI5ODJhNCJ9fX0=
+        data: 3
+        amount: 1      
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.R2-D2
+        slot: 25
+        priority: 1
+        display_name: '&6&lR2-D2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.R2-D2 %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s R2-D2 %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.R2-D2 %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s R2-D2 %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      '12124tgagsdd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdhMGU1YmZlMzJmMTYxOWM2ODkxNTk0ZmI5YzNiMjc0YzM4ZTQ3Y2QwMWI3YWFmYzVjNGVlYmUzZjI5ODJhNCJ9fX0=
+        data: 3
+        amount: 1      
+        slot: 25
+        priority: 2
+        display_name: '&6&LR2-D2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      'rgrdfergh444':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU4ZmQwYmM3ZTUyOTA0NzQ3MWIwZmI3MTY0Mjg0NTU2NjY2NGFlMmJkN2JmZmNlMGUxNzNjOTUyNWEwNTIzOSJ9fX0= 
+        data: 3
+        amount: 1     
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.gama
+        slot: 28
+        priority: 1
+        display_name: '&6&lGama'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.Gama %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Gama %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.Gama %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Gama %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      '12124tg44dd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU4ZmQwYmM3ZTUyOTA0NzQ3MWIwZmI3MTY0Mjg0NTU2NjY2NGFlMmJkN2JmZmNlMGUxNzNjOTUyNWEwNTIzOSJ9fX0=
+        data: 3
+        amount: 1      
+        slot: 28
+        priority: 2
+        display_name: '&6&LGama'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      'rgrd664':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNlMDk0OTA5MDg5MDU0ZDAyMGFjNTg2NGNiOTJlNmI1MDU4OTZlOTk0OTdlOWJlNTU0YjIwMGY3Njg0NWU0MiJ9fX0=
+        data: 3
+        amount: 1     
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: pet.fakasaku
+        slot: 29
+        priority: 1
+        display_name: '&6&lFukasaku'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] petblocks skin mycustomskins.fukasaku %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Fukasaku %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[console] petblocks skin mycustomskins.fukasaku %player_name%'
+        - '[console] petblocks rename &6&l%player_name%''s Fukasaku %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCalling your pet...'
+        - '[player] petblock call<delay=20>'
+        - '[close]'
+      '1214562tg44dd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNlMDk0OTA5MDg5MDU0ZDAyMGFjNTg2NGNiOTJlNmI1MDU4OTZlOTk0OTdlOWJlNTU0YjIwMGY3Njg0NWU0MiJ9fX0=  
+        data: 3
+        amount: 1    
+        slot: 29
+        priority: 2
+        display_name: '&6&LFukasaku'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&c&oYou do not have enough requirements!'    
+      'rfsfsgfg1':
+        material: BOOK
+        data: 3
+        amount: 1   
+        slot: 49
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      'rfdsfdg1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2NWFlOThjMjE2OTRjNDQ0ZTFmZGFmODI0MzQwZjMzZDVhNzJlNDViZjMwOGM1MGFiM2Y2ZTRjOTE2YiJ9fX0=
+        data: 3
+        amount: 1      
+        slot: 45
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: call.pet
+        priority: 1
+        display_name: '&6&lCall your pet'
+        lore:
+        - '&fMake your pet come to you'
+        - '&fif you are away and need'
+        - '&fhim!'
+        - ''
+        - '&e&nClick to call!'
+        left_click_commands:
+        - '[player] petblock call'
+        - '[close]'
+        right_click_commands:
+        - '[player] petblock call'
+        - '[close]'
+      'rfdfg3333g1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2NWFlOThjMjE2OTRjNDQ0ZTFmZGFmODI0MzQwZjMzZDVhNzJlNDViZjMwOGM1MGFiM2Y2ZTRjOTE2YiJ9fX0=
+        data: 3
+        amount: 1    
+        slot: 45
+        priority: 2
+        display_name: '&6&lCall your pet'
+        lore:
+        - '&fMake your pet come to you'
+        - '&fif you are away and need'
+        - '&fhim!'
+        - ''
+        - '&c&oYou do not have enough requirements!'   
+      'rety32323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ==
+        data: 3
+        amount: 1      
+        slot: 46
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: rename.pet
+        priority: 1
+        display_name: '&6&lRename your pet'
+        lore:
+        - '&fDon''t you like your pet''s'
+        - '&fname? Try customizing it'
+        - '&fby giving them a name!'
+        - ''
+        - '&e&nClick to rename!'
+        left_click_commands:
+        - '[player] petblocks rename <-a Pet name> %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[player] petblocks rename <-a Pet name> %player_name%'
+        - '[close]'
+      'rfdf1452':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ==
+        data: 3
+        amount: 1      
+        slot: 46
+        priority: 2
+        display_name: '&6&lRename your pet'
+        lore:
+        - '&fDon''t you like your pet''s'
+        - '&fname? Try customizing it'
+        - '&fby giving them a name!'
+        - ''
+        - '&c[You can use color'
+        - '&ccodes]'
+        - ''
+        - '&c&oYou do not have enough requirements!'
+      'rety32323111':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlOTY4NTE1ODllMWZhODU0ZjA0ODRjMzBkNjM0ZmE0Njc0MDk2NmE2NmMwOTllMWM2NDIxOWMxMWNiYTdhNSJ9fX0=
+        data: 3
+        amount: 1      
+        slot: 52
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: settings.pet
+        priority: 1
+        display_name: '&6&lPet''s Settings'
+        lore:
+        - '&fChange your pet''s settings'
+        - '&fwhere you can toggle your'
+        - '&fpet''s particles and sounds.'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] petsettings'
+        - '[close]'
+        right_click_commands:
+        - '[openguimenu] petsettings'
+        - '[close]'
+      'rfdf1452111':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlOTY4NTE1ODllMWZhODU0ZjA0ODRjMzBkNjM0ZmE0Njc0MDk2NmE2NmMwOTllMWM2NDIxOWMxMWNiYTdhNSJ9fX0=
+        data: 3
+        amount: 1    
+        slot: 52
+        priority: 2
+        display_name: '&6&lPet''s Settings'
+        lore:
+        - '&fChange your pet''s settings'
+        - '&fwhere you can toggle your'
+        - '&fpet''s particles and sounds.'
+        - ''
+        - '&c&oYou do not have enough requirements!'    
+      'r4241':
+        material: Arrow
+        amount: 1     
+        slot: 48
+        display_name: '&6Previous'
+        left_click_commands:
+        - '[openguimenu] pets'
+        right_click_commands:
+        - '[openguimenu] pets'
+      'r31423231':
+        material: red_stained_glass_pane
+
+        amount: 1     
+        slot: 50
+        display_name: '&6Next'
+        lore:
+        - ''
+        - '&fWe couldn''t find any'
+        - '&fnext page!'

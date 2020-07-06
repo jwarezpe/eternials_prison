@@ -1,0 +1,103 @@
+locations:
+  p1:
+    world: world
+    x: -1652
+    y: 159
+    z: -2471
+    particle: happyvillager
+  treward:
+    world: world
+    x: -1647
+    y: 158
+    z: -2479
+    particle: chains
+  cleg:
+    world: world
+    x: -1621
+    y: 161
+    z: -2472
+    particle: magic
+  crar:
+    world: world
+    x: -1620
+    y: 161
+    z: -2476
+    particle: crit
+  ccom:
+    world: world
+    x: -1620
+    y: 161
+    z: -2468
+    particle: crit
+  fish1:
+    world: world
+    x: -1639
+    y: 105
+    z: -2420
+    particle: water
+  shopy:
+    world: world
+    x: -1671
+    y: 156
+    z: -2466
+    particle: happyvillager
+  bee1:
+    world: world
+    x: -1635
+    y: 162
+    z: -2466
+    particle: storm
+  bee2:
+    world: world
+    x: -1638
+    y: 161
+    z: -2471
+    particle: firestorm
+  character:
+    world: world
+    x: -1645
+    y: 159
+    z: -2458
+    particle: happyvillager
+  icy1:
+    world: world
+    x: -1718
+    y: 140
+    z: -2489
+    particle: snowblast
+  icy2:
+    world: world
+    x: -1718
+    y: 140
+    z: -2495
+    particle: snowblast
+  l1:
+    world: world
+    x: -1694
+    y: 152
+    z: -2444
+    particle: happyvillager
+  l2:
+    world: world
+    x: -1696
+    y: 152
+    z: -2448
+    particle: happyvillager
+  l3:
+    world: world
+    x: -1698
+    y: 152
+    z: -2452
+    particle: happyvillager
+  l4:
+    world: world
+    x: -1696
+    y: 152
+    z: -2456
+    particle: happyvillager
+  l5:
+    world: world
+    x: -1694
+    y: 152
+    z: -2460
+    particle: happyvillager

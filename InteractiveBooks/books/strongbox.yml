@@ -1,0 +1,25 @@
+# Item's name
+name: ExampleName
+# Book's title
+title: ExampleTitle
+# Book's author
+author: Anvity
+generation: ORIGINAL
+# Item's lore
+lore:
+- Example lore 1
+- Example lore 2
+open_command: ''
+pages:
+  '1':
+  - ' '
+  - '&6&LSTRONGBOX'
+  - ' '
+  - '&8Welcome to your'
+  - '&8strongbox, keep upgrading'
+  - '&8upgrading it to make it'
+  - '&8bigger!'
+  - ' '
+  - '<run command:/dm open strongbox>&c&nClick to see stats!<reset>'
+  - ' '
+  - '<run command:/ec open>&c&nClick to open!<reset>'

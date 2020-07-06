@@ -1,0 +1,3 @@
+[30.08.2018 21:05:37] mannorat: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[30.08.2018 21:05:41] mannorat: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[30.08.2018 21:05:54] mannorat: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1

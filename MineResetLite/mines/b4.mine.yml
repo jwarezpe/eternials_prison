@@ -1,0 +1,32 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: 1524
+  tpYaw: 0
+  maxY: 99
+  maxX: 498
+  resetPercent: -1.0
+  fillMode: false
+  tpPitch: 0
+  world: mines
+  minY: 74
+  resetWarnings: []
+  minX: 476
+  composition:
+    GOLD_ORE:0: 0.04
+    DIORITE:0: 0.04
+    ANDESITE:0: 0.05
+    STONE:0: 0.289
+    COAL_ORE:0: 0.1
+    COBBLESTONE:0: 0.25
+    MOSSY_COBBLESTONE:0: 0.171
+    GRANITE:0: 0.06
+  potions: {}
+  name: b4
+  resetClock: 3
+  minZ: 1502
+  isSilent: true
+  tpY: 112
+  tpX: 1000
+  tpZ: 1095

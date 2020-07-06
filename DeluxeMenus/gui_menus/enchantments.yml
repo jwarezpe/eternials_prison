@@ -1,0 +1,306 @@
+    open_command:
+    - aadsdadsfgh5tr
+    - enchanter
+    update_interval: 1
+    menu_title: '&8» Enchanter'
+    size: 54
+    items:
+      book1:
+        material: ENCHANTED_BOOK
+        slot: 20
+        priority: 1
+        display_name: '&a&lCommon Enchantments'
+        lore:
+        - ''
+        - '&fOnce you open, you will'
+        - '&freceive one of the following'
+        - '&fenchantment books:'
+        - ''
+        - '  &e&l* &dViper &7(Swords)'
+        - '  &e&l* &dGears &7(Boots)'
+        - '  &e&l* &dGlowing &7(Helmets)'
+        - '  &e&l* &dImplants &7(Helmets)'
+        - '  &e&l* &dDrunk &7(Armor)'
+        - '  &e&l* &dHardened &7(Armor)'
+        - '  &e&l* &dSnare &7(Bows)'
+      book2:
+        material: ENCHANTED_BOOK
+        slot: 22
+        priority: 1
+        display_name: '&b&lRare Enchantments'
+        lore:
+        - ''
+        - '&fOnce you open, you will'
+        - '&freceive one of the following'
+        - '&fenchantment books:'
+        - ''
+        - '  &e&l* &dRage &7(Swords)'
+        - '  &e&l* &dAnti-Gravity &7(Boots)'
+        - '  &e&l* &dBlessed &7(Axe)'
+        - '  &e&l* &dInquisitive &7(Swords)'
+        - '  &e&l* &dOverload &7(Armor)'
+        - '  &e&l* &dFreeze &7(Armor)'
+        - '  &e&l* &dFarcast &7(Bows)'
+        - '  &e&l* &dIce Freeze &7(Swords)'
+      bosdfsgfdsf:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y2YmY5NThhYmQ3ODI5NWVlZDZmZmMyOTNiMWFhNTk1MjZlODBmNTQ5NzY4MjllYTA2ODMzN2MyZjVlOCJ9fX0=
+        slot: 4
+        priority: 1
+        display_name: '&6&lEnchantments Wiki'
+        lore:
+        - ''
+        - '&fType the enchantment you want'
+        - '&finformation of and, around'
+        - '&fthe whole library, it will'
+        - '&fgive you the information.'
+        - ''
+        - '&e&nClick to browse!'
+        left_click_commands:
+        - '[player] ce info <-a Enchantment>'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] ce info <-a Enchantment>'
+        - '[close]'
+        - '[refresh]'
+      book3:
+        material: ENCHANTED_BOOK
+        slot: 24
+        priority: 1
+        display_name: '&6&lLegendary Enchantments'
+        lore:
+        - ''
+        - '&fOnce you open, you will'
+        - '&freceive one of the following'
+        - '&fenchantment books:'
+        - ''
+        - '  &e&l* &dExperience &7(Pickaxes)'
+        - '  &e&l* &dCombo &7(Swords)'
+        - '  &e&l* &dReforged &7(Tools)'
+        - '  &e&l* &dAlpha &7(Armor)'
+        - '  &e&l* &dFlame Guard &7(Armor)'
+        - '  &e&l* &dOverload &7(Armor)'
+      2382139nds:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiZDlmNWVjMWVkMDA3MjU5OTk2NDkxZTY5ZmY2NDlhMzEwNmNmOTIwMjI3YjFiYjNhNzFlZTdhODk4NjNmIn19fQ==
+        data: 3
+        slot: 47
+        priority: 1
+        display_name: '&6&lBlacksmith'
+        lore:
+        - ''
+        - '&fExchange two tools or armor'
+        - '&fwith the same enchantment and'
+        - '&ftake a better one.'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[player] blacksmith'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] blacksmith'
+        - '[refresh]'
+      2382139nd8dfhsds:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkNDM2NGZlMmIxOWE2YzExOWQxN2I1Njk0NGVmZjU2NmMxNGI0ZmVhNDVlOWI0YmMzMjkyOGQ1OTdmNDY4In19fQ==
+        data: 3
+        slot: 51
+        priority: 1
+        display_name: '&6&lTinkerer'
+        lore:
+        - ''
+        - '&fConvert your enchantments'
+        - '&finto dust and add others more'
+        - '&fsuccess.'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[player] tinker'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] tinker'
+        - '[refresh]'
+      '9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMwMzBjYzM1ZmRlMDIxOGRlZDViYTVkNTU3Y2NhOWUwM2RjYmM4NGY5ZTY3MjkxMWRhNTRmZTA3YzVmZGJiYiJ9fX0=
+        data: 3
+        slot: 29
+        view_requirement:
+          requirements:
+            money:
+              type: '>='
+              input: '%player_level%'
+              output: 40
+        priority: 1
+        display_name: '&a&lx1 Common Star'
+        lore:
+        - '&fExamine to receive a random'
+        - '&aCommon &fenchantment star.'
+        - ''
+        - '      &e✯&7✯&7✯'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fPrice: &d40 levels'
+        - ''
+        - '&e&nClick to buy!'
+        left_click_commands:
+        - '[console] ce lostbook Common 1 %player_name%'
+        - '[console] minecraft:xp add %player_name% -40 levels'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] ce lostbook Common 1 %player_name%'
+        - '[console] minecraft:xp add %player_name% -40 levels'
+        - '[refresh]'
+      '90':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMwMzBjYzM1ZmRlMDIxOGRlZDViYTVkNTU3Y2NhOWUwM2RjYmM4NGY5ZTY3MjkxMWRhNTRmZTA3YzVmZGJiYiJ9fX0=
+        data: 3
+        slot: 29
+        priority: 2
+        display_name: '&a&lx1 Common Star'
+        lore:
+        - '&fExamine to receive a random'
+        - '&aCommon &fenchantment star.'
+        - ''
+        - '      &e✯&7✯&7✯'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fPrice: &d40 levels'
+        - '&7&o(You have %player_level%)'
+      '99':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlMmJhZjQwZmQ4NWViNTczZmU1YjJlNWI2Yzg4MTdjZjUwZjg4M2Q5NTc2OTQxNTgwN2FiMDcyODhhNDdjZCJ9fX0=
+        data: 3
+        slot: 31
+        view_requirement:
+          requirements:
+            money:
+              type: '>='
+              input: '%player_level%'
+              output: 80
+        priority: 1
+        display_name: '&b&lx1 Rare Star'
+        lore:
+        - '&fExamine to receive a random'
+        - '&bRare &fenchantment star.'
+        - ''
+        - '      &7✯&e✯&7✯'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fPrice: &d80 levels'
+        - ''
+        - '&5&nClick to buy!'
+        left_click_commands:
+        - '[console] ce lostbook Rare 1 %player_name%'
+        - '[console] minecraft:xp add %player_name% -80 levels'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] ce lostbook Rare 1 %player_name%'
+        - '[console] minecraft:xp add %player_name% -80 levels'
+        - '[refresh]'
+      '91':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlMmJhZjQwZmQ4NWViNTczZmU1YjJlNWI2Yzg4MTdjZjUwZjg4M2Q5NTc2OTQxNTgwN2FiMDcyODhhNDdjZCJ9fX0=
+        data: 3
+        slot: 31
+        priority: 2
+        display_name: '&b&lx1 Rare Star'
+        lore:
+        - '&fExamine to receive a random'
+        - '&bRare &fenchantment star.'
+        - ''
+        - '      &7✯&e✯&7✯'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fPrice: &d80 levels'
+        - '&7&o(You have %player_level%)'
+      '999':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY1MDViMWJlZmJhMjQyMTcwYTQ2ZTg5NDdiNTJhZWE1NGE1OTA2MGYzZTFjMzZmMjFjZWJiNDQ2OTBmOGIwYyJ9fX0=
+        data: 3
+        slot: 33
+        view_requirement:
+          requirements:
+            money:
+              type: '>='
+              input: '%player_level%'
+              output: 120
+        priority: 1
+        display_name: '&6&lx1 Legendary Star'
+        lore:
+        - '&fExamine to receive a random'
+        - '&6Legendary &fenchantment star.'
+        - ''
+        - '      &7✯✯&e✯'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fPrice: &d120 levels'
+        - ''
+        - '&5&nClick to buy!'
+        left_click_commands:
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[console] minecraft:xp add %player_name% -120 levels'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[console] minecraft:xp add %player_name% -120 levels'
+        - '[refresh]'
+      '92':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY1MDViMWJlZmJhMjQyMTcwYTQ2ZTg5NDdiNTJhZWE1NGE1OTA2MGYzZTFjMzZmMjFjZWJiNDQ2OTBmOGIwYyJ9fX0=
+        data: 3
+        slot: 33
+        priority: 2
+        display_name: '&6&lx1 Legendary Star'
+        lore:
+        - '&fExamine to receive a random'
+        - '&6Legendary &fenchantment star.'
+        - ''
+        - '      &7✯&7✯&e✯'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fPrice: &e120 levels'
+        - '&7&o(You have %player_level%)'
+      '20':
+        material: BLACK_STAINED_GLASS_PANE
+        display_name: '&f'
+        data: 15
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 21
+        - 23
+        - 25
+        - 26
+        - 27
+        - 28
+        - 30
+        - 32
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 48
+        - 49
+        - 50
+        - 52
+        - 53
+        priority: 1

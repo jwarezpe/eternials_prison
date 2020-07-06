@@ -1,0 +1,177 @@
+#
+# Hugs - Developed by ShadowMasterGaming
+#
+
+#
+# Available Placeholders:
+#   Global: Can be used anywhere in this file. Even in places it normally shouldn't be.
+#     %prefix%
+#
+#   Case Specific: Can only be used in certain variables. Supported placeholders are listed above the variable.
+#     %sender%, %target%, %permission%, %cooldown%, %normal_hugs_total%, %mass_hugs_total%,
+#     %total_hugs_given%, %total_hugs_received%, %total_mass_hugs_given%, %total_mass_hugs_received%,
+#     %header%, %footer%
+#
+
+plugin_placeholders:
+  # The prefix for the plugin. Can be used globally using %prefix%.
+  prefix: '&6&lHUGS &8┃&f'
+
+  # The header that is put above a message. Can be used in message lists using %header%.
+  header: '&7'
+
+  # The footer that is put below a message. Can be used in message lists using %footer%.
+  footer: '&7'
+
+messages:
+  # The messages that are sent upon sending and receiving hugs.
+  hug_messages:
+    # The message that the sender receives upon giving a hug.
+    # Supported Placeholders: %target%
+    message_to_sender: '%prefix% &fYou gave &e&n%target%&f a hug! &a<3'
+    # The message that the target receives upon receiving a hug.
+    # Supported Placeholders: %sender%
+    message_to_receiver: '%prefix% &fYou were hugged by &e&n%sender%&f!'
+    # The message that the sender receives if they hug themself.
+    # Supported Placeholders: N/A
+    self_hug: "%prefix% &fYou gave yourself a warm hug."
+
+  # The title and subtitle that the target receives upon receiving a hug.
+  # Only supports the %sender% placeholder in the title variable.
+  title_message:
+    title: '&7'
+    subtitle: '&d%sender% hugged you!'
+
+  # The messages that are broadcasted to the server.
+  broadcasts:
+    # The broadcast that is shown when a player hugs another player.
+    # Supported Placeholders: %sender% & %target%
+    normal_hugs:
+      message: '%prefix% &a%sender%&f&f hugged &e&n%target%&f.'
+    # The broadcast that is shown when a player hugs everyone.
+    # Supported Placeholders: %sender%
+    mass_hugs:
+      message: '%prefix% &a%sender%&f gave everyone a hug!'
+    # The broadcast that is shown when a player hugs themself.
+    # Supported Placeholders: %sender%
+    self_hugs:
+      message: "%prefix% &a%sender%&f hugged themself."
+
+  # The messages for data purges.
+  confirmations:
+    # Supported Placeholders: N/A
+    confirmation_all_message: "%prefix% &fAre you sure? Doing this will result in all player data being deleted! \nType \"yes\" to continue or type \"no\" to cancel."
+    # Supported Placeholders: %player%
+    confirmation_message: "%prefix% &7Are you sure? Doing this will result in %player%'s data being deleted! \nType \"yes\" to continue or type \"no\" to cancel."
+    # Supported Placeholders: N/A
+    canceled_purge: "%prefix% &7Canceled data purge."
+    # Supported Placeholders: N/A
+    data_purged: "%prefix% &7Everyone's data was &cdeleted&7!"
+
+  # The message that the sender receives when they use the reload command.
+  # Supported Placeholders: N/A
+  reload_message:
+    - "%header%"
+    - "%prefix% &7Configuration reloaded &asuccessfully&7."
+    - "%footer%"
+
+#
+# Data Messages
+#
+data:
+  # The messages that the sender receives when they use the /hugs total command.
+  # Supported Placeholders: %normal_hugs_total% & %mass_hugs_total%
+  total_hugs_message:
+  - "%header%"
+  - "%prefix% &b%normal_hugs_total% &fhugs have been given!"
+  - "%prefix% &b%mass_hugs_total% &fmass hugs have been given!"
+  - "%footer%"
+
+  # The messages that appear when a player types /hugs info <player>.
+  # Supported Placeholders: %total_hugs_given%, %total_hugs_received%, %total_mass_hugs_given%, & %total_mass_hugs_received%
+  player_profile:
+  - "&3&lHugs Given&7: &b%total_hugs_given%"
+  - "&3&lHugs Received&7: &b%total_hugs_received%"
+  - "&3&lMass Hugs Given&7: &b%total_mass_hugs_given%"
+  - "&3&lMass Hugs Received&7: &b%total_mass_hugs_received%"
+
+  # The message that the sender receives when they purge a player's data.
+  # Supported Placeholders: %target%
+  player_data_purged: "%prefix% &3%target%'s &7data was &cdeleted&7!"
+
+#
+# Error Messages
+#
+errors:
+  # The message that the sender receives if the name is spelled incorrectly or if the target is offline.
+  # Supported Placeholders: %target%
+  player_not_found: "%prefix% &6&l%target% &7doesn't want to be hugged!"
+
+  # The message that the sender receives if they are the only one online and try to send a mass hug.
+  # Supported Placeholders: N/A
+  not_enough_players: "%prefix% &c&lERROR: &7At least three players must be online in order to give a mass hug!"
+
+  # The message that the sender receives if they try to hug themself and the "allow_self_hugging" setting is set to false.
+  # Supported Placeholders: N/A
+  not_allowed_self_hug: "%prefix% &c&lHmm &7well... this is awkward. It seems as if something is preventing you from hugging yourself."
+
+  # The message that the sender receives if they type a subcommand incorrectly.
+  # Supported Placeholders: N/A
+  invalid_arguments: "%prefix% &7Type &b/hugs help &7for the proper usage of the commands!"
+
+  # The message that the sender receives if they have too many arguments.
+  # Supported Placeholders: N/A
+  too_many_arguments: "%prefix% &c&lERROR: &7Too Many Arguments. Type &b/hugs help &7for the correct usage!"
+
+  # The message that the sender receives if they don't have enough arguments.
+  # Supported Placeholders: N/A
+  too_few_arguments: "%prefix% &c&lERROR: &7Too Few Arguments. Type &b/hugs help &7for the correct usage!"
+
+  # The message that the sender receives when they check for a player's info and the player's name is longer than 16 characters.
+  # Supported Placeholders: N/A
+  invalid_player: "%prefix% &c&lERROR: &7Invalid Name. Names are, at maximum, 16 characters long."
+
+  # The message that the sender receives if they use /hugs info <player> and the receiver's data isn't found.
+  # Supported Placeholders: %target%
+  data_not_found: "%prefix% &c&lERROR: &7%target% has not given nor received any hugs. :'( \nWhat part about \"Spread the Love\" didn't you understand?"
+
+  # The message that the sender receives if they do not have the correct permissions.
+  # Supported Placeholders: %permission%
+  no_permission: "%prefix% &cYou do not have the required permissions to use this command! Silly Goose. You need &e%permission% &cto use this command!"
+
+  # The cooldown message sent to players on cooldown.
+  # Supported Placeholders: %cooldown%
+  cooldown_message: "%prefix% &cYou must wait %cooldown% second(s) before giving another hug!"
+
+#
+# Experimental Messages
+#
+experimental:
+  passive_mode: "%prefix% &aPassive mode is enabled. You cannot harm other players!"
+
+#
+# The command usage messages.
+#
+usages:
+  hug: "&3&lProper Usage &8&l>> &b/hug <player>"
+  info: "&3&lProper Usage &8&l>> &b/hugs info <player>"
+  total: "&3&lProper Usage &8&l>> &b/hugs total"
+  purge: "&3&lProper Usage &8&l>> &b/hugs admin purge <player>"
+
+#
+# The gui names.
+#
+gui_names:
+  confirmation: "&3&lHugs &8&l>> &8Confirmation Page"
+  leaderboard: "&3&lHugs &8&l>> &8Leaderboard"
+
+guis:
+  confirmation:
+    name: "&3&lHugs &8&l>> &8Confirmation Page"
+  leaderboard:
+    name: "&3&lHugs &8&l>> &8Leaderboard"
+    player_head_name: "&a%rank%. &7%player%"
+    player_head_lore:
+      - "&bHugs Given: &7%hugs_given%"
+      - "&bHugs Received: &7%hugs_received%"
+    text_format: "&7&l%rank%. &6%player% - %total%"

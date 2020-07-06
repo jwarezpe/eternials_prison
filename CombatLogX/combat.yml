@@ -1,0 +1,41 @@
+options:
+  broadcast enable message: true
+  log to file: true
+  log to console: false
+  check for updates: true
+  disabled worlds:
+  - world1
+  combat timer: 15
+  self combat: true
+  mobs:
+    combat: true
+    link pets: true
+    blacklist:
+    - PIG
+    - COW
+  remove combat on enemy death: true
+  bypass:
+    enable: false
+    permission: combatlogx.bypass
+  combat sudo:
+    enable: false
+    commands:
+    - say I am now in combat
+    console:
+    - msg {player} You are now in combat!
+punishment:
+  kill loggers: false
+  kick: false
+  quit:
+    enable: true
+    message: true
+  console:
+    enable: true
+    commands:
+    - eco take {player} 100
+    - ib open 8 {player}
+    - minecraft:tp {player} -4 100 -21 180 1
+  sudo loggers:
+    enable: false
+    commands:
+    - say I logged out of combat!

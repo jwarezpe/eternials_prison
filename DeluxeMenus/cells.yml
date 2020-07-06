@@ -1,0 +1,405 @@
+    menu_title: '&8» Cells'
+    open_command:
+    - cells
+    size: 45
+    update_interval: 1
+    items:
+      313asfh21s42:
+        material: black_stained_glass_pane
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'no'
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 13
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 23
+        - 24
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42     
+        - 43
+        - 44
+        - 45
+        display_name: ''
+        priority: 2
+      '32':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFjNTI0MTliOTkwMjU4MjhjODlmYTgyNTk0NWU2OTQ4ZTQ1YmI1YTIyZTQ0MjVhNTllOTA5NmU0YzFhYzM4In19fQ==
+        data: 3
+        amount: 1
+        slot: 22
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'no'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 2
+        display_name: '&6&lCreate a cell!'
+        lore:
+        - '&fIt seems you do not have'
+        - '&fany cell yet. Here you will'
+        - '&fbe able to build and keep'
+        - '&fanything you want!'
+        - '&7'
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fGrade: &dA2'
+        - '&7'
+        - '&eClick to create!'
+        right_click_commands:
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lMaking sure you meet the requirements...'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lGetting materials for your cell...<delay=30>'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lBuilding your cell...<delay=60>'
+        - '[player] plotsquared:plot sdadfesdwwr<delay=120>'
+        - '[close]'
+        left_click_commands:
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lMaking sure you meet the requirements...'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lGetting materials for your cell...<delay=30>'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lBuilding your cell...<delay=60>'
+        - '[player] plotsquared:plot sdadfesdwwr<delay=120>'
+        - '[close]'
+      '3234':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFjNTI0MTliOTkwMjU4MjhjODlmYTgyNTk0NWU2OTQ4ZTQ1YmI1YTIyZTQ0MjVhNTllOTA5NmU0YzFhYzM4In19fQ==
+        data: 3
+        amount: 1
+        slot: 22
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'no'
+        priority: 1
+        display_name: '&6&lCreate a Cell'
+        lore:
+        - '&fIt seems you do not have'
+        - '&fany cell yet. Here you will'
+        - '&fbe able to build and keep'
+        - '&fanything you want!'
+        - '&7'
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fGrade: &dA2'
+        - '&7'
+        - '&c&oReturn to make one later!'
+      313asfh21sw3rfe42:
+        material: black_stained_glass_pane
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'yes'
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        display_name: ''
+      '3dfsfd2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFjNTI0MTliOTkwMjU4MjhjODlmYTgyNTk0NWU2OTQ4ZTQ1YmI1YTIyZTQ0MjVhNTllOTA5NmU0YzFhYzM4In19fQ==
+        data: 3
+        amount: 1
+        slot: 13
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'yes'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 1
+        display_name: '&6&lTeleport to your cell'
+        lore:
+        - '&fBack and teleport to your'
+        - '&fcell to keep building it'
+        - '&fand collect items!'
+        - '&7'
+        - '&e&nLeft-click to teleport!'
+        - '&e&nRight-click to visit someone!'
+        left_click_commands:
+        - '[player] plotsquared:plot ydadiifeowir<delay=20>'
+        - '[close]'
+        right_click_commands:
+        - '[player] plotsquared:plot visit <-a Player>'
+        - '[close]'
+      '3dsd122fsfd2':
+        material: barrier
+        amount: 1
+        slot: 31
+        update: true
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%player_world%'
+              output: 'world'
+            nam11111e:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'yes'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 1
+        display_name: '&6&lCell Settings'
+        lore:
+        - '&fYou are not able to'
+        - '&fexecute any action if'
+        - '&fyou aren''t in your cell!'
+        - ''
+        - '&a&oTeleport to your cell'
+        - '&a&oand actions will appear.'
+      'shello2':
+        material: barrier
+        amount: 1
+        update: true
+        slot: 31
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%player_world%'
+              output: 'world'
+            nam11111e:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'yes'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 3
+        display_name: '&6&lCell Settings'
+        lore:
+        - '&fYou are not able to'
+        - '&fexecute any action if'
+        - '&fyou aren''t in your cell!'
+        - ''
+        - '&a&oTeleport to your cell'
+        - '&a&oand actions will appear.'
+      'shelltrrt5o2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3ZDJlODRhZTEwYzk3MWQ5MmNiMDViNmFiNDExNmY3NjUwM2E4N2QzMTc0MjQ5Y2QxZjQ5OTJiYTE4MWRiNCJ9fX0=
+        data: 3
+        amount: 1
+        slot: 31
+        priority: 2
+        update: true
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%player_world%'
+              output: 'cells'
+            nam11111e:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'yes'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 
+        display_name: '&6&lCell Settings'
+        lore:
+        - '&fAt this moment, it seems'
+        - '&fyou are not in your'
+        - '&fown cell, so you can not'
+        - '&fopen the settings...'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fOwner: %javascript_owner%'
+        - '  &e&l* &fAlias: %javascript_alias%'
+        - ''
+        - '&c&oGo to your cell if'
+        - '&c&oyou want to open'
+        - '&c&osettings'
+      'shiuuulo2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3ZDJlODRhZTEwYzk3MWQ5MmNiMDViNmFiNDExNmY3NjUwM2E4N2QzMTc0MjQ5Y2QxZjQ5OTJiYTE4MWRiNCJ9fX0=
+        data: 3
+        amount: 1
+        slot: 31
+        update: true
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%player_world%'
+              output: 'cells'
+            nam11111e:
+              type: string equals
+              input: '%plotsquared_currentplot_owner%'
+              output: '%player_name%'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 1
+        display_name: '&6&lCell Settings'
+        lore:
+        - '&fHere you will be able'
+        - '&fto control everything in'
+        - '&fyour own cell.'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fOwner: %javascript_owner%'
+        - '  &e&l* &fAlias: %javascript_alias%'
+        - ''
+        - '&e&nClick to show settings!'
+        right_click_commands:
+        - '[openguimenu] cellscontrol'
+        left_click_commands:
+        - '[openguimenu] cellscontrol'
+      'sadsfeww3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjYmFlNzI0NmNjMmM2ZTg4ODU4NzE5OGM3OTU5OTc5NjY2YjRmNWE0MDg4ZjI0ZTI2ZTA3NWYxNDBhZTZjMyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 25
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'yes'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 1
+        display_name: '&6&lCell Visitor'
+        lore:
+        - '&fVisit other players' cells'
+        - '&for change the settings of'
+        - '&fyour own one!'
+        - '&7'
+        - '&eLeft-click to visit!'
+        - '&eRight-click to control!'
+        right_click_commands:
+        - '[player] sdgdf213sg'
+        - '[close]'
+        left_click_commands:
+        - '[player] sdgdf213sg'
+        - '[close]'
+      'sadsfewqef3ww3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjYmFlNzI0NmNjMmM2ZTg4ODU4NzE5OGM3OTU5OTc5NjY2YjRmNWE0MDg4ZjI0ZTI2ZTA3NWYxNDBhZTZjMyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 25
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%plotsquared_has_plot_cells%'
+              output: 'no'
+            nam3dsf:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '2'
+        priority: 2
+        display_name: '&6&lCell Visitor'
+        lore:
+        - '&fVisit other players' cells'
+        - '&for change the settings of'
+        - '&fyour own one!'
+        - '&7'
+        - '&eClick to visit!'
+        - ''
+        - '&c&oYou are not able to'
+        - '&c&ocontrol it yet, but you'
+        - '&c&ocan visit people.'
+        right_click_commands:
+        - '[player] sdgdf213sg'
+        - '[close]'
+        left_click_commands:
+        - '[player] sdgdf213sg'
+        - '[close]'

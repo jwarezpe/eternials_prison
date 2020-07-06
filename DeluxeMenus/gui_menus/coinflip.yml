@@ -1,0 +1,94 @@
+    menu_title: » Coin Flip
+    open_command:
+    - cf
+    - coinflipper:coinflipper
+    - coinflip
+    - coinflipper
+    size: 27
+    items:
+      '25':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVhMTkwNzljYTI4MTU4OTg0ZWEyOWVhNDU5MTczODc2ZTQ4NDUzYzJjOGI4NjQ4OTg5MzVkNjljODAifX19
+        data: 3
+        slot: 11
+        display_name: '&6&lHeads'
+        lore:
+        - '&fBet a money amount against'
+        - '&fother person and try winning'
+        - '&fit all with &aheads&f!'
+        - '&c[You can only create one'
+        - '&cbet]'
+        - ''
+        - '&e&nClick to bet!'
+        left_click_commands:
+        - '[player] coinflipper:coinflip <-a Amount> heads'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] coinflipper:coinflip <-a Amount> heads'
+        - '[refresh]'
+      '254tgfdfsdf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM4MGY4NjdkOWM4MGY2OWUxYjBhMzZhYmQ1ZGM2ZDYzNmJmYWQyYjYyZGYzMmUwYTA4MWJmZTkxMWQ3NTVkMiJ9fX0=
+        data: 3
+        slot: 13
+        display_name: '&6&lCoin Flip List'
+        lore:
+        - '&fSee the list of people'
+        - '&fbetting money and what did'
+        - '&fthey choose to bet!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fMinimum: &e$300'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[player] coinflipper:coinflip'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] coinflipper:coinflip'
+        - '[refresh]'
+      '24235':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc3YzljNjM4YmYzZGNkYTM0OGVkZWE0NGU5YTNkYjRhYmMxZTIzOTU1ODY2MTYxMWY4MGMxMTA0NzJhZCJ9fX0=
+        data: 3
+        slot: 15
+        display_name: '&6&lTails'
+        lore:
+        - '&fBet a money amount against'
+        - '&fother person and try winning'
+        - '&fit all with &atails&f!'
+        - '&c[You can only create one'
+        - '&cbet]'
+        - ''
+        - '&e&nClick to bet!'
+        left_click_commands:
+        - '[player] coinflipper:coinflip <-a Amount> tails'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] coinflipper:coinflip <-a Amount> tails'
+        - '[refresh]'
+      '111122fdsfdsd3':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 12
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        priority: 1

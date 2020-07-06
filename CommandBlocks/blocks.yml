@@ -1,0 +1,116 @@
+# 
+#  _______                                  _ ______  _             _          
+# (_______)                                | (____  \| |           | |  v1.2.2
+#  _       ___  ____  ____  _____ ____   __| |____)  ) | ___   ____| |  _  ___ 
+# | |     / _ \|    \|    \(____ |  _ \ / _  |  __  (| |/ _ \ / ___) |_/ )/___)
+# | |____| |_| | | | | | | / ___ | | | ( (_| | |__)  ) | |_| ( (___|  _ (|___ |
+#  \______)___/|_|_|_|_|_|_\_____|_| |_|\____|______/ \_)___/ \____)_| \_|___/ 
+# 
+# Copyright © 2018-2020 Geitenijs, all rights reserved.
+# Information & Support: https://www.spigotmc.org/resources/62720
+# 
+# block:
+#   location: The location of the CommandBlock. Don't change this unless you know what you're doing!
+#   success:
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   permission
+#     value: The required permission to use the CommandBlock. Can NOT be disabled.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {permission}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {permission}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {permission}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   cost
+#     value: The required cost to use the CommandBlock. Set to '0' for no cost.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   timeout
+#     value: A timeout for the CommandBlock. Set to '0' to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {time}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {time}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {time}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   delay
+#     value: A delay for the CommandBlock. Set to '0' to disable.
+treasure:
+  location: -1647#160#-2479#world
+  success:
+    commands:
+      console:
+      - []
+      player:
+      - dm open treasure
+    messages:
+    - []
+  permission:
+    value: commandblocks.use
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have permission to do that.'
+  cost:
+    value: 10.0
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have sufficient funds to do that.'
+  timeout:
+    value: 0
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cPlease wait {time} seconds before doing that again.'
+  delay:
+    value: 0
+strongbox:
+  location: -1649#160#-2457#world
+  success:
+    commands:
+      console:
+      - ibooks open strongbox {player}
+      player:
+      - []
+    messages:
+    - []
+  permission:
+    value: commandblocks.use
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have permission to do that.'
+  cost:
+    value: 10.0
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have sufficient funds to do that.'
+  timeout:
+    value: 0
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cPlease wait {time} seconds before doing that again.'
+  delay:
+    value: 0

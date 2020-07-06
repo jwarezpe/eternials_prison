@@ -1,0 +1,118 @@
+# 
+#                        UltraBar                          #
+bstats: false
+update_checker: false
+WorldGuardRegion:
+  Enabled: true
+  Message: '&6<< &b%region% &6>>'
+  Message2: '&b%region% &3<<>> &6and &c%number%&6 more.'
+OnJoin:
+  BossBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+    Color: green
+    Time: 10
+    Style: '6'
+    Health: 1
+  Title:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6'
+    SubTitle: '&bto the best server ever!'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  ActionBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+OnDeath:
+  BossBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+    Color: green
+    Time: 10
+    Style: '6'
+    Health: 1
+  Title:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6'
+    SubTitle: '&bto the best server ever!'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  ActionBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+OnCommand:
+  list:
+  - examplecmd
+  examplecmd:
+    BossBar:
+      Message: '&6You ran a command!'
+      Color: green
+      Time: 10
+      Style: '6'
+      Health: 1
+    ActionBar:
+      Message: '&6ActionBars can be used&6!'
+    Title:
+      Message: '&6Along with titles.&6'
+      SubTitle: '&bThese support placeholderapi!'
+      fadein: 5
+      fadeout: 5
+      time: 20
+BossBarMessages:
+  Enabled: true
+  World_Whitelist_Enabled: false
+  Random_Order: false
+  World_Whitelist:
+  - world
+  Number_Of_Messages: 3
+  '1':
+    Message: '&ePurchase ranks, items and perks! &7- &6&lSTORE.SERVER.NET'
+    Color: orange
+    Style: '6'
+    Time: 20
+  '2':
+    Message: '&eCheck the wiki if you need help! &7- &6&l/WIKI'
+    Color: green
+    Style: '6'
+    Time: 20
+  '3':
+    Message: '&eStart creating your own cell! &7- &6&l/CELLS'
+    Color: pink
+    Style: '6'
+    Time: 20
+Title_Announcements:
+  Enabled: false
+  Random_Order: false
+  Number_Of_Messages: 3
+  Time: 20
+  '1':
+    Message: '&6Message 1&6'
+    SubTitle: '&bMeassage 1'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  '2':
+    Message: '&6Message 2&6'
+    SubTitle: '&bMessage 2'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  '3':
+    Message: '&6Message 3&6'
+    SubTitle: '&bMessage 3'
+    fadein: 5
+    fadeout: 5
+    time: 20
+Action_Announcements:
+  Enabled: false
+  Random_Order: false
+  Number_Of_Messages: 3
+  Time: 10
+  '1':
+    Message: Message 1
+  '2':
+    Message: Message 2
+  '3':
+    Message: Message 3

@@ -1,0 +1,180 @@
+    menu_title: '&8» %player_name%''s Keystone'
+    open_command:
+    - dsafe323ffdsf
+    size: 45
+    items:
+      313asfh21s42:
+        material: black_stained_glass_pane
+        data: 3
+        amount: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 29
+        - 31
+        - 33
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: ''
+      '32':
+        material: head-%player_name%
+        data: 3
+        amount: 1
+        slot: 28
+        display_name: '&6&lCharacter Menu'
+        lore:
+        - ''
+        - '&e&l* &fStats'
+        - '&e&l* &fAchievements'
+        - '&e&l* &fClan'
+        - '&e&l* &fTrails'
+        - '&e&l* &fPets'
+        - '&e&l* &fDisguises'
+        - '&e&l* &fVaults'
+        - ''
+        - '&e&nClick to open!'
+      '31342':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBiZmMyNTc3ZjZlMjZjNmM2ZjczNjVjMmM0MDc2YmNjZWU2NTMxMjQ5ODkzODJjZTkzYmNhNGZjOWUzOWIifX19
+        data: 3
+        amount: 1
+        slot: 30
+        priority: 2
+        display_name: '&6&lTeleporter'
+        lore:
+        - ''
+        - '&fTeleport to any prison'
+        - '&flocation available for you'
+        - '&finstantly.'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] teleporter'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] teleporter'
+        - '[refresh]'
+      3131saw42:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBjZjc0ZTI2MzhiYTVhZDMyMjM3YTM3YjFkNzZhYTEyM2QxODU0NmU3ZWI5YTZiOTk2MWU0YmYxYzNhOTE5In19fQ==
+        data: 3
+        amount: 1
+        slot: 32
+        priority: 3
+        display_name: '&6&lCells'
+        lore:
+        - ''
+        - '&fGet your very own cell'
+        - '&fand start decorating it'
+        - '&fto invite all of your friends.'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] cells'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] cells'
+        - '[refresh]'
+      3131sa212dw42:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmYyNWE5Nzk5OGZmYzU4MWI5NTdkNzMxNjFhYjE4OThjYWM1Y2VjODljODliMzRjMjNjYjZkNDA3NGM0YzhhYyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 34
+        priority: 3
+        display_name: '&6&lShop'
+        lore:
+        - ''
+        - '&fBrowse items to purchase or'
+        - '&fto sell in the prison'
+        - '&fmarketplace.'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] shop'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] shop'
+        - '[refresh]'
+      '31cgdfgfdscd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgxYmRjZDU2MmZiNjFlZjY2YjhmZTk3NWE4NTRlZDE5ZjY1N2QxN2RhZGM2NDdkYTc5ODg4NTY2YThiMiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 13
+        priority: 2
+        display_name: '&6&lRank UP - Center'
+        lore:
+        - ''
+        - '&fKeep ranking up while'
+        - '&fyou are mining to try'
+        - '&fto escape from this prison!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7%rankup_current_rank% &f> &b%rankup_next_rank%'
+        - '  &e&l* &fProgress: %progress_bar_{rankup_percent_done_formatted}_c:&a&l|_p:&e&l|_r:&c&l|_l:10_fullbar:&aReady!%'
+        - '  &e&l* &fCost: &e$%rankup_money_formatted%'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] ranks'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] ranks'
+        - '[refresh]'
+      '31cgddsfgsdfdscd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgxYmRjZDU2MmZiNjFlZjY2YjhmZTk3NWE4NTRlZDE5ZjY1N2QxN2RhZGM2NDdkYTc5ODg4NTY2YThiMiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%rankup_current_rank%'
+              output: 'E4'
+        display_name: '&6&lRank UP - Center'
+        lore:
+        - ''
+        - '&fKeep ranking up while'
+        - '&fyou are mining to try'
+        - '&fto escape from this prison!'
+        - ''
+        - '&c[Max. Grade Reached]'
+        - '&7Start with rebirths!'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] rebirths'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] rebirths'
+        - '[refresh]'

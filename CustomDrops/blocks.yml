@@ -1,0 +1,161 @@
+# ==================================================================================================================== #
+# This aspect of the plugin works of the block material enum from SpigotMC. Here is a link to all possible blocks you
+# can use:
+# https://goo.gl/7PiB2F
+#
+# So for example if you wanted to make it so stone blocks drop random ores you can do the following:
+# STONE:
+#   '1':
+#     type: IRON_INGOT
+#     amount:
+#       min: 1
+#       max: 2
+#     chance: 20.0
+#   '2':
+#     type: GOLD_INGOT
+#     amount:
+#       min: 1
+#       max: 2
+#     chance: 10.0
+#
+# This means that the Stone block when mined will drop between 1-2 iron ingots with a 20% chance as well as 1-2
+# gold ingots with a 10% chance. To make it choose a random number of drops you can change the minimum and maximum
+# amount of drops. If you make min and max the same it will make it set to that amount of drops every time. If you set
+# the minimum amount to 0 then it will then make it so that it has a chance not to drop the item.
+#
+# The type of the item can be any of the examples below:
+# GOLD_INGOT, 'GOLD_INGOT', 266, '266:0'
+#
+# However if you do something like this it will break the plugin:
+# 'DYE:13'
+#
+# You can also set custom exp amounts to be dropped, so to do that you can add: 'EXP: (amount)' so it would look
+# like this:
+#
+# STONE:
+#   EXP: 150
+#   '1':
+#     type: IRON_INGOT
+#     amount:
+#       min: 0
+#       max: 1
+#     chance: 100.0
+#
+# If you wanted to add enchants to a custom item you can add them like this:
+#
+# STONE:
+#   EXP: 150
+#   '1':
+#     type: IRON_INGOT
+#     amount:
+#       min: 0
+#       max: 1
+#     chance: 100.0
+#     enchants:
+#     - SHARPNESS:1
+#
+# Which would give those Iron Ingots Sharpness 1.
+#
+# To enable or disable NaturalDrops add a section under the block material, an
+# example is shown below:
+#
+# STONE:
+#   NaturalDrops: true
+#
+# Setting NaturalDrops to true will enable them, whereas setting it to false
+# will disable them. By default if there is no setting set for any mob then
+# the natural drops are enabled by default.
+#
+# If you'd like to give an item that has the Unbreakable tag, NOT the enchant, then you can set up a item section
+# in the following way:
+#
+#  IRON_ORE:
+#    '1':
+#      type: DIAMOND_PICKAXE
+#      unbreakable: true
+#      amount:
+#        min: 1
+#        max: 1
+#      chance: 10.0
+#
+# If you'd like to set up a custom mob head then you can set it up like the following: (Bearing in mind that once you
+# have a set mob on your head you cannot set the "owner" of it anymore, like you would to specify a player's skin.)
+#
+#  GOLD_ORE:
+#    '1':
+#      type: SKULL_ITEM
+#      mob: BLAZE
+#      amount:
+#        min: 1
+#        max: 1
+#      chance: 100.0
+#
+# Here is a list of all possible mob head types:
+#
+# Bat,  Blaze,  Black_Cat,  Ginger_Cat,  Siamese_Cat,  Cave_Spider,  Chicken,  Cow,  Creeper,  Charged_Creeper,  Donkey,  Elder_Guardian,  Enderman,
+# Endermite,  Ender_Dragon,  Evoker,  Ghast,  Guardian,  Black_Horse,  Brown_Horse,  Chestnut_Horse,  Creamy_Horse,  Dark_Brown_Horse,  Gray_Horse,
+# White_Horse,  Skeleton_Horse,  Zombie_Horse,  Husk,  Illusioner,  Iron_Golem,  Brown_Llama,  Creamy_Llama,  Gray_Llama,  White_Llama,  Magma_Cube,
+# Mooshroom,  Mule,  Ocelot,  Blue_Parrot,  Cyan_Parrot,  Gray_Parrot,  Green_Parrot,  Red_Parrot,  Pig,  Polar_Bear,  Black_Rabbit,  Black_and_White_Rabbit,
+# Brown_Rabbit,  Gold_Rabbit,  Salt_and_Pepper_Rabbit,  The_Killer_Bunny,  White_Rabbit,  Black_Sheep,  Blue_Sheep,  Brown_Sheep,  Cyan_Sheep,  Silver_Sheep,
+# Gray_Sheep,  Green_Sheep,  Light_Blue_Sheep,  Lime_Sheep,  Magenta_Sheep,  Orange_Sheep,  Pink_Sheep,  Purple_Sheep,  Rainbow_Sheep,  Red_Sheep,  Wither,
+# White_Sheep,  Yellow_Sheep,  Shulker,  Silverfish,  Skeleton,  Slime,  Snow_Golem,  Spider,  Squid,  Stray,  Vex,  Villager,  Vindicator,  Witch,
+# Wild_Wolf,  Tamed_Wolf,  Zombie,  Zombie_Pigman,  Zombie_Butcher_Villager,  Zombie_Cleric_Villager,  Zombie_Farmer_Villager,  Zombie_Librarian_Villager,
+# Zombie_Nitwit_Villager,  Zombie_Smith_Villager,  Fish,  Clownfish,  Salmon,  Pufferfish
+#
+# If you want to send a command when a block is mined then all you have to do is add a Command section to the Block section,
+# for example:
+#
+# CustomDrops:
+#   DIAMOND_ORE:
+#     EXP: 150
+#     NaturalDrops: true
+#     '1':
+#       type: DIAMOND_PICKAXE
+#       amount:
+#         min: 1
+#         max: 1
+#       chance: 0.1
+#       name: '&e&lSpecial &6&lPickaxe'
+#       lore:
+#       - '&7You can only find this pickaxe from'
+#       - '&7mining Diamond Ore. And it only has a'
+#       - '&f0.1%&7 chance of dropping.'
+#       enchants:
+#       - 'Efficiency:7'
+#       - 'Fortune:5'
+#       - 'Unbreaking:4'
+#     '2':
+#       chance: 100.0
+#       amount:
+#         min: 1
+#         max: 1
+#       commands:
+#       - 'broadcast {p} has just mined 1x Diamond!'
+#       - 'msg {p} congratulations on finding 1x Diamond! :)'
+#
+# The way the amount works with commands is if it has a random amount, it will run the command x amount of times
+# that was randomly chosen between the numbers.
+#
+# ==================================================================================================================== #
+# If you have anymore questions, please feel free to contact me on SpigotMC or reply to the discussion section of the
+# plugin page.
+# ==================================================================================================================== #
+
+
+CustomDrops:
+  PACKED_ICE:
+    NaturalDrops: false
+    EXP: 0
+    '1':
+      type: PACKED_ICE
+      amount:
+        min: 1
+        max: 2
+      chance: 100.0
+    '2':
+      chance: 0.1
+      amount:
+        min: 1
+        max: 1
+      commands:
+      - 'vouchers give {p} yrim 1'

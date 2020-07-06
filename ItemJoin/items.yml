@@ -1,0 +1,21 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explaination; https://www.spigotmc.org/wiki/itemjoin/
+items-Version: 6
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  skulldb-item:
+    id: PLAYER_HEAD
+    slot: 8
+    name: '&6&lKeystone &7&o(Right-click)'
+    skull-texture:
+      '1': <delay:50>eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRkODQ0ZmVlMjRkNWYyN2RkYjY2OTQzODUyOGQ4M2I2ODRkOTAxYjc1YTY4ODlmZTc0ODhkZmM0Y2Y3YTFjIn19fQ==
+      '2': <delay:50>eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JmYjQxZjg2NmU3ZThlNTkzNjU5OTg2YzlkNmU4OGNkMzc2NzdiM2Y3YmQ0NDI1M2U1ODcxZTY2ZDFkNDI0In19fQ==
+    commands:
+      multi-click:
+      - 'player: dsafe323ffdsf'
+    itemflags: inventory-modify, animate, death-drops, self-drops, placement
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    triggers: join, respawn, world-change

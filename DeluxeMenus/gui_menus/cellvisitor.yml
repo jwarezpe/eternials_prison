@@ -1,0 +1,75 @@
+    menu_title: '&8» Cell Visitor - Control'
+    open_command:
+    - ssfsdfgdsfsdf3s
+    inventory_type: 'HOPPER'
+    size: 27
+    items:
+      '23':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZiMzFmMDNmMjYzZTNiZDcxZmJlOGQwN2ZlY2FjODY3NWQxNjZhZTNjM2YwNzkxODYzNTg2NWExYzNlNDAwMyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 1
+        priority: 1
+        display_name: '&6&lChange description'
+        lore:
+        - '&fChange your cell description'
+        - '&fin the "Cell Visitor"'
+        - '&fmenu and provide information.'
+        - ''
+        - '&e&nClick to change!'
+        left_click_commands:
+        - '[player] sdgdf213sg desc set %player_name% <-a Description>'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] sdgdf213sg desc set %player_name% <-a Description>'
+        - '[refresh]'
+      '20':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 4
+        priority: 1
+      '243gf3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVjYjYyYzYzYjI1NzVlYzhkYjc3MWM1N2M4YjU2MDUxNWJiNTA0MTkwMjM4YTk2MWU2ZTI0M2VmNTYwMmVkNCJ9fX0=
+        data: 3
+        amount: 1
+        slot: 2
+        priority: 1
+        display_name: '&6&lLock cell'
+        lore:
+        - '&fYour cell will not appear'
+        - '&fin the "Cell Visitor" list.'
+        - ''
+        - '&e&nClick to toggle!'
+        left_click_commands:
+        - '[player] sdgdf213sg lock %player_name%'
+        - '[refresh]'
+        - '[close]'
+        right_click_commands:
+        - '[player] sdgdf213sg lock %player_name%'
+        - '[refresh]'
+        - '[close]'
+      '302ddas':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0N2EzOTQ5OWRlNDllMjRjODkyYjA5MjU2OTQzMjkyN2RlY2JiNzM5OWUxMTg0N2YzMTA0ZmRiMTY1YjZkYyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 3
+        priority: 1
+        display_name: '&6&lChange location'
+        lore:
+        - '&fChange the location where'
+        - '&fthe people teleports to'
+        - '&fvisit you!'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fRank: &b&lVIP+'
+        - ''
+        - '&e&nClick to change!'
+        left_click_commands:
+        - '[player] sdgdf213sg reset %player_name%'
+        - '[refresh]'
+        - '[close]'
+        right_click_commands:
+        - '[player] sdgdf213sg reset %player_name%'
+        - '[refresh]'
+        - '[close]'

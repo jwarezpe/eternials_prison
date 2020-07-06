@@ -1,0 +1,36 @@
+Potions:
+
+  Fly:
+
+    alias: "Flight"
+
+    price: 850
+
+    max: 1
+
+    occurrence: always
+
+#    invalid_in_region:
+
+#      - nofly
+
+#    invalid_in_world:
+
+#      - plotworld
+
+    allowed_items:
+
+      - DIAMOND_PICKAXE
+
+    max_speed: 0.1 # value between 0.1 - 1.0. (0.2 is the default fly speed)
+
+    default_speed: 0.1 # if not specified 0.05 will be used.
+
+
+
+    #if a player has the following permission node, his fly own't be turned off
+
+    fly_permission_nodes:
+
+      - "essentials.fly"
+

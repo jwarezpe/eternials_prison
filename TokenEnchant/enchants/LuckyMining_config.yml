@@ -1,0 +1,48 @@
+Potions:
+  LuckyMining:
+    alias: "Lucky Miner"
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 200
+    max: 10
+    occurrence: always
+    effect: false
+    sound: false
+    cooldown: 3
+    levels:
+      1:
+        chance: 0.05
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!tokenenchant add %player% 1"
+          - "!tokenenchant add %player% 2"
+          - "!tokenenchant add %player% 3"
+      2:
+        chance: 0.7
+        commands:
+          - "!tokenenchant add %player% 2"
+          - "!tokenenchant add %player% 3"
+          - "!tokenenchant add %player% 4"
+      3:
+        chance: 0.10
+        commands:
+          - "!tokenenchant add %player% 3"
+          - "!tokenenchant add %player% 4"
+          - "!tokenenchant add %player% 5"
+      4:
+        chance: 0.13
+        commands:
+          - "!tokenenchant add %player% 4"
+          - "!tokenenchant add %player% 5"
+          - "!tokenenchant add %player% 6"
+      5:
+        chance: 0.16
+        commands:
+          - "!tokenenchant add %player% 5"
+          - "!tokenenchant add %player% 6"
+          - "!tokenenchant add %player% 7"
+    exemptions:  # needs to be Bukkit's Material type in CAPs.
+      - GRASS
+      - SAND

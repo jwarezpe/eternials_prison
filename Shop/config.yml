@@ -1,0 +1,124 @@
+amountPattern: '1-64'
+ignoreColoredDisplay: true
+
+iconsLore:
+- ' '
+- '&e&l* &fBuy: &e${buy_price}'
+- '&e&l* &fSell: &e${sell_price}'
+- ''
+- '&e&nLeft-click to buy!'
+- '&e&nRight-click to sell!'
+
+pageSuffix: ' (page {page})'
+
+# These items will be added in the last row
+changeAmount:
+  enable: true
+  slot: 8
+  id: iron_ingot
+  name: '&6&lChange amount'
+  lore:
+  - ''
+  - '&fChange the amount of'
+  - '&fthe items you want to'
+  - '&fbuy or sell here!'
+  - ''
+  - '&e&nLeft-click to increase!'
+  - '&e&nRight-click to decrease!'
+nextPage:
+  slot: 5
+  id: 'arrow'
+  inactiveId: 'red_stained_glass_pane'
+  name: '&6Next page'
+  inactiveName: ' '
+previousPage:
+  slot: 3
+  id: 'arrow'
+  inactiveId: 'red_stained_glass_pane'
+  name: '&6Previous page'
+  inactiveName: ' '
+
+customNodes:
+  '1':
+    slot: 4
+    id: book
+    name: '&6&lCategories'
+    lore: 
+    - ''
+    - '&fReturn to the main page'
+    - '&fof categories to buy/sell'
+    - '&fother items!'
+    - ''
+    - '&e&nClick to back!'
+    # Executes when player click on item
+    # 'cmd' - execute command
+    # 'msg: text' - send message to player
+    # 'console: cmd' - execute command from console
+    #
+    # {player} will be replaced to player name
+    action:
+    - 'console: dm open shop {player}'
+    # Close menu after command execution
+    close: true
+  '2':
+    slot: 0
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+  '3':
+    slot: 1
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+  '4':
+    slot: 2
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+  '5':
+    slot: 6
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+  '6':
+    slot: 7
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+  '7':
+    slot: 3
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+  '8':
+    slot: 5
+    id: 'black_stained_glass_pane'
+    name: ' '
+    lore: []
+    close: false
+
+messages:
+  noItem: '&6&lSHOP &8┃ &cYou need to have &ex{amount} &fof &e{item}&f!'
+  noMoney: '&6&lSHOP &8┃ &cYou do not have money enough to buy this!'
+  bought: '&6&lSHOP &8┃ &fYou have bought &ex{amount} {item} &ffor &e${money}&f.'
+  sold: '&6&lSHOP &8┃ &fYou have sold &ex{amount} {item} &ffor &e${money}&f.'
+
+# Sound names can be found here hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sounds:
+  bought: none
+  sold: none
+  noMoney: none
+  noItem: none
+
+
+
+
+
+
+configVersion: '1.5'

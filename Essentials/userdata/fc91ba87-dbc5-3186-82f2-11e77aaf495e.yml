@@ -1,0 +1,20 @@
+lastAccountName: ARKJordan
+timestamps:
+  login: 1593986625609
+  lastteleport: 1593987010800
+  logout: 1593987305409
+ipAddress: 89.129.224.68
+lastlocation:
+  world: mines
+  x: 2467.699999988079
+  y: 104.0
+  z: -32.36904077065519
+  yaw: 257.2072
+  pitch: 68.099434
+logoutlocation:
+  world: mines
+  x: 2474.2601121017183
+  y: 104.0
+  z: -35.455812975657715
+  yaw: 23.04956
+  pitch: 46.649998

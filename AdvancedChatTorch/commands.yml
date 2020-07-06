@@ -1,0 +1,44 @@
+mainPerm: act.cmd
+noPermArgs: '&eAdvanced Chat Torch &c[&4<v>&c]'
+noArgs: |-
+  &eAdvanced Chat Torch &c[&4<v>&c]
+  &c- &ereload [Player] - &6Reloads the Plugin / Player Info
+  &c- &eclearchat - &6Clears the chat
+  &c- &eslowchat - &6Slows the chat
+  &c- &emutechat - &6Mutes the chat
+reload:
+  noPerm: '&cError: You do not have permission to perform this command.'
+  perm: act.reload
+  invalidPlayer: '&c[&eACT&c] &cInvalid player. Check the name again.'
+  playerSuccess: '&c[&eACT&c] &6Successfully reloaded the player information!'
+  playerFail: '&c[&eACT&c] &cSomething went wrong when reloading the player information!'
+  success: '&c[&eACT&c] &6Successfully reloaded the plugin!'
+  fail: '&c[&eACT&c] &6Something went wrong when reloading!'
+clearchat:
+  noPerm: '&cError: You do not have permission to perform this command.'
+  enabled: true
+  perm: act.clearchat
+  noClearPerm: act.clearchat.bypass
+  onNoClear: |2-
+
+    &6Because you are an administrator, the chat wasn't clear for you.
+  success: |2
+
+    &c[&eACT&c] &6The chat has been cleared (by %player%)
+slowchat:
+  noPerm: '&cError: You do not have permission to perform this command.'
+  enabled: true
+  perm: act.slowchat
+  bypassPerm: act.slowchat.bypass
+  slowed: '&c[&eACT&c] &6Successfully slowed the chat!'
+  unslowed: '&c[&eACT&c] &6Successfully unslowed the chat!'
+  wait: '&c[&eACT&c] &6Wait <time>s until you can talk again!'
+  cooldown: 10000
+mutechat:
+  enabled: true
+  noPerm: '&cError: You do not have permission to perform this command.'
+  perm: act.mutechat
+  override: act.mutechat.bypass
+  unmuted: '&c[&eACT&c] &6Successfully unmuted the chat!'
+  muted: '&c[&eACT&c] &6Successfully muted the chat!'
+  mute: '&c[&eACT&c] &6You can''t talk! Chat is silenced!'

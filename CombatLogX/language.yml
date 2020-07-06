@@ -1,0 +1,37 @@
+prefix:
+  normal: ''
+  expansion: '&e[&fCombatLogX - &b{expansion}&e] &f'
+action bar: '&ePVP: {bars_left}{bars_right} &e{time_left}s'
+boss bar: '&ePVP: {bars_left}{bars_right} &e{time_left}s'
+reload config: Reloaded 'combat.yml' and 'language.yml'
+command:
+  not player: You are not a Player!
+  no permission: '&6&LPRISON &8┃ &cUnknown command.'
+  invalid target: '{target} is not a Player or is offline.'
+  combatlogx:
+    force untag: You removed {target} from combat.
+    force tag: '&7You put &a{target} &7into combat. This may cause bugs!'
+combat:
+  target:
+    player: ''
+    entity: ''
+  attack:
+    entity: ''
+    player: ''
+  expire: '&6&lPVP &8┃ &aThe battle finished! You can leave the game now, if you want.'
+  enemy death:
+    player: '&6&lPVP &8┃ &fYour enemy called &e&n{enemy_name}&f has died! &aYou are
+      no longer in combat.'
+    mob: nomessage
+  open inventory: You cannot open storage blocks during combat!
+  blocked command: '&eYou cannot do &c{command}&e during combat!'
+  no entry: You cannot enter a safe-zone while you are in combat!
+  no teleport: You cannot teleport during combat.
+  in: You are still in combat for {time_left} seconds
+  out: You are not in combat!
+  fail: That person is in a No-PvP area!
+  quit: ''
+logger:
+  attacker only: '{attacker} was placed into combat by an unknown source (expansion?)'
+  target only: '{target} was placed into combat by an unknown source (expansion?)'
+  combat: '&6&lPVP &8┃ &e&n{target}&f was attacked by &e&n{attacker}'

@@ -1,0 +1,588 @@
+[29.06.2020 20:05:51] Loading plugin...
+[29.06.2020 20:05:51] Loading config...
+[29.06.2020 20:05:51] Loading commands...
+[29.06.2020 20:05:51] Loading cron jobs....
+[29.06.2020 20:05:51] Created new job: save
+[29.06.2020 20:05:51] Created new job: restart
+[29.06.2020 20:05:51] Created new job: tps
+[29.06.2020 20:05:51] Created new job: new
+[29.06.2020 20:05:51] Total loaded jobs: 4
+[29.06.2020 20:05:51] Starting cron jobs...
+[29.06.2020 20:05:51] Starting job: new
+[29.06.2020 20:05:51] Starting job: restart
+[29.06.2020 20:05:51] Starting job: tps
+[29.06.2020 20:05:51] Starting job: save
+[29.06.2020 20:05:51] All jobs started!
+[29.06.2020 20:05:51] Created new event job: welcome (join-event)
+[29.06.2020 20:05:51] Created new event job: hello (join-event)
+[29.06.2020 20:05:51] Created new event job: bye (quit-event)
+[29.06.2020 20:05:51] Created new event job: remember (quit-event)
+[29.06.2020 20:05:51] All event jobs registered!
+[29.06.2020 20:05:51] Created new startup command: say Server was started!
+[29.06.2020 20:05:51] All startup commands registered!
+[29.06.2020 20:05:51] Loading managers...
+[29.06.2020 20:05:51] Loading metrics...
+[29.06.2020 20:05:51] Loading custom charts for metrics...
+[29.06.2020 20:05:51] Everything loaded!
+[29.06.2020 20:06:05] Dispatching startup commands..
+[29.06.2020 20:06:05] Commands dispatched!
+[01.07.2020 20:46:08] Loading plugin...
+[01.07.2020 20:46:08] Loading config...
+[01.07.2020 20:46:08] Loading commands...
+[01.07.2020 20:46:08] Loading cron jobs....
+[01.07.2020 20:46:08] Created new job: save
+[01.07.2020 20:46:08] Created new job: restart
+[01.07.2020 20:46:08] Created new job: tps
+[01.07.2020 20:46:08] Created new job: new
+[01.07.2020 20:46:08] Total loaded jobs: 4
+[01.07.2020 20:46:08] Starting cron jobs...
+[01.07.2020 20:46:08] Starting job: new
+[01.07.2020 20:46:08] Starting job: restart
+[01.07.2020 20:46:08] Starting job: tps
+[01.07.2020 20:46:08] Starting job: save
+[01.07.2020 20:46:08] All jobs started!
+[01.07.2020 20:46:08] Created new event job: welcome (join-event)
+[01.07.2020 20:46:08] Created new event job: hello (join-event)
+[01.07.2020 20:46:08] Created new event job: bye (quit-event)
+[01.07.2020 20:46:08] Created new event job: remember (quit-event)
+[01.07.2020 20:46:08] All event jobs registered!
+[01.07.2020 20:46:08] Created new startup command: say Server was started!
+[01.07.2020 20:46:08] All startup commands registered!
+[01.07.2020 20:46:08] Loading managers...
+[01.07.2020 20:46:08] Loading metrics...
+[01.07.2020 20:46:08] Loading custom charts for metrics...
+[01.07.2020 20:46:08] Everything loaded!
+[01.07.2020 20:46:34] Dispatching startup commands..
+[01.07.2020 20:46:34] Commands dispatched!
+[01.07.2020 20:48:29] Loading plugin...
+[01.07.2020 20:48:29] Loading config...
+[01.07.2020 20:48:29] Loading commands...
+[01.07.2020 20:48:29] Loading cron jobs....
+[01.07.2020 20:48:29] Created new job: save
+[01.07.2020 20:48:29] Created new job: restart
+[01.07.2020 20:48:29] Created new job: tps
+[01.07.2020 20:48:29] Created new job: new
+[01.07.2020 20:48:29] Total loaded jobs: 4
+[01.07.2020 20:48:29] Starting cron jobs...
+[01.07.2020 20:48:29] Starting job: new
+[01.07.2020 20:48:29] Starting job: restart
+[01.07.2020 20:48:29] Starting job: tps
+[01.07.2020 20:48:29] Starting job: save
+[01.07.2020 20:48:29] All jobs started!
+[01.07.2020 20:48:29] Created new event job: welcome (join-event)
+[01.07.2020 20:48:29] Created new event job: hello (join-event)
+[01.07.2020 20:48:29] Created new event job: bye (quit-event)
+[01.07.2020 20:48:29] Created new event job: remember (quit-event)
+[01.07.2020 20:48:29] All event jobs registered!
+[01.07.2020 20:48:29] Created new startup command: say Server was started!
+[01.07.2020 20:48:29] All startup commands registered!
+[01.07.2020 20:48:29] Loading managers...
+[01.07.2020 20:48:29] Loading metrics...
+[01.07.2020 20:48:29] Loading custom charts for metrics...
+[01.07.2020 20:48:29] Everything loaded!
+[01.07.2020 20:48:59] Dispatching startup commands..
+[01.07.2020 20:48:59] Commands dispatched!
+[01.07.2020 20:55:58] Loading plugin...
+[01.07.2020 20:55:58] Loading config...
+[01.07.2020 20:55:58] Loading commands...
+[01.07.2020 20:55:58] Loading cron jobs....
+[01.07.2020 20:55:58] Created new job: save
+[01.07.2020 20:55:58] Created new job: restart
+[01.07.2020 20:55:58] Created new job: tps
+[01.07.2020 20:55:58] Created new job: new
+[01.07.2020 20:55:58] Total loaded jobs: 4
+[01.07.2020 20:55:58] Starting cron jobs...
+[01.07.2020 20:55:58] Starting job: new
+[01.07.2020 20:55:58] Starting job: restart
+[01.07.2020 20:55:58] Starting job: tps
+[01.07.2020 20:55:58] Starting job: save
+[01.07.2020 20:55:58] All jobs started!
+[01.07.2020 20:55:58] Created new event job: welcome (join-event)
+[01.07.2020 20:55:58] Created new event job: hello (join-event)
+[01.07.2020 20:55:58] Created new event job: bye (quit-event)
+[01.07.2020 20:55:58] Created new event job: remember (quit-event)
+[01.07.2020 20:55:58] All event jobs registered!
+[01.07.2020 20:55:58] Created new startup command: say Server was started!
+[01.07.2020 20:55:58] All startup commands registered!
+[01.07.2020 20:55:58] Loading managers...
+[01.07.2020 20:55:58] Loading metrics...
+[01.07.2020 20:55:58] Loading custom charts for metrics...
+[01.07.2020 20:55:58] Everything loaded!
+[01.07.2020 20:56:22] Dispatching startup commands..
+[01.07.2020 20:56:22] Commands dispatched!
+[02.07.2020 05:44:54] Loading plugin...
+[02.07.2020 05:44:54] Loading config...
+[02.07.2020 05:44:54] Loading commands...
+[02.07.2020 05:44:54] Loading cron jobs....
+[02.07.2020 05:44:54] Created new job: save
+[02.07.2020 05:44:54] Created new job: restart
+[02.07.2020 05:44:54] Created new job: tps
+[02.07.2020 05:44:54] Created new job: new
+[02.07.2020 05:44:54] Total loaded jobs: 4
+[02.07.2020 05:44:54] Starting cron jobs...
+[02.07.2020 05:44:54] Starting job: new
+[02.07.2020 05:44:54] Starting job: restart
+[02.07.2020 05:44:54] Starting job: tps
+[02.07.2020 05:44:54] Starting job: save
+[02.07.2020 05:44:54] All jobs started!
+[02.07.2020 05:44:54] Created new event job: welcome (join-event)
+[02.07.2020 05:44:54] Created new event job: hello (join-event)
+[02.07.2020 05:44:54] Created new event job: bye (quit-event)
+[02.07.2020 05:44:54] Created new event job: remember (quit-event)
+[02.07.2020 05:44:54] All event jobs registered!
+[02.07.2020 05:44:54] Created new startup command: say Server was started!
+[02.07.2020 05:44:54] All startup commands registered!
+[02.07.2020 05:44:54] Loading managers...
+[02.07.2020 05:44:54] Loading metrics...
+[02.07.2020 05:44:54] Loading custom charts for metrics...
+[02.07.2020 05:44:54] Everything loaded!
+[02.07.2020 05:45:24] Dispatching startup commands..
+[02.07.2020 05:45:24] Commands dispatched!
+[02.07.2020 06:06:07] Loading plugin...
+[02.07.2020 06:06:07] Loading config...
+[02.07.2020 06:06:07] Loading commands...
+[02.07.2020 06:06:07] Loading cron jobs....
+[02.07.2020 06:06:07] Created new job: save
+[02.07.2020 06:06:07] Created new job: restart
+[02.07.2020 06:06:07] Created new job: tps
+[02.07.2020 06:06:07] Created new job: new
+[02.07.2020 06:06:07] Total loaded jobs: 4
+[02.07.2020 06:06:07] Starting cron jobs...
+[02.07.2020 06:06:07] Starting job: new
+[02.07.2020 06:06:07] Starting job: restart
+[02.07.2020 06:06:07] Starting job: tps
+[02.07.2020 06:06:07] Starting job: save
+[02.07.2020 06:06:07] All jobs started!
+[02.07.2020 06:06:07] Created new event job: welcome (join-event)
+[02.07.2020 06:06:07] Created new event job: hello (join-event)
+[02.07.2020 06:06:07] Created new event job: bye (quit-event)
+[02.07.2020 06:06:07] Created new event job: remember (quit-event)
+[02.07.2020 06:06:07] All event jobs registered!
+[02.07.2020 06:06:07] Created new startup command: say Server was started!
+[02.07.2020 06:06:07] All startup commands registered!
+[02.07.2020 06:06:07] Loading managers...
+[02.07.2020 06:06:07] Loading metrics...
+[02.07.2020 06:06:07] Loading custom charts for metrics...
+[02.07.2020 06:06:07] Everything loaded!
+[02.07.2020 06:06:34] Dispatching startup commands..
+[02.07.2020 06:06:34] Commands dispatched!
+[02.07.2020 06:27:22] Loading plugin...
+[02.07.2020 06:27:22] Loading config...
+[02.07.2020 06:27:22] Loading commands...
+[02.07.2020 06:27:22] Loading cron jobs....
+[02.07.2020 06:27:22] Created new job: save
+[02.07.2020 06:27:22] Created new job: restart
+[02.07.2020 06:27:22] Created new job: tps
+[02.07.2020 06:27:22] Created new job: new
+[02.07.2020 06:27:22] Total loaded jobs: 4
+[02.07.2020 06:27:22] Starting cron jobs...
+[02.07.2020 06:27:22] Starting job: new
+[02.07.2020 06:27:22] Starting job: restart
+[02.07.2020 06:27:22] Starting job: tps
+[02.07.2020 06:27:22] Starting job: save
+[02.07.2020 06:27:22] All jobs started!
+[02.07.2020 06:27:22] Created new event job: welcome (join-event)
+[02.07.2020 06:27:22] Created new event job: hello (join-event)
+[02.07.2020 06:27:22] Created new event job: bye (quit-event)
+[02.07.2020 06:27:22] Created new event job: remember (quit-event)
+[02.07.2020 06:27:22] All event jobs registered!
+[02.07.2020 06:27:22] Created new startup command: say Server was started!
+[02.07.2020 06:27:22] All startup commands registered!
+[02.07.2020 06:27:22] Loading managers...
+[02.07.2020 06:27:22] Loading metrics...
+[02.07.2020 06:27:22] Loading custom charts for metrics...
+[02.07.2020 06:27:22] Everything loaded!
+[02.07.2020 06:27:44] Dispatching startup commands..
+[02.07.2020 06:27:44] Commands dispatched!
+[02.07.2020 07:11:11] Loading plugin...
+[02.07.2020 07:11:11] Loading config...
+[02.07.2020 07:11:11] Loading commands...
+[02.07.2020 07:11:11] Loading cron jobs....
+[02.07.2020 07:11:11] Created new job: save
+[02.07.2020 07:11:11] Created new job: restart
+[02.07.2020 07:11:11] Created new job: tps
+[02.07.2020 07:11:11] Created new job: new
+[02.07.2020 07:11:11] Total loaded jobs: 4
+[02.07.2020 07:11:11] Starting cron jobs...
+[02.07.2020 07:11:11] Starting job: new
+[02.07.2020 07:11:11] Starting job: restart
+[02.07.2020 07:11:11] Starting job: tps
+[02.07.2020 07:11:11] Starting job: save
+[02.07.2020 07:11:11] All jobs started!
+[02.07.2020 07:11:11] Created new event job: welcome (join-event)
+[02.07.2020 07:11:11] Created new event job: hello (join-event)
+[02.07.2020 07:11:11] Created new event job: bye (quit-event)
+[02.07.2020 07:11:11] Created new event job: remember (quit-event)
+[02.07.2020 07:11:11] All event jobs registered!
+[02.07.2020 07:11:11] Created new startup command: say Server was started!
+[02.07.2020 07:11:11] All startup commands registered!
+[02.07.2020 07:11:11] Loading managers...
+[02.07.2020 07:11:11] Loading metrics...
+[02.07.2020 07:11:11] Loading custom charts for metrics...
+[02.07.2020 07:11:11] Everything loaded!
+[02.07.2020 07:11:36] Dispatching startup commands..
+[02.07.2020 07:11:36] Commands dispatched!
+[02.07.2020 22:10:26] Loading plugin...
+[02.07.2020 22:10:26] Loading config...
+[02.07.2020 22:10:26] Loading commands...
+[02.07.2020 22:10:26] Loading cron jobs....
+[02.07.2020 22:10:26] Created new job: save
+[02.07.2020 22:10:26] Created new job: restart
+[02.07.2020 22:10:26] Created new job: tps
+[02.07.2020 22:10:26] Created new job: new
+[02.07.2020 22:10:26] Total loaded jobs: 4
+[02.07.2020 22:10:26] Starting cron jobs...
+[02.07.2020 22:10:26] Starting job: new
+[02.07.2020 22:10:26] Starting job: restart
+[02.07.2020 22:10:26] Starting job: tps
+[02.07.2020 22:10:26] Starting job: save
+[02.07.2020 22:10:26] All jobs started!
+[02.07.2020 22:10:26] Created new event job: welcome (join-event)
+[02.07.2020 22:10:26] Created new event job: hello (join-event)
+[02.07.2020 22:10:26] Created new event job: bye (quit-event)
+[02.07.2020 22:10:26] Created new event job: remember (quit-event)
+[02.07.2020 22:10:26] All event jobs registered!
+[02.07.2020 22:10:26] Created new startup command: say Server was started!
+[02.07.2020 22:10:26] All startup commands registered!
+[02.07.2020 22:10:26] Loading managers...
+[02.07.2020 22:10:26] Loading metrics...
+[02.07.2020 22:10:26] Loading custom charts for metrics...
+[02.07.2020 22:10:26] Everything loaded!
+[02.07.2020 22:10:49] Dispatching startup commands..
+[02.07.2020 22:10:49] Commands dispatched!
+[02.07.2020 22:24:12] Loading plugin...
+[02.07.2020 22:24:12] Loading config...
+[02.07.2020 22:24:12] Loading commands...
+[02.07.2020 22:24:12] Loading cron jobs....
+[02.07.2020 22:24:12] Created new job: save
+[02.07.2020 22:24:12] Created new job: restart
+[02.07.2020 22:24:12] Created new job: tps
+[02.07.2020 22:24:12] Created new job: new
+[02.07.2020 22:24:12] Total loaded jobs: 4
+[02.07.2020 22:24:12] Starting cron jobs...
+[02.07.2020 22:24:12] Starting job: new
+[02.07.2020 22:24:12] Starting job: restart
+[02.07.2020 22:24:12] Starting job: tps
+[02.07.2020 22:24:12] Starting job: save
+[02.07.2020 22:24:12] All jobs started!
+[02.07.2020 22:24:12] Created new event job: welcome (join-event)
+[02.07.2020 22:24:12] Created new event job: hello (join-event)
+[02.07.2020 22:24:12] Created new event job: bye (quit-event)
+[02.07.2020 22:24:12] Created new event job: remember (quit-event)
+[02.07.2020 22:24:12] All event jobs registered!
+[02.07.2020 22:24:12] Created new startup command: say Server was started!
+[02.07.2020 22:24:12] All startup commands registered!
+[02.07.2020 22:24:12] Loading managers...
+[02.07.2020 22:24:12] Loading metrics...
+[02.07.2020 22:24:12] Loading custom charts for metrics...
+[02.07.2020 22:24:12] Everything loaded!
+[02.07.2020 22:24:38] Dispatching startup commands..
+[02.07.2020 22:24:38] Commands dispatched!
+[03.07.2020 07:02:07] Loading plugin...
+[03.07.2020 07:02:07] Loading config...
+[03.07.2020 07:02:07] Loading commands...
+[03.07.2020 07:02:07] Loading cron jobs....
+[03.07.2020 07:02:07] Created new job: save
+[03.07.2020 07:02:07] Created new job: restart
+[03.07.2020 07:02:07] Created new job: tps
+[03.07.2020 07:02:07] Created new job: new
+[03.07.2020 07:02:07] Total loaded jobs: 4
+[03.07.2020 07:02:07] Starting cron jobs...
+[03.07.2020 07:02:07] Starting job: new
+[03.07.2020 07:02:07] Starting job: restart
+[03.07.2020 07:02:07] Starting job: tps
+[03.07.2020 07:02:07] Starting job: save
+[03.07.2020 07:02:07] All jobs started!
+[03.07.2020 07:02:07] Created new event job: welcome (join-event)
+[03.07.2020 07:02:07] Created new event job: hello (join-event)
+[03.07.2020 07:02:07] Created new event job: bye (quit-event)
+[03.07.2020 07:02:07] Created new event job: remember (quit-event)
+[03.07.2020 07:02:07] All event jobs registered!
+[03.07.2020 07:02:07] Created new startup command: say Server was started!
+[03.07.2020 07:02:07] All startup commands registered!
+[03.07.2020 07:02:07] Loading managers...
+[03.07.2020 07:02:07] Loading metrics...
+[03.07.2020 07:02:07] Loading custom charts for metrics...
+[03.07.2020 07:02:07] Everything loaded!
+[03.07.2020 07:02:31] Dispatching startup commands..
+[03.07.2020 07:02:31] Commands dispatched!
+[04.07.2020 07:02:08] Loading plugin...
+[04.07.2020 07:02:08] Loading config...
+[04.07.2020 07:02:08] Loading commands...
+[04.07.2020 07:02:08] Loading cron jobs....
+[04.07.2020 07:02:08] Created new job: save
+[04.07.2020 07:02:08] Created new job: restart
+[04.07.2020 07:02:08] Created new job: tps
+[04.07.2020 07:02:08] Created new job: new
+[04.07.2020 07:02:08] Total loaded jobs: 4
+[04.07.2020 07:02:08] Starting cron jobs...
+[04.07.2020 07:02:08] Starting job: new
+[04.07.2020 07:02:08] Starting job: restart
+[04.07.2020 07:02:08] Starting job: tps
+[04.07.2020 07:02:08] Starting job: save
+[04.07.2020 07:02:08] All jobs started!
+[04.07.2020 07:02:08] Created new event job: welcome (join-event)
+[04.07.2020 07:02:08] Created new event job: hello (join-event)
+[04.07.2020 07:02:08] Created new event job: bye (quit-event)
+[04.07.2020 07:02:08] Created new event job: remember (quit-event)
+[04.07.2020 07:02:08] All event jobs registered!
+[04.07.2020 07:02:08] Created new startup command: say Server was started!
+[04.07.2020 07:02:08] All startup commands registered!
+[04.07.2020 07:02:08] Loading managers...
+[04.07.2020 07:02:08] Loading metrics...
+[04.07.2020 07:02:08] Loading custom charts for metrics...
+[04.07.2020 07:02:08] Everything loaded!
+[04.07.2020 07:02:38] Dispatching startup commands..
+[04.07.2020 07:02:38] Commands dispatched!
+[05.07.2020 04:31:34] Loading plugin...
+[05.07.2020 04:31:34] Loading config...
+[05.07.2020 04:31:34] Loading commands...
+[05.07.2020 04:31:34] Loading cron jobs....
+[05.07.2020 04:31:34] Created new job: save
+[05.07.2020 04:31:34] Created new job: restart
+[05.07.2020 04:31:34] Created new job: tps
+[05.07.2020 04:31:34] Created new job: new
+[05.07.2020 04:31:34] Total loaded jobs: 4
+[05.07.2020 04:31:34] Starting cron jobs...
+[05.07.2020 04:31:34] Starting job: new
+[05.07.2020 04:31:34] Starting job: restart
+[05.07.2020 04:31:34] Starting job: tps
+[05.07.2020 04:31:34] Starting job: save
+[05.07.2020 04:31:34] All jobs started!
+[05.07.2020 04:31:34] Created new event job: welcome (join-event)
+[05.07.2020 04:31:34] Created new event job: hello (join-event)
+[05.07.2020 04:31:34] Created new event job: bye (quit-event)
+[05.07.2020 04:31:34] Created new event job: remember (quit-event)
+[05.07.2020 04:31:34] All event jobs registered!
+[05.07.2020 04:31:34] Created new startup command: say Server was started!
+[05.07.2020 04:31:34] All startup commands registered!
+[05.07.2020 04:31:34] Loading managers...
+[05.07.2020 04:31:34] Loading metrics...
+[05.07.2020 04:31:34] Loading custom charts for metrics...
+[05.07.2020 04:31:34] Everything loaded!
+[05.07.2020 04:32:01] Dispatching startup commands..
+[05.07.2020 04:32:01] Commands dispatched!
+[05.07.2020 07:02:10] Loading plugin...
+[05.07.2020 07:02:10] Loading config...
+[05.07.2020 07:02:10] Loading commands...
+[05.07.2020 07:02:10] Loading cron jobs....
+[05.07.2020 07:02:10] Created new job: save
+[05.07.2020 07:02:10] Created new job: restart
+[05.07.2020 07:02:10] Created new job: tps
+[05.07.2020 07:02:10] Created new job: new
+[05.07.2020 07:02:10] Total loaded jobs: 4
+[05.07.2020 07:02:10] Starting cron jobs...
+[05.07.2020 07:02:10] Starting job: new
+[05.07.2020 07:02:10] Starting job: restart
+[05.07.2020 07:02:10] Starting job: tps
+[05.07.2020 07:02:10] Starting job: save
+[05.07.2020 07:02:10] All jobs started!
+[05.07.2020 07:02:10] Created new event job: welcome (join-event)
+[05.07.2020 07:02:10] Created new event job: hello (join-event)
+[05.07.2020 07:02:10] Created new event job: bye (quit-event)
+[05.07.2020 07:02:10] Created new event job: remember (quit-event)
+[05.07.2020 07:02:10] All event jobs registered!
+[05.07.2020 07:02:10] Created new startup command: say Server was started!
+[05.07.2020 07:02:10] All startup commands registered!
+[05.07.2020 07:02:10] Loading managers...
+[05.07.2020 07:02:10] Loading metrics...
+[05.07.2020 07:02:10] Loading custom charts for metrics...
+[05.07.2020 07:02:10] Everything loaded!
+[05.07.2020 07:02:45] Dispatching startup commands..
+[05.07.2020 07:02:45] Commands dispatched!
+[06.07.2020 07:02:22] Loading plugin...
+[06.07.2020 07:02:22] Loading config...
+[06.07.2020 07:02:22] Loading commands...
+[06.07.2020 07:02:22] Loading cron jobs....
+[06.07.2020 07:02:22] Created new job: save
+[06.07.2020 07:02:22] Created new job: restart
+[06.07.2020 07:02:22] Created new job: tps
+[06.07.2020 07:02:22] Created new job: new
+[06.07.2020 07:02:22] Total loaded jobs: 4
+[06.07.2020 07:02:22] Starting cron jobs...
+[06.07.2020 07:02:22] Starting job: new
+[06.07.2020 07:02:22] Starting job: restart
+[06.07.2020 07:02:22] Starting job: tps
+[06.07.2020 07:02:22] Starting job: save
+[06.07.2020 07:02:22] All jobs started!
+[06.07.2020 07:02:22] Created new event job: welcome (join-event)
+[06.07.2020 07:02:22] Created new event job: hello (join-event)
+[06.07.2020 07:02:22] Created new event job: bye (quit-event)
+[06.07.2020 07:02:22] Created new event job: remember (quit-event)
+[06.07.2020 07:02:22] All event jobs registered!
+[06.07.2020 07:02:22] Created new startup command: say Server was started!
+[06.07.2020 07:02:22] All startup commands registered!
+[06.07.2020 07:02:22] Loading managers...
+[06.07.2020 07:02:22] Loading metrics...
+[06.07.2020 07:02:22] Loading custom charts for metrics...
+[06.07.2020 07:02:22] Everything loaded!
+[06.07.2020 07:02:55] Dispatching startup commands..
+[06.07.2020 07:02:55] Commands dispatched!
+[06.07.2020 19:20:12] Loading plugin...
+[06.07.2020 19:20:12] Loading config...
+[06.07.2020 19:20:12] Loading commands...
+[06.07.2020 19:20:12] Loading cron jobs....
+[06.07.2020 19:20:12] Created new job: save
+[06.07.2020 19:20:12] Created new job: restart
+[06.07.2020 19:20:12] Created new job: tps
+[06.07.2020 19:20:12] Created new job: new
+[06.07.2020 19:20:12] Total loaded jobs: 4
+[06.07.2020 19:20:12] Starting cron jobs...
+[06.07.2020 19:20:12] Starting job: new
+[06.07.2020 19:20:12] Starting job: restart
+[06.07.2020 19:20:12] Starting job: tps
+[06.07.2020 19:20:12] Starting job: save
+[06.07.2020 19:20:12] All jobs started!
+[06.07.2020 19:20:12] Created new event job: welcome (join-event)
+[06.07.2020 19:20:12] Created new event job: hello (join-event)
+[06.07.2020 19:20:12] Created new event job: bye (quit-event)
+[06.07.2020 19:20:12] Created new event job: remember (quit-event)
+[06.07.2020 19:20:12] All event jobs registered!
+[06.07.2020 19:20:12] Created new startup command: say Server was started!
+[06.07.2020 19:20:12] All startup commands registered!
+[06.07.2020 19:20:12] Loading managers...
+[06.07.2020 19:20:12] Loading metrics...
+[06.07.2020 19:20:12] Loading custom charts for metrics...
+[06.07.2020 19:20:12] Everything loaded!
+[06.07.2020 19:20:29] Dispatching startup commands..
+[06.07.2020 19:20:29] Commands dispatched!
+[06.07.2020 19:22:36] Loading plugin...
+[06.07.2020 19:22:36] Loading config...
+[06.07.2020 19:22:36] Loading commands...
+[06.07.2020 19:22:36] Loading cron jobs....
+[06.07.2020 19:22:36] Created new job: save
+[06.07.2020 19:22:36] Created new job: restart
+[06.07.2020 19:22:36] Created new job: tps
+[06.07.2020 19:22:36] Created new job: new
+[06.07.2020 19:22:36] Total loaded jobs: 4
+[06.07.2020 19:22:36] Starting cron jobs...
+[06.07.2020 19:22:36] Starting job: new
+[06.07.2020 19:22:36] Starting job: restart
+[06.07.2020 19:22:36] Starting job: tps
+[06.07.2020 19:22:36] Starting job: save
+[06.07.2020 19:22:36] All jobs started!
+[06.07.2020 19:22:36] Created new event job: welcome (join-event)
+[06.07.2020 19:22:36] Created new event job: hello (join-event)
+[06.07.2020 19:22:36] Created new event job: bye (quit-event)
+[06.07.2020 19:22:36] Created new event job: remember (quit-event)
+[06.07.2020 19:22:36] All event jobs registered!
+[06.07.2020 19:22:36] Created new startup command: say Server was started!
+[06.07.2020 19:22:36] All startup commands registered!
+[06.07.2020 19:22:36] Loading managers...
+[06.07.2020 19:22:36] Loading metrics...
+[06.07.2020 19:22:36] Loading custom charts for metrics...
+[06.07.2020 19:22:36] Everything loaded!
+[06.07.2020 19:22:51] Dispatching startup commands..
+[06.07.2020 19:22:51] Commands dispatched!
+[06.07.2020 19:29:31] Loading plugin...
+[06.07.2020 19:29:31] Loading config...
+[06.07.2020 19:29:31] Loading commands...
+[06.07.2020 19:29:31] Loading cron jobs....
+[06.07.2020 19:29:31] Created new job: save
+[06.07.2020 19:29:31] Created new job: restart
+[06.07.2020 19:29:31] Created new job: tps
+[06.07.2020 19:29:31] Created new job: new
+[06.07.2020 19:29:31] Total loaded jobs: 4
+[06.07.2020 19:29:31] Starting cron jobs...
+[06.07.2020 19:29:31] Starting job: new
+[06.07.2020 19:29:31] Starting job: restart
+[06.07.2020 19:29:31] Starting job: tps
+[06.07.2020 19:29:31] Starting job: save
+[06.07.2020 19:29:31] All jobs started!
+[06.07.2020 19:29:31] Created new event job: welcome (join-event)
+[06.07.2020 19:29:31] Created new event job: hello (join-event)
+[06.07.2020 19:29:31] Created new event job: bye (quit-event)
+[06.07.2020 19:29:31] Created new event job: remember (quit-event)
+[06.07.2020 19:29:31] All event jobs registered!
+[06.07.2020 19:29:31] Created new startup command: say Server was started!
+[06.07.2020 19:29:31] All startup commands registered!
+[06.07.2020 19:29:31] Loading managers...
+[06.07.2020 19:29:31] Loading metrics...
+[06.07.2020 19:29:31] Loading custom charts for metrics...
+[06.07.2020 19:29:31] Everything loaded!
+[06.07.2020 19:29:49] Dispatching startup commands..
+[06.07.2020 19:29:49] Commands dispatched!
+[06.07.2020 19:32:42] Loading plugin...
+[06.07.2020 19:32:42] Loading config...
+[06.07.2020 19:32:42] Loading commands...
+[06.07.2020 19:32:42] Loading cron jobs....
+[06.07.2020 19:32:42] Created new job: save
+[06.07.2020 19:32:42] Created new job: restart
+[06.07.2020 19:32:42] Created new job: tps
+[06.07.2020 19:32:42] Created new job: new
+[06.07.2020 19:32:42] Total loaded jobs: 4
+[06.07.2020 19:32:42] Starting cron jobs...
+[06.07.2020 19:32:42] Starting job: new
+[06.07.2020 19:32:42] Starting job: restart
+[06.07.2020 19:32:42] Starting job: tps
+[06.07.2020 19:32:42] Starting job: save
+[06.07.2020 19:32:42] All jobs started!
+[06.07.2020 19:32:42] Created new event job: welcome (join-event)
+[06.07.2020 19:32:42] Created new event job: hello (join-event)
+[06.07.2020 19:32:42] Created new event job: bye (quit-event)
+[06.07.2020 19:32:42] Created new event job: remember (quit-event)
+[06.07.2020 19:32:42] All event jobs registered!
+[06.07.2020 19:32:42] Created new startup command: say Server was started!
+[06.07.2020 19:32:42] All startup commands registered!
+[06.07.2020 19:32:42] Loading managers...
+[06.07.2020 19:32:42] Loading metrics...
+[06.07.2020 19:32:42] Loading custom charts for metrics...
+[06.07.2020 19:32:42] Everything loaded!
+[06.07.2020 19:32:58] Dispatching startup commands..
+[06.07.2020 19:32:58] Commands dispatched!
+[06.07.2020 19:39:09] Loading plugin...
+[06.07.2020 19:39:09] Loading config...
+[06.07.2020 19:39:09] Loading commands...
+[06.07.2020 19:39:09] Loading cron jobs....
+[06.07.2020 19:39:09] Created new job: save
+[06.07.2020 19:39:09] Created new job: restart
+[06.07.2020 19:39:09] Created new job: tps
+[06.07.2020 19:39:09] Created new job: new
+[06.07.2020 19:39:09] Total loaded jobs: 4
+[06.07.2020 19:39:09] Starting cron jobs...
+[06.07.2020 19:39:09] Starting job: new
+[06.07.2020 19:39:09] Starting job: restart
+[06.07.2020 19:39:09] Starting job: tps
+[06.07.2020 19:39:09] Starting job: save
+[06.07.2020 19:39:09] All jobs started!
+[06.07.2020 19:39:09] Created new event job: welcome (join-event)
+[06.07.2020 19:39:09] Created new event job: hello (join-event)
+[06.07.2020 19:39:09] Created new event job: bye (quit-event)
+[06.07.2020 19:39:09] Created new event job: remember (quit-event)
+[06.07.2020 19:39:09] All event jobs registered!
+[06.07.2020 19:39:09] Created new startup command: say Server was started!
+[06.07.2020 19:39:09] All startup commands registered!
+[06.07.2020 19:39:09] Loading managers...
+[06.07.2020 19:39:09] Loading metrics...
+[06.07.2020 19:39:09] Loading custom charts for metrics...
+[06.07.2020 19:39:09] Everything loaded!
+[06.07.2020 19:39:24] Dispatching startup commands..
+[06.07.2020 19:39:24] Commands dispatched!
+[06.07.2020 19:53:01] Loading plugin...
+[06.07.2020 19:53:01] Loading config...
+[06.07.2020 19:53:01] Loading commands...
+[06.07.2020 19:53:01] Loading cron jobs....
+[06.07.2020 19:53:01] Created new job: save
+[06.07.2020 19:53:01] Created new job: restart
+[06.07.2020 19:53:01] Created new job: tps
+[06.07.2020 19:53:01] Created new job: new
+[06.07.2020 19:53:01] Total loaded jobs: 4
+[06.07.2020 19:53:01] Starting cron jobs...
+[06.07.2020 19:53:01] Starting job: new
+[06.07.2020 19:53:01] Starting job: restart
+[06.07.2020 19:53:01] Starting job: tps
+[06.07.2020 19:53:01] Starting job: save
+[06.07.2020 19:53:01] All jobs started!
+[06.07.2020 19:53:01] Created new event job: welcome (join-event)
+[06.07.2020 19:53:01] Created new event job: hello (join-event)
+[06.07.2020 19:53:01] Created new event job: bye (quit-event)
+[06.07.2020 19:53:01] Created new event job: remember (quit-event)
+[06.07.2020 19:53:01] All event jobs registered!
+[06.07.2020 19:53:01] Created new startup command: say Server was started!
+[06.07.2020 19:53:01] All startup commands registered!
+[06.07.2020 19:53:01] Loading managers...
+[06.07.2020 19:53:01] Loading metrics...
+[06.07.2020 19:53:01] Loading custom charts for metrics...
+[06.07.2020 19:53:01] Everything loaded!
+[06.07.2020 19:53:17] Dispatching startup commands..
+[06.07.2020 19:53:17] Commands dispatched!

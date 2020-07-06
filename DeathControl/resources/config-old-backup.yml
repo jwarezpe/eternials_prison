@@ -1,0 +1,24 @@
+# ====== Settings for DeathControl ======
+# IMPORTANT: Do NOT use tabs in this file! Only use spaces!
+# 
+# Documentation on how to set up this configuration can be found here:
+# http://dev.bukkit.org/bukkit-plugins/deathcontrol/pages/configuration/
+
+
+disable-permissions: false
+logging-level: standard
+
+multi-world:
+    allow-cross-world: false
+    disabled-worlds: []
+
+handlings:
+    # These are some handlings for demonstration purposes.
+    # Adjust them for your own needs.
+    demo:
+        priority-order: 1
+        conditions:
+        - cause fall suicide void mob monster
+        actions:
+        - keep-items wood
+        - command console tm message %victim-name% &c&nDead\n&7Reason: %death-cause-formatted%

@@ -1,0 +1,329 @@
+    menu_title: » Storage
+    open_command:
+    - enderchest
+    - ec
+    - vault
+    - vaults
+    size: 54
+    items:
+      '25':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZGVkZmUwMWQ4ZWZkOTZlN2RjYTJlOTMwZDk4NDU2OGM0MTFiYTgzNDQ5YzE5MGFmMGM1ZWYwNTJmMjcyOSJ9fX0=
+        data: 3
+        slot: 13
+        priority: 6
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: CustomEnderChest.level.0
+        display_name: '&6&lStrongbox'
+        lore:
+        - '&fDeposit your most exclusive'
+        - '&f& loved items in your own'
+        - '&fpersonal strongbox!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fLevel: &a| &f> &b||'
+        - '&e&l* &fCost: &e$100000'
+        - '&c[Max. Level: 6]'
+        - ''
+        - '&e&nLeft-click to open!'
+        - '&e&nRight-click to upgrade!'
+        left_click_commands:
+        - '[player] ec open'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] pex user %player_name% add CustomEnderChest.level.1'
+        - '[console] titlemanager:tm message %player_name% %player_name% &7\n&eCongratulations! Your strongbox is now bigger. Let''s see!'
+        - '[player] ec open<delay=40>'
+        - '[close]'
+        - '[console] essentials:eco take %player_name% 100000'
+        - '[refresh]'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 100000
+      '24235':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZGVkZmUwMWQ4ZWZkOTZlN2RjYTJlOTMwZDk4NDU2OGM0MTFiYTgzNDQ5YzE5MGFmMGM1ZWYwNTJmMjcyOSJ9fX0=
+        data: 3
+        slot: 13
+        priority: 5
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: CustomEnderChest.level.1
+        display_name: '&6&lStrongbox'
+        lore:
+        - '&fDeposit your most exclusive'
+        - '&f& loved items in your own'
+        - '&fpersonal strongbox!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fLevel: &a|| &f> &b|||'
+        - '&e&l* &fCost: &e$200000'
+        - '&c[Max. Level: 6]'
+        - ''
+        - '&e&nLeft-click to open!'
+        - '&e&nRight-click to upgrade!'
+        left_click_commands:
+        - '[player] ec open'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] pex user %player_name% add CustomEnderChest.level.2'
+        - '[console] titlemanager:tm message %player_name% &7\n&eCongratulations! Your strongbox is now bigger. Let''s see!'
+        - '[player] ec open<delay=40>'
+        - '[close]'
+        - '[console] essentials:eco take %player_name% 200000'
+        - '[refresh]'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 200000
+      '24123f5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZGVkZmUwMWQ4ZWZkOTZlN2RjYTJlOTMwZDk4NDU2OGM0MTFiYTgzNDQ5YzE5MGFmMGM1ZWYwNTJmMjcyOSJ9fX0=
+        data: 3
+        slot: 13
+        priority: 4
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: CustomEnderChest.level.2
+        display_name: '&6&lStrongbox'
+        lore:
+        - '&fDeposit your most exclusive'
+        - '&f& loved items in your own'
+        - '&fpersonal strongbox!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fLevel: &a||| &f> &b||||'
+        - '&e&l* &fCost: &e$300000'
+        - '&c[Max. Level: 6]'
+        - ''
+        - '&e&nLeft-click to open!'
+        - '&e&nRight-click to upgrade!'
+        left_click_commands:
+        - '[player] ec open'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] pex user %player_name% add CustomEnderChest.level.3'
+        - '[console] titlemanager:tm message %player_name% &7\n&eCongratulations! Your strongbox is now bigger. Let''s see!'
+        - '[player] ec open<delay=40>'
+        - '[close]'
+        - '[console] essentials:eco take %player_name% 300000'
+        - '[refresh]'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 300000
+      '212fesd35':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZGVkZmUwMWQ4ZWZkOTZlN2RjYTJlOTMwZDk4NDU2OGM0MTFiYTgzNDQ5YzE5MGFmMGM1ZWYwNTJmMjcyOSJ9fX0=
+        data: 3
+        slot: 13
+        priority: 3
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: CustomEnderChest.level.3
+        display_name: '&6&lStrongbox'
+        lore:
+        - '&fDeposit your most exclusive'
+        - '&f& loved items in your own'
+        - '&fpersonal strongbox!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fLevel: &a|||| &f> &b|||||'
+        - '&e&l* &fCost: &e$400000'
+        - '&c[Max. Level: 6]'
+        - ''
+        - '&e&nLeft-click to open!'
+        - '&e&nRight-click to upgrade!'
+        left_click_commands:
+        - '[player] ec open'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] pex user %player_name% add CustomEnderChest.level.4'
+        - '[console] titlemanager:tm message %player_name% &7\n&eCongratulations! Your strongbox is now bigger. Let''s see!'
+        - '[player] ec open<delay=40>'
+        - '[close]'
+        - '[console] essentials:eco take %player_name% 400000'
+        - '[refresh]'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 400000
+      '24gdfbd33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZGVkZmUwMWQ4ZWZkOTZlN2RjYTJlOTMwZDk4NDU2OGM0MTFiYTgzNDQ5YzE5MGFmMGM1ZWYwNTJmMjcyOSJ9fX0=
+        data: 3
+        slot: 13
+        priority: 2
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: CustomEnderChest.level.4
+        display_name: '&6&lStrongbox'
+        lore:
+        - '&fDeposit your most exclusive'
+        - '&f& loved items in your own'
+        - '&fpersonal strongbox!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fLevel: &a||||| &f> &b||||||'
+        - '&e&l* &fCost: &e$500000'
+        - '&c[Max. Level: 6]'
+        - ''
+        - '&e&nLeft-click to open!'
+        - '&e&nRight-click to upgrade!'
+        left_click_commands:
+        - '[player] ec open'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] pex user %player_name% add CustomEnderChest.level.5'
+        - '[console] titlemanager:tm message %player_name% &7\n&eCongratulations! Your strongbox is now bigger. Let''s see!'
+        - '[player] ec open<delay=40>'
+        - '[close]'
+        - '[console] essentials:eco take %player_name% 500000'
+        - '[refresh]'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 500000
+      '123tgfdewgdfgdf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZGVkZmUwMWQ4ZWZkOTZlN2RjYTJlOTMwZDk4NDU2OGM0MTFiYTgzNDQ5YzE5MGFmMGM1ZWYwNTJmMjcyOSJ9fX0=
+        data: 3
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: CustomEnderChest.level.5
+        display_name: '&6&lStrongbox'
+        lore:
+        - '&fDeposit your most exclusive'
+        - '&f& loved items in your own'
+        - '&fpersonal strongbox!'
+        - ''
+        - '&c[Max. Level &c&lREACHED&c]'
+        - ''
+        - '&e&nLeft-click to open!'
+        left_click_commands:
+        - '[player] ec open'
+        - '[refresh]'
+      Close2:
+        material: Book
+        slot: 49
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '111233':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTllNzdmYWU1MzEzYmFjMTliZjE0NTc3ZDUwMDkzZTQ3MzhlYmQ3MGZkNTRhNGRlMWEyNzQ3NWQwZWM5NTM4ZiJ9fX0=
+        data: 3
+        slot: 28
+        priority: 1
+        display_name: '&6&lWithdraw money'
+        lore:
+        - '&fConvert your money into'
+        - '&fcheques to make trade'
+        - '&fmuch easier.'
+        - ''
+        - '&e&nClick to withdraw!'
+        left_click_commands:
+        - '[player] withdraw <-a Amount>'
+        - '[refresh]'
+      '12fddnm9s3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA1NGMyOWM3ODA5MDQ3MWMxZWEwNThiZDY0MTg5NzM5MWM5ZTQ2OTRhYTlkMTQwYWZiYmE4ZDBjYzQzNjM3In19fQ==
+        data: 3
+        slot: 34
+        priority: 1
+        display_name: '&6&lWithdraw experience'
+        lore:
+        - '&fPut your exp into'
+        - '&fbottles to make trade'
+        - '&fmuch easier.'
+        - ''
+        - '&e&nClick to withdraw!'
+        left_click_commands:
+        - '[player] xpbottle <-a Amount>'
+        - '[refresh]'
+      'crystal':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1YTA3MTVjNjIxMjJkZWQ2NWFmNGVhZTA5NjlmMjNmNTcxYjBhZmE1MGNmOTNmYzllZTJhZjRjN2IzNGUxMiJ9fX0=
+        slot: 31
+        display_name: '&6&lOrb Crystals'
+        lore:
+        - '&fExchange your Orbs for a physical'
+        - '&fOrb Crystal which you can'
+        - '&fredeem.'
+        - ''
+        - '&e&nClick to exchange!'
+        left_click_commands:
+        - '[openguimenu] crystalexchange'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] crystalexchange'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'    
+      '111122fdsfdsd3':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 29
+        - 30
+        - 32
+        - 33
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        priority: 1

@@ -1,0 +1,12 @@
+options:
+  action bar: true
+  boss bar:
+    enable: false
+    color: YELLOW
+  scoreboard:
+    enable: false
+    title: '&2CombatLogX'
+    format:
+    - 'Time Left: {time_left}'
+    - 'Enemy: {enemy_name}'
+    - 'Enemy Health: {enemy_health}'

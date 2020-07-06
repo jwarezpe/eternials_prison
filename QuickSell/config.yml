@@ -1,0 +1,448 @@
+# 
+# Name: QuickSell
+# Author: mrCookieSlime
+# 
+# Do not modify the Config while the Server is running
+# otherwise bad things might happen!
+# 
+# This Plugin also requires CS-CoreLib to run!
+# If you don't have it installed already, its going to be
+# automatically installed for you
+# 
+# This Plugin utilises an Auto-Updater. If you want to turn that off,
+# simply set options -> auto-update to false
+options:
+  auto-update: true
+  sell-gui-rows: 3
+  locked-item: STAINED_GLASS_PANE-14
+  sign-prefix: '&6&lSELL &8┃ &f'
+  sellall-sign-prefix: '&a&oSell All'
+  pregenerate-all-item-prices: false
+  enable-menu-line: false
+  enable-commands: true
+shop:
+  enable-hierarchy: false
+  enable-logging: true
+boosters:
+  extension-mode: false
+  refresh-every: 10
+commands-on-sell: []
+sound:
+  enabled: true
+  sound: ENTITY_PLAYER_LEVELUP
+shops:
+  A:
+    name: '&9A - Shop'
+    permission: QuickSell.shop.A
+    itemtype: CHEST
+    lore: []
+  A1:
+    name: '&9A - Shop'
+    permission: shop.A1
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+  A2:
+    name: '&9A - Shop'
+    permission: shop.A2
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+  A3:
+    name: '&9A - Shop'
+    permission: shop.A3
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+  A4:
+    name: '&9A - Shop'
+    permission: shop.A4
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+  B1:
+    name: '&9A - Shop'
+    permission: shop.B1
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+  B2:
+    name: '&9A - Shop'
+    permission: shop.B2
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+  B3:
+    name: '&9A - Shop'
+    permission: shop.B3
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+  B4:
+    name: '&9A - Shop'
+    permission: shop.B4
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+  C1:
+    name: '&9A - Shop'
+    permission: shop.C1
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+  C2:
+    name: '&9A - Shop'
+    permission: shop.C2
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+  C3:
+    name: '&9A - Shop'
+    permission: shop.C3
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+  C4:
+    name: '&9A - Shop'
+    permission: shop.C4
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+  D1:
+    name: '&9A - Shop'
+    permission: shop.D1
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+  D2:
+    name: '&9A - Shop'
+    permission: shop.D2
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+  D3:
+    name: '&9A - Shop'
+    permission: shop.D3
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+  D4:
+    name: '&9A - Shop'
+    permission: shop.D4
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+      STAINED_CLAY-14: 350
+  E1:
+    name: '&9A - Shop'
+    permission: shop.E1
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+      STAINED_CLAY-14: 350
+      EMERALD: 375
+  E2:
+    name: '&9A - Shop'
+    permission: shop.E2
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+      STAINED_CLAY-14: 350
+      EMERALD: 375
+      STAINED_CLAY-4: 425
+  E3:
+    name: '&9A - Shop'
+    permission: shop.E3
+    itemtype: CHEST
+    lore: []
+    amount: 1
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+      STAINED_CLAY-14: 350
+      EMERALD: 375
+      STAINED_CLAY-4: 425
+  E4:
+    name: '&9E4'
+    amount: 1
+    itemtype: CHEST
+    lore: []
+    permission: QuickSell.shop.E4
+    inheritance: []
+    price:
+      COBBLESTONE: 25
+      MOSSY_COBBLESTONE: 35
+      COAL: 10
+      IRON_ORE: 65
+      STONE-5: 90
+      STONE-1: 125
+      GOLD_ORE: 135
+      STONE-3: 150
+      DIAMOND_ORE: 150
+      STAINED_CLAY-7: 400
+      PRISMARINE: 300
+      STAINED_CLAY-14: 350
+      EMERALD: 375
+      STAINED_CLAY-4: 425
+      STAINED_CLAY-11: 575
+  ice:
+    name: ice
+    amount: 1
+    itemtype: CHEST
+    lore: []
+    permission: sell.ice
+    inheritance: []
+    price:
+      PACKED_ICE: 5000
+      COBBLESTONE: 0.0
+  yrim:
+    name: yrim
+    amount: 1
+    itemtype: CHEST
+    lore: []
+    permission: quicksell.yrim
+    inheritance: []
+    price:
+      PACKED_ICE: 5000
+      COBBLESTONE: 0.0
+list:
+- A1
+- A2
+- A3
+- A4
+- B1
+- B2
+- B3
+- B4
+- C1
+- C2
+- C3
+- C4
+- D1
+- D2
+- D3
+- D4
+- E1
+- E2
+- E3
+- E4
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ice
+- yrim

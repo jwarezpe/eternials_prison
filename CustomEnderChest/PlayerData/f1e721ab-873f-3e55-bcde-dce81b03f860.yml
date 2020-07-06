@@ -1,0 +1,40 @@
+PlayerLastName: THEBOSSES
+EnderChestSize: 9
+EnderChestInventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - §7
+      - '§6§lINFORMATION:'
+      - '  §e§l* §fOwner: §bTHEBOSSES'
+      - §7
+      - §e§nRight-click to open!
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 15
+      Damage: 1
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: GOLD_ORE
+    amount: 33
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ''
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: GRANITE
+    amount: 30
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ''

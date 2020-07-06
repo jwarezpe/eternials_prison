@@ -1,0 +1,504 @@
+    open_command:
+    - tags
+    - tag
+    - deluxetags:tags
+    menu_title: '&8» Tags'
+    size: 36
+    items:
+      '99':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.heart
+        display_name: '&6&lHeart'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&cheart &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &c❤'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% heart'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &c❤ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% heart'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &c❤ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '9923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 13
+        priority: 2
+        display_name: '&6&lHeart'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&cheart &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &c❤'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '919':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 11
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.arrow
+        display_name: '&6&lArrow'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&barrow &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &b➳'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% arrow'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &b➳ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% heart'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &b➳ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '91923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 11
+        priority: 2
+        display_name: '&6&lArrow'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&barrow &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &b➳'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '929':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 12
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.flower
+        display_name: '&6&lFlower'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&6flower &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &6❀'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% flower'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &6❀ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% flower'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &6❀ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '92923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 12
+        priority: 2
+        display_name: '&6&lFlower'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&6flower &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &d❀'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '939':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 14
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.peace
+        display_name: '&6&lPeace'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&6peace &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &d✌'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% peace'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &6✌ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% peace'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &6✌ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '93923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 14
+        priority: 2
+        display_name: '&6&lPeace'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&6peace &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &6✌'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '9529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 15
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.music
+        display_name: '&6&lMusic'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&amusic &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &a♫'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% music'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &a♫ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% music'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &a♫ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '959223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 15
+        priority: 2
+        display_name: '&6&lMusic'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&amusic &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &a♫'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '19529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 21
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.scissors
+        display_name: '&6&lScissors'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&3scissors &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &3✂'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% scissors'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &3✂ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% scissors'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &3✂ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '1959223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 21
+        priority: 2
+        display_name: '&6&lScissors'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&3scissors &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &3✂'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '192529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 22
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.toxic
+        display_name: '&6&lToxic'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&etoxic &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &e☢'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% toxic'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &e☢ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% toxic'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &e☢ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '19259223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 22
+        priority: 2
+        display_name: '&6&lToxic'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&etoxic &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &e☢'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have this tag!'
+      '1925329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 23
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: tag.snowman
+        display_name: '&6&lSnowman'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&bsnowman &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &b☃'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] tags set %player_name% snowman'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &b☃ &ftag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags set %player_name% snowman'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &b☃ &ftag!'
+        - '[close]'
+        - '[refresh]'
+      '192592323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNGExODE1YjU5ODY3YzlkMjc5MGM0NGVhNWRhNTQ0NjI5MjQyNTk5Y2RmODMwYjE0OTFjN2ZmMzAzNzU1In19fQ==
+        data: 3
+        slot: 23
+        priority: 2
+        display_name: '&6&lSnowman'
+        lore:
+        - ''
+        - '&fChange your tag to a'
+        - '&bsnowman &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fTag: &b☃'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fAccess to this tag'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '1925923223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        slot: 4
+        priority: 1
+        display_name: '&6&lReset tag'
+        lore:
+        - ''
+        - '&fReset your tag and remove'
+        - '&fany tag of your name if you'
+        - '&fare bored of tags!'
+        - ''
+        - '&e&nClick to reset!'
+        left_click_commands:
+        - '[console] tags clear %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have reset your
+          tag!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] tags clear %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have reset your
+          tag!'
+        - '[close]'
+        - '[refresh]'
+      '20':
+        material: BLACK_STAINED_GLASS_PANE
+        display_name: '&f'
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        priority: 1

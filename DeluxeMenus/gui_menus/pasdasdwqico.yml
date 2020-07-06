@@ -1,0 +1,574 @@
+menu_title: '&8» Pickaxe Upgrade'
+open_command: 'sdfwer8euwdnisfsd'
+update_interval: 1
+size: 53
+open_requirement:
+  requirements:
+    pickaxe:
+      type: javascript
+      expression: '"%player_item_in_hand%" == "WOODEN_PICKAXE" || "%player_item_in_hand%" == "STONE_PICKAXE" || "%player_item_in_hand%" == "GOLDEN_PICKAXE" || "%player_item_in_hand%" == "IRON_PICKAXE" || "%player_item_in_hand%" == "DIAMOND_PICKAXE"'
+      deny_commands: 
+      - '[console] titlemanager:tm message %player_name% &7\n&cYou need to hold pickaxe!'
+    toenc:
+      type: javascript
+      expression: '"%plugininfo_enabled_TokenEnchant%" == "true"'
+      deny_commands: 
+      - '[console] titlemanager:tm message %player_name% &7\n&cTo use this function, install TokenEnchant!'
+items:
+  '23sdsfds':
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: ' '
+  'Glasses-in':   
+    material: black_stained_glass_pane
+    slots:
+    - 40
+    display_name: ' '
+  'Repair':   
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiZDlmNWVjMWVkMDA3MjU5OTk2NDkxZTY5ZmY2NDlhMzEwNmNmOTIwMjI3YjFiYjNhNzFlZTdhODk4NjNmIn19fQ==
+    slot: 38
+    display_name: '&6&lRepair Pickaxe'
+    lore:
+    - '&fRepairs the current pickaxe'
+    - '&fyou are holding.'
+    - ''
+    - '&f&lCOST &8┃ &e$100,000'
+    left_click_commands:
+    - '[console] pex user %player_name% add essentials.repair'
+    - '[player] fix<delay=10>'
+    - '[console] pex user %player_name% remove essentials.repair<delay=40>'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        name: 
+          type: '>='
+          input: '%vault_eco_balance_formatted%'
+          output: '100000'
+    right_click_commands:
+    - '[console] pex user %player_name% add essentials.repair'
+    - '[player] fix<delay=10>'
+    - '[console] pex user %player_name% remove essentials.repair<delay=40>'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        name: 
+          type: '>='
+          input: '%vault_eco_balance_formatted%'
+          output: '100000'
+  'crystal':   
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1YTA3MTVjNjIxMjJkZWQ2NWFmNGVhZTA5NjlmMjNmNTcxYjBhZmE1MGNmOTNmYzllZTJhZjRjN2IzNGUxMiJ9fX0=
+    slot: 42
+    display_name: '&6&lOrb Crystals'
+    lore:
+    - '&fExchange your Orbs for a physical'
+    - '&fOrb Crystal which you can'
+    - '&fredeem.'
+    - ''
+    - '&e&nClick to exchange!'
+    left_click_commands:
+    - '[openguimenu] crystalexchange'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[openguimenu] crystalexchange'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+  'Sellall':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzYwN2NmZmNkNzg2NGZmMjdjNzhiMjlhMmM1OTU1MTMxYTY3N2JlZjYzNzFmODg5ODhkM2RjYzM3ZWY4ODczIn19fQ==
+    slot: 37
+    priority: 2
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%autosell_in_autosell_mode%'
+          output: 'yes'
+    display_name: '&a&lAutosell'
+    lore:
+    - '&7&o(( Automatically sells'
+    - '&7all mined ores ))'
+    - ''
+    - '&6&l* &eMultiplier: &fx%autosell_total_multiplier%'
+    - ''
+    - '&6&l* &7Status: &a&lENABLED'
+    left_click_commands:
+    - '[player] autosell'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] autosell'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Sellall2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMzYTViZmM4YTJhM2ExNTJkNjQ2YTViZWE2OTRhNDI1YWI3OWRiNjk0YjIxNGYxNTZjMzdjNzE4M2FhIn19fQ==
+    slot: 37
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%autosell_in_autosell_mode%'
+          output: 'no'
+    display_name: '&c&lAutosell'
+    lore:
+    - '&7&o(( Automatically sells'
+    - '&7all mined ores ))'
+    - ''
+    - '&6&l* &eMultiplier: &fx%autosell_total_multiplier%'
+    - ''
+    - '&6&l* &7Status: &c&lDISABLED'
+    left_click_commands:
+    - '[player] autosell'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] autosell'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+  'Efficiency':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMWQ0OTQ3NzYzOTE3ODE0YWUxNjMyYjgyMDY5NjA5ODkyNzg5NWFhYWYxMjRjZDI5ZWIzNTg1NmFhYTViOSJ9fX0=
+    data: 3
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Efficiency_level%'
+          output: '%tokenenchant_Efficiency_max%'
+    display_name: '&6&lEfficiency'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the efficiency when'
+    - '&7you break a block)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 250 * Lvl'
+    - '&c[Max. Level: 99]'
+    - ''
+    - '  &c&l* &cMaximum Level Reached'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Efficiency2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMWQ0OTQ3NzYzOTE3ODE0YWUxNjMyYjgyMDY5NjA5ODkyNzg5NWFhYWYxMjRjZDI5ZWIzNTg1NmFhYTViOSJ9fX0=
+    data: 3
+    slot: 11
+    priority: 2
+    display_name: '&6&lEfficiency'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the efficiency when'
+    - '&7you break a block)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 250 * LVL'
+    - '&c[Max. Level: 99]'
+    - ''
+    - '&f&lCOST &8| &b❂ %math_250*{tokenenchant_Efficiency_level}+250%'
+    - ''
+    - '&e&nLeft-click to upgrade!'
+    left_click_commands:
+    - '[console] geco take %player_name% %math_250*{tokenenchant_Efficiency_level}+250%'
+    - '[console] te enchant %player_name% Efficiency'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        reeeq:
+          type: '>='
+          input: '%gemseconomy_balance_default%'
+          output: '%math_250*{tokenenchant_Efficiency_level}+250%'
+      deny_commands:
+      - '[console] titlemanager:tm message %player_name% &7\n&cYou do not have %math_250*{tokenenchant_Efficiency_level}+250% orbs!'
+      - '[close]'
+  'Fortune':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc4YjNhZWI0NDYyMDk1OWM2YzZkOTE1YWU5ZGU5MWRhZjgxMjZkNzIxNWJmMjRjZDUwODk5MjFlMmRiNzBmMCJ9fX0=
+    data: 3
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Fortune_level%'
+          output: '%tokenenchant_Fortune_max%'
+    display_name: '&6&lFortune'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the amount of'
+    - '&7blocks/loot you get from'
+    - '&7mining)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 1200 * LVL'
+    - '&c[Max. Level: 25]'
+    - ''
+    - '  &c&l* &cMaximum Level Reached'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Fortune2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc4YjNhZWI0NDYyMDk1OWM2YzZkOTE1YWU5ZGU5MWRhZjgxMjZkNzIxNWJmMjRjZDUwODk5MjFlMmRiNzBmMCJ9fX0=
+    data: 3
+    slot: 13
+    priority: 2
+    display_name: '&6&lFortune'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the amount of'
+    - '&7blocks/loot you get from'
+    - '&7mining)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 1200 * LVL'
+    - '&c[Max. Level: 25]'
+    - ''
+    - '&f&lCOST &8| &b❂ %math_1200*{tokenenchant_Fortune_level}+1200%'
+    - ''
+    - '&e&nLeft-click to upgrade!'
+    left_click_requirement:
+      requirements:
+        sdfdsdg:
+          type: '>='
+          input: '%gemseconomy_balance_default%'
+          output: '%math_1200*{tokenenchant_Fortune_level}+1200%'
+      deny_commands:
+      - '[console] titlemanager:tm message %player_name% &7\n&cYou do not have %math_1200*{tokenenchant_Fortune_level}+1200% orbs!'
+      - '[close]'
+    left_click_commands:
+    - '[console] geco take %player_name% %math_1200*{tokenenchant_Fortune_level}+1200%'
+    - '[console] te enchant %player_name% Fortune'
+    - '[refresh]'
+  'Unbreaking':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjUyNTU5ZjJiY2VhZDk4M2Y0YjY1NjFjMmI1ZjJiNTg4ZjBkNjExNmQ0NDY2NmNlZmYxMjAyMDc5ZDI3Y2E3NCJ9fX0=
+    data: 3
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Unbreaking_level%'
+          output: '%tokenenchant_Unbreaking_max%'
+    display_name: '&6&lUnbreaking'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the durability'
+    - '&7of your tool)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 100 * LVL'
+    - '&c[Max. Level: 99]'
+    - ''
+    - '  &c&l* &cMaximum Level Reached'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Unbreaking2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjUyNTU5ZjJiY2VhZDk4M2Y0YjY1NjFjMmI1ZjJiNTg4ZjBkNjExNmQ0NDY2NmNlZmYxMjAyMDc5ZDI3Y2E3NCJ9fX0=
+    data: 3
+    slot: 14
+    priority: 2
+    display_name: '&6&lUnbreaking'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the durability'
+    - '&7of your tool)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 100 * LVL'
+    - '&c[Max. Level: 99]'
+    - ''
+    - '&f&lCOST &8| &b❂ %math_100*{tokenenchant_Unbreaking_level}+100%'
+    - ''
+    - '&e&nLeft-click to upgrade!'
+    left_click_commands:
+    - '[console] geco take %player_name% %math_100*{tokenenchant_Unbreaking_level}+100%'
+    - '[console] te enchant %player_name% Unbreaking'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        reeeq:
+          type: '>='
+          input: '%gemseconomy_balance_default%'
+          output: '%math_100*{tokenenchant_Unbreaking_level}+100%'
+      deny_commands:
+      - '[console] titlemanager:tm message %player_name% &7\n&cYou do not have %math_100*{tokenenchant_Unbreaking_level}+100% orbs!'
+      - '[close]'
+  'Speeasdsadd':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA0ZTI2ZmJlMTU1NGE3NDgzZjg4ZTkwZWY3Mzk4OTJkMzI0MDFlNjAxNmFkNzAzMWVjODczNjZiZTA2MmJlMSJ9fX0=
+    data: 3
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Speed_level%'
+          output: '%tokenenchant_Speed_max%'
+    display_name: '&6&l???'
+    lore:
+    - ''
+    - '&fComing soon!'
+    - ''
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Spsdsdfeed2':
+    material: book
+    slot: 22
+    priority: 2
+    display_name: '&6&l???'
+    lore:
+    - ''
+    - '&fComing soon!'
+    - ''
+  'Haste':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzNkNjlhNjBkOTcwYWQwYjhhYTE1ODk3OTE0ZjVhYWMyNjVlOTllNmY1MDE2YTdkOGFhN2JlOWFjMDNiNjE0OCJ9fX0=
+    data: 3
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Haste_level%'
+          output: '%tokenenchant_Haste_max%'
+    display_name: '&6&lHaste'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the speed when'
+    - '&7you hold the pickaxe)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 850 * LVL'
+    - '&c[Max. Level: 20]'
+    - ''
+    - ' &c&l* &cMaximum Level Reached'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Haste2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzNkNjlhNjBkOTcwYWQwYjhhYTE1ODk3OTE0ZjVhYWMyNjVlOTllNmY1MDE2YTdkOGFhN2JlOWFjMDNiNjE0OCJ9fX0=
+    data: 3
+    slot: 12
+    priority: 2
+    display_name: '&6&lHaste'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases the speed when'
+    - '&7you hold the pickaxe)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 850 * LVL'
+    - '&c[Max. Level: 20]'
+    - ''
+    - '&f&lCOST &8| &b❂ %math_850*{tokenenchant_Haste_level}+850%'
+    - ''
+    - '&e&nLeft-click to upgrade!'
+    left_click_commands:
+    - '[console] geco take %player_name% %math_850*{tokenenchant_Haste_level}+850%'
+    - '[console] te enchant %player_name% Haste'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        reeeq:
+          type: '>='
+          input: '%gemseconomy_balance_default%'
+          output: '%math_850*{tokenenchant_Haste_level}+850%'
+      deny_commands:
+      - '[console] titlemanager:tm message %player_name% &7\n&cYou do not have %math_250*{tokenenchant_Haste_level}+850% orbs!'
+      - '[close]'
+    right_click_commands:
+    - '[console] geco take %player_name% %math_850*{tokenenchant_Haste_level}+850%'
+    - '[console] te enchant %player_name% Haste'
+    - '[refresh]'
+  'TokenGreed':
+    material: book
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_TokenGreed_level%'
+          output: '%tokenenchant_TokenGreed_max%'
+    display_name: '&6&l???'
+    lore:
+    - ''
+    - '&fComing soon!'
+    - ''
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'TokenGreed2':
+    material: book
+    slot: 21
+    priority: 2
+    display_name: '&6&l???'
+    lore:
+    - ''
+    - '&fComing soon!'
+    - ''
+  'Speed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y5ZWQxMjM0NjYyYjg5OWNhMDhhMGRmZTc2YTk4ZTRhMjdkYTVkM2Q3NDY1NDM0ZjhiMzM1MGZmYjY1Njc3ZiJ9fX0=
+    data: 3
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Speed_level%'
+          output: '%tokenenchant_Speed_max%'
+    display_name: '&6&lSpeed'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases how fast you'
+    - '&7run/walk/fly)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 7,000 * LVL'
+    - '&c[Max. Level: 3]'
+    - ''
+    - '  &c&l* &cMaximum Level Reached'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Speed2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y5ZWQxMjM0NjYyYjg5OWNhMDhhMGRmZTc2YTk4ZTRhMjdkYTVkM2Q3NDY1NDM0ZjhiMzM1MGZmYjY1Njc3ZiJ9fX0=
+    data: 3
+    slot: 15
+    priority: 2
+    display_name: '&6&lSpeed'
+    lore:
+    - '&fLevel UP &a+1 &fthe pickaxe'
+    - '&fyou are currently holding.'
+    - ''
+    - '&7(Increases how fast you'
+    - '&7run/walk/fly)'
+    - ''
+    - '&6&lINFORMATION:'
+    - '  &e&l* &fFormula: &b❂ 7,000 * LVL'
+    - '&c[Max. Level: 3]'
+    - ''
+    - '&f&lCOST &8| &b❂ %math_7000*{tokenenchant_Speed_level}+7000%'
+    - ''
+    - '&e&nLeft-click to upgrade!'
+    left_click_commands:
+    - '[console] geco take %player_name% %math_7000*{tokenenchant_Speed_level}+7000%'
+    - '[console] te enchant %player_name% Speed'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        reeeq:
+          type: '>='
+          input: '%gemseconomy_balance_default%'
+          output: '%math_7000*{tokenenchant_Speed_level}+7000%'
+      deny_commands:
+      - '[console] titlemanager:tm message %player_name% &7\n&cYou do not have %math_7000*{tokenenchant_Speed_level}+7000% orbs!'
+      - '[close]'
+  'Lucky':
+    material: book
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Lucky_level%'
+          output: '%tokenenchant_Lucky_max%'
+    display_name: '&6&l???'
+    lore:
+    - ''
+    - '&fComing soon!'
+    - ''
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Lucky2':
+    material: book
+    slot: 23
+    priority: 2
+    display_name: '&6&l???'
+    lore:
+    - ''
+    - '&fComing soon!'
+    - ''

@@ -1,0 +1,879 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 49
+npc:
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjU3MTE5NjI4NTcsInByb2ZpbGVJZCI6IjhlNGYwOTcxZThjYzQzZWNiZTI5M2M3ZTkzMzA5Y2ZiIiwicHJvZmlsZU5hbWUiOiJhdG9taWNtYXQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhYTc1ZGZlNGVjMjFmYmVlYjkxYjJmMGIwNmQxMWVhYmM4NGRlNTg2ZTZmNDJmYWNmYWVjNWNlZmY0M2NhZjMifX19
+      cached-skin-uuid-name: atomicmat
+      cached-skin-uuid: 8e4f0971-e8cc-43ec-be29-3c7e93309cfb
+      player-skin-name: atomicmat
+      player-skin-signature: xDkWjZJF4dMako/nb5WpO/OZTfh+fOADeyPnbSsP8SLK8iT3oYbXe6NkvzQ0otU2ohv9rFZU3ixzmSSsClykymCx7dNkG84E0216/wjNGPIEIqE754LJurEjjDPVrS3ufadwUXhq31seUIeed49Ws6tRBHVr+agIaygZDk8BhTGf5USd7ImuxqAxNfz0Frd8GV1rSOzZqKiYsVwfVQ0yGKy8W8KmWB6VwRY5iHCqZdfErNbdTpzvPFo3szq54LDpgA8GjuizKpZZjySFpu4h+sXyE1Nj8hY29MAIqji5nOlY9ZkIYgcXFMWbO+EDJW7AusSgUDL3/NUWFMGtkJromHjHWTlFKqh5YTCryso+TPPDqoYYBKRhHPCIvv+OKa+WLWWkWNP5tcNw/VP0+P+mhBBfs9+Hn1VPCDxzMb9sHrtYCGzxB5v0fRVjghetsHEIjkhmZkIAEUbC2WQRSF4Ot5j2/AfvsMKGQSRsqtielVVhp/Nsye5TTXwSfTT/qCOVFEdF+i6rIQHY+SL3u/FtbaMBr/V4Re9GMEA8OWv6uL+BaGP0dalCFWTy/2qw67/qVLScYXkykSv1zRj3OY9kYI3djBHOCgvkVB9wd28/dqdTGQLuQ4i1sUBUZivkh42Ck/3z7Q6n5xVaHDd0Jp1m4XX14IUUlPjIgdOi5D78W9c=
+    name: §7
+    uuid: a4d96292-77a6-4e95-863f-3f3864010fbb
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '-1651.5'
+        y: '160.0'
+        z: '-2470.5'
+        yaw: '-89.06932067871094'
+        pitch: '-1.6060870885849'
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      profession: BLACKSMITH
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,profession,lookclose,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODcyMzYxMTExNjUsInByb2ZpbGVJZCI6ImVmNDEzOGViY2M4ZDRkYmFhMGVlM2E0Zjk2YTdlYzMwIiwicHJvZmlsZU5hbWUiOiJwYWJsb19hc3BhcmFndXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U4NTgwNDIyZTc2ZjNkYjYxZjkzODExOTQxYjk4ZTE4ZTEwNjk5ZTAzYjAzMmU1ZTkwMDczZDJmOWU2Yjk5ZGUifX19
+      cached-skin-uuid-name: pablo_asparagus
+      cached-skin-uuid: ef4138eb-cc8d-4dba-a0ee-3a4f96a7ec30
+      player-skin-name: pablo_asparagus
+      nameplate-visible: 'false'
+      player-skin-signature: A6Jg0sZYYYGmmAlrCn7K+bsDOw+UqqJmCRrdXyymAvxgaNb6Cw15jA2Yr3kwkwis+69skksWHHnQqHP8Qc96XzB3cKLbSty2RwSmhfwlSir4gvjY/BhkWL00vcTelGc2TNBQORXmG4ePcdITvh5lF1PgDf8QZ+FflbSVVyseZ2rsFW2iPK7gNtKyjsKnglkUWMD1YUzZaWU4Alpcf/pxbNDjeXkimfACQhA2FqmRNEzaNPZD8chrgIbZR5v/SA1R3xZky3bBfihXINshbijxXgWxTUinGEeBGuM76tEgswKJwn3lhD8xFq2fuyUDSctNxSY4S58CzQmpsyyb4LSeNi+3vlrAxGgJ8aZdYXbdCwYqOArDwEIaTYdru2iNE2573/wwiAXy1zirSHYOBlwZ7tEgh92hyNkrybOdwA7nOUMDvHxw0bJafO0JDj15pDMacOCN2YocoMQRIlR8K1YNb0y9cNjVStgiOInGewtEfOouYduvia3Uw+qSZAGWdQAG55EWJMCrj4eY38ZpH7vGLiJ5p+BtjEQ/HdTQdukL4GUIztBBfwvQxN6oOi6D2T1yGssOCQK0UR6BKvaiS/Q8hdQ6P3SfeBwpi3WRVv70mQYNUeZ6Fsp3G1du3hkT/tjuiQJLyv61k3hCJai3rHgh+HU1o6ZNa0miGuoTER0kII4=
+    name: cortouis
+    uuid: 2fb8b5b0-6866-46c2-b632-606895f1c842
+    traits:
+      location:
+        world: world
+        x: '-1640.5'
+        y: '115.0'
+        z: '-2507.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: PLAYER
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU4OTM3MzAyODkxMSwKICAicHJvZmlsZUlkIiA6ICJiMDU4ODExODZlNzU0MTBkYjJkYjRkMzA2NmIyMjNmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJjIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNhYzM0YzlkMGQ3NWRiMjA4MWJhZDM3NDBhODM2M2ZkNjExMjk1YWQ0MzNmZTdhY2I1OGUxYzMwYWUwN2QyZmUiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3ODZmZTk5YmUzNzdkZmI2ODU4ODU5ZjkyNmM0ZGJjOTk1NzUxZTkxY2VlMzczNDY4YzVmYmY0ODY1ZTcxNTEiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: marc
+      cached-skin-uuid: b0588118-6e75-410d-b2db-4d3066b223f7
+      player-skin-name: marc
+      nameplate-visible: 'false'
+      player-skin-signature: nZBJ4g40XGMUxrz+tqeXlm9cby+gLAedk/Yql+//QMiHh8Wa2a1r9DR3k0utq53DUxlXwAK5rsesTnTmpUKTnQ+51VcdqcY+j7Q7HfH7dxmrM3YqWoh4S+Xn5jSW0ZjEC9ioXoetDU1R67YX/otw21JNf/87cwYfZfQq1WhlEKAOKMh0b0Hg2FmlhDJQsrNfKbIvUI7eg4vCmrV0hJU5c1HH6Dy+aNj1VO+GvyiTc4xU1uQsgY83Xvq2gghX9fuckBsONzGW+6BhLURSNjpBvpaBw36N3KGDCY7dQ5ORovpmK7kcg2PC4Vfk1lYfsZJTMSfPRkuYpj2nRkAZE2QUnfYKZ8aHMXTnHRdiWPvKA6rfPdMp49P2seaKg+RIBksnNwNskLF30BrZb52kKHa8cL/J7LokTiNlOD+LWDTXnE3SwqkT37bJXvS3eU/6xO1HR83Bry9PhIVFKp+7oa5+TPC3ybG4qy+ZaS7Mj/LmtgD3QgSARF9waY+TGVe7hXJewgmAZuxdNV0huCtqv0INxzpTiNxH48BDATnCIOkHwK8/clmp8MwVyddSOndc9o7Qljn72k5V1A0crU3njE15Hwc5Dgks+EL2OA6qUVrmHNuuayypREbXVfuL0hNzOV4xcP4JVXiknG+C1AAwwACLsaliQDRObSyJTDTdr8menfQ=
+    name: §7
+    uuid: 26bb4872-7a43-4cdc-a7dd-25d93ebd077d
+    traits:
+      type: PLAYER
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '-1670.5'
+        y: '156.0'
+        z: '-2465.5'
+        yaw: '90.0'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 22dc763e-a40b-4aec-803f-eabf70dc76ae
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '2493.5'
+        y: '102.0'
+        z: '486.5'
+        yaw: '-84.19964599609375'
+        pitch: '69.45000457763672'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 3c4725d5-6db6-4437-a362-82aaeced03f5
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '2493.5'
+        y: '102.0'
+        z: '-13.5'
+        yaw: '-32.75018310546875'
+        pitch: '89.4000015258789'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 518f7e34-ad90-412d-bd5c-f872f9179bbc
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '2493.5'
+        y: '102.0'
+        z: '1486.5'
+        yaw: '-66.50003051757812'
+        pitch: '88.04999542236328'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: a81ba874-3142-4781-9a18-99a870de55f6
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '2493.5'
+        y: '102.0'
+        z: '986.5'
+        yaw: '-88.54971313476562'
+        pitch: '89.69999694824219'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '33':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 5f25cace-5cca-4b42-b0a4-aabbf6fe397a
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '2015.5'
+        y: '102.0'
+        z: '9.5'
+        yaw: '-142.95010375976562'
+        pitch: '89.4000015258789'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '32':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: f0a31065-e6a7-4f4a-87c5-2f232bc2108c
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '1009.5'
+        y: '102.0'
+        z: '1517.5'
+        yaw: '-92.55004119873047'
+        pitch: '89.69999694824219'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '31':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 86ef4b88-4e81-44d6-8052-d028f5fcacdf
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '1009.5'
+        y: '102.0'
+        z: '1017.5'
+        yaw: '-166.79998779296875'
+        pitch: '88.20000457763672'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '30':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: b3ed61b9-9178-4429-a0a8-9fe503287fc3
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '1009.5'
+        y: '102.0'
+        z: '517.5'
+        yaw: '-161.2500762939453'
+        pitch: '89.54999542236328'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '29':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: b86e46f8-382b-4c7e-8595-afe8a5f4c7ca
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '1009.5'
+        y: '102.0'
+        z: '17.5'
+        yaw: '170.25'
+        pitch: '90.0'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '28':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: a6236ddc-b95b-48b7-87da-64871fd24e24
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '487.5'
+        y: '102.0'
+        z: '1513.5'
+        yaw: '6.750244140625'
+        pitch: '90.0'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '27':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 0297f88a-0912-4554-bee6-38e1d8fad972
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '487.5'
+        y: '102.0'
+        z: '1013.5'
+        yaw: '-50.39971923828125'
+        pitch: '88.94998931884766'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '26':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 7adabf53-3b32-4dce-82d9-e0c08114e941
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '487.5'
+        y: '102.0'
+        z: '513.5'
+        yaw: '-48.600006103515625'
+        pitch: '89.69999694824219'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '25':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: d64685ca-961c-4f39-9922-beb492976647
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      type: SHULKER
+      location:
+        world: mines
+        x: '487.5'
+        y: '102.0'
+        z: '13.5'
+        yaw: '-53.449859619140625'
+        pitch: '89.0999984741211'
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '34':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: a63fef32-5648-4db7-b9ea-43f80fc0e36f
+    traits:
+      spawned: true
+      type: SHULKER
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      location:
+        world: mines
+        x: '2015.5'
+        y: '102.0'
+        z: '509.5'
+        yaw: '-166.4999237060547'
+        pitch: '88.19998168945312'
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '35':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: f7fc7769-3032-4977-a153-67d084ad54e8
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      age:
+        age: -2
+        locked: true
+      parrottrait:
+        variant: GREEN
+      location:
+        world: world
+        x: '-1650.5'
+        y: '159.0'
+        z: '-2467.5'
+        yaw: '31.266006469726562'
+        pitch: '0.0'
+      type: OCELOT
+      ocelotmodifiers:
+        sitting: true
+        type: BLACK_CAT
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: lookclose,mounttrait,age,spawned,owner,location,ocelotmodifiers,type,parrottrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '36':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU4OTkyMjQ2NjMyMiwKICAicHJvZmlsZUlkIiA6ICI4NzNlMjc2NjkyNTQ0OWJjODlkNzVkNGQ1ODVhZDI5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPYmFtYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZGMwMDMwODlkODY2NjczNGQwMmUxM2Q0YjAxNTRjODU1MzM0OWMwYmEzZjBhOTU1YWM3ODRlYWExMjU1MWQzIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: obama
+      cached-skin-uuid: 873e2766-9254-49bc-89d7-5d4d585ad29d
+      player-skin-name: obama
+      nameplate-visible: 'false'
+      player-skin-signature: m1pZndXv2QEFgwdketv3HFZCFcLQerGogQ1PgH2e1EQXiPInJT3hOU1pftPB+rWCckgTTTuNt51vAecVrU262vVNXn32bCipORs3wy/WWTVXj3ZBRMTpWj/iQLEyoTY0lL/xN+N6iXhW5E5vmHu3Dm38U+1Wx2eyt/J8D5L3M0IyVZPgxkN5JPs8mUt4twecZfH7uZFhKjzh8dMB+LHMXSvr1C0Ba6NKxlfXuBEdnIhXaNl9xfw2+a5eVDGS1dCxCxEOrQy+ZwHLQBuOSQ1ySqr66+GXSiYVzsXQoJzpVlQwvBabD8v7lsYk3196sdv/AlORVe8qiWbxRrYCqkai8LoEvQqSdcveazq178K1MfSVu6V2mQpoaB4gLE1PabMhBGhUgZ8vJxdcrVdeDBmOw7nL6zinJIyxsnui2RiNZJhLMZhfX8W6Uj2Q/joycBeTnOKb16rEnjz8NGyQfF6WU6C199WJftEtCoZlrrSDo9Pzq5Ajz94CzrSsYYsLUUtql+LLB93kdgPgwL+2LSmEvhPfPEAvqnuaRN4lmwMKoyB3nBEeejf4OLQz/3w7X0JDR5nfOE3PoW1UVi/zoAz16nLY20VX+JiHdwPbDu7COokzkuvWFafLakOby39ozfwKwRqAgI6MdPP+dGQ472aDaDd5NACrSkY5di7AElOV7p0=
+    name: §7
+    uuid: 7f3a9331-4611-455e-be2a-d3154d1f07f0
+    traits:
+      location:
+        world: world
+        x: '-1644.5'
+        y: '159.0'
+        z: '-2457.5'
+        yaw: '-140.0'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      owner:
+        owner: Stressor
+        uuid: 0343930c-2774-4ba1-b31a-78f0ac428169
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '42':
+    metadata:
+      nameplate-visible: 'false'
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MDY4NzM1OTc5MSwKICAicHJvZmlsZUlkIiA6ICJjNTJjZjM0NmQyODk0ODk4YTQwNjI2ZThjYjI0YzUxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXhlblNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwMGZkMTdiYjE2ZmNkYjllOTMyNWM2OTMzYTJjNTkyZjE5NmFkZDY2NTE3OWJhYjY1YmUxODNhY2MxNjA4OWUiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: waxenss
+      cached-skin-uuid: c52cf346-d289-4898-a406-26e8cb24c51a
+      player-skin-name: waxenss
+      player-skin-signature: f0HMH0E+K0oiyxtaLMjuLskl8yLjl2El9OeGhdH5PByXeNyp7iwC89mvliyKLd5RmbtaIeb/M7mNTwqqAzc3o1xFDfmAE9Qh2mEI6uaUO7RbyfWhbHKg7TT7o4R9S9nCK2fuar8RfoZd9jLuolnGmPeRxW8pL0Z8zXtUY9Ed2c3xwi4lUhxSlhY67L7MBC1SeLy5/f+Enep4YpqR9wl9Mpl7K/HBpLhXpPhsFWqHNuoE4PrzZQ42JR+FEGI/lFIZFqf+dc3/r/BlMrFAuwm75OgtMx7XECNRwu8EjP/5fsxhh5M06fFqQB4o9qXqM7fS41DkNRFBw7fuNZkXSwjofh3kje0FHIERxY4/I1J/6m1gN5kREjCsks8+qjDzv93V6nU4fu9EMRG6MWx7LSk4Wfwc31tI/qF8M1MP8MY7AGb0xgkcr55p17h6hKfKHHbLKeqjTsOmxAV/3FaNBSU3duf2uUUvBsau68Q8Jg2rHyqJCMNS14PV1ZSKW+vQ0e7aetmzPYE6aiqQdnYWW0foND7/iVsEUNYYhHxWgvfKo32VvBrfvpQdjHQoJvTfIFcSIyDg46cVzeUoMmNRtSTSOC/Fd8pt4Rv3Yq8EyRiIxmDmGNka0DI3fDfOHfZ+T2gbKmAtSMaPkbUEGGhMhwjGHVzEJazvXYY8zSw7UOLAux4=
+    name: §7
+    uuid: ac9302c7-7b23-4564-a14b-467d78bd4eaf
+    traits:
+      location:
+        world: world
+        x: '-1693.5'
+        y: '153.0'
+        z: '-2459.5'
+        yaw: '-90.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '41':
+    metadata:
+      nameplate-visible: 'false'
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MDY4NzM2OTQ5NSwKICAicHJvZmlsZUlkIiA6ICI2NTBkY2EwODMzNzk0NGI3YmVkYmY4YjNjYWJlOWQ5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWludEp1bGlhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYmRhM2YyM2JmM2JiMzEyNDdmMTQwYjg4NWQ1ZGZkOGJhZDljOTI4ZWM1MTQ1MGI2ODYwNGJhYzY2YmQzMjk3IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: saintjulian
+      cached-skin-uuid: 650dca08-3379-44b7-bedb-f8b3cabe9d9f
+      player-skin-name: saintjulian
+      player-skin-signature: yZ6bUCMRSIAKCxsTtJBIesWC2FduL50sgVt7DKpMjxRyye9gBpIpl+HF3yxgxxDLNavmsaVLVFDkumkQC4rM5xjAHSB9WlCK1YQcXhBQifVgiP081UrIJu7amSFMd8hg+MNThn88MFlDFnofYYcmt+lW1JMf26T/zgLs17mhB09ABzaNNiGFUeUElXipoq32GPlBSDSNtg7Y8y/HMQYNnmdsu8UM7rTwnvz7scD8GHF4ShG0EZZJQ2hGldN2cHYOJNuugahOojOhicgwFq9cXZRqV8w5WiRaWKSFLlOkGsz8aUsjVyUAuF5Ox0w5FQQlN+zqI9v8bzDOqA5ULjL9Amv9KiYd/nGVi241oYW+MI5FJ4V2NeZ8G0sFAcVFVPxEz6INZch5EUzdGeVV9J1Wx2DfPAcdB8KguFS0NqR2/GwYgRkIeebrPkP6hRjUSFIjV2vjliPKrAM7P1JEp23YfpadpmgFoJqd567jZTqiVMC6Ii/HxYFpdrH1WOnxok0gttVSMK+U81QuC95vQKuTDF8EzSdrfYwNrFHrx8GleaFhoqOpHczEqUbzveUw5tPFke+C28lQAmA/flPHs5CsC2PR+FgzgkWg4Jt3Vr6lnR3LETngYq1t8XdNH+y5JAD1uGdSjMcUa968feY21zjnaNadykLVEazvj88f6q+lVFI=
+    name: §7
+    uuid: ef76ebd7-cd45-4b1a-b9af-6908bc97c8c1
+    traits:
+      location:
+        world: world
+        x: '-1695.5'
+        y: '153.0'
+        z: '-2455.5'
+        yaw: '-90.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '40':
+    metadata:
+      nameplate-visible: 'false'
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MDY4NzQxNDc5MCwKICAicHJvZmlsZUlkIiA6ICJmMjhjOWVjZDIwYjM0MzZlOGRjYjFiNzM4MTE0Y2YyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZXR5YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NzU5OGQ1N2YyYmYzMTUzNzkzYjc5NzM0MGViNTAzZGY3N2UyNzQzYTE4Y2YyMTQxNTk2NGNkNTVlMTFkODI1IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: petya
+      cached-skin-uuid: f28c9ecd-20b3-436e-8dcb-1b738114cf20
+      player-skin-name: petya
+      player-skin-signature: WortESOFdRb0sFYvLTPzkKIzi2s3ujKyxLNIn5FzQDayJpVSNEFoBkunYc5y7cLou18CP/p1vvlB9J0NNQF5+VC+ne0CwAhbI94IwIX0F363T8UPajaXNKLFoKJOxpaXd+KdZ4i584Kzr4+bYtrnnBpQ4K9mg/Ypzr1YK+Z4NFe18zk0f9mkm9beSjsFtX4Xrbg/RN2EbRkz0Ec6iqHQMpJUYkc7i3DekMj7nHOyIpW1qVTmUB2Y5om3qS6987EdxDmmpXP3CWF8/wOyuO6u+yoBOLNnXqc1u+HReBjTpW4rSKDzjZPePzZdltqq7UySgRsl5bjGs0kbGsZxIwADIHY8dQfy298R4qTlnARpdNIiEjK5hFan7boNB1JbhpZbd8ef4GdONb5Cqx1kQSSUkHa1z9qIfLeNLlWCVi8fj89wffPSKnJfAeqDrh063phKudm4st6K1PrJlw7SIf00wULWURy9Auy5d5aan5w78Au4TkWcQLASLZumCJqWgdD3jB6Pu5n4w51ovBij3Eh21T5i+XWJLGkkoYRfUCO/kL2d/ElOPav3kd1Lzl5lUePep6G0F+Y+ag7mOohboy+5ZkJfdwROycCTZOKFen/RWjE6ZJiYJEbDM9Xyl0VWVA+HJ2eIaxWaV57xR2XT0eYvXiM4r571Dm+hF07ueP4W+Os=
+    name: §7
+    uuid: c47b4449-7dec-4d70-9162-ce1b2e3e972d
+    traits:
+      location:
+        world: world
+        x: '-1697.5'
+        y: '153.0'
+        z: '-2451.5'
+        yaw: '-90.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '39':
+    metadata:
+      nameplate-visible: 'false'
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MDY4NzUxNDI2OCwKICAicHJvZmlsZUlkIiA6ICI2ZGIwNDc5MmRjNjg0NDExOTI1NTQ3MTFjNzQyYWM3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYU50QXNpQTEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyZTUxN2YwM2I1YTgzYzhlY2RhZWE2MTQ5NDBkNDVhZTE3NWI0NzFhZTdiOTU1MGQ3ZTViNGM4NmYwZDg2ZWMiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: fantasia13
+      cached-skin-uuid: 6db04792-dc68-4411-9255-4711c742ac72
+      player-skin-name: fantasia13
+      player-skin-signature: vftvPx/Tkz6OSNR8rO7FfrjdZRSJnHtqWfUs209oNZVAh8b/dSYqVb/oSxQ0lxaPC7kbki7tbItnmjP75nLYyZ9BGeO7atFrN4zIZzzUxZPJpYXxKqg8kJEqIFnFH1dFWVwPSXhnfS90B+d/BIdI8xR692x62QO2GdR3c83LEtKozM1oytEPOOeBqfu6SAq3r4+FcA2KGYszy8GljuMq2ONLDr+RkV1+e+GBJ8HncdFP+BLiVCUDT1vx6u0z1N9lw2q4APjRuxkVoD0oZ5tnuFpsmFEdHJ35CIm47OYT3RonhjVHqhvX8U9sI3pS03FenxMSNVWeO/SMB/xUaHni73UPDJGjgr9CKtFgCKA4Ati10Ax4kX5awEynInwaZpZtAS5EbVtTPCLJLGsF6zjD6MSJRsOxA5yPveW9zG/Xi2TAnj0NjKPDNtfz7Q5MqjWa/NxdCRHJPK2fxOXWxv7bS2VM2TK5vugOjMCFIAPwWEvLKDTlY2g5fIGPVLS0b4UEfluRtRVy0o2CfVJAH3lbi///h3Ffk2ldeoJEFhPEJeSxpAURYga1DXs6G3K/ScXwufb+5szjOD8QvKgQzDAKFbsTPe1A3vLabY+CWeBhi+iRMT+JxVFLeX7m3jheloF0w9wv8BvDlpWJ46h8xpjq4pC+3KyWAhZzv5DK9oWtVZ8=
+    name: §7
+    uuid: a53cda7a-6aa2-4faf-a7a5-854d78ff05eb
+    traits:
+      location:
+        world: world
+        x: '-1695.5'
+        y: '153.0'
+        z: '-2447.5'
+        yaw: '-90.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '38':
+    metadata:
+      nameplate-visible: 'false'
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MDY4NzM1MDA2MywKICAicHJvZmlsZUlkIiA6ICIxY2VmNDkwOTllYzg0NmQ0YTVhNzQ4ZTE2OGZjMzE2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZW1hbm9zIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MwNzMyNDg0MWM4YWNkZWEzYzc4NGJiMzBlODZmMDkxOWE2NDA3MzBiODVjY2FkZTIxZjI1ODlmOWNmMWYzYzciCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: demanos
+      cached-skin-uuid: 1cef4909-9ec8-46d4-a5a7-48e168fc3164
+      player-skin-name: demanos
+      player-skin-signature: JiGgxrE8tNILFAli4Zu3E32yxbqgN09VtPvEQXnA8YiD/wIb5DEJEKXzOgKQuE2VxHEs0AlxTSdqCDPERlNLc5cfu0mQU+AB6QysIrGyELLXydtETaStCibTZp/9CzpKvhmY1GFTOkgSpUmHbGKaZRz6Di7Yx9M5BNpI4kIoE9886Rvxu/RO3GjIgH+ZYOnJ4CIwB/cT7X3IKjs7S8tjQuch1rc9qUex88c/TiFlzZoYai7yQl9Cknc6WQo/JmWgi4KpiwYhL502+0nKlFbL1W5XU8uvX1xSBZPLbTYqc7q2xZXSQKLg/pCR/UNaBIf2WBZ0C2iEsqCRGH24JjlGWlKH1z3iLL2RN6oyMjfnomqTwblgHaTMwwofuYLwrldMQXVORz/OaTir8mRCcjiHmYSHZEmIBJB2bbd6IaTv3XLWpXTokhCpGX5hOJIkXEvEpg3Aj4mm9aSxNSKZmtWqgJClPo1C+4I+x5bH1dpwdPaXf8PRGUVKdw53jNasBn4/jjQTym6V3KQCVoXojRytKpnDT8i+xGwLGQgV3NisF+z+Ib62qpTZAdhJkYSp0wMd+DnqsIslJeNqwjFTerPED8mQWCJUD52cgvKnkAaJZKQU9YJbtvWBWEK96XtAzaWpjADdh/Ji/vQ3mBd1uvjYFg/VThs87NsLtbSu/DHLbIY=
+    name: §7
+    uuid: 665d30d7-7815-4f3d-ada9-7d49ab3a9d40
+    traits:
+      location:
+        world: world
+        x: '-1693.5'
+        y: '153.0'
+        z: '-2443.5'
+        yaw: '-90.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '43':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: f82f86c4-37f2-4946-b036-9697564100b4
+    traits:
+      location:
+        world: mines
+        x: '2015.5'
+        y: '102.0'
+        z: '1009.5'
+        yaw: '174.8999786376953'
+        pitch: '90.0'
+      spawned: true
+      type: SHULKER
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '46':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 0c3fcfcc-fb47-458b-b47c-7305e149aa00
+    traits:
+      location:
+        world: mines
+        x: '1358.5'
+        y: '144.0'
+        z: '349.5'
+        yaw: '-3.749990940093994'
+        pitch: '86.55001831054688'
+      spawned: true
+      type: SHULKER
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '45':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 0ce5cfef-6892-4f75-b448-735f5729d585
+    traits:
+      location:
+        world: mines
+        x: '1358.5'
+        y: '144.0'
+        z: '-150.5'
+        yaw: '-85.49996948242188'
+        pitch: '89.0999984741211'
+      spawned: true
+      type: SHULKER
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '44':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: f014985b-be5c-4b54-8e34-a4ddc41db2f8
+    traits:
+      location:
+        world: mines
+        x: '2015.5'
+        y: '102.0'
+        z: '1509.5'
+        yaw: '179.09986877441406'
+        pitch: '54.749996185302734'
+      spawned: true
+      type: SHULKER
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '47':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: ff083a5e-1d50-4d5c-96bc-37829baaab96
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      location:
+        world: mines
+        x: '1358.5'
+        y: '144.0'
+        z: '849.5'
+        yaw: '74.8497314453125'
+        pitch: '90.0'
+      spawned: true
+      type: SHULKER
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '48':
+    metadata:
+      nameplate-visible: 'false'
+    name: §7
+    uuid: 7f0aff55-b4ad-49ac-8aff-10ea86ba78dc
+    traits:
+      shulkertrait:
+        color: ORANGE
+        peek: 0
+      location:
+        world: mines
+        x: '1358.5'
+        y: '144.0'
+        z: '1349.5'
+        yaw: '178.4498291015625'
+        pitch: '72.7501220703125'
+      spawned: true
+      type: SHULKER
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: mounttrait,spawned,owner,location,shulkertrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '49':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MDc4MDc4NzMyNiwKICAicHJvZmlsZUlkIiA6ICJlZjQxMzhlYmNjOGQ0ZGJhYTBlZTNhNGY5NmE3ZWMzMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJwYWJsb19hc3BhcmFndXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1ODA0MjJlNzZmM2RiNjFmOTM4MTE5NDFiOThlMThlMTA2OTllMDNiMDMyZTVlOTAwNzNkMmY5ZTZiOTlkZSIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: pablo_asparagus
+      cached-skin-uuid: ef4138eb-cc8d-4dba-a0ee-3a4f96a7ec30
+      player-skin-name: pablo_asparagus
+      nameplate-visible: 'false'
+      player-skin-signature: Z+lAysbGUWCz78ktxeSXkPjCm7IwQ634DQoqr3kLEnVncAVLQCoWt5u1dUpYllyLJklRtSnsfGEoos9QPg01Q4wpYvWUvix3LDUVhoPDtk3dUc0WrSDLGViXW0qxoLCjNl5Yu6z5MESvoCn6LTUQ5yZsjvy2EdE047l70wfMkfWD4/IHnJSm3pzCc9Bz/0q8PkE3gViApI8u61PPSh7tNbBA4FOfugkcBidBKM1/lmNFPAnemb/C9Xfc61yv6FoYmrLSWXUC2+tuEp40L1oYv6Qsrh+vHkTBoqrqwNMX/pUzmcJxkaltKZumuD5bj3KDRUHmFRge17W7teWatOodXNflgrcj8kk1XXkaCOmjPsW3ykdX6lJWTnuUIpoCuwnoVWbOUYE1q3RHhCOzdB0LTcX3RznfTN9JDzvCYTXGX3PM0SegSVVeJJ3zMArZplSpMb+91XfR6dUVBiFsDH0cnkxsdjEf6r8kWulMkGwgXNuS09XUCg+Rz20TIKelHP9aiEvkL3gJKhHr93L/6U2VJHEvH+ALeVFP7+HNBRY6M1SCLwCm0a37qM35j8C3ZL2wyEYTmU0l6d+4nG/qkXkVXpcFq8OKYYjJb3eXsHFhc0s5bE5wnZHKE0x7oYJxG51RQom4rebHljOT7B/JbeZVgdGvDQUkdxjJ3d1lyeVoENA=
+    name: §7
+    uuid: c140f87f-b8b6-4504-a9f4-a035b729167f
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      location:
+        world: world
+        x: '-1695.5'
+        y: '145.0'
+        z: '-2496.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: Anvity
+        uuid: b6a206eb-76d8-4e03-a90a-ca2e5f844b73
+    traitnames: equipment,mounttrait,gravity,spawned,owner,location,scoreboardtrait,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

@@ -1,0 +1,47 @@
+    menu_title: '&8» Pets - Settings'
+    open_command:
+    - dgth343e32e12e3
+    inventory_type: HOPPER
+    size: 9
+    items:
+      313asfh21s42:
+        material: black_stained_glass_pane
+        data: 3
+        amount: 1
+        slots:
+        - 0
+        - 2
+        - 4
+        display_name: ''
+      'rfd1242121':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4NDczNWZjOWM3NjBlOTVlYWYxMGNlYzRmMTBlZGI1ZjM4MjJhNWZmOTU1MWVlYjUwOTUxMzVkMWZmYTMwMiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 1
+        display_name: '&6&lToggle Particles'
+        lore:
+        - '&fToggle the particles and'
+        - '&fyour pet will start/stop using'
+        - '&fparticles.'
+        - ''
+        - '&e&nClick to toggle!'
+        left_click_commands:
+        - '[console] petblocks toggleparticle %player_name%'
+        right_click_commands:
+        - '[console] petblocks toggleparticle %player_name%'
+      'r1245621':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIxZTIwNDEwYmI2YzdlNjk2OGFmY2QzZWM4NTU1MjBjMzdhNDBkNTRhNTRlOGRhZmMyZTZiNmYyZjlhMTkxNSJ9fX0=
+        data: 3
+        amount: 1
+        slot: 3
+        display_name: '&6&lToggle Sounds'
+        lore:
+        - '&fToggle the sound and'
+        - '&fyour pet will start/stop'
+        - '&fmaking particles.'
+        - ''
+        - '&e&nClick to toggle!'
+        left_click_commands:
+        - '[console] petblocks togglesound %player_name%'
+        right_click_commands:
+        - '[console] petblocks togglesound %player_name%'

@@ -1,0 +1,90 @@
+npc-data:
+  npc-0:
+    cooldown: 0
+    right-click-commands:
+    - '[player] cells'
+    left-click-commands: []
+    price: 0
+  npc-13:
+    cooldown: 0
+    right-click-commands:
+    - '[console] ushop open %p%'
+    left-click-commands: []
+    price: 0
+  npc-19:
+    cooldown: 0
+    price: 0.0
+    left-click-commands: []
+    right-click-commands:
+    - '[console] dm open shop %player%'
+  npc-22:
+    left-click-commands: []
+    cooldown: 0
+    price: 0.0
+    right-click-commands: []
+  npc-23:
+    price: 0.0
+    left-click-commands: []
+    right-click-commands: []
+    cooldown: 0
+  npc-24:
+    price: 0.0
+    cooldown: 0
+    right-click-commands: []
+    left-click-commands: []
+  npc-25:
+    left-click-commands: []
+    cooldown: 0
+    right-click-commands: []
+    price: 0.0
+  npc-26:
+    right-click-commands: []
+    left-click-commands: []
+    price: 0.0
+    cooldown: 0
+  npc-27:
+    price: 0.0
+    cooldown: 0
+    right-click-commands: []
+    left-click-commands: []
+  npc-28:
+    right-click-commands: []
+    left-click-commands: []
+    cooldown: 0
+    price: 0.0
+  npc-36:
+    cooldown: 0
+    right-click-commands:
+    - '[player] character'
+    left-click-commands: []
+    price: 0
+  npc-38:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dm open teleporter'
+    left-click-commands: []
+    price: 0
+  npc-42:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dm open enchantments'
+    left-click-commands: []
+    price: 0
+  npc-39:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dm open storage'
+    left-click-commands: []
+    price: 0
+  npc-41:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dm open pets'
+    left-click-commands: []
+    price: 0
+  npc-40:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dm open gang'
+    left-click-commands: []
+    price: 0

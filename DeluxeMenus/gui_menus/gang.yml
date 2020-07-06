@@ -1,0 +1,400 @@
+    menu_title: '&8» Gang (1/2)'
+    open_command: gang
+    size: 45
+    update_interval: 1
+    items:
+      313asfh21s42:
+        material: black_stained_glass_pane
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§dJoin one!'
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 13
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42     
+        - 43
+        - 44
+        - 45
+        display_name: ''
+        priority: 2
+      '32':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUzNWZmZDY5N2Q2YzBkOTc2MTc1ODE2ZTQxNjhjYmM0Y2EyOWQzYThlNzFiMTNhMWQ1Zjk1NDNjNTYyY2ExIn19fQ==
+        amount: 1
+        slot: 22
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§dJoin one!'
+        priority: 2
+        display_name: '&6&lCreate a gang!'
+        lore:
+        - '&fIt seems you do not have'
+        - '&fany gang yet. Create one or'
+        - '&f§dJoin one!'
+        - '&7'
+        - '&6&lREQUIREMENT (LEFT):'
+        - '  &e&l* &fMoney: &e$1,000,000'
+        - '&7'
+        - '&6&lINFORMATION (RIGHT):'
+        - '  &e&l* &fCooldown: &a%javascript_cooldown_12d234113_900%'
+        - '&7'
+        - '&e&nLeft-click to create!'
+        - '&e&nRight-click to ask for one!'
+        right_click_commands:
+        - '[console] bc &6&lGANG &8┃ &e&n%player_name%&f is currently looking for a gang, could someone invite him?'
+        - '[console] papi parse %player_name% %javascript_cooldown_12d234113_start%'
+        - '[close]'
+        right_click_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_cooldown_12d234113_900%'
+              output: 0s
+        left_click_commands:
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lMaking sure you meet the requirements...'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lGetting materials for your cell...<delay=30>'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lSetting up your main menu...<delay=60>'
+        - '[player] party crepearpa <-a Gang name><delay=120>'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 1000000
+      313asfh21sw3rfe42:
+        material: black_stained_glass_pane
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        display_name: ''
+      '3dfsfdsd2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUzNWZmZDY5N2Q2YzBkOTc2MTc1ODE2ZTQxNjhjYmM0Y2EyOWQzYThlNzFiMTNhMWQ1Zjk1NDNjNTYyY2ExIn19fQ==
+        amount: 1
+        slot: 13
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6&l%parties_party%''s Information'
+        lore:
+        - '&fMake your gang''s stats'
+        - '&fgrow with your friends!'
+        - '&7'
+        - '&6&lDESCRIPTION:'
+        - '&e%parties_desc%'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fKills: &c%parties_kills% ☠'
+        - '  &e&l* &fRank: &a%parties_rank_chat%'
+        - ''
+      'shiue3uulo2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3ZDFkZDRhN2RhZmYyYWFmMjhlNmExMmEwMWY0MmQ3ZTUxNTkzZWYzZGVhNzYyZWY4MTg0N2IxZDRjNTUzOCJ9fX0=
+        amount: 1
+        slot: 29
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6&lLeave gang'
+        lore:
+        - '&fLeave your current gang'
+        - '&feven if you are the leader'
+        - '&fthe gang will be disbanded.'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGang Rank: &bMember &for high'
+        - ''
+        - '&e&nClick to leave!'
+        right_click_commands:
+        - '[player] party depejarpa'
+        - '[close]'
+        left_click_commands:
+        - '[player] party depejarpa'
+        - '[close]'
+      '13shiue3uulo2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAyYWYzY2EyZDVhMTYwY2ExMTE0MDQ4Yjc5NDc1OTQyNjlhZmUyYjFiNWVjMjU1ZWU3MmI2ODNiNjBiOTliOSJ9fX0=
+        amount: 1
+        slot: 30
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6&lToggle chat'
+        lore:
+        - '&fEnable or disable the'
+        - '&fgang chat when you type'
+        - '&fin chat!'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGang Rank: &bMember &for high'
+        - ''
+        - '&e&nLeft-click to enable!'
+        - '&e&nRight-click to disable!'
+        right_click_commands:
+        - '[player] party hapablarpa off'
+        - '[close]'
+        left_click_commands:
+        - '[player] party hapablarpa on'
+        - '[close]'
+      '13shiugfgte3uulo2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0=
+        amount: 1
+        slot: 31
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6&lKick player'
+        lore:
+        - '&fKick a player from your'
+        - '&fgang who is bothering'
+        - '&fother people!'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGang Rank: &cModerator &for high'
+        - ''
+        - '&e&nClick to kick!'
+        right_click_commands:
+        - '[player] party epecharpa <-a Player>'
+        right_click_requirement:
+          requirements:
+            type: javascript
+            expression: '"%parties_rank_name%" == "Moderator" || "%parties_rank_name%" == "Leader"'
+          deny_commands:
+          - '[close]'
+          - '[console] titlemanager:tm message %player_name% &7\n&cHuh? It seems you do not have this rank!'
+        left_click_commands:
+        - '[player] party epecharpa <-a Player>'
+        left_click_requirement:
+          requirements:
+            type: javascript
+            expression: '"%parties_rank_name%" == "Moderator" || "%parties_rank_name%" == "Leader"'
+          deny_commands:
+          - '[close]'
+          - '[console] titlemanager:tm message %player_name% &7\n&cHuh? It seems you do not have this rank!'
+      '13sh234e3uulo2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ1OTdhYTQ0ODY1MWFhZTYwMjAxYWUxM2Y3ZTAzMGQxM2RhMzk3ZmJiZTc1YzM1ZDY3MTQ2MTJiMGM3NmE1YiJ9fX0=
+        amount: 1
+        slot: 32
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6&lInvite player'
+        lore:
+        - '&fInvite players to join'
+        - '&fto your gang and make'
+        - '&fyour gang bigger!'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGang Rank: &cModerator &for high'
+        - ''
+        - '&e&nClick to kick!'
+        right_click_commands:
+        - '[player] party inpivapatarpa <-a Player>'
+        right_click_requirement:
+          requirements:
+            type: javascript
+            expression: '"%parties_rank_name%" == "Moderator" || "%parties_rank_name%" == "Leader"'
+          deny_commands:
+          - '[close]'
+          - '[console] titlemanager:tm message %player_name% &7\n&cHuh? It seems you do not have this rank!'
+        left_click_commands:
+        - '[player] party inpivapatarpa <-a Player>'
+        left_click_requirement:
+          requirements:
+            type: javascript
+            expression: '"%parties_rank_name%" == "Moderator" || "%parties_rank_name%" == "Leader"'
+          deny_commands:
+          - '[close]'
+          - '[console] titlemanager:tm message %player_name% &7\n&cHuh? It seems you do not have this rank!'
+      '2613sh234e3u57ulo2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAxY2JmYjQxNDc2MGVmZTUwNGQ0YWY3Mzk3MDhhMThiODliNjE0NWQ3NjU5YmNmNTI2ZjFlNDJkN2JlZGIzNyJ9fX0=
+        amount: 1
+        slot: 33
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6&lRename gang'
+        lore:
+        - '&fIf you stopped liking'
+        - '&fyour gang''s name rename'
+        - '&fit!'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGang Rank: &4&lLeader'
+        - ''
+        - '&e&nClick to rename!'
+        right_click_commands:
+        - '[player] party repenompobrarpa <-a Name>'
+        right_click_requirement:
+          requirements:
+            type: javascript
+            expression: '"%parties_rank_name%" == "Leader"'
+          deny_commands:
+          - '[close]'
+          - '[console] titlemanager:tm message %player_name% &7\n&cHuh? It seems you do not have this rank!'
+        left_click_commands:
+        - '[player] party repenompobrarpa <-a Name>'
+        left_click_requirement:
+          requirements:
+            type: javascript
+            expression: '"%parties_rank_name%" == "Leader"'
+          deny_commands:
+          - '[close]'
+          - '[console] titlemanager:tm message %player_name% &7\n&cHuh? It seems you do not have this rank!'
+      '261dfte':
+        material: red_stained_glass_pane
+        amount: 1
+        slot: 39
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6Previous'
+        lore:
+        - ''
+        - '&fWe couldn''t find any'
+        - '&fprevious page!'
+      '261998dfe':
+        material: BOOK
+        amount: 1
+        slot: 40
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&c&lClose'
+      '2dgdfse':
+        material: ARROW
+        amount: 1
+        slot: 41
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_team%'
+              output: '§d%parties_party%'
+        priority: 1
+        display_name: '&6Next'
+        right_click_commands:
+        - '[openguimenu] gang2'
+        left_click_commands:
+        - '[openguimenu] gang2'

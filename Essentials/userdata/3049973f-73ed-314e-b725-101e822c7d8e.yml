@@ -1,0 +1,21 @@
+lastAccountName: valen1092
+timestamps:
+  login: 1593986679493
+  lastteleport: 1593986777715
+  logout: 1593987288520
+ipAddress: 181.44.130.222
+lastlocation:
+  world: cells
+  x: -28.94585722503692
+  y: 3.0
+  z: -92.00978765996827
+  yaw: 344.6991
+  pitch: 22.799986
+money: '14025.0'
+logoutlocation:
+  world: mines
+  x: 2491.5011321748157
+  y: 100.0
+  z: 3.300000011920929
+  yaw: 230.1998
+  pitch: 16.200012

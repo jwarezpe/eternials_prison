@@ -1,0 +1,6 @@
+test:
+  type: EQUAL
+  message-mask: testmessage
+  replace-to: test-replacement
+  cooldown-time: 10s
+  use-formating: false

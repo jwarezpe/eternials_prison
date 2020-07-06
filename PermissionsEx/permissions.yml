@@ -1,0 +1,435 @@
+groups:
+  Member:
+    options:
+      suffix: '&7Member'
+      default: 'true'
+    permissions:
+    - BeastWithdraw.XpBottle
+    - BeastWithdraw.CashNote
+    - CustomEnderChest.commands
+    - CustomEnderChest.level.0
+    - petblocks.command.call
+    - petblocks.command.toggle
+    - worldguard.region.bypass.world.__global__.allow-block-break
+    - parties.user.*
+    - plots.deny
+    - plots.clear
+    - plots.remove
+    - plots.visit
+    - plots.use
+    - plot.home
+    - plots.home
+    - plots.kick
+    - plots.deny
+    - plots.trust
+    - plots.add
+    - plots.chat
+    - pw.warp
+    - pw.category
+    - pw.lock
+    - pw.desc
+    - pw.rename
+    - plots.plot.1
+    - hugs.hug
+    - plots.auto
+    - rankup.rankup
+    - rankup.prestige
+    - tempfly.toggle.self
+    - group.default
+    - essentials.enderchest
+    - item2command.DIAMOND_PICKAXE
+    - tag.member
+    - vs.enable
+    - Chestshop.shop.*
+    - tradesystem.trade
+    - essentials.msg
+    - citizenscmd.cooldown
+    - crazyenchantments.tinker
+    - crazyenchantments.blacksmith
+    - petblocks.command.use
+    - spawn.spawn
+    - essentials.balance
+    - guibalance.use
+    - AutoPicker.autopicker
+    - interactivebooks.command.open
+    - commandblocks.cost.free
+    - commandblocks.use
+    - gemseconomy.command.cheque
+    worlds:
+      world:
+        permissions:
+        - -autopickup.enabled
+  VIP:
+    options:
+      suffix: '&a&lVIP'
+    inheritance:
+    - Member
+    permissions:
+    - change.nickname
+    - chatcolor.lightgreen
+    - chatcolor.white
+    - essentials.workbench
+    - glowitems.unglow
+    - glowitems.glow
+    - libsdisguises.disguise.pig.setinvisible
+    - essentials.hat
+    - essentials.clearinventory
+    - tag.vip
+    - kit.vip
+    - reward.vip
+    - essentials.hat
+    - essentials.sethome.multiple.3
+    - essentials.tptoggle
+    - disguise.chicken
+    - essentials.joinfullserver
+    - essentials.nick.color
+    - essentials.nick
+    - disguise.pig
+    - disguise.cow
+    - disguise.sheep
+  VIP+:
+    options:
+      suffix: '&b&lVIP+'
+    inheritance:
+    - VIP
+    permissions:
+    - chatcolor.lightblue
+    - essentials.keepxp
+    - essentials.feed
+    - essentials.enderchest
+    - libsdisguises.disguise.pig.setinvisible
+    - pet.c3-p8
+    - pet.pussinboots
+    - pet.fufflepuff
+    - pet.tails
+    - pet.frank
+    - pet.cosmo
+    - pet.wanda
+    - essentials.sethome.multiple.5
+    - essentials.seen
+    - essentials.kittycannon
+    - essentials.fireball
+    - essentials.depth
+    - essentials.clearinventory
+    - tag.vip+
+    - kit.vip+
+    - reward.vip+
+    - disguise.horse
+    - disguise.squid
+  VIP++:
+    options:
+      suffix: '&d&lVIP++'
+    inheritance:
+    - VIP+
+    permissions:
+    - chatcolor.pink
+    - tag.vip++
+    - essentials.near
+    - essentials.sethome.multiple.7
+    - essentials.back
+    - kit.vip++
+    - reward.vip++
+    - disguise.moshroom
+    - essentials.fix
+    - play.music
+    - pet.twilightsparkle
+    - pet.applejack
+    - pet.rainbowdash
+    - pet.garfield
+    - pet.robot
+    - disguise.ocelot
+    - disguise.wolf
+    - disguise.skeleton
+    worlds:
+      cells:
+        permissions:
+        - essentials.back
+      mines:
+        permissions:
+        - essentials.back
+  VIP+++:
+    options:
+      suffix: '&c&lVIP+++'
+    inheritance:
+    - VIP++
+    permissions:
+    - chatcolor.darkred
+    - chatcolor.red
+    - essentials.invsee
+    - essentials.nick.*
+    - tag.vip+++
+    - essentials.sethome.multiple.10
+    - kit.vip+++
+    - reward.vip+++
+    - pet.inosukehashibara
+    - pet.mr.meeseeks
+    - pet.gumballwatterson
+    - pet.shrek
+    - pet.SCP-001
+    - pet.venom
+    - pet.toad
+    - pet.gnome
+    - essentials.fly
+    - disguise.zombie
+    - disguise.spider
+    - disguise.creeper
+    - disguise.enderman
+    worlds:
+      cells:
+        permissions:
+        - essentials.ext
+      mines:
+        permissions:
+        - essentials.ext
+  VIP++++:
+    options:
+      suffix: '&e&lVIP++++'
+    inheritance:
+    - VIP+++
+    permissions:
+    - chatcolor.gold
+    - chatcolor.yellow
+    - tag.vip++++
+    - chatcolor.darkred
+    - kit.vip++++
+    - reward.vip++++
+    - essentials.sethome.multiple.30
+    - pet.angelslime
+    - pet.zetsu
+    - pet.jackskellington
+    - pet.kirby
+    - pet.teemo
+    - pet.sebastian
+    - pet.bee
+    - pet.doraemon
+    - pet.totoro
+    - pet.babyyoda
+    - pet.cindythecat
+    - pet.R2-D2
+    - pet.gama
+    - pet.fakasaku
+    - disguise.blaze
+    - disguise.wither_skeleton
+    - disguise.pig_zombie
+    - disguise.witch
+  HELPER:
+    permissions:
+    - tag.helper
+    options:
+      suffix: '&d&lHELPER'
+  MOD:
+    permissions:
+    - tag.mod
+    options:
+      suffix: '&b&lMOD'
+  SR.MOD:
+    permissions:
+    - tag.srmod
+    options:
+      suffix: '&a&lSRMOD'
+  ADMIN:
+    permissions:
+    - tag.admin
+    options:
+      suffix: '&c&lADMIN'
+  SR.ADMIN:
+    permissions:
+    - tag.sradm
+    options:
+      suffix: '&e&lSRADM'
+  MANAGER:
+    permissions:
+    - tag.manager
+    options:
+      suffix: '&9&lMANAGER'
+  OWNER:
+    permissions:
+    - tag.owner
+    options:
+      suffix: '&6&lOWNER'
+  A0:
+    options:
+      default: 'true'
+  A1:
+    options:
+      default: 'true'
+    permissions:
+    - shop.A1
+  A2:
+    permissions:
+    - shop.A2
+    inheritance:
+    - A1
+  A3:
+    permissions:
+    - shop.A3
+    inheritance:
+    - A2
+  A4:
+    permissions:
+    - shop.A4
+    inheritance:
+    - A3
+  '1': {}
+  '2': {}
+  '0': {}
+  B1:
+    permissions:
+    - shop.B1
+    inheritance:
+    - A4
+  B2:
+    permissions:
+    - shop.B2
+    inheritance:
+    - B1
+  B3:
+    permissions:
+    - shop.B3
+    inheritance:
+    - B2
+  B4:
+    permissions:
+    - shop.B4
+    inheritance:
+    - B3
+  C1:
+    permissions:
+    - shop.C1
+    inheritance:
+    - B4
+  C2:
+    permissions:
+    - shop.C2
+    inheritance:
+    - C1
+  C3:
+    permissions:
+    - shop.C3
+    inheritance:
+    - C2
+  C4:
+    permissions:
+    - shop.C4
+    inheritance:
+    - C3
+  D1:
+    permissions:
+    - shop.D1
+    inheritance:
+    - C4
+  D2:
+    permissions:
+    - shop.D2
+    inheritance:
+    - D1
+  D3:
+    permissions:
+    - shop.D3
+    inheritance:
+    - D2
+  D4:
+    permissions:
+    - shop.D4
+    inheritance:
+    - D3
+  E1:
+    permissions:
+    - shop.E1
+    inheritance:
+    - D4
+  E2:
+    permissions:
+    - shop.E2
+    inheritance:
+    - E1
+  E3:
+    permissions:
+    - shop.E3
+    inheritance:
+    - E2
+  E4:
+    permissions:
+    - shop.E4
+    inheritance:
+    - E3
+schema-version: 1
+users:
+  16c6c096-01ba-3a56-a28d-e87c4f7b4b6d:
+    group:
+    - A2
+    - Member
+    options:
+      name: ch4rlych4rly
+  63e24f43-bde2-3035-9e81-ddaa261856b0:
+    group:
+    - A2
+    - Member
+    options:
+      name: JONACST
+  ecb1ea40-39d1-3da8-9d10-7efc61b4a70c:
+    group:
+    - A2
+    - Member
+    options:
+      name: _ManuFPvP
+  fc91ba87-dbc5-3186-82f2-11e77aaf495e:
+    group:
+    - A2
+    - Member
+    options:
+      name: ARKJordan
+  6b1d8e05-257c-3a5c-88b1-ed606bc15509:
+    group:
+    - A2
+    - Member
+    options:
+      name: samuh99999
+  bac2a5db-7cf1-30bb-9293-f328d5342f04:
+    group:
+    - A2
+    - Member
+    options:
+      name: colometix
+  58627a62-385b-3c04-8a12-b08ad6108476:
+    group:
+    - A2
+    - Member
+    options:
+      name: huehua
+  3049973f-73ed-314e-b725-101e822c7d8e:
+    group:
+    - A2
+    - Member
+    options:
+      name: valen1092
+  f1e721ab-873f-3e55-bcde-dce81b03f860:
+    group:
+    - A4
+    - Member
+    options:
+      name: THEBOSSES
+  f2c45bd3-d925-3b41-9270-ec8b555a075d:
+    group:
+    - A2
+    - Member
+    options:
+      name: zarzoso11
+  0f63d4ce-c6c3-3545-9eb7-d5b95f6d6633:
+    group:
+    - A3
+    - Member
+    options:
+      name: Josesito1234
+  9b3c828c-a4bd-3b6a-bf45-507b561c8131:
+    group:
+    - A2
+    - Member
+    options:
+      name: yochitest
+  57c1f8e6-10d6-3aa5-aaa7-30936f0b763a:
+    group:
+    - A2
+    - Member
+    options:
+      name: NEROCRACFT_PRO

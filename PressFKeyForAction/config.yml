@@ -1,0 +1,13 @@
+actions: example
+cooldown: '30'
+action:
+  example:
+    name: Example Action
+    itemname: any
+    command: dm open keystone %player%
+    asop: true
+    itemid: any
+    cancelswap: true
+    world: any
+    permission: none
+    nopermissions: Sry you don't have permissions to do that!

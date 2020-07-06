@@ -1,0 +1,514 @@
+    menu_title: '&8» Teleporter (2/2)'
+    open_command:
+    - dsdfgrte7
+    size: 54
+    items:
+      '23':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUzOTgzMTA1ZjkyMmUyNTI3ZjdlMTc4OGU2M2Q5Mjk0NzA0OWI5MWUyMTFiYjEzMWU0YzQxNGE5ODllMDQyIn19fQ==
+        data: 3
+        amount: 1
+        slot: 9
+        priority: 1
+        display_name: '&a&lPrestige: D'
+      '20':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 15
+        - 19
+        - 28
+        - 10
+        - 23
+        - 24
+        - 33
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        priority: 1
+      '27':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 1
+        slot: 11
+        priority: 2
+        display_name: '&6&lMine: D1'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D1'
+        - ''
+        - '&e&oKeep mining!'
+      '27asd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 16
+        slot: 11
+        priority: 1
+        display_name: '&6&lMine: D1'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D1'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp D1 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp D1 %player_name%'
+        - '[refresh]'
+      '27dfgh':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 2
+        slot: 12
+        priority: 2
+        display_name: '&6&lMine: D2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D2'
+        - ''
+        - '&e&oKeep mining!'
+      '27a232sd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
+        data: 3
+        amount: 2
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 17
+        slot: 12
+        priority: 1
+        display_name: '&6&lMine: D2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D2'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp D2 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp D2 %player_name%'
+        - '[refresh]'
+      '221dfgh':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 3
+        slot: 13
+        priority: 2
+        display_name: '&6&lMine: D3'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D3'
+        - ''
+        - '&e&oKeep mining!'
+      '2127a232sd':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdjYmEyMzNmZmM0NTdiMzMwNTIyOGIyNWYzNWMwMjMzNTYxMWM5ZWZiNzY2OThiNWU5NGMwZDU0MWI1ZjQifX19
+        data: 3
+        amount: 3
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 18
+        slot: 13
+        display_name: '&6&lMine: D3'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D3'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp D3 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp D3 %player_name%'
+        - '[refresh]'
+      '267hfg7dfgh':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 4
+        slot: 14
+        priority: 2
+        display_name: '&6&lMine: D4'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D4'
+        - ''
+        - '&e&oKeep mining!'
+      '27a232sfdg2d':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdjYmEyMzNmZmM0NTdiMzMwNTIyOGIyNWYzNWMwMjMzNTYxMWM5ZWZiNzY2OThiNWU5NGMwZDU0MWI1ZjQifX19
+        data: 3
+        amount: 4
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 19
+        slot: 14
+        priority: 1
+        display_name: '&6&lMine: D4'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7D4'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp D4 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp D4 %player_name%'
+        - '[refresh]'
+      '267ihfg7dfiupgh':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 1
+        slot: 20
+        priority: 2
+        display_name: '&6&lMine: E1'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E1'
+        - ''
+        - '&e&oKeep mining!'
+      '27a2p32sfdig2d':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU0MmY2ODJlNDMwYjU1YjYxMjA0YTZmOGI3NmQ1MjI3ZDI3OGVkOWVjNGQ5OGJkYTRhN2E0ODMwYTRiNiJ9fX0=
+        data: 3
+        amount: 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 21
+        slot: 20
+        priority: 1
+        display_name: '&6&lMine: E1'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E1'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp E1 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp E1 %player_name%'
+        - '[refresh]'
+      '267ihfg7dfiupghf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 2
+        slot: 21
+        priority: 2
+        display_name: '&6&lMine: E2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E2'
+        - ''
+        - '&e&oKeep mining!'
+      '27a2p32sfdig2df':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
+        data: 3
+        amount: 2
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 22
+        slot: 21
+        priority: 1
+        display_name: '&6&lMine: E2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E2'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp E2 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp E2 %player_name%'
+        - '[refresh]'
+      '267ihffg7dfiupghf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 3
+        slot: 22
+        priority: 2
+        display_name: '&6&lMine: E3'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E3'
+        - ''
+        - '&e&oKeep mining!'
+      '27a2fp32sfdig2df':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM1MTdiYzNlYzMyODY5ZDkzOWM4OWQyOTYxZTMwYjcxNjFlYWNkOTI1NWJlYzMxM2JlMjM5NjAyMjFkNDFiNCJ9fX0=
+        data: 3
+        amount: 3
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 23
+        slot: 22
+        priority: 1
+        display_name: '&6&lMine: E3'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E3'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp E3 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp E3 %player_name%'
+        - '[refresh]'
+      'f267ihffg7dfiupghf':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        amount: 3
+        slot: 23
+        priority: 2
+        display_name: '&6&lMine: E4'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E4'
+        - ''
+        - '&e&oKeep mining!'
+      'f27a2fp32sfdig2df':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdiYzhmNWFjMmJmMzM2OTc0MWE5NjJkZTJhZGRiYWExN2QxNWNjNGRhZGIxOWFlZjZlOTQ0ODE3ZTZjMjQifX19
+        data: 3
+        amount: 4
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: 24
+        slot: 23
+        priority: 1
+        display_name: '&6&lMine: E4'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+        - ''
+        - '&6&lREQUIREMENT:'
+        - '  &e&l* &fGrade: &7E4'
+        - ''
+        - '&e&nClick to go!'
+        left_click_commands:
+        - '[console] warp E4 %player_name%'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp E4 %player_name%'
+        - '[refresh]'
+      '2124453':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY2NjJmMzUzMDFmOTMzOTE1YmFkMmIzOTdkNmRhNmNmMTJmNThmNGJkNGZjNzU3Y2Q3NGYzNjQ2OTUxNTgifX19
+        data: 3
+        amount: 1
+        slot: 18
+        priority: 1
+        display_name: '&a&lPrestige: E'
+      'close':
+        material: BOOK
+        amount: 1
+        slot: 49
+        priority: 1
+        display_name: '&c&lClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      'previous':
+        material: arrow
+        amount: 1
+        slot: 48
+        priority: 1
+        display_name: '&6Previous'
+        left_click_commands:
+        - '[openguimenu] teleporter'
+        right_click_commands:
+        - '[openguimenu] teleporter'
+      'next':
+        material: red_stained_glass_pane
+        amount: 1
+        slot: 50
+        priority: 1
+        display_name: '&6Next'
+      'f202f8p32td23sf0dig2df':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ0NDE1MmIwZmZlNTNhY2MxZGY1ZjMyNDM3NWJkMzc4MmJkZDRmZGMwMzE1YjE0MzFhNWZiYjhhMjA0ZmEzNCJ9fX0=
+        data: 3
+        amount: 1
+        slot: 16
+        priority: 1
+        display_name: '&6&lCrates'
+        lore:
+        - ''
+        - '&fTeleport to the crates'
+        - '&fand redeem your keys!'
+        - ''
+        - '&e&nClick to teleport!'
+        left_click_commands:
+        - '[console] warp crates %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCrates<delay=20>'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp crates %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lCrates<delay=20>'
+        - '[refresh]'
+      'f202f8p32td23sf0dig2dfc':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlhMDk1Y2UxOWE2NGQyNmYxM2RkMTdhYzRmYWFhZTZkYjI4YjhlNDNkMTlkZmExOGVkMzBhNjJkYzYyMTgzMyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 17
+        priority: 1
+        display_name: '&6&lEnchanter'
+        lore:
+        - ''
+        - '&fEnchant your items adding'
+        - '&fcustom enchantments to'
+        - '&fthem!'
+        - ''
+        - '&e&nClick to teleport!'
+        left_click_commands:
+        - '[console] warp enchanter %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lEnchanter<delay=20>'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp enchanter %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lEnchanter<delay=20>'
+        - '[refresh]'
+      'f25502f8p32td23sf0dig2dfc':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRiYTY0MmVmZmZhMTNlYzM3MzBlYWZjNTkxNGFiNjgxMTVjMWY5OTg4MDNmNzQ0NTJlMmUwY2QyNmFmMGI4In19fQ==
+        data: 3
+        amount: 1
+        slot: 25
+        priority: 1
+        display_name: '&6&lYrim''s Glaciation'
+        lore:
+        - ''
+        - '&fThe PVP area starts to'
+        - '&ffreeze every &e30 minutes'
+        - '&fand you will have to break the'
+        - '&fice and sell it at merchant!'
+        - ''
+        - '&e&nClick to teleport!'
+        left_click_commands:
+        - '[console] warp yrim %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lYrim''s Glaciation<delay=20>'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp yrim %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lYrim''s Glaciation<delay=20>'
+        - '[refresh]'
+      'f255dfreghj':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UzZGViNTdlYWEyZjRkNDAzYWQ1NzI4M2NlOGI0MTgwNWVlNWI2ZGU5MTJlZTJiNGVhNzM2YTlkMWY0NjVhNyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 26
+        priority: 1
+        display_name: '&6&lShop'
+        lore:
+        - ''
+        - '&fCome to the shop and buy'
+        - '&fand sell whatever you can'
+        - '&fto get money!'
+        - ''
+        - '&e&nClick to teleport!'
+        left_click_commands:
+        - '[console] warp shop %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lShop<delay=20>'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] warp shop %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lShop<delay=20>'
+        - '[refresh]'

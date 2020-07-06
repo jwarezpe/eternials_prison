@@ -1,0 +1,5 @@
+date-format: MM/d/yy h:ma
+COMMAND:
+  CUSTOMDROPS:
+    RELOADED: '&e&l** &bYou have reloaded the YML files! &e&l**'
+    DEBUGTOGGLED: '&c&l(!) &cDebug mode for CustomDrops has been toggled &n{0}&c.'

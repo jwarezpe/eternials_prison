@@ -1,0 +1,168 @@
+blocks:
+  name: '&8» Items Shop - Blocks'
+  rows: 4
+  command: 'blocks'
+  items:
+  - gravel 250 0
+  - ice 250 0
+  - mossy_cobblestone 250 0
+  - mossy_stone_bricks 250 0
+  - snow_block 250 0
+  - chiseled_stone_bricks 750 0
+  - quartz_block 250 0
+  - bricks 250 0
+  - end_stone 250 0
+  - oak_leaves 250 0
+  - sponge 250 0
+  - prismarine_bricks 1200 0
+  - dark_prismarine 1200 0
+  - red_sandstone 250 0
+  - clay 250 0
+  - mycelium 250 0
+  - packed_ice 250 0
+  - podzol 250 0
+  - sea_lantern 250 0
+  - oak_wood 250 0
+  - spruce_wood 250 0
+  - birch_wood 250 0
+  - jungle_wood 250 0
+  - stone 250 0
+  - glowstone 250 0
+  - cobblestone 250 0
+  - glass 250 0
+  - ''
+  - sandstone 250 0
+  - sand 250 0
+  - grass_block 250 0
+  - stone_bricks 250 0
+  - netherrack 250 0
+  - soul_sand 250 0
+  - nether_bricks 250 0
+  - nether_quartz_ore 250 0
+  - white_wool 250 0
+  - magenta_wool 250 0
+  - light_blue_wool 250 0
+  - yellow_wool 250 0
+  - pink_wool 250 0
+  - gray_wool 250 0
+  - light_gray_wool 250 0
+  - cyan_wool 250 0
+  - purple_wool 250 0
+  - blue_wool 250 0
+  - brown_wool 250 0
+  - orange_wool 250 0
+  - red_wool 250 0
+  - black_wool 250 0
+  - green_wool 250 0
+  - white_terracotta 500 0
+  - orange_terracotta 500 0
+  - magenta_terracotta 500 0
+  - light_blue_terracotta 3500 0
+  - ''
+  - yellow_terracotta 3500 0
+  - lime_terracotta 500 0
+  - pink_terracotta 500 0
+  - gray_terracotta 500 0
+  - light_gray_terracotta 500 0
+  - cyan_terracotta 500 0
+  - purple_terracotta 500 0
+  - blue_terracotta 500 0
+  - brown_terracotta 500 0
+  - green_terracotta 500 0
+  - red_terracotta 3500 0
+  - black_terracotta 3500 0
+  - clay 250 0
+  - terracotta 1000 0
+  - emerald 0 375
+  - emerald_block 0 3375
+  - gold_ingot 0 30
+  - gold_block 0 270
+  - iron_ingot 0 20
+  - iron_block 0 180
+  - diamond 0 150
+  - diamond_block 0 1350
+food:
+  name: '&8» Items Shop - Farming'
+  rows: 4
+  items:
+  - nether_wart 3000 250
+  - oak_sapling 3000 0
+  - spruce_sapling 3000 0
+  - birch_sapling 3000 0
+  - jungle_sapling 3000 0
+  - acacia_sapling 3000 0
+  - dark_oak_sapling 3000 0
+  - cocoa_beans 3000 250
+  - wheat 3000 350
+  - sugar_cane 3000 150
+  - pumpkin_seeds 3000 0
+  - wheat_seeds 3000 0
+  - carrot 3000 350
+  - potato 3000 350
+  - melon_seeds 3000 0
+  - pumpkin 0 75
+  - cactus 3000 125
+  - brown_mushroom 3000 280
+  - red_mushroom 3000 280
+  - melon 0 75
+miscellaneous:
+  name: '&8» Items Shop - Miscellaneous'
+  rows: 3
+  items:
+  - lava_bucket 220 0
+  - elytra 100000 0
+  - redstone_lamp 250 0
+  - ender_chest 25000 0
+  - water_bucket 200 0
+  - beacon 300000 0
+  - bone 300 0
+  - gunpowder 1000 0
+  - saddle 50000 0
+  - music_disc_cat 50000 0
+  - brewing_stand 20000 0
+  - diamond_shovel 10000 0
+  - diamond_axe 10000 0
+  - diamond_hoe 10000 0
+redstone:
+  name: '&8» Items Shop - Redstone'
+  rows: 3
+  items:
+  - daylight_detector 500 0
+  - oak_trapdoor 31.25 0
+  - redstone_lamp 62.5 0
+  - hopper 20000 0
+  - sticky_piston 1000 0
+  - piston 500 0
+  - dispenser 625 0
+  - dropper 625 0
+  - repeater 87.5 0
+  - comparator 87.5 0
+  - tripwire_hook 25 0
+  - redstone 62.5 0
+  - slime_ball 125 0
+mobdrops:
+  name: '&8» Items Shop - Mob Drops'
+  rows: 4
+  items:
+  - porkchop 0 35
+  - cooked_porkchop 0 35
+  - chicken 0 50
+  - cooked_chicken 0 50
+  - beef 0 65
+  - cooked_beef 0 65
+  - cooked_mutton 0 65
+  - leather 0 50
+  - spider_eye 0 70
+  - string 0 40
+  - rotten_flesh 0 100
+  - bone 0 70
+  - arrow 0 25
+  - feather 0 25
+  - gunpowder 0 125
+  - ender_pearl 0 150
+  - blaze_rod 0 150
+  - iron_block 0 180
+  - poppy 0 50
+  - ghast_tear 0 400
+  - gold_ingot 0 30
+  

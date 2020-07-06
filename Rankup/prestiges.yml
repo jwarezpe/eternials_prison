@@ -1,0 +1,205 @@
+first:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  next: '1'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+P1example:
+  from: 'E4'
+  to: 'A2'
+  # the rank added to indicate this prestige
+  rank: '1'
+  next: '2'
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+P1examerfple:
+  from: 'E4'
+  to: 'A2'
+  # the rank added to indicate this prestige
+  rank: '2'
+  next: '3'
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+firsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '3'
+  next: '4'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+1firsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '4'
+  next: '5'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+2firsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '5'
+  next: '6'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+f2irsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '6'
+  next: '7'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+firsadsas11t:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '7'
+  next: '8'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+112firsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '8'
+  next: '9'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+112figfdcsfdsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '9'
+  next: '10'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+11223fi11112sadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '10'
+  next: '11'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+112firsadsast1124:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '11'
+  next: '12'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+112f6uhfgdirsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '12'
+  next: '13'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+1245tfg112firsadsast:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '13'
+  next: '14'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'
+112firsadsasnmhggggt:
+  # the rank people must be to use this prestige
+  from: 'E4'
+  # the rank to change it to
+  to: 'A2'
+  rank: '14'
+  next: '15'
+  # see rankups.yml for more information on requirements, operations, commands and messages
+  requirements:
+    - 'permission rebirth.1'
+    - 'permission rebirth.2'
+    - 'permission rebirth.3'
+    - 'permission rebirth.4'
+    - 'permission rebirth.5'

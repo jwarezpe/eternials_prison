@@ -1,0 +1,12 @@
+# ActionAnnouncer v1.14.0 Main configuration
+announcer_enabled: true
+announcer_random: false
+announce_interval: 1
+announcement_length: 999
+announcements:
+- '%progress_bar_{rankup_percent_done_formatted}_c:&a&l⛁_p:&e&l⛁_r:&c&l⛁_l:10_fullbar:&eReady!%
+  &7(%rankup_percent_done_formatted%\u0025) &8┃ &6&lGrade %rankup_current_rank%'
+announce_on_join: false
+join_announcement: '&eWelcome to the server &b%player%! There are &f%online% &epeople
+  online!'
+disable_sounds: false

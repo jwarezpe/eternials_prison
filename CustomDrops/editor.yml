@@ -1,0 +1,192 @@
+# MainPanel:                              # panel name                      #
+#   name: '&b&lMenu Editor'               # panel display name              #
+#   slots: 45                             # panel size                      #
+#   Settings:                             # settings section                #
+#     emptySpaceFiller: true              # fill in empty space             #
+#     fillTo: 0                           # fill to slot                    #
+#     backButton: false                   # use back button                 #
+#     exitButton: false                   # use exit button                 #
+#   EmptySpaceFiller:                     # empty space filler itemstack    #
+#     type: '160:0'                       # empty space filler type         #
+#     name: '&7'                          # empty space filler name         #
+#   Buttons:                              # buttons section                 #
+#     backButton: 9                       # back button slot                #
+#     exitButton: 9                       # exit button slot                #
+MainPanel:
+  name: '&eCustomDrops &fConfiguration'
+  slots: 9
+  Settings:
+    emptySpaceFiller: true
+  EmptySpaceFiller:
+    type: STAINED_GLASS_PANE
+    name: '&7'
+  Items:
+    '4':
+      type: STONE
+      name: '&e&lBlocks'
+      lore:
+      - '&7Click here to edit custom block drops'
+      Button: Blocks
+    '6':
+      type: SKELETON_SKULL
+      name: '&e&lMobs'
+      lore:
+      - '&7Click here to edit custom mob drops'
+      Button: Mobs
+MobPanel:
+  name: '&eCustomDrops &fConfiguration'
+  slots: 54
+  Settings:
+    fillTo: 45
+    backButton: true
+  Buttons:
+    backButton: 50
+  Items:
+    '46':
+      type: GLASS_PANE
+      name: '&7'
+    '47':
+      type: GLASS_PANE
+      name: '&7'
+    '48':
+      type: GLASS_PANE
+      name: '&7'
+    '49':
+      type: ARROW
+      name: '&e&l&m<-&e&l Previous Page'
+      lore:
+      - '&7Click here to go to the previous'
+      - '&7page of custom drops.'
+      PreviousPage: true
+    '50':
+      type: REDSTONE
+      name: '&cClick here to go back'
+      lore:
+      - '&7Click this button to go back to'
+      - '&7the main page where you can choose'
+      - '&7to configure blocks or mobs.'
+    '51':
+      type: ARROW
+      name: '&e&lNext Page &e&l&m->'
+      lore:
+      - '&7Click here to go to the next'
+      - '&7page of custom drops.'
+      NextPage: true
+    '52':
+      type: GLASS_PANE
+      name: '&7'
+    '53':
+      type: GLASS_PANE
+      name: '&7'
+    '54':
+      type: GLASS_PANE
+      name: '&7'
+BlockPanel:
+  name: '&eCustomDrops &fConfiguration'
+  slots: 54
+  Settings:
+    fillTo: 45
+    backButton: true
+  Buttons:
+    backButton: 50
+  Items:
+    '46':
+      type: GLASS_PANE
+      name: '&7'
+    '47':
+      type: GLASS_PANE
+      name: '&7'
+    '48':
+      type: GLASS_PANE
+      name: '&7'
+    '49':
+      type: ARROW
+      name: '&e&l&m<-&e&l Previous Page'
+      lore:
+      - '&7Click here to go to the previous'
+      - '&7page of custom drops.'
+      PreviousPage: true
+    '50':
+      type: REDSTONE
+      name: '&cClick here to go back'
+      lore:
+      - '&7Click this button to go back to'
+      - '&7the main page where you can choose'
+      - '&7to configure blocks or mobs.'
+    '51':
+      type: ARROW
+      name: '&e&lNext Page &e&l&m->'
+      lore:
+      - '&7Click here to go to the next'
+      - '&7page of custom drops.'
+      NextPage: true
+    '52':
+      type: GLASS_PANE
+      name: '&7'
+    '53':
+      type: GLASS_PANE
+      name: '&7'
+    '54':
+      type: GLASS_PANE
+      name: '&7'
+EditorMainPanel:
+  name: '&eCustomDrops &fConfiguration'
+  slots: 54
+  Settings:
+    fillTo: 45
+  Items:
+    '46':
+      type: EXPERIENCE_BOTTLE
+      name: '&e&lEXP Drop'
+      lore:
+      - '&7This is how much EXP will be dropped'
+      - '&7when the mob dies or the block is'
+      - '&7broken.'
+      - '&7'
+      - '&eCurrently: &f{exp} EXP'
+      - '&7'
+      - '&7To edit this amount go into the'
+      - '&7configuration files and change the'
+      - '&7amount then do /customdrops reload'
+      - '&7to reload the drops.'
+      Button: Protected
+    '47':
+      type: GLASS_PANE
+      name: '&7'
+      Button: Protected
+    '48':
+      type: GLASS_PANE
+      name: '&7'
+      Button: Protected
+    '49':
+      type: GLASS_PANE
+      name: '&7'
+      Button: Protected
+    '50':
+      Button: Display
+    '51':
+      type: GLASS_PANE
+      name: '&7'
+      Button: Protected
+    '52':
+      type: GLASS_PANE
+      name: '&7'
+      Button: Protected
+    '53':
+      type: GLASS_PANE
+      name: '&7'
+      Button: Protected
+    '54':
+      type: DIRT
+      name: '&e&lNatural Drops'
+      lore:
+      - '&7This is if natural drops are toggled'
+      - '&7when this mob dies or block is broken.'
+      - '&7'
+      - '&eCurrently: &f{naturalDrops}'
+      - '&7'
+      - '&7To edit this setting go into the'
+      - '&7configuration files and change the'
+      - '&7boolean then do /customdrops reload'
+      - '&7to reload the drops.'
+      Button: Protected

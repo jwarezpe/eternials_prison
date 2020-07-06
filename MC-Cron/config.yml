@@ -1,0 +1,66 @@
+event-jobs:
+  join-event:
+    welcome:
+      time: 1
+      commands:
+      - null
+    hello:
+      time: 5
+      commands:
+      - null
+  quit-event:
+    bye:
+      time: 5
+      commands:
+      - null
+    remember:
+      time: 20
+      commands:
+      - null
+jobs:
+  save:
+    time: every 1 hour
+    commands:
+    - null
+  restart:
+    time: every 1 day of week at 6:00
+    commands:
+    - null
+  tps:
+    time: every 29 minutes
+    commands:
+    - bc &6&lEVENT &8┃ &cWarning! &fThe &bfreezing &fevent at &6Yrim''s Glaciation
+      &fwill start in &e&n30 second(s)&f! &fRemember you need to be &7B4&f, use &6/teleporter&f.
+    - bc &e&lTIP: removing the ice, sell it to the merchant.
+    - timer 30 bc &6&lEVENT &8┃ &fThe PVP arena started to &bfreeze&f, &ebring it
+      to normal destroying it all!
+    - timer 30 setschematic i1.schem world -1604 105 -2482 1
+    - timer 30 setschematic i1.schem world -1635 105 -2474 2
+    - timer 30 setschematic i1.schem world -1614 105 -2400 3
+    - timer 30 setschematic i2.schem world -1638 105 -2440 4
+    - timer 30 setschematic i3.schem world -1661 105 -2418 5
+    - timer 30 setschematic i4.schem world -1628 97 -2434 6
+    - timer 30 setschematic i5.schem world -1603 96 -2454 7
+    - timer 30 setschematic i20.schem world -1641 115 -2505 8
+    - timer 300 setschematic iul1.schem world -1641 115 -2505 1
+    - timer 300 setschematic iul2.schem world -1636 105 -2472 2
+    - timer 300 setschematic iul3.schem world -1600 105 -2480 3
+    - timer 300 setschematic iul4.schem world -1611 105 -2399 4
+    - timer 300 setschematic iul5.schem world -1661 106 -2416 5
+    - timer 300 setschematic iul6.schem world -1636 105 -2436 6
+    - timer 300 setschematic iul7.schem world -1607 96 -2455 7
+    - timer 300 setschematic iul8.schem world -1624 96 -2434 8
+    - timer 290 bc &6&lEVENT &8┃ &fThe ice is going to &cdefrost in &e&n10 second(s)&f,
+      the heating is coming back! &6Thank you for your assistance.
+  new:
+    time: at 21:00
+    commands:
+    - bc &6&lBOSS &8┃ &cWarning! &b&lYrim &fwill spawn in &e&n60 second(s)&f at the
+      &6Yrim''s Glaciation&f.
+    - timer 60 mm m spawn Odin 1 world,-1613.5,106,-2443.5
+    - timer 60 bc &6&lBOSS &8┃ &b&lYrim &fspawned &fat the &bYrim''s Glaciation&f
+      and will disappear in &e&n20 minute(s)&f if he doesn't die. &cDefeat him!
+    - timer 1200 mm m kill Odin
+startup:
+  commands:
+  - say Server was started!

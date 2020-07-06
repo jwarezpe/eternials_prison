@@ -1,0 +1,93 @@
+# 
+#  _______                                  _ ______  _             _          
+# (_______)                                | (____  \| |           | |  v1.2.2
+#  _       ___  ____  ____  _____ ____   __| |____)  ) | ___   ____| |  _  ___ 
+# | |     / _ \|    \|    \(____ |  _ \ / _  |  __  (| |/ _ \ / ___) |_/ )/___)
+# | |____| |_| | | | | | | / ___ | | | ( (_| | |__)  ) | |_| ( (___|  _ (|___ |
+#  \______)___/|_|_|_|_|_|_\_____|_| |_|\____|______/ \_)___/ \____)_| \_|___/ 
+# 
+# Copyright © 2018-2020 Geitenijs, all rights reserved.
+# Information & Support: https://www.spigotmc.org/resources/62720
+# 
+# general:
+#   colourfulconsole: Console messages will be coloured when this is enabled.
+#   debug: When set to true, the plugin will log more information to the console.
+# updates:
+#   check: When enabled, the plugin will check for updates. No automatic downloads, just a subtle notification in the console.
+#   notify: Would you like to get an in-game reminder of a new update? Requires permission 'commandblocks.notify.update'.
+# default:
+#   success:
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   permission
+#     value: The required permission to use the CommandBlock. Can NOT be disabled.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {permission}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {permission}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {permission}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   cost
+#     value: The required cost to use the CommandBlock. Set to '0' for no cost.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   timeout
+#     value: A timeout for the CommandBlock. Set to '0' to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {time}. Disable by setting 'console:' to '[]' and removing all entries.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {time}. Disable by setting 'player:' to '[]' and removing all entries.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {time}. Disable by setting 'messages:' to '[]' and removing all entries.
+#   delay
+#     value: A delay for the CommandBlock. Set to '0' to disable.
+general:
+  colourfulconsole: true
+  debug: false
+updates:
+  check: false
+  notify: false
+default:
+  success:
+    commands:
+      console:
+      - say {player} used a CommandBlock!
+      player:
+      - me I used a CommandBlock!
+    messages:
+    - '&aYou paid €{cost} in order to use this CommandBlock!'
+  permission:
+    value: commandblocks.use
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have permission to do that.'
+  cost:
+    value: 10.0
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have sufficient funds to do that.'
+  timeout:
+    value: 0
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cPlease wait {time} seconds before doing that again.'
+  delay:
+    value: 0

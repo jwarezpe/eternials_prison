@@ -1,0 +1,11 @@
+valen1092:
+  location:
+    ==: org.bukkit.Location
+    world: cells
+    x: -31.0
+    y: 3.0
+    z: -97.0
+    pitch: 0.0
+    yaw: 0.0
+  time-when-set: 06/07/2020 00:05:10
+last-logout: 1593987288519

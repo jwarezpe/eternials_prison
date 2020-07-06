@@ -1,0 +1,78 @@
+# DeluxeMenus 1.13.3-DEV-87 main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: false
+gui_menus:
+  ranks:
+    file: ranks.yml
+  ranks2:
+    file: ranks2.yml
+  ranks3:
+    file: ranks3.yml
+  ranks4:
+    file: ranks4.yml
+  ranks5:
+    file: ranks5.yml
+  ranks6:
+    file: ranks6.yml
+  sdsfdfsfd:
+    file: fdsfwewrwr32332dssfa.yml
+  keystone:
+    file: keystone.yml
+  cells:
+    file: cells.yml
+  fdsfwewrwr32332dssfa:
+    file: pasdasdwqico.yml
+  enchants:
+    file: enchants.yml
+  treasure:
+    file: treasure.yml
+  cellscontrol:
+    file: cellscontrol.yml
+  cellscontrol2:
+    file: cellscontrol2.yml
+  shop:
+    file: shop.yml
+  itemshop:
+    file: itemshop.yml
+  cellvisitor:
+    file: cellvisitor.yml
+  teleporter:
+    file: teleporter.yml
+  teleporter2:
+    file: teleporter2.yml
+  gang:
+    file: gang.yml
+  gang2:
+    file: gang2.yml
+  enchantments:
+    file: enchantments.yml
+  tags:
+    file: tags.yml
+  pets:
+    file: pets.yml
+  pets2:
+    file: pets2.yml
+  petsettings:
+    file: petsettings.yml
+  chatcolor:
+    file: chatcolor.yml
+  disguises:
+    file: disguises.yml
+  storage:
+    file: storage.yml
+  crystalexchange:
+    file: crystalexchange.yml
+  character:
+    file: character.yml
+  strongbox:
+    file: strongbox.yml
+  ranktreasure:
+    file: ranktreasure.yml
+  coinflip:
+    file: coinflip.yml
+  rebirths:
+    file: rebirths.yml

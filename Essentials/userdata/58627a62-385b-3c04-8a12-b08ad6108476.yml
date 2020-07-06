@@ -1,0 +1,21 @@
+lastAccountName: huehua
+timestamps:
+  login: 1593986669696
+  lastteleport: 1593986752608
+  logout: 1593987286166
+ipAddress: 189.203.174.245
+lastlocation:
+  world: cells
+  x: -92.36793180973326
+  y: 3.0
+  z: -95.90654598877227
+  yaw: -177.64867
+  pitch: 20.14547
+money: '6810.0'
+logoutlocation:
+  world: mines
+  x: 2494.252419569657
+  y: 102.25868656389451
+  z: 487.1136646866299
+  yaw: 132.54544
+  pitch: 46.35145

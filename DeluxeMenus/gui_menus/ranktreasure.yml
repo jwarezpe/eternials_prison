@@ -1,0 +1,472 @@
+    open_command:
+    - treasure
+    update_interval: 1
+    menu_title: '&8» Donor Treasure'
+    size: 27
+    items:
+      '9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+        data: 3
+        slot: 11
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_cooldown_3423_2592000%'
+              output: 0s
+            name2:
+              type: has permission
+              permission: reward.vip
+        display_name: '&2» &a&lVIP &2« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&a&lVIP &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx3 Common Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$10,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lAVAILABLE'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_3423_start%'
+        - '[console] essentials:eco give %player_name% 10000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Common 3 %player_name%'
+        - '[console] cr give to %player_name% Ancient 1'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_3423_start%'
+        - '[console] essentials:eco give %player_name% 10000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Common 3 %player_name%'
+        - '[console] cr give to %player_name% Ancient 1'
+        - '[refresh]'
+      '10':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkNDdkZDdjMzMzNmU3NWE2NjM5MWNkZjljOTM1ZmFlY2E4Y2UzOGFlMjJhMWIyNzg5NWUzMGI0NTI0NWE4In19fQ==
+        data: 3
+        priority: 2
+        update: true
+        slot: 11
+        view_requirement:
+          requirements:
+            name2:
+              type: has permission
+              permission: reward.vip
+        display_name: '&2» &a&lVIP &2« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&a&lVIP &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx3 Common Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$10,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lUNAVAILABLE'
+        - '&7Wait for %javascript_cooldown_3423_2592000%'
+      '11':
+        material: RED_STAINED_GLASS
+        slot: 11
+        priority: 3
+        display_name: '&2» &a&lVIP &2« &6&lTreasure'
+        lore:
+        - '&fReward for only'
+        - '&a&lVIP &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx3 Common Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$10,000'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+        data: 3
+        slot: 12
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_cooldown_2_2592000%'
+              output: 0s
+            name2:
+              type: has permission
+              permission: reward.vip+
+        display_name: '&3» &b&lVIP+ &3« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&b&lVIP+ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$15,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lAVAILABLE'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_2_start%'
+        - '[console] papi parse %player_name% %javascript_cooldown_3423_start%'
+        - '[console] essentials:eco give %player_name% 15000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Common 5 %player_name%'
+        - '[console] cr give to %player_name% Ancient 1'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_2_start%'
+        - '[console] papi parse %player_name% %javascript_cooldown_3423_start%'
+        - '[console] essentials:eco give %player_name% 15000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Common 5 %player_name%'
+        - '[console] cr give to %player_name% Ancient 1'
+        - '[refresh]'
+      '13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E4YTYwNDkzOTE3N2ZkNDVkZjE1ZjM1MWYzM2YxMzRhM2YwNTE4NjgyM2RkM2FlZDU3YzlmYjIyOGQ0MTcifX19
+        data: 3
+        priority: 2
+        update: true
+        slot: 12
+        view_requirement:
+          requirements:
+            name2:
+              type: has permission
+              permission: reward.vip+
+        display_name: '&3» &b&lVIP+ &3« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&b&lVIP+ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$15,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lUNAVAILABLE'
+        - '&7Wait for %javascript_cooldown_2_2592000%'
+      '14':
+        material: RED_STAINED_GLASS
+        slot: 12
+        priority: 3
+        display_name: '&3» VIP+ &b&lTREASURE &3«'
+        lore:
+        - '&fReward for only'
+        - '&b&lVIP+ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$15,000'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '15':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+        data: 3
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_cooldown_3_2592000%'
+              output: 0s
+            name2:
+              type: has permission
+              permission: reward.vip++
+        display_name: '&5» &d&lVIP++ &5« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&d&lVIP++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx2 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx2 Rare Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$20,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lAVAILABLE'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_3_start%'
+        - '[console] essentials:eco give %player_name% 20000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Common 5 %player_name%'
+        - '[console] ce lostbook Rare 2 %player_name%'
+        - '[console] cr give to %player_name% Ancient 2'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_3_start%'
+        - '[console] essentials:eco give %player_name% 20000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Common 2 %player_name%'
+        - '[console] cr give to %player_name% Ancient 2'
+        - '[refresh]'
+      '16':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ2MTg0NjU4N2RjZmU3NGM4ZDQ1MDE5YWE5Zjc3Mzc2Y2ZiZWU0OWQwNDhmMmM2YWUzOGZkMWJhMTMxZjgifX19
+        data: 3
+        priority: 2
+        update: true
+        slot: 13
+        view_requirement:
+          requirements:
+            name2:
+              type: has permission
+              permission: reward.vip++
+        display_name: '&5» &d&lVIP++ &5« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&e&lVIP++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx2 Rare Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$20,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lUNAVAILABLE'
+        - '&7Wait for %javascript_cooldown_3_2592000%'
+      '17':
+        material: RED_STAINED_GLASS
+        slot: 13
+        priority: 3
+        display_name: '&5» &d&lVIP++ &5« &6&lTreasure'
+        lore:
+        - '&fReward for only'
+        - '&e&lVIP++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx2 Rare Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$20,000'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '18':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+        data: 3
+        slot: 14
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_cooldown_4_2592000%'
+              output: 0s
+            name2:
+              type: has permission
+              permission: reward.vip+++
+        display_name: '&4» &c&lVIP+++ &4« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&c&lVIP+++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx2 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx3 Rare Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$50,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lAVAILABLE'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_4_start%'
+        - '[console] essentials:eco give %player_name% 50000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Rare 3 %player_name%'
+        - '[console] ce lostbook Common 5 %player_name%'
+        - '[console] cr give to %player_name% Ancient 2'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_4_start%'
+        - '[console] essentials:eco give %player_name% 50000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Rare 3 %player_name%'
+        - '[console] ce lostbook Common 5 %player_name%'
+        - '[console] cr give to %player_name% Ancient 2'
+        - '[refresh]'
+      '19':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEyZjc4N2M1NGRkODlkMTI2OThkZDE3YjU2NTEyOTRjZmI4MDE3ZDZhZDRkMjZlZTZhOTFjZjFkMGMxYzQifX19
+        data: 3
+        priority: 2
+        update: true
+        slot: 14
+        view_requirement:
+          requirements:
+            name2:
+              type: has permission
+              permission: reward.vip+++
+        display_name: '&4» &c&lVIP+++ &4« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&c&lVIP+++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx2 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx3 Rare Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$50,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lUNAVAILABLE'
+        - '&7Wait for %javascript_cooldown_4_2592000%'
+      '222':
+        material: RED_STAINED_GLASS
+        slot: 14
+        priority: 3
+        display_name: '&4» &c&lVIP+++ &4« &6&lTreasure'
+        lore:
+        - '&fReward for only'
+        - '&c&lVIP+++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Ancient Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx3 Rare Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$50,000'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '20':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+        data: 3
+        slot: 15
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%javascript_cooldown_5_2592000%'
+              output: 0s
+            name2:
+              type: has permission
+              permission: reward.vip++++
+        display_name: '&6» &e&lVIP++++ &6« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&e&lVIP++++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Legendary Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx3 Rare Stars'
+        - '  &e&l* &dx1 Legendary Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$85,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &a&lAVAILABLE'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_5_start%'
+        - '[console] essentials:eco give %player_name% 85000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Rare 3 %player_name%'
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[console] cr give to %player_name% Legendary 1'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_5_start%'
+        - '[console] essentials:eco give %player_name% 85000'
+        - '[console] essentials:xp give %player_name% 10000'
+        - '[console] ce lostbook Rare 3 %player_name%'
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[console] cr give to %player_name% Legendary 1'
+        - '[refresh]'
+      '21':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmExZjM0MDdiNzExZWVmODRmZTVhMWY0MjQyNTE0ZWQ2ZGEwZjI5NzVjOGE1OTA4ZjU3MzViNDYxNmUzMzk2ZSJ9fX0=
+        data: 3
+        priority: 2
+        update: true
+        slot: 15
+        view_requirement:
+          requirements:
+            name2:
+              type: has permission
+              permission: reward.vip++++
+        display_name: '&6» &e&lVIP++++ &6« &6&lTreasure'
+        lore:
+        - '&fClaim this reward for'
+        - '&e&lVIP++++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Legendary Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx3 Rare Stars'
+        - '  &e&l* &dx1 Legendary Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$85,000'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &c&lUNAVAILABLE'
+        - '&7Wait for %javascript_cooldown_5_2592000%'
+      '22':
+        material: RED_STAINED_GLASS
+        slot: 15
+        priority: 3
+        display_name: '&6» &e&lVIP++++ &6« &6&lTreasure'
+        lore:
+        - '&fReward for only'
+        - '&e&lVIP++++ &franks and higher.'
+        - ''
+        - '&f&lCONTAIN:'
+        - '  &e&l* &dx1 Legendary Key'
+        - '  &e&l* &dx5 Common Stars'
+        - '  &e&l* &dx3 Rare Stars'
+        - '  &e&l* &dx1 Legendary Stars'
+        - '  &e&l* &d10,000 XP'
+        - '  &e&l* &d$85,000'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '200':
+        material: black_stained_glass_pane
+        display_name: '&f'
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        priority: 1

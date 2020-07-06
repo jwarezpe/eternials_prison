@@ -1,0 +1,36 @@
+# ======= FILE INFORMATION =======
+# Lines starting with # and empty lines will be ignored.
+# 
+# Documentation about how to configure this file can be found at:
+# http://dev.bukkit.org/server-mods/deathcontrol/
+
+$list wood
+269
+270
+271
+268
+LEATHER_CHESTPLATE
+LEATHER_HELMET
+LEATHER_LEGGINGS
+LEATHER_BOOTS
+
+$list destroy
+1
+3
+12
+17
+16
+14
+15
+
+
+
+$list advanced
+
+# Example: matches any undamaged tool with the durability/unbreaking enchantment
+{ type = tool, data = 0, enchantment = durability }
+
+# Example: matches any armor with a protection enchantment of at least level 2, but only if it was renamed to exactly "Awesome"
+{ type = armor, enchantment >= protection_environmental.2, name = Awesome }
+
+# More information available at the BukkitDev project (linked above).

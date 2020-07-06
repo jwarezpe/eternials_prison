@@ -1,0 +1,5 @@
+world:
+- world=world,x=-1624.0,y=161.0,z=-2463.0,crate=Vote
+- world=world,x=-1621.0,y=161.0,z=-2472.0,crate=Mystic
+- world=world,x=-1620.0,y=161.0,z=-2468.0,crate=Perks
+- world=world,x=-1620.0,y=161.0,z=-2476.0,crate=Ancient

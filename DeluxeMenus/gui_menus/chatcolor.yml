@@ -1,0 +1,509 @@
+    open_command:
+    - chatcolor
+    - color
+    update_interval: 1
+    menu_title: '&8» Chat Color'
+    size: 45
+    items:
+      '99':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIxNmNhYWFhYTNmNjE2NzkzZDE4ZTk0M2NkM2E0NjMzMTM0M2JiNmU3NzQyZTVjZDc4MWZmZmVkZDYwNGIifX19
+        data: 3
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.lightblue
+        display_name: '&b&lLight Blue'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&blight blue &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &b&lVIP+ &7and higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% aqua'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &b&lLight Blue&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% aqua'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &b&lLight Blue&f!'
+        - '[close]'
+        - '[refresh]'
+      '9923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIxNmNhYWFhYTNmNjE2NzkzZDE4ZTk0M2NkM2E0NjMzMTM0M2JiNmU3NzQyZTVjZDc4MWZmZmVkZDYwNGIifX19
+        data: 3
+        slot: 13
+        priority: 2
+        display_name: '&b&lLight Blue'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&blight blue &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &b&lVIP+ &7and higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '919':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY2YTVjOTg5MjhmYTVkNGI1ZDViOGVmYjQ5MDE1NWI0ZGRhMzk1NmJjYWE5MzcxMTc3ODE0NTMyY2ZjIn19fQ==
+        data: 3
+        slot: 11
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.white
+        display_name: '&f&lWhite'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&fwhite &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7and higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% white'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &f&lWhite&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% white'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &f&lWhite&f!'
+        - '[close]'
+        - '[refresh]'
+      '91923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY2YTVjOTg5MjhmYTVkNGI1ZDViOGVmYjQ5MDE1NWI0ZGRhMzk1NmJjYWE5MzcxMTc3ODE0NTMyY2ZjIn19fQ==
+        data: 3
+        slot: 11
+        priority: 2
+        display_name: '&f&lWhite'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&fwhite &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7and higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '929':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+        data: 3
+        slot: 12
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.lightgreen
+        display_name: '&a&lLight Green'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&alight green &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7and higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% green'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &a&lGreen&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% green'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &a&lGreen&f!'
+        - '[close]'
+        - '[refresh]'
+      '92923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+        data: 3
+        slot: 12
+        priority: 2
+        display_name: '&a&lLight Green'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&alight green &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7and higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '939':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmExMWE1MWY2NTc2Mjg1ZjlmOWM4YWE3ZGVkMWVlMTJjMjAyZjE1ZDc5MWM3MzJiNTg2ZGRhZTcwNjRiMCJ9fX0=
+        data: 3
+        slot: 14
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.pink
+        display_name: '&6&lPink'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&6pink &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &d&lVIP++ &7and higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% light_purple'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &6&lPink&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% light_purple'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &6&lPink&f!'
+        - '[close]'
+        - '[refresh]'
+      '93923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmExMWE1MWY2NTc2Mjg1ZjlmOWM4YWE3ZGVkMWVlMTJjMjAyZjE1ZDc5MWM3MzJiNTg2ZGRhZTcwNjRiMCJ9fX0=
+        data: 3
+        slot: 14
+        priority: 2
+        display_name: '&d&lPink'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&dpink &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &d&lVIP++ &7and higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '9529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZDcxODQzYzY3ZjU0ZTEzYmE2MTg3ZGE0OGQ4ZjI0OThjMmFmOGEyMmY4NTY4NjQxNzg2MmY2MWFlMTYxIn19fQ==
+        data: 3
+        slot: 15
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.red
+        display_name: '&c&lRed'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&cred &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7and higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% red'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &c&lRed&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% red'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &c&lRed&f!'
+        - '[close]'
+        - '[refresh]'
+      '959223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZDcxODQzYzY3ZjU0ZTEzYmE2MTg3ZGE0OGQ4ZjI0OThjMmFmOGEyMmY4NTY4NjQxNzg2MmY2MWFlMTYxIn19fQ==
+        data: 3
+        slot: 15
+        priority: 2
+        display_name: '&c&lRed'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&cred &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7and higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '19529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY0ZGMzYzM3NTNiZjViMGI3ZjA4MWNkYjQ5YjgzZDM3NDI4YTEyZTQxODdmNjM0NmRlYzA2ZmFjNTRjZSJ9fX0=
+        data: 3
+        slot: 21
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.darkred
+        display_name: '&4&lDark Red'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&4dark red &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% dark_red'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &4&lDark Red&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% dark_red'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &4&lDark Red&f!'
+        - '[close]'
+        - '[refresh]'
+      '1959223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY0ZGMzYzM3NTNiZjViMGI3ZjA4MWNkYjQ5YjgzZDM3NDI4YTEyZTQxODdmNjM0NmRlYzA2ZmFjNTRjZSJ9fX0=
+        data: 3
+        slot: 21
+        priority: 2
+        display_name: '&4&lDark Red'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&4dark red &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+        data: 3
+        slot: 22
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.yellow
+        display_name: '&6&lYellow'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&eyellow &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% yellow'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &e&lYellow&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% yellow'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &e&lYellow&f!'
+        - '[close]'
+        - '[refresh]'
+      '19259223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+        data: 3
+        slot: 22
+        priority: 2
+        display_name: '&e&lYellow'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&eyellow &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '1925329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM0ODg2ZWYzNjJiMmM4MjNhNmFhNjUyNDFjNWM3ZGU3MWM5NGQ4ZWM1ODIyYzUxZTk2OTc2NjQxZjUzZWEzNSJ9fX0=
+        data: 3
+        slot: 23
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: chatcolor.gold
+        display_name: '&6&lGold'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&6gold &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] chatcolor set %player_name% gold'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &6&lGold&f!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor set %player_name% gold'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          &6&lGold&f!'
+        - '[close]'
+        - '[refresh]'
+      '192592323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM0ODg2ZWYzNjJiMmM4MjNhNmFhNjUyNDFjNWM3ZGU3MWM5NGQ4ZWM1ODIyYzUxZTk2OTc2NjQxZjUzZWEzNSJ9fX0=
+        data: 3
+        slot: 23
+        priority: 2
+        display_name: '&6&lGold'
+        lore:
+        - ''
+        - '&fChange your chat color to'
+        - '&6gold &fand stands out'
+        - '&fabove the others!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '1925923223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        slot: 37
+        priority: 1
+        display_name: '&6&lReset color'
+        lore:
+        - ''
+        - '&fReset your chat color to'
+        - '&7&lGRAY &fif you are'
+        - '&fbored of colors!'
+        - ''
+        - '&e&nClick to reset!'
+        left_click_commands:
+        - '[console] chatcolor reset %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have reset your
+          color!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] chatcolor reset %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have reset your
+          color!'
+        - '[close]'
+        - '[refresh]'
+      '196ttgh223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIzYzRiNjcxZjI0NzNlMzgyYzYzMWRmMTcxZTI3MWYxY2FmNDlhZmMxNTQ4ZWU2NzUzY2Y2MjdiZTBmZDcyIn19fQ==
+        data: 3
+        slot: 43
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: change.nickname
+        display_name: '&6&lChange Nickname'
+        lore:
+        - ''
+        - '&fChange your nickname to'
+        - '&fmake yourself look a bit'
+        - '&fstylish!'
+        - ''
+        - '&c[You can use color'
+        - '&ccodes]'
+        - ''
+        - '&e&nClick to change!'
+        left_click_commands:
+        - '[player] nick %player_name% <-a Nickname>'
+        - '[close]'
+        right_click_commands:
+        - '[player] nick %player_name% <-a Nickname>'
+        - '[close]'
+      '12tgff223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIzYzRiNjcxZjI0NzNlMzgyYzYzMWRmMTcxZTI3MWYxY2FmNDlhZmMxNTQ4ZWU2NzUzY2Y2MjdiZTBmZDcyIn19fQ==
+        data: 3
+        slot: 43
+        priority: 2
+        display_name: '&6&lChange Nickname'
+        lore:
+        - ''
+        - '&fChange your nickname to'
+        - '&fmake yourself look a bit'
+        - '&fstylish!'
+        - ''
+        - '&c[You can use color'
+        - '&ccodes]'
+        - ''
+        - '&c&oYou do not have enough rank!'
+      '11412223':
+        material: BOOK
+        slot: 40
+        priority: 1
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '20':
+        material: black_stained_glass_pane
+        data: 15
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        priority: 1

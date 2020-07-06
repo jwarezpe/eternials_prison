@@ -1,0 +1,34 @@
+Odin:
+  Type: skeleton
+  Display: "&b&lYrim"
+  Health: 300
+  Damage: 8
+  Options:
+    MovementSpeed: 0
+    PreventSunburn: true
+    MaxCombatDistance: 16
+    PreventRandomEquipment: true
+  DamageModifiers:
+  - FALL 0
+  - LIGHTNING 0
+  Equipment:
+  - GOLDEN_HELMET HEAD
+  BossBar:
+    Enabled: true
+    Title: '&b&lYrim'
+    Range: 16
+    Color: BLUE
+    Style: SEGMENTED_10
+  Disguise:
+    Type: Player
+    Player: Odin
+    Skin: 'Smeraldox'
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=OdinStart} ~onEnterCombat
+  - skill{s=OdinFight} ~onTimer:60
+  - jsonmessage{m="[{'text':'&6&lBOSS &8┃ &bYrim &8» &cYou can't defeat me!'}]"} @target =50%
+  - jsonmessage{m="[{'text':'&6&lBOSS &8┃ &bYrim &8» &cI will finish you right now!'}]"} @target =25%
+  - command{cmd="vouchers give <caster.tt.top> yrimreward 1"} ~onDeath
+  - command{cmd="titlemanager:tm message <caster.tt.top> &7\n&eCongratulations! &fYou defeated &b&lYrim&f."} ~onDeath

@@ -1,0 +1,55 @@
+# ChatReaction version 1.7.1 configuration file
+debug: false
+check_updates: true
+reaction_stats:
+  track_stats: false
+  top_players_size: 100
+  hostname: localhost
+  port: 3306
+  database: chatreaction
+  prefix: ''
+  username: root
+  password: ''
+reaction:
+  interval: 500
+  time_limit: 30
+  players_needed_to_start: 1
+  word_character_length: 10
+  ignore_case: false
+  use_custom_words: true
+  split_words_by_line: true
+  scramble_custom_words: true
+  scramble_at_random: true
+  scramble_spaces: false
+  disabled_worlds:
+  - world_nether
+  - world_the_end
+  reward_amount: 1
+  rewards:
+  - eco give @p 500
+  - eco give @p 250
+  - ''
+  - ce lostbook Common 1 @p
+  - tm add @p 1
+messages:
+  reaction_start:
+  - '&6&lGAME &8┃ &fHover for the word to type!'
+  reaction_start_tooltip: '&6%word%'
+  scramble_start:
+  - '&6&lGAME &8┃ &fHover for the word to unscramble!'
+  scramble_start_tooltip: '&6%word%'
+  reaction_end:
+  - '&6&lGAME &8┃ &cNobody got the word in time.'
+  scramble_end:
+  - '&6&lGAME &8┃ &cNobody got the word in time.'
+  - '&cThe word was &f%word%'
+  reaction_win:
+  - '&6&lGAME &8┃ &e&n%player%&f won in &b%time% &fseconds!'
+  scramble_win:
+  - '&6&lGAME &8┃ &e&n%player%&f unscrambled the word &6%word% &fin &b%time% &fseconds!'
+hooks:
+  qaplugin:
+    enabled: true
+    hint:
+      charge: true
+      charge_amount: 100.0

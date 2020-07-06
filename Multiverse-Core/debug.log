@@ -1,0 +1,611 @@
+2018-07-25 12:12:19 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 12:12:20 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 12:12:21 [ADVERTENCIA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2018-07-25 12:12:21 [ADVERTENCIA] [Multiverse-Core] Original Location: X: 112 Y: 64 Z: 256 P: 0 Y: 0 
+2018-07-25 12:12:21 [INFORMACIÓN] [Multiverse-Core] New Spawn for 'world' is Located at: world:106,50,64,00,263,50:0,00:0,00
+2018-07-25 12:12:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 12:12:27 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-25 12:13:56 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: null
+2018-07-25 12:25:17 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 12:25:17 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 12:25:17 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 12:25:23 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 13:47:50 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 13:47:51 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 13:47:51 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 13:47:59 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 13:52:41 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 13:52:42 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 13:52:46 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 13:52:47 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 14:07:09 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 14:07:09 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 14:07:12 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 14:07:13 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 16:40:56 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 16:40:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 16:40:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 16:41:05 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 22:23:26 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 22:23:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 22:23:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 22:23:35 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 22:42:40 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 22:42:42 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 22:42:44 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 22:42:44 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 22:54:11 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 22:54:13 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 22:54:13 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 22:54:23 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-25 23:08:03 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-25 23:08:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-25 23:08:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-25 23:08:13 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 11:19:31 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 11:19:33 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 11:19:33 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 11:19:42 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 11:46:56 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 11:46:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 11:46:59 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 11:47:09 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 11:56:40 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 11:56:40 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 11:56:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 11:56:45 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 12:05:41 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 12:05:42 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 12:05:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 12:05:53 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 12:25:28 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 12:25:31 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 12:25:32 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 12:25:43 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 12:34:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 12:34:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 12:35:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 12:35:05 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 13:15:08 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 13:15:09 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 13:15:10 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 13:15:21 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-26 14:03:16 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-26 14:03:17 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-26 14:03:21 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-26 14:03:22 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 11:05:49 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 11:05:51 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 11:05:51 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 11:06:05 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 11:30:54 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 11:30:55 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 11:30:59 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 11:31:00 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 12:49:27 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 12:49:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 12:49:30 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 12:49:32 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 12:59:04 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 12:59:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 12:59:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 12:59:14 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 14:03:32 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 14:03:34 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 14:03:34 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 14:03:46 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 14:12:57 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 14:12:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 14:13:01 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 14:13:02 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 14:27:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 14:27:59 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 14:28:00 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 14:28:01 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 14:39:11 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 14:39:12 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 14:39:13 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 14:39:14 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 14:46:55 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 14:46:56 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 14:46:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 14:46:59 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 14:49:25 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 14:49:25 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 14:49:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 14:49:28 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 15:10:27 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 15:10:28 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 15:10:30 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 15:10:31 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 16:15:00 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:15:01 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1366767752087113214
+2018-07-27 16:15:02 [ADVERTENCIA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2018-07-27 16:15:02 [ADVERTENCIA] [Multiverse-Core] Original Location: X: -4 Y: 100 Z: -21 P: 0 Y: 0 
+2018-07-27 16:15:02 [INFORMACIÓN] [Multiverse-Core] New Spawn for 'world' is Located at: world:-2,50,100,00,-20,50:0,00:0,00
+2018-07-27 16:15:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:15:03 [GRAVE] [Multiverse-Core] Failed to Create/Load the world 'MinePrison'
+2018-07-27 16:15:03 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 16:15:51 [INFORMACIÓN] [Multiverse-Core] Multiverse does not know about MinePrison and it's not loaded by Bukkit.
+2018-07-27 16:18:55 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:18:57 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:18:57 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'MinePrison' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:19:05 [ADVERTENCIA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2018-07-27 16:19:05 [ADVERTENCIA] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2018-07-27 16:19:05 [INFORMACIÓN] [Multiverse-Core] New Spawn for 'MinePrison' is Located at: MinePrison:1,50,4,00,0,50:0,00:0,00
+2018-07-27 16:19:06 [INFORMACIÓN] [Multiverse-Core] 2 - World(s) loaded.
+2018-07-27 16:19:44 [INFORMACIÓN] [Multiverse-Core] World 'MinePrison' was unloaded from memory.
+2018-07-27 16:19:44 [INFORMACIÓN] [Multiverse-Core] World 'MinePrison' was removed from config.yml
+2018-07-27 16:24:09 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:24:10 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:24:12 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 16:26:30 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:26:30 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:26:31 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 16:34:33 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:34:34 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:34:35 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 16:36:53 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:36:54 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:36:54 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 16:38:02 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:38:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:38:03 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 16:43:34 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:43:35 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:43:36 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 16:47:33 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 16:47:34 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 16:47:34 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 18:37:47 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 18:37:49 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 18:37:49 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-27 18:41:40 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-27 18:41:41 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-27 18:41:42 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 09:47:40 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 09:47:42 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 09:47:42 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 20:38:14 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 20:38:16 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 20:38:16 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 20:45:37 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 20:45:39 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 20:45:41 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 20:55:43 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 20:55:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 20:55:44 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 20:59:38 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 20:59:38 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 20:59:39 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 22:35:42 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 22:35:44 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 22:35:45 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 23:10:18 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 23:10:20 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 23:10:21 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-28 23:12:25 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-28 23:12:26 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-28 23:12:27 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-29 00:04:02 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-29 00:04:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-29 00:04:04 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-29 00:26:42 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-29 00:26:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-29 00:26:46 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-29 02:27:06 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-29 02:27:07 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-29 02:27:08 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-29 23:57:23 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-29 23:57:26 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-29 23:57:27 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 01:12:36 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 01:12:37 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 01:12:38 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 01:20:04 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 01:20:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 01:20:06 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 12:27:55 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 12:27:56 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 12:27:57 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 14:48:14 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 14:48:16 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 14:48:17 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 14:50:15 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 14:50:16 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 14:50:17 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 17:16:09 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 17:16:10 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 17:16:11 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 18:14:14 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 18:14:15 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 18:14:16 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 18:19:21 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 18:19:21 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 18:19:22 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 18:23:13 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 18:23:14 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 18:23:14 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 22:17:19 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 22:17:20 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 22:17:21 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 22:19:44 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 22:19:45 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 22:19:45 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 23:45:30 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 23:45:31 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 23:45:32 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-30 23:48:05 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-30 23:48:06 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-30 23:48:06 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 08:06:47 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 08:06:48 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 08:06:48 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 14:54:03 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 14:54:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 14:54:06 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 14:57:46 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 14:57:47 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 14:57:47 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 15:21:05 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 15:21:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 15:21:06 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 17:10:18 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 17:10:19 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 17:10:19 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 18:13:43 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 18:13:44 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 18:13:45 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 18:59:46 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 18:59:47 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 18:59:48 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 19:02:17 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 19:02:18 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 19:02:19 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 20:24:21 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 20:24:22 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 20:24:22 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 21:29:16 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 21:29:17 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 21:29:18 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 21:31:23 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 21:31:25 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 21:31:25 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 23:35:27 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 23:35:28 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 23:35:28 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-07-31 23:56:28 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-07-31 23:56:29 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-07-31 23:56:30 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 00:10:01 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 00:10:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 00:10:03 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 00:12:13 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 00:12:14 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 00:12:15 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 07:49:25 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 07:49:28 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 07:49:28 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 13:33:09 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 13:33:11 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 13:33:11 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 15:27:20 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 15:27:22 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 15:27:23 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 16:10:53 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 16:10:55 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 16:10:55 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-01 20:05:46 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-01 20:05:48 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-01 20:05:49 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 01:38:36 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 01:38:37 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 01:38:38 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 02:03:25 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 02:03:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 02:03:27 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 03:31:01 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 03:31:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 03:31:02 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 11:08:56 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 11:08:57 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 11:08:57 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 11:18:38 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 11:18:40 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 11:18:40 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 12:47:56 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 12:47:57 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 12:47:57 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 17:51:55 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 17:51:56 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 17:51:57 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-02 18:16:47 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-02 18:16:48 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-02 18:16:49 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 01:36:48 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 01:36:49 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 01:36:50 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 15:10:11 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 15:10:13 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 15:10:14 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 17:02:18 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 17:02:19 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 17:02:20 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 18:28:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 18:28:59 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 18:28:59 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 19:09:23 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 19:09:24 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 19:09:24 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 20:34:48 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 20:34:49 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 20:34:50 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 21:10:10 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 21:10:11 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 21:10:12 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 21:30:59 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 21:31:00 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 21:31:01 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-03 23:58:25 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-03 23:58:28 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-03 23:58:28 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 11:48:38 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 11:48:39 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 11:48:39 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 12:37:54 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 12:37:55 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 12:37:55 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 12:54:44 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 12:54:45 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 12:54:46 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 12:56:57 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 12:56:57 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 12:56:58 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 13:09:36 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 13:09:37 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 13:09:38 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 13:11:57 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 13:11:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 13:11:58 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-04 22:59:03 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-04 22:59:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-04 22:59:05 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-05 23:56:23 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-05 23:56:24 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-05 23:56:24 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-06 11:09:43 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-06 11:09:44 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-06 11:09:45 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-06 11:46:12 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-06 11:46:12 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-06 11:46:13 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-06 11:55:23 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-06 11:55:23 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-06 11:55:24 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-06 14:22:01 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-06 14:22:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-06 14:22:02 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 16:45:24 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 16:45:25 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 16:45:26 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 18:00:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 18:00:59 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 18:00:59 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 19:01:51 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 19:01:52 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 19:01:53 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 20:52:18 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 20:52:19 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 20:52:19 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 21:05:23 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 21:05:24 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 21:05:25 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 21:27:16 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 21:27:17 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 21:27:17 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-07 21:36:39 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-07 21:36:39 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-07 21:36:40 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 11:48:51 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 11:48:51 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 11:48:52 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 12:11:33 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 12:11:35 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 12:11:35 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 12:23:33 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 12:23:34 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 12:23:35 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 12:31:55 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 12:31:55 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 12:31:56 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 15:18:09 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 15:18:10 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 15:18:11 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 16:26:01 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 16:26:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 16:26:03 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-08 16:32:05 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-08 16:32:06 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-08 16:32:07 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 14:14:01 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 14:14:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 14:14:02 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 18:37:42 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 18:37:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 18:37:43 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 18:58:27 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 18:58:27 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 18:58:28 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 19:22:32 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 19:22:34 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 19:22:34 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 19:29:56 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 19:29:57 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 19:29:57 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 19:40:37 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 19:40:37 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 19:40:38 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 19:52:43 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 19:52:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 19:52:44 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 20:13:15 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 20:13:16 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 20:13:16 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 20:18:05 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 20:18:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 20:18:06 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 20:23:24 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 20:23:25 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 20:23:25 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 20:32:04 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 20:32:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 20:32:06 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 20:46:09 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 20:46:10 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 20:46:11 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-09 20:51:27 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-09 20:51:29 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-09 20:51:30 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 12:20:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 12:21:00 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 12:21:00 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 14:25:12 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 14:25:13 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 14:25:14 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 14:29:03 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 14:29:04 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 14:29:04 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 14:37:46 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 14:37:47 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 14:37:47 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 14:45:51 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 14:45:52 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 14:45:52 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 15:17:12 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 15:17:13 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 15:17:13 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 15:52:52 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 15:52:53 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 15:52:54 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 16:00:30 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 16:00:31 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 16:00:31 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 16:28:07 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 16:28:08 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 16:28:09 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 16:30:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 16:30:58 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 16:30:59 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 16:35:35 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 16:35:35 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 16:35:36 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 16:39:17 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 16:39:18 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 16:39:18 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 21:32:41 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 21:32:43 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 21:32:43 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 21:46:02 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 21:46:03 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 21:46:04 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 22:14:07 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 22:14:08 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 22:14:08 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-10 22:46:20 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-10 22:46:21 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-10 22:46:21 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-11 10:09:27 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-11 10:09:28 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-11 10:09:29 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 12:59:34 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 12:59:35 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 12:59:36 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 13:53:20 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 13:53:21 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 13:53:22 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 14:04:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 14:05:00 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 14:05:00 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 15:19:22 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 15:19:23 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 15:19:24 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 15:24:00 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 15:24:02 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 15:24:02 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 15:48:37 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 15:48:38 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 15:48:39 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 19:05:17 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 19:05:18 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 19:05:19 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-12 19:23:37 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-12 19:23:38 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-12 19:23:39 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-13 13:39:14 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-13 13:39:15 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-13 13:39:15 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-13 19:27:28 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-13 19:27:29 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-13 19:27:29 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-14 19:34:43 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-14 19:34:44 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-14 19:34:44 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-14 21:27:38 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-14 21:27:39 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-14 21:27:40 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-14 22:01:51 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-14 22:01:52 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-14 22:01:52 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 13:56:02 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 13:56:03 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 13:56:04 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 14:09:44 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 14:09:45 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 14:09:45 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 18:32:03 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 18:32:05 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 18:32:05 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 18:59:14 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 18:59:15 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 18:59:15 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 19:15:10 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 19:15:11 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 19:15:11 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 20:54:02 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 20:54:03 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 20:54:03 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 21:08:16 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 21:08:17 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 21:08:17 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-15 23:41:20 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-15 23:41:22 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-15 23:41:22 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-20 18:26:58 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-20 18:26:59 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-20 18:27:00 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-20 19:21:21 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-20 19:21:21 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-20 19:21:22 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-20 19:37:18 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-20 19:37:19 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-20 19:37:19 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-20 19:59:55 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-20 19:59:56 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-20 19:59:56 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-20 22:54:46 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-20 22:54:47 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-20 22:54:47 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-21 12:29:49 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-21 12:29:50 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-21 12:29:50 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-21 18:04:24 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-21 18:04:25 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-21 18:04:26 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-22 12:37:28 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-22 12:37:29 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-22 12:37:29 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-22 23:44:46 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-22 23:44:48 [INFORMACIÓN] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-08-22 23:44:48 [INFORMACIÓN] [Multiverse-Core] 1 - World(s) loaded.
+2018-08-23 11:39:38 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-08-23 11:49:57 [INFORMACIÓN] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--

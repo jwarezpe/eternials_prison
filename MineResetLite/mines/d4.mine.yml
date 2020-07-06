@@ -1,0 +1,35 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: 1521
+  tpYaw: 0
+  maxY: 99
+  maxX: 2027
+  resetPercent: -1.0
+  fillMode: false
+  tpPitch: 0
+  world: mines
+  minY: 75
+  resetWarnings: []
+  minX: 2003
+  composition:
+    RED_TERRACOTTA:0: 0.03
+    GOLD_ORE:0: 0.15
+    DIORITE:0: 0.11
+    ANDESITE:0: 0.07
+    DIAMOND_ORE:0: 0.12
+    PRISMARINE:0: 0.06
+    COAL_ORE:0: 0.08
+    EMERALD_ORE:0: 0.01
+    IRON_ORE:0: 0.18
+    GRANITE:0: 0.07
+    GRAY_TERRACOTTA:0: 0.12
+  potions: {}
+  name: d4
+  resetClock: 3
+  minZ: 1497
+  isSilent: true
+  tpY: 100
+  tpX: 2015
+  tpZ: 1478

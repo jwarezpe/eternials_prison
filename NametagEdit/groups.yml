@@ -1,0 +1,66 @@
+Groups:
+  Owner:
+    Permission: tag.owner
+    Prefix: '&6&lOWNER &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 1
+  Manager:
+    Permission: tag.manager
+    Prefix: '&9&lMANAGER &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 2
+  Sradm:
+    Permission: tag.sradm
+    Prefix: '&4&lSR. ADM &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 3
+  Admin:
+    Permission: tag.admin
+    Prefix: '&a&lADMIN &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 4
+  Srmod:
+    Permission: tag.srmod
+    Prefix: '&2&lSR. MOD &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 5
+  Moderator:
+    Permission: tag.mod
+    Prefix: '&a&lMOD &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 6
+  VIP++++:
+    Permission: tag.vip++++
+    Prefix: '&e&l✦ &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 8
+  VIP+++:
+    Permission: tag.vip+++
+    Prefix: '&d&l✦ &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 9
+  VIP++:
+    Permission: tag.vip++
+    Prefix: '&c&l✦ &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 10
+  VIP+:
+    Permission: tag.vip+
+    Prefix: '&b&l✦ &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 11
+  VIP:
+    Permission: tag.vip
+    Prefix: '&a&l✦ &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 12
+  Member:
+    Permission: tag.member
+    Prefix: '&f&f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 13
+  Helper:
+    Permission: tag.helper
+    Prefix: '&3&lHELPER &f'
+    Suffix: ' &a✪ %rankup_current_prestige% '
+    SortPriority: 7

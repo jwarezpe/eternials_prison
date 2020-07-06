@@ -1,0 +1,561 @@
+    menu_title: » Rebirth Challenges
+    open_command:
+    - rebirth
+    - rebirths
+    - prestige
+    - prestiges
+    size: 45
+    items:
+      Close2:
+        material: Book
+        slot: 49
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      'fghghg23dsdgs':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwNjNiYTViMTZiNzAzMGEyMGNlNmYwZWE5NmRjZDI0YjA2NDgzNmY1NzA0NTZjZGJmYzllODYxYTc1ODVhNSJ9fX0=
+        slot: 11
+        priority: 2
+        display_name: '&6&lNjörðr''s Challenge'
+        lore:
+        - '&fGod of Sea'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fCatch 150 Fish &7(%statistic_fish_caught%/150)'
+        - '  &e&l* &e$25,000,000'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &d''s Chestplate'
+        - '    &f- &7Protection V'
+        - '    &f- &7Fire Protection IV'
+        - '    &f- &7Unbreaking IV'
+        - ''
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&e&nClick to rebirth!'
+        left_click_commands:
+        - '[console] pex user %player_name% add rebirth.1'
+        - '[console] give %player_name% bow 1 name:&6&lNjörðr_Chestplate PROTECTION:5 FIRE_PROTECTION:4 UNBREAKING:4 lore:&7|&fObtained_by_completing|&e&lNjörðr''s_Challenge&f!'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%statistic_fish_caught%'
+              output: 150
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+            name2:
+              type: has money
+              amount: 25000000
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+        right_click_commands:
+        - '[console] pex user %player_name% add rebirth.1'
+        - '[console] give %player_name% bow 1 name:&6&lNjörðr_Chestplate PROTECTION:5 FIRE_PROTECTION:4 UNBREAKING:4 lore:&7|&fObtained_by_completing|&e&lNjörðr''s_Challenge&f!'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+        right_click_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%statistic_fish_caught%'
+              output: 150
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+            name2:
+              type: has money
+              amount: 25000000
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+      'dsgsdfsdsaffdsf':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwNjNiYTViMTZiNzAzMGEyMGNlNmYwZWE5NmRjZDI0YjA2NDgzNmY1NzA0NTZjZGJmYzllODYxYTc1ODVhNSJ9fX0=
+        slot: 11
+        view_requirement:
+          requirements:
+            1:
+              type: has permission
+              permission: 'rebirth.1'
+        priority: 1
+        display_name: '&6&lNjörðr''s Challenge'
+        lore:
+        - '&fGod of Sea'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fCatch 150 Fish &7(%statistic_fish_caught%/150)'
+        - '  &e&l* &e$25,000,000'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &dNjörðr''s Chestplate'
+        - '    &f- &7Protection V'
+        - '    &f- &7Fire Protection IV'
+        - '    &f- &7Unbreaking IV'
+        - ''
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+
+      'fghghg23dsdgs2':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMTBkMDkzMzBlMGY3MDA4MTVlNGQwNmU2NmI1ZDc2Nzc2NThiOWNhZDA4NTU1YmE3ZDg3YzEzYjI4OGQwZCJ9fX0=
+        slot: 12
+        priority: 2
+        display_name: '&6&lEir''s Challenge'
+        lore:
+        - '&fGoddess of Healing'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fSacrifice 50 Golden Apples'
+        - '  &e&l* &e$25,000,000'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &d/heal Command'
+        - ''
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&e&nClick to rebirth!'
+        left_click_commands:
+        - '[console] pex user %player_name% add rebirth.2'
+        - '[console] pex user %player_name% add essentials.heal'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[console] ci %player_name% golden_apple 50'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%checkitem_mat:GOLDEN_APPLE,amt:50%'
+              output: 'yes'
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+            name2:
+              type: has money
+              amount: 25000000
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+        right_click_commands:
+        - '[console] pex user %player_name% add rebirth.2'
+        - '[console] pex user %player_name% add essentials.heal'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[console] ci %player_name% golden_apple 50'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+        right_click_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: '%checkitem_mat:GOLDEN_APPLE,amt:50%'
+              output: 'yes'
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+            name2:
+              type: has money
+              amount: 25000000
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+      'dsgsdfsdsaffdsf2':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMTBkMDkzMzBlMGY3MDA4MTVlNGQwNmU2NmI1ZDc2Nzc2NThiOWNhZDA4NTU1YmE3ZDg3YzEzYjI4OGQwZCJ9fX0=
+        slot: 12
+        view_requirement:
+          requirements:
+            1:
+              type: has permission
+              permission: 'rebirth.2'
+        priority: 1
+        display_name: '&6&lEir''s Challenge'
+        lore:
+        - '&fGoddess of Healing'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fSacrifice 50 Golden Apples'
+        - '  &e&l* &e$25,000,000'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &d/heal Command'
+        - ''
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+
+      'fghghg23dsdgs22':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIwZWYwNmRkNjA0OTk3NjZhYzhjZTE1ZDJiZWE0MWQyODEzZmU1NTcxODg2NGI1MmRjNDFjYmFhZTFlYTkxMyJ9fX0=
+        slot: 13
+        priority: 2
+        display_name: '&6&lFreyja''s Challenge'
+        lore:
+        - '&fGoddess of Love'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fReceive 50 Hugs &7(%hugs_player_total_received%/50)'
+        - '  &e&l* &e$25,000,000'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &c❤ &dTag'
+        - ''
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&e&nClick to rebirth!'
+        left_click_commands:
+        - '[console] pex user %player_name% add rebirth.3'
+        - '[console] pex user %player_name% add tag.love'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%hugs_player_total_received%'
+              output: '50'
+            name2:
+              type: has money
+              amount: 25000000
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+        right_click_commands:
+        - '[console] pex user %player_name% add rebirth.3'
+        - '[console] pex user %player_name% add tag.love'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+        right_click_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%hugs_player_total_received%'
+              output: '50'
+            name2:
+              type: has money
+              amount: 25000000
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+      'dsgsdfsdsaffdsf22':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIwZWYwNmRkNjA0OTk3NjZhYzhjZTE1ZDJiZWE0MWQyODEzZmU1NTcxODg2NGI1MmRjNDFjYmFhZTFlYTkxMyJ9fX0=
+        slot: 13
+        view_requirement:
+          requirements:
+            1:
+              type: has permission
+              permission: 'rebirth.3'
+        priority: 1
+        display_name: '&6&lFreyja''s Challenge'
+        lore:
+        - '&fGoddess of Love'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fReceive 50 Hugs &7(%hugs_player_total_received%/50)'
+        - '  &e&l* &e$25,000,000'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &c❤ &dTag'
+        - ''
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+
+      'fghghg23dsdgs222':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRlNzE2NzFkYjVmNjlkMmM0NmEwZDcyNzY2YjI0OWMxMjM2ZDcyNjc4MmMwMGEwZTIyNjY4ZGY1NzcyZDRiOSJ9fX0=
+        slot: 14
+        priority: 2
+        display_name: '&6&lOdin''s Challenge'
+        lore:
+        - '&fGod of Wisdom'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &e$75,000,000 &7(%vault_eco_balance_fixed%/75,000,000)'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &dQuick Sell @ Yrim''s Glaciation'
+        - ''
+        - '  &e&l* &fStatus: &c&lLOCKED'
+        - ''
+        - '&e&nClick to rebirth!'
+        left_click_commands:
+        - '[console] pex user %player_name% add rebirth.4'
+        - '[console] pex user %player_name% add quicksell.yrim'
+        - '[console] essentials:eco take %player_name% 75000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            name2:
+              type: has money
+              amount: 75000000
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+        right_click_commands:
+        - '[console] pex user %player_name% add rebirth.4'
+        - '[console] pex user %player_name% add quicksell.yrim'
+        - '[console] essentials:eco take %player_name% 75000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+        right_click_requirement:
+          requirements:
+            name2:
+              type: has money
+              amount: 75000000
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+      'dsgsdfsdsaffdsf222':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRlNzE2NzFkYjVmNjlkMmM0NmEwZDcyNzY2YjI0OWMxMjM2ZDcyNjc4MmMwMGEwZTIyNjY4ZGY1NzcyZDRiOSJ9fX0=
+        slot: 14
+        view_requirement:
+          requirements:
+            1:
+              type: has permission
+              permission: 'rebirth.4'
+        priority: 1
+        display_name: '&6&lOdin''s Challenge'
+        lore:
+        - '&fGod of Wisdom'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &e$75,000,000 &7(%vault_eco_balance_fixed%/75,000,000)'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &dQuick Sell @ Yrim''s Glaciation'
+        - ''
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+
+      'fghghg213dsdgs2222':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFjZTZiYjNhYTRjY2FjMDMxMTY4MjAyZjZkNDUzMjU5N2JjYWM2MzUxMDU5YWJkOWQxMGIyODYxMDQ5M2FlYiJ9fX0=
+        slot: 15
+        priority: 2
+        display_name: '&6&lUllr''s Challenge'
+        lore:
+        - '&fGod of Archery'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &dCraft 500 Arrow &7(%statistic_craft_item:ARROW%/500)'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &dÝdalir Bow'
+        - '    &f- &7Power V'
+        - '    &f- &7Unbreaking X'
+        - '    &f- &7Flame II'
+        - '    &f- &7Punch II'
+        - '    &f- &7Infinity'
+        - ''
+        - '&e&nClick to rebirth!'
+        left_click_commands:
+        - '[console] pex user %player_name% add rebirth.5'
+        - '[console] give %player_name% bow 1 name:&6&lÝdalir_Bow POWER:5 UNBREAKING:X FLAME:2 PUNCH:2 INFINITY:1 lore:&7|&fObtained_by_completing|&e&lUllr''s_Challenge&f!'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%statistic_craft_item:ARROW%'
+              output: '500'
+            name2:
+              type: has money
+              amount: 75000000
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+        right_click_commands:
+        - '[console] pex user %player_name% add rebirth.5'
+        - '[console] give %player_name% bow 1 name:&6&lÝdalir_Bow POWER:5 UNBREAKING:X FLAME:2 PUNCH:2 INFINITY:1 lore:&7|&fObtained_by_completing|&e&lUllr''s_Challenge&f!'
+        - '[console] essentials:eco take %player_name% 25000000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+        right_click_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%statistic_craft_item:ARROW%'
+              output: '500'
+            name2:
+              type: has money
+              amount: 75000000
+            ntgfsdfsd:
+              type: has permission
+              permission: can.rebirth
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+      'dsgs1dfsdsaffdsf2234322':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFjZTZiYjNhYTRjY2FjMDMxMTY4MjAyZjZkNDUzMjU5N2JjYWM2MzUxMDU5YWJkOWQxMGIyODYxMDQ5M2FlYiJ9fX0=
+        slot: 15
+        view_requirement:
+          requirements:
+            1:
+              type: has permission
+              permission: 'rebirth.5'
+        priority: 1
+        display_name: '&6&lUllr''s Challenge'
+        lore:
+        - '&fGod of Archery'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &dCraft 500 Arrow &7(%statistic_craft_item:ARROW%/500)'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &dÝdalir Bow'
+        - '    &f- &7Power V'
+        - '    &f- &7Unbreaking X'
+        - '    &f- &7Flame II'
+        - '    &f- &7Punch II'
+        - '    &f- &7Infinity'
+        - ''
+        - '  &e&l* &fStatus: &a&lUNLOCKED'
+      'sdffa2fda122':   
+        material: nether_star
+        slot: 31
+        priority: 1
+        display_name: '&6&lASCEND'
+        lore:
+        - '&fKeep ascending multiple'
+        - '&ftimes!'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &e$25,000,000 &f* Rebirth Count'
+        - '  &e&l* &dAll Challenges Completed'
+        - '&7'
+        - '&f&lREWARD:'
+        - '  &e&l* &b+1 Rebirth Star'
+        - ''
+        - '&e&nClick to ascend!'
+        left_click_commands:
+        - '[player] rankup:prestige'
+        - '[console] essentials:eco take %player_name% %math_25000000*{rankup_current_prestige}+25000000%'
+        - '[console] titlemanager:tm message %player_name% &7\n&eCongratulations! &fYou have ascended.'
+        - '[close]'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: rebirth.1
+            1name41:
+              type: has permission
+              permission: rebirth.2
+            1na24me:
+              type: has permission
+              permission: rebirth.3
+            na4124me:
+              type: has permission
+              permission: rebirth.4
+            na124me:
+              type: has permission
+              permission: rebirth.5
+            na111me2:
+              type: has money
+              amount: '%math_25000000*{rankup_current_prestige}+25000000%'
+            ntgfsdfsd:
+              type: string equals
+              input: '%rankup_current_rank%'
+              output: 'E4'
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+        right_click_commands:
+        - '[player] rankup:prestige'
+        - '[console] essentials:eco take %player_name% %math_25000000*{rankup_current_prestige}+25000000%'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+        right_click_requirement:
+          requirements:
+            name:
+              type: has permission
+              permission: rebirth.1
+            1name41:
+              type: has permission
+              permission: rebirth.2
+            1na24me:
+              type: has permission
+              permission: rebirth.3
+            na4124me:
+              type: has permission
+              permission: rebirth.4
+            na124me:
+              type: has permission
+              permission: rebirth.5
+            na111me2:
+              type: has money
+              amount: '%math_25000000*{rankup_current_prestige}+25000000%'
+            ntgfsdfsd:
+              type: string equals
+              input: '%rankup_current_rank%'
+              output: 'E4'
+          deny_commands:
+          - '[console] titlemanager:tm message %player_name% &7\n&cYou do not meet the requirements!'
+          - '[close]'
+      'sidfshjasd':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 34
+        - 33
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        priority: 1

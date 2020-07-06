@@ -1,0 +1,1066 @@
+    open_command:
+    - d
+    - disguises
+    - od
+    - disguise
+    - idisguises:d
+    update_interval: 1
+    menu_title: '&8» Disguises'
+    size: 54
+    items:
+      '99':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmMGExNmEyYzg3MzJkMTU3NjczNDBkZDdmODEzMTU4YzU3ZTEyNDBkNWQyMzNjODdkMTVhNDY2OWI0NmQifX19
+        data: 3
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.chicken
+        display_name: '&6&lChicken'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aChicken'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% chicken'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aChicken &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% chicken'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aChicken &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '9923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmMGExNmEyYzg3MzJkMTU3NjczNDBkZDdmODEzMTU4YzU3ZTEyNDBkNWQyMzNjODdkMTVhNDY2OWI0NmQifX19
+        data: 3
+        slot: 13
+        priority: 2
+        display_name: '&6&lChicken'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aChicken'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '919':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNlY2U5MTQzMGYyNGE5ODg2ZmIxNzJjMDJmODA3OGZiNDA3MmE1OWYwMWE0ODEwZGI3NGJhNDU0YmM5MTAifX19
+        data: 3
+        slot: 11
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.pig
+        display_name: '&6&lPig'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aPig'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] dplayer %player_name% pig'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aPig &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% chicken'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aPig &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '91923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNlY2U5MTQzMGYyNGE5ODg2ZmIxNzJjMDJmODA3OGZiNDA3MmE1OWYwMWE0ODEwZGI3NGJhNDU0YmM5MTAifX19
+        data: 3
+        slot: 11
+        priority: 2
+        display_name: '&6&lPig'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aPig'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '929':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIzNDEwNmNjMmVhYzk3OTM0OWQ1YmM2YTAxMDUzNDcyNmY3M2ZiOTYwYzIyOGE4ZDkxODk3NjQyYmVkMGIwIn19fQ==
+        data: 3
+        slot: 12
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.cow
+        display_name: '&6&lCow'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aCow'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% cow'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aCow &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% cow'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aCow &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '92923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIzNDEwNmNjMmVhYzk3OTM0OWQ1YmM2YTAxMDUzNDcyNmY3M2ZiOTYwYzIyOGE4ZDkxODk3NjQyYmVkMGIwIn19fQ==
+        data: 3
+        slot: 12
+        priority: 2
+        display_name: '&6&lCow'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aCow'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '939':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ3M2YwZGRlNDE1NjhjNzNmMjUyYTIyZjM2YmVkY2Q0M2UwMzNjNTk1MTdhN2VlOGY5YTMxMzE5OTcyYjI3In19fQ==
+        data: 3
+        slot: 14
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.sheep
+        display_name: '&6&lSheep'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSheep'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% sheep'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSheep &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% sheep'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSheep &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '93923':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ3M2YwZGRlNDE1NjhjNzNmMjUyYTIyZjM2YmVkY2Q0M2UwMzNjNTk1MTdhN2VlOGY5YTMxMzE5OTcyYjI3In19fQ==
+        data: 3
+        slot: 14
+        priority: 2
+        display_name: '&6&lSheep'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSheep'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &a&lVIP &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '9529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZjZWI0ZjRlYjZhMjQ0Njg4N2U2ZGZlMmM4NjdjZjk5OThjNmYyNjZiYWU4Y2ZiZDFjYWJkM2E3MjIxOWVhIn19fQ==
+        data: 3
+        slot: 15
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.horse
+        display_name: '&6&lHorse'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aHorse'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &b&lVIP+ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% horse'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aHorse &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% horse'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aHorse &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '959223':
+        material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZjZWI0ZjRlYjZhMjQ0Njg4N2U2ZGZlMmM4NjdjZjk5OThjNmYyNjZiYWU4Y2ZiZDFjYWJkM2E3MjIxOWVhIn19fQ==
+        data: 3
+        slot: 15
+        priority: 2
+        display_name: '&6&lHorse'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aHorse'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &b&lVIP+ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '19529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzExYWE5MGJjMzQ5NGFjNjVjNDA3NGQwZTZjYzk5OTFmZGEwYmYzN2UxYWRlZjhiY2M4Y2JlYjBkMjdlOSJ9fX0=
+        data: 3
+        slot: 20
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.squid
+        display_name: '&6&lSquid'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSquid'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &b&lVIP+ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% squid'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSquid &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% squid'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSquid &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '1959223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzExYWE5MGJjMzQ5NGFjNjVjNDA3NGQwZTZjYzk5OTFmZGEwYmYzN2UxYWRlZjhiY2M4Y2JlYjBkMjdlOSJ9fX0=
+        data: 3
+        slot: 20
+        priority: 2
+        display_name: '&6&lSquid'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSquid'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &b&lVIP+ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192529':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FjNzEyYWY5YjU3Yjk1ZDVhOTg5NGU4NjE4ZmMwNzAxY2JkZDNkMDk3MmM5NjlkMTUyZWJjZjIyMmM3ZCJ9fX0=
+        data: 3
+        slot: 21
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.moshroom
+        display_name: '&6&lMooshroom'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aMooshroom'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% mooshroom'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aMooshroom &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% mooshroom'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aMooshroom &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '19259223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FjNzEyYWY5YjU3Yjk1ZDVhOTg5NGU4NjE4ZmMwNzAxY2JkZDNkMDk3MmM5NjlkMTUyZWJjZjIyMmM3ZCJ9fX0=
+        data: 3
+        slot: 21
+        priority: 2
+        display_name: '&6&lMooshroom'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aMooshroom'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&c&oYou do not have enough rank!'
+      '1925329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUzZjZhNGE4ZTY4ZWRmYzE0OWIyZTMyNTk3ZGYzZTVmNGMzNTgxZjdhNDdjMzg1MTRhYjJhNGVkYTM5NTA1ZCJ9fX0=
+        data: 3
+        slot: 22
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.ocelot
+        display_name: '&6&lOcelot'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aOcelot'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% ocelot'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aOcelot &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% ocelot'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aOcelot &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '192592323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUzZjZhNGE4ZTY4ZWRmYzE0OWIyZTMyNTk3ZGYzZTVmNGMzNTgxZjdhNDdjMzg1MTRhYjJhNGVkYTM5NTA1ZCJ9fX0=
+        data: 3
+        slot: 22
+        priority: 2
+        display_name: '&6&lOcelot'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aOcelot'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '19215329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA4NzQ5MWY5YjA4MDhmZGY3MDViOTFiNDUyMmM2NDMwNmY0OGM2YWM5YmQ2M2UyZTQ4YmFkMzMyOTNiZDcifX19
+        data: 3
+        slot: 23
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.wolf
+        display_name: '&6&lWolf'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aWolf'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% wolf'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aWolf &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% wolf'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aWolf &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '1925912323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA4NzQ5MWY5YjA4MDhmZGY3MDViOTFiNDUyMmM2NDMwNmY0OGM2YWM5YmQ2M2UyZTQ4YmFkMzMyOTNiZDcifX19
+        data: 3
+        slot: 23
+        priority: 2
+        display_name: '&6&lWolf'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aWolf'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192153279':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc5ZTcyMzQ5MWM4ODZkY2MyNWU1ZDJkZjBlMDU3ODFmN2FjOWMzNDYyMTgzMmJkNzQ5NjVlZjc5YWNmOGYifX19
+        data: 3
+        slot: 24
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.skeleton
+        display_name: '&6&lSkeleton'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSkeleton'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% skeleton'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSkeleton &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% skeleton'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSkeleton &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '19259123273':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc5ZTcyMzQ5MWM4ODZkY2MyNWU1ZDJkZjBlMDU3ODFmN2FjOWMzNDYyMTgzMmJkNzQ5NjVlZjc5YWNmOGYifX19
+        data: 3
+        slot: 24
+        priority: 2
+        display_name: '&6&lSkeleton'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSkeleton'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &6&lVIP++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '1921522329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQzNjc5Njg4ZDYyNjZhOTY3OWIzOGU1YjVlM2M2MGFhYzY0NGY2MWVlZjI3NTBiMDYwNTQxODM0MjY4MmM5In19fQ==
+        data: 3
+        slot: 29
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.zombie
+        display_name: '&6&lZombie'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aZombie'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% zombie'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aZombie &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% zombie'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aZombie &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '192591562323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQzNjc5Njg4ZDYyNjZhOTY3OWIzOGU1YjVlM2M2MGFhYzY0NGY2MWVlZjI3NTBiMDYwNTQxODM0MjY4MmM5In19fQ==
+        data: 3
+        slot: 29
+        priority: 2
+        display_name: '&6&lZombie'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aZombie'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192151222329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk2NDgzMmE2NjczODhiYTNmNWM4OTVkNTA0MjE4ZjIzNTJlZmExYWY5ZDdmZjdiYTEwMzM5ZGVjZDhmMTUifX19
+        data: 3
+        slot: 30
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.spider
+        display_name: '&6&lSpider'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSpider'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% spider'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSpider &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% spider'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aSpider &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '19212591562323':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk2NDgzMmE2NjczODhiYTNmNWM4OTVkNTA0MjE4ZjIzNTJlZmExYWY5ZDdmZjdiYTEwMzM5ZGVjZDhmMTUifX19
+        data: 3
+        slot: 30
+        priority: 2
+        display_name: '&6&lSpider'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aSpider'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '1921512223299':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhlMjUyNmZiNGJkM2I3MDgxZWVkYmRlOTU4MGY0ZDZjNDdkNDBiZWRiNjM2ZjEwMjc4YWNlOWRmM2E1MmY1In19fQ==
+        data: 3
+        slot: 31
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.creeper
+        display_name: '&6&lCreeper'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aCreeper'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% creeper'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aCreeper &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% creeper'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aCreeper &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '192125915623293':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhlMjUyNmZiNGJkM2I3MDgxZWVkYmRlOTU4MGY0ZDZjNDdkNDBiZWRiNjM2ZjEwMjc4YWNlOWRmM2E1MmY1In19fQ==
+        data: 3
+        slot: 31
+        priority: 2
+        display_name: '&6&lCreeper'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aCreeper'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '19215122232991':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc0NmMyNmFhYzE2ZTM4ODA5ODJkMTM5OWZiNWY5Zjc5OTEzZGQ2MTZlNzE2NTRmOWJmNGQ0MWZiMzMifX19
+        data: 3
+        slot: 32
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.enderman
+        display_name: '&6&lEnderman'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aEnderman'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% enderman'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aEnderman &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% enderman'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aEnderman &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '1921259156232931':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc0NmMyNmFhYzE2ZTM4ODA5ODJkMTM5OWZiNWY5Zjc5OTEzZGQ2MTZlNzE2NTRmOWJmNGQ0MWZiMzMifX19
+        data: 3
+        slot: 32
+        priority: 2
+        display_name: '&6&lEnderman'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aEnderman'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &c&lVIP+++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192151222329912':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQxOGM5MzBiMzE5N2YyNzhjOTgzY2Q4NzhiMmVlOTY2MzI3MjlmNDdkODM4NzcxMjM2YzJhNWJlZTM3MjUifX19
+        data: 3
+        slot: 33
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.blaze
+        display_name: '&6&lBlaze'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aBlaze'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% blaze'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aBlaze &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% blaze'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aBlaze &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '1921259156232932':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQxOGM5MzBiMzE5N2YyNzhjOTgzY2Q4NzhiMmVlOTY2MzI3MjlmNDdkODM4NzcxMjM2YzJhNWJlZTM3MjUifX19
+        data: 3
+        slot: 33
+        priority: 2
+        display_name: '&6&lBlaze'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aBlaze'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192151222329911112':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc2NTdjOWNlOWVmYThhNTkxYzFkNjk0ZjdiYzc1NmM2NjY0MmM3NDRlZWIzMWYxZWE0M2Q2MGE3NzQ5In19fQ==
+        data: 3
+        slot: 5
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.wither_skeleton
+        display_name: '&6&lWither Skeleton'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aWither Skeleton'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% wither_skeleton'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aWither Skeleton &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% wither_skeleton'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aWither Skeleton &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '19212159115623291132':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc2NTdjOWNlOWVmYThhNTkxYzFkNjk0ZjdiYzc1NmM2NjY0MmM3NDRlZWIzMWYxZWE0M2Q2MGE3NzQ5In19fQ==
+        data: 3
+        slot: 5
+        priority: 2
+        display_name: '&6&lWither Skeleton'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aWither Skeleton'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '19215122225329911112':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ3ZjJkZjRkMzFkZTgxYmFmODEzYmJiMjhkMWI5NmYzNDIzYWM2YWE2ODJjOGJkZGM3ZjUyOTQ1OGEifX19
+        data: 3
+        slot: 3
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.pig_zombie
+        display_name: '&6&lPig Zombie'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aPig Zombie'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% pig_zombie'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aPig Zombie &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% pig_zombie'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aPig Zombie &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '1921215911526235291132':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ3ZjJkZjRkMzFkZTgxYmFmODEzYmJiMjhkMWI5NmYzNDIzYWM2YWE2ODJjOGJkZGM3ZjUyOTQ1OGEifX19
+        data: 3
+        slot: 3
+        priority: 2
+        display_name: '&6&lPig Zombie'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aPig Zombie'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '192151222253299111129':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNiZWU5ZjliNzVmZjc1MTk3ZTA3NDE0YWMyZGI5MmUyMTZlOTQ1ZDYxODc3MjJiZGI5MjYyODc5YmI2In19fQ==
+        data: 3
+        slot: 4
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: disguise.witch
+        display_name: '&6&lWitch'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aWitch'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&e&nClick to select!'
+        left_click_commands:
+        - '[console] disguiseplayer %player_name% witch'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aWitch &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] disguiseplayer %player_name% witch'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have choosen
+          the &aWitch &fdisguise!'
+        - '[close]'
+        - '[refresh]'
+      '19212159115262352911329':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNiZWU5ZjliNzVmZjc1MTk3ZTA3NDE0YWMyZGI5MmUyMTZlOTQ1ZDYxODc3MjJiZGI5MjYyODc5YmI2In19fQ==
+        data: 3
+        slot: 4
+        priority: 2
+        display_name: '&6&lWitch'
+        lore:
+        - ''
+        - '&fChange your disguise'
+        - '&fand hide your'
+        - '&fidentity!'
+        - ''
+        - '&6&lINFORMATION:'
+        - '&e&l* &fDisguise: &aWitch'
+        - ''
+        - '&6&lREQUIREMENTS:'
+        - '&e&l* &fRank: &e&lVIP++++ &7or higher'
+        - ''
+        - '&c&oYou do not have rank enough!'
+      '1925923223':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 3
+        slot: 46
+        priority: 1
+        display_name: '&6&lReset disguise'
+        lore:
+        - ''
+        - '&fReset your disguise that you'
+        - '&fare currently wearing if'
+        - '&fyou are bored!'
+        - ''
+        - '&e&nClick to reset!'
+        left_click_commands:
+        - '[console] undplayer %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have reset your
+          disguise!'
+        - '[close]'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] undplayer %player_name%'
+        - '[console] titlemanager:tm message %player_name% &7\n&fYou have reset your
+          disguise!'
+        - '[close]'
+        - '[refresh]'
+      '11412223':
+        material: BOOK
+        slot: 49
+        priority: 1
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '20':
+        material: black_stained_glass_pane
+        data: 15
+        slots:
+        - 0
+        - 1
+        - 2
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 16
+        - 17
+        - 18
+        - 19
+        - 25
+        - 26
+        - 27
+        - 28
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        priority: 1

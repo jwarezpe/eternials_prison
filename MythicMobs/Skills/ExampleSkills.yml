@@ -1,0 +1,78 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> Hahahah! I will crush you, fool!"} @PlayersInRadius{r=40}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+getmount:
+  Skills:
+  - summon{type=Bat;amount=1;radius=1} @Self
+  - mount{type=Bat} @Self
+BIND:
+  Conditions:
+  - notinregion{r=bird,bird2,bird3} true
+  Skills:
+  - leap{velocity=100} @Location{c=9,104,-103}
+e2:
+  Conditions:
+  - notinregion{r=bee,bee2} true
+  Skills:
+  - leap{velocity=100} @Location{c=-32,102,-12}
+e3:
+  Conditions:
+  - notinregion{r=water} true
+  Skills:
+  - leap{velocity=100} @Location{c=-44,85,-50}
+FrogHead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNzU5Zjk3OWI5YjhlYTgzMWNhN2UyZDY2ZGYxNDgyOTNmMWE1MTQ3OTgzYjUyYzQ4ZWZlMmMzMTVlIn19fQ==
+SummonSkeletons:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+Guard_AI-Switch:
+  Conditions:
+  - playerwithin{d=15}
+  - score{objective=AI;value=0}
+  Skills:
+  - runaitargetselector{target=clear}
+  - runaitargetselector{target=hurtbytarget}
+  - runaigoalselector{goal=clear}
+  - runaigoalselector{goal=meleeattack}
+  - runaigoalselector{goal=float}
+  - runaigoalselector{goal=lookatplayers}
+  - modifymobscore{objective=AI;action=set;value=1}
+  - effect:particles{particle=angryVillager;amount=1;hS=0;vS=0;speed=-0.5;y=2.2} @self
+  - effect:particles{particle=smoke;amount=8;hS=0.5;vS=0.5;speed=0;y=1;repeatInterval=15;repeat=5} @self
+  - delay 2400
+  - modifymobscore{objective=AI;action=set;value=0}
+  - runaitargetselector{target=clear}
+  - runaigoalselector{goal=clear}
+  - runaigoalselector{goal=lookatplayers}
+  - runaigoalselector{goal=randomstroll}
+TempSafety:
+  Skills:
+  - delay 5
+  - runaitargetselector{target=clear}

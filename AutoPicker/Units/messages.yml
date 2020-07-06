@@ -1,0 +1,7 @@
+successfulAutoPickerEnable: '&a&lSuccessfully enabled autopicker for yourself'
+noPermissionMessage: '&c&lYou don''t have the permission to execute this command'
+inventoryFullMessage: '&c&lYour inventory is full'
+successfulReloadMessage: '&a&lSuccessfully reloaded all plugin''s configs'
+successfulAutoPickerDisable: '&a&lSuccessfully disabled autopicker for yourself'
+successfulAutoSmeltEnable: '&a&lSuccessfully enabled AutoSmelt'
+successfulAutoSmeltDisable: '&a&lSuccessfully disabled AutoSmelt'

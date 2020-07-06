@@ -1,0 +1,101 @@
+OdinStart: 
+  Skills:
+  - setstance{stance=intimidation} @Self
+  - skill{s=OdinTeleport} 
+  - potion{t=SLOW;d=248432;l=255;p=false} @Self 
+  - look{headOnly=false;immediately=false} @Target 
+  - delay 40
+  - jsonmessage{m="[{'text':'&6&lBOSS &8┃ &bYrim &8» &cYou dare disturb me??'}]"} @target
+  - effect:particles{particle=cloud;amount=10;hS=0.5;vS=2;speed=0} @self
+  - delay 30
+  - effect:particles{particle=cloud;amount=25;hS=0.5;vS=2;speed=0} @self
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @Self
+  - delay 5
+  - effect:particles{particle=cloud;amount=50;hS=0.5;vS=2;speed=0} @self
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @Self
+  - delay 5
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @Self
+  - effect:particles{particle=cloud;amount=100;hS=0.5;vS=2;speed=1} @self
+  - skill{s=OdinTeleport} 
+  - delay 20
+  - jsonmessage{m="[{'text':'&6&lBOSS &8┃ &bYrim &8» &cHow dare you impose yourself upon me!'}]"} @target
+  - delay 10
+  - randomskill{skills=OdinProjectile,OdinBurst,OdinAttack}
+  - delay 30
+  - jsonmessage{m="[{'text':'&6&lBOSS &8┃ &bYrim &8» &cI am the all father!'}]"} @target
+  - delay 30
+  - setstance{stance=fightmode} @Self
+OdinProjectile:
+  Conditions:
+  - targetnotwithin{d=6} true
+  Skills:
+  - projectile{onTick=OdinProjectileonTick;onHit=OdinProjectileonHit;onEnd=OdinProjectileonHit;v=15;i=1;hR=0.5;vR=0.5;MaxRange=16;StartYOffset=2;hp=true;hnp=true}
+OdinProjectileonTick:
+  Skills:
+  - effect:particlesphere{particle=cloud;amount=30;radius=0.3} @origin 
+OdinProjectileonHit:
+  Skills:
+  - lightning{d=0.15} @Origin
+  - effect:blockmask{m=ice;r=3;d=40}  @Origin
+  - throw{v=10;vY=3} @target
+  - effect:particles{particle=cloud;amount=50;hS=1;vS=3;speed=0.1} @Origin
+  - damage{a=8} @target
+OdinBurst:
+  Conditions:
+  - targetwithin{d=6} true
+  Skills:
+  - effect:particlesphere{particle=cloud;amount=30;radius=1} @Self
+  - effect:blockmask{m=ice;r=1;d=40}  @Self
+  - delay 1
+  - effect:particlesphere{particle=cloud;amount=60;radius=2} @Self
+  - effect:blockmask{m=ice;r=2;d=40}  @Self
+  - delay 1
+  - effect:particlesphere{particle=cloud;amount=90;radius=3} @Self
+  - effect:blockmask{m=ice;r=3;d=40}  @Self
+  - delay 1
+  - effect:particlesphere{particle=cloud;amount=120;radius=4} @Self
+  - effect:blockmask{m=ice;r=4;d=40}  @Self
+  - delay 1
+  - effect:particlesphere{particle=cloud;amount=150;radius=5} @Self
+  - effect:blockmask{m=ice;r=5;d=40}  @Self
+  - delay 1
+  - effect:particlesphere{particle=cloud;amount=180;radius=6} @Self
+  - effect:blockmask{m=ice;r=6;d=40}  @Self
+  - delay 1
+  - effect:particlesphere{particle=cloud;amount=210;radius=7} @Self
+  - effect:blockmask{m=ice;r=7;d=40}  @Self
+  - damage{a=7} @target
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - throw{v=20;vY=5} @PIR{r=7}
+OdinAttack:
+  Skills:
+  - teleport @target
+  - effect:particles{particle=cloud;amount=50;hS=1;vS=3;speed=0.1} @self
+  - effect:blockmask{m=ice;r=4;d=60} @Self
+  - damage{a=8} @target
+  - throw{v=20;vY=5} @target
+  - delay 8
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+  - effect:lightning @RLNTE{r=10;minr=8}
+OdinFight:
+  Conditions:
+  - stance fightmode true
+  Skills:
+  - randomskill{skills=OdinProjectile,OdinBurst,OdinAttack} @target
+  - effect:particles{particle=cloud;amount=50;hS=1;vS=3;speed=0.1} @self
+OdinTeleport:
+  Skills:
+  - effect:lightning @Self
+  - delay 10
+  - teleport{vS=5;hS=10} @RLNTE{r=10;minr=6} 
+  - effect:lightning @Self

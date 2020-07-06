@@ -1,0 +1,26 @@
+# ====== Settings for DeathControl ======
+# IMPORTANT: Do NOT use tabs in this file! Only use spaces!
+# 
+# Documentation on how to set up this configuration can be found here:
+# http://dev.bukkit.org/bukkit-plugins/deathcontrol/pages/configuration/
+
+
+disable-permissions: true
+logging-level: standard
+
+multi-world:
+    allow-cross-world: false
+    disabled-worlds: []
+
+handlings:
+    # These are some handlings for demonstration purposes.
+    # Adjust them for your own needs.
+    demo:
+        priority-order: 1
+        conditions:
+        - world world
+        actions:
+        - clear-death-message
+        - message &cTrying to revive you... Oh! You're opening the eyes, so. It's nothing, you'll send to the jail again.
+        - command console minecraft:effect %victim-name% minecraft:blindness 10
+        - wait 10s

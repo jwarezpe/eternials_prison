@@ -1,0 +1,25 @@
+Birds:
+  MobName: bird
+  World: world
+  X: 9
+  Y: 103
+  Z: -102
+  Radius: 10
+  UseTimer: true
+  MaxMobs: '5'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 30
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 30
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

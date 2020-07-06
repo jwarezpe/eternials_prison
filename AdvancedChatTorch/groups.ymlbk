@@ -1,0 +1,286 @@
+default:
+  priority: 1
+  perm: group.default
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank%&7 &8┃%deluxetags_tag%
+    &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: '7'
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+vip:
+  priority: 2
+  perm: tag.vip
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &aVIP &8┃%deluxetags_tag%
+    &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+vip+:
+  priority: 3
+  perm: tag.vip+
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &b&lVIP+
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+vip++:
+  priority: 4
+  perm: tag.vip++
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &dVIP++ &8┃%deluxetags_tag%
+    &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+vip+++:
+  priority: 5
+  perm: tag.vip+++
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &c&lVIP+++
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+vip++++:
+  priority: 6
+  perm: tag.vip++++
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &e&lVIP++++
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+HELPER:
+  priority: 7
+  perm: tag.helper
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &3&lHELPER
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+MODERATOR:
+  priority: 8
+  perm: tag.mod
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &a&lMOD &8┃%deluxetags_tag%
+    &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+SRMOD:
+  priority: 9
+  perm: tag.srmod
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &2&lSR. MOD
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+ADMIN:
+  priority: 10
+  perm: tag.admin
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &c&lADMIN
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+SRADMIN:
+  priority: 11
+  perm: tag.sradm
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &4&lSR. ADMIN
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+MANAGER:
+  priority: 12
+  perm: tag.manager
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &9&lMANAGER
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%
+OWNER:
+  priority: 13
+  perm: tag.owner
+  format: '&a✪ %rankup_current_prestige% &8┃ &7%rankup_current_rank% &8┃ &6&lOWNER
+    &8┃%deluxetags_tag% &f%essentials_nickname% &8» &7%message%'
+  useChatColor: true
+  chatColor: 7
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /msg %player_name%
+  on_hover:
+    show_text: true
+    text_shown: |-
+      &e&l* &fGrade: &7%rankup_current_rank%'
+      &e&l* &fRebirths: &a✪ %rankup_current_prestige%
+      &7
+      &e&l* &fMoney: &e⛁ %vault_eco_balance_formatted%
+      &e&l* &fTokens: &c✸ %tokenmanager_tokens%
+      &e&l* &fOrbs: &b❂ %gemseconomy_balance__formatted%
+      &e&l* &fGang: &d%javascript_team%

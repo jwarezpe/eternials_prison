@@ -1,0 +1,167 @@
+    menu_title: » Orb Crystal - Exchange
+    open_command:
+    - fdhgfsdsdbghdf
+    size: 36
+    items:
+      '111233':
+        material: prismarine_crystals
+        slot: 11
+        priority: 1
+        display_name: '&6&lOrb Crystal #1'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fValue: &b❂ 1,000'
+        - ''
+        - '&e&nClick to withdraw!'
+        left_click_commands:
+        - '[player] cheque write 1000'
+        - '[refresh]'    
+        left_click_requirement:
+          requirements:
+            reeeq:
+              type: '>='
+              input: '%gemseconomy_balance_default%'
+              output: '1000'
+              deny_commands:
+                - '[console] titlemanager:tm message %player_name% &7\n&cMhm... Insufficient Orbs!'
+                - '[close]'
+        right_click_commands:
+        - '[player] cheque write 1000'
+        - '[refresh]'    
+        right_click_requirement:
+          requirements:
+            reeeq:
+              type: '>='
+              input: '%gemseconomy_balance_default%'
+              output: '1000'
+              deny_commands:
+                - '[console] titlemanager:tm message %player_name% &7\n&cMhm... Insufficient Orbs!'
+                - '[close]'
+      '1112334':
+        material: prismarine_crystals
+        slot: 13
+        priority: 1
+        display_name: '&6&lOrb Crystal #2'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fValue: &b❂ 5,000'
+        - ''
+        - '&e&nClick to withdraw!'
+        left_click_commands:
+        - '[player] cheque write 5000'
+        - '[refresh]'    
+        left_click_requirement:
+          requirements:
+            reeeq:
+              type: '>='
+              input: '%gemseconomy_balance_default%'
+              output: '5000'
+              deny_commands:
+                - '[console] titlemanager:tm message %player_name% &7\n&cMhm... Insufficient Orbs!'
+                - '[close]'
+        right_click_commands:
+        - '[player] cheque write 5000'
+        - '[refresh]'    
+        right_click_requirement:
+          requirements:
+            reeeq:
+              type: '>='
+              input: '%gemseconomy_balance_default%'
+              output: '5000'
+              deny_commands:
+                - '[console] titlemanager:tm message %player_name% &7\n&cMhm... Insufficient Orbs!'
+                - '[close]'
+      '1112335':
+        material: prismarine_crystals
+        slot: 15
+        priority: 1
+        display_name: '&6&lOrb Crystal #3'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fValue: &b❂ 25,000'
+        - ''
+        - '&e&nClick to withdraw!'
+        left_click_commands:
+        - '[player] cheque write 25000'
+        - '[refresh]'    
+        left_click_requirement:
+          requirements:
+            reeeq:
+              type: '>='
+              input: '%gemseconomy_balance_default%'
+              output: '25000'
+              deny_commands:
+                - '[console] titlemanager:tm message %player_name% &7\n&cMhm... Insufficient Orbs!'
+                - '[close]'
+        right_click_commands:
+        - '[player] cheque write 25000'
+        - '[refresh]'    
+        right_click_requirement:
+          requirements:
+            reeeq:
+              type: '>='
+              input: '%gemseconomy_balance_default%'
+              output: '25000'
+              deny_commands:
+                - '[console] titlemanager:tm message %player_name% &7\n&cMhm... Insufficient Orbs!'
+                - '[close]'
+      '11dfgfdsdsdas5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE5YzFmMGZlMWZhN2Y0Yjc2ZTQ3MDNjMDZlMTIyZmM5ZDQwZWViNDQzY2U1N2U5ZjFmYmEyNWZmOTFmMDQ0YiJ9fX0=
+        data: 3
+        slot: 22
+        priority: 1
+        display_name: '&6&lRedeem Orbs'
+        lore:
+        - '&fRedeem the orb & and '
+        - '&fconvert them all to'
+        - '&fvirtual orbs!'
+        - ''
+        - '&c[You must have it in your'
+        - '&chand before using it]'
+        - ''
+        - '&e&nClick to redeem!'
+        left_click_commands:
+        - '[player] cheque redeem'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] cheque redeem'
+        - '[refresh]'    
+      '111122fdsfdsd3':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 12
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        priority: 1

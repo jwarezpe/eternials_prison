@@ -1,0 +1,30 @@
+config-version: 1
+check-updates: false
+format: '&e&l%name% &7&o(x%size%)'
+pickup-items-on-sneak: false
+lang: en_CA
+messages:
+  display-name: 'Display Name&7: &f%name%'
+  no-permission: '&cYou do not have permission to run this command.'
+  unknown-cmd: '&cYou entered an unknown command.'
+  reloaded: '&aThe configuration is reloaded.'
+drop-cleaner:
+  enabled: true
+  format: '&6&l&n%countdown%&8 ┃ &e&l%name% &7&o(x%size%)'
+  timer: 15
+  timer-for-loaded-items: true
+  save-player-dropped-items: false
+  enable-custom-countdowns: false
+  custom-countdowns:
+    DIAMOND_SWORD:
+      name-filter: '*'
+      timer: 20
+      format: '&c%name% &7(x%size%)'
+    STICK:
+      name-filter: ''
+      timer: 20
+    DIAMOND:
+      name-filter: KEEP_SILVER
+      timer: -1
+    RAW_FISH:
+      timer: -1

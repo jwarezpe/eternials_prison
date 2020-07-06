@@ -1,0 +1,218 @@
+    menu_title: '&8» Shops'
+    inventory_type: INVENTORY
+    open_command:
+    - shops
+    - shop
+    size: 45
+    items:
+      '23':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk0ODdmMzNmNTUwMGQxZWQ1MGEwNTgxOGMyNmFlZmZiMzE0ZWRkZGNhYzY4MTU5OTZkZmEyNjkyYTE4MmNmYyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 10
+        priority: 1
+        display_name: '&6&lItems Shop'
+        lore:
+        - ''
+        - '&e -&f Farming / Food'
+        - '&e -&f Blocks'
+        - '&e -&f Miscellaneous'
+        - '&e -&f Redstone'
+        - '&e -&f Tools'
+        - ''
+        - '&e&lINFORMATION:'
+        - '  &6&l* &fCurrency: &a&lCASH'
+        - ''
+        - '&e&nClick to view!'
+        left_click_commands:
+        - '[openguimenu] itemshop'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] itemshop'
+        - '[refresh]'
+      '20':
+        material: 160
+        display_name: '&f'
+        data: 15
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        priority: 1
+      '25':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVmZTY1MDViYzg0MGFiZmQ4NjY2MjYxMDE3ZWMyMGE2ODQ2ODU2MWJjM2NmMmZhZDYzOWE0ZWM5NDc4OWZhMCJ9fX0=
+        data: 3
+        amount: 1
+        slot: 12
+        priority: 1
+        display_name: '&6&lEnchanter Shop'
+        lore:
+        - ''
+        - '&e -&f Custom Enchantments'
+        - '&ffor tools/armor.'
+        - ''
+        - '&e&lINFORMATION:'
+        - '  &6&l* &fCurrency: &d&lEXP'
+        - ''
+        - '&e&nClick to view!'
+        left_click_commands:
+        - '[openguimenu] enchantments'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] enchantments'
+        - '[refresh]'
+      '255':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 14
+        priority: 1
+        display_name: '&6&lUpgrade Pickaxe'
+        lore:
+        - ''
+        - '&fYou need to hold your'
+        - '&fpickaxe to upgrade it.'
+        - ''
+        - '&e&lINFORMATION:'
+        - '  &6&l* &fCurrency: &b&lORBS'
+        - ''
+        - '&e&nClick to view!'
+        left_click_commands:
+        - '[openguimenu] fdsfwewrwr32332dssfa'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] fdsfwewrwr32332dssfa'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            pickaxe:
+             type: javascript
+             expression: '"%player_item_in_hand%" == "WOODEN_PICKAXE" || "%player_item_in_hand%" == "STONE_PICKAXE" || "%player_item_in_hand%" == "GOLDEN_PICKAXE" || "%player_item_in_hand%" == "IRON_PICKAXE" || "%player_item_in_hand%" == "DIAMOND_PICKAXE"'
+          deny_commands: 
+            - '[console] titlemanager:tm message %player_name% &7\n&cYou need to hold pickaxe!'
+            - '[close]'
+        right_click_requirement:
+          requirements:
+            pickaxe:
+             type: javascript
+             expression: '"%player_item_in_hand%" == "WOODEN_PICKAXE" || "%player_item_in_hand%" == "STONE_PICKAXE" || "%player_item_in_hand%" == "GOLDEN_PICKAXE" || "%player_item_in_hand%" == "IRON_PICKAXE" || "%player_item_in_hand%" == "DIAMOND_PICKAXE"'
+          deny_commands: 
+            - '[console] titlemanager:tm message %player_name% &7\n&cYou need to hold pickaxe!'
+            - '[close]'
+      '26':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUwYzMzMDZiYjExNTIyZmVjMzgwZWEyNDhlYjZhNWIxODBmNGE3YWI4ODQzZDYzNWQxNGQ0YTc3OGQ2MzUxIn19fQ==
+        data: 3
+        amount: 1
+        slot: 16
+        priority: 1
+        display_name: '&6&lAuction House'
+        lore:
+        - ''
+        - '&fBuy and sell everything you'
+        - '&fwant with other players.'
+        - ''
+        - '&e&nClick to view!'
+        left_click_commands:
+        - '[player] ah'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] ah'
+        - '[refresh]'
+      '221321':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5NzRlYzE5ZDQwZWVmOTJiMmU0YWUzMmFjN2I4NjQ2ZjM0ODljNTA4ZjUwYjE2ZjM4MzUyOTZlMmFkYTIifX19
+        data: 3
+        amount: 1
+        slot: 31
+        priority: 1
+        display_name: '&6&lDonation Store'
+        lore:
+        - ''
+        - '&fCheck the server general'
+        - '&fstore to access to purchase'
+        - '&fperks, items, ranks...'
+        - ''
+        - '&e&lINFORMATION:'
+        - '  &6&l* &fCurrency: &2&l$ USD'
+        - ''
+        - '&e&nClick to view!'
+        left_click_commands:
+        - '[player] buy'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] buy'
+        - '[refresh]'
+      '2dfwew':
+        material: black_stained_glass_pane
+        amount: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        priority: 1

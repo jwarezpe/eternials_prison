@@ -1,0 +1,36 @@
+# 
+# These example files show you how to inject Mythic Mobs
+# you've created into your world. The name of each block
+# can be whatever you'd like but must be unique.
+BirdSpawner:
+  MobName: bird
+  World: world
+  SpawnerGroup: BirdSpawner
+  X: 0
+  Y: 0
+  Z: 0
+  Radius: 10
+  RadiusY: 2
+  UseTimer: true  
+  MaxMobs: 7
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 30
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 64
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 1
+RandomSkeletalKnight:
+  MobType: SkeletalKnight
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: add

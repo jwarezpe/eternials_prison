@@ -1,0 +1,25 @@
+Bees:
+  MobName: bee
+  World: world
+  X: -32
+  Y: 101
+  Z: -12
+  Radius: 5
+  UseTimer: true
+  MaxMobs: '2'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 60
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 13
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

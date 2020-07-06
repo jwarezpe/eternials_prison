@@ -1,0 +1,8 @@
+MySql:
+  data:
+    MySql: false
+    host: ''
+    port: ''
+    database: ''
+    password: ''
+    user: ''

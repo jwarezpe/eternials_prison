@@ -1,0 +1,121 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: false
+enable-header-footer: false
+header:
+- '&7&o»&c&lXHSIOHN &8&lServer&7&o«'
+- '&6&o&l2'
+- ''
+footer:
+- ''
+- '&7▼&7&l&oNuestra Comunidad&7▼'
+- '&9https://discord.gg/xZ6va2P'
+group-sorting-priority-list:
+- sysadmin
+- dios_supremo
+- Rey
+- Delegado
+- Guardia
+- Explorador
+- Guerrero
+- Minero
+- Constructor
+- Granjero
+- Redstoner
+- Brujo
+- Default
+Groups:
+  Owner:
+    tabprefix: '&0&l[&a&lOwner&0&l] &a'
+    tagprefix: '&2&lOwner &a'
+    header:
+    - ur server man
+    footer:
+    - welcome
+    - ''
+    - THIS IS NOT A BUG
+    - DO NOT REPORT THIS AS A BUG
+    - This is per-group header/footer
+    - applied to Owner group
+    - You can modify this or delete in config in Groups section
+  Admin:
+    tabprefix: '&0&l[&4&lAdmin&0&l] &1'
+    tagprefix: '%animation:admin_prefix%'
+  Player:
+    tabprefix: '&0&l[&7&lPlayer&0&l] &3'
+    tagprefix: '&2&lPlayer &3'
+  _OTHER_:
+    tabprefix: '%vault-prefix% '
+    tagprefix: '%vault-suffix%&l%vault-prefix%&7 '
+    tabsuffix: '%afk%'
+    tagsuffix: '%afk%'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+Users:
+  _NEZNAMY_:
+    tabprefix: '&6&lTAB Author &a'
+    tagprefix: '&6&lTAB &r&a'
+    abovename: '&bOh look, 3 lines of text !'
+    belowname: '&eThere''s only one plugin out there supporting it'
+enable-collision: true
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  modify-npc-names: false
+per-world-settings:
+  world1:
+    header:
+    - an example of world with custom
+    footer:
+    - header/footer and prefix/suffix
+    Groups:
+      Owner:
+        tabprefix: '&0&l[&a&lOwner&0&l] &a'
+        tagprefix: '&2&lOwner &a'
+  world2-world3:
+    header:
+    - This is a shared header for
+    - world2 and world3
+placeholders:
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[] '
+  - '< > '
+rank-aliases:
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&6&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  _OTHER_: '&7No Rank'
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  tablist-objective:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld
+nametag-refresh-interval-milliseconds: 1000
+tablist-refresh-interval-milliseconds: 1000
+header-footer-refresh-interval-milliseconds: 100
+yellow-number-in-tablist: ''
+classic-vanilla-belowname:
+  enabled: false
+  number: '%health%'
+  text: Health
+  refresh-interval-milliseconds: 250
+revert-collision-rule-in-worlds:
+- revertedworld

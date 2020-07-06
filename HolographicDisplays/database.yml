@@ -1,0 +1,228 @@
+cells:
+  location: world, -1651.500, 162.500, -2470.500
+  lines:
+  - '&eCells'
+  - '&6&lCLICK'
+clegendary:
+  location: world, -1620.500, 163.200, -2471.500
+  lines:
+  - '&6» &eMystic Crate &6«'
+  - ''
+  - '&6&lCLICK'
+crare:
+  location: world, -1619.636, 163.200, -2475.446
+  lines:
+  - '&4» &cAncient Crate &4«'
+  - ''
+  - '&6&lCLICK'
+ccommon:
+  location: world, -1619.707, 163.200, -2467.586
+  lines:
+  - '&5» &dPerks Crate &5«'
+  - ''
+  - '&6&lCLICK'
+m1:
+  location: mines, 2493.500, 103.700, -13.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m2:
+  location: mines, 2493.500, 103.700, 486.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m3:
+  location: mines, 2493.500, 103.700, 986.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m4:
+  location: mines, 2493.500, 103.700, 1486.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m5:
+  location: mines, 487.500, 103.700, 13.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m6:
+  location: mines, 487.500, 103.700, 513.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m7:
+  location: mines, 487.500, 103.700, 1013.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m8:
+  location: mines, 487.500, 103.700, 1513.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+treward:
+  location: world, -1646.500, 161.200, -2478.500
+  lines:
+  - '&eTreasure Chest'
+  - '&6&lCLICK'
+cvvote:
+  location: world, -1623.500, 163.200, -2462.500
+  lines:
+  - '&2» &aVote Crate &2«'
+  - ''
+  - '&6&lCLICK'
+ice:
+  location: world, -1640.500, 117.500, -2507.500
+  lines:
+  - '&eIce Merchant'
+  - '&6&lCLICK'
+shop:
+  location: world, -1670.700, 158.500, -2465.500
+  lines:
+  - '&eShop'
+  - '&6&lCLICK'
+holo:
+  location: world, -1636.500, 163.000, -2467.500
+  lines:
+  - '&e❖ &6&lPRISON &e❖'
+  - '&7&oEnjoy trying to escape!'
+  - ''
+  - '&fIn the prison gamemode you will be'
+  - '&fable to create your own cell and ranking'
+  - '&fup by mining to get free someday!'
+  - ''
+  - '&ePress &d[F] &ekey to open your keystone!'
+m9:
+  location: mines, 1009.500, 103.700, 17.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m10:
+  location: mines, 1009.500, 103.700, 517.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m11:
+  location: mines, 1009.500, 103.700, 1017.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m12:
+  location: mines, 1009.500, 103.700, 1517.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m13:
+  location: mines, 2015.500, 103.700, 9.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m101:
+  location: mines, 2015.500, 103.700, 509.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+character:
+  location: world, -1644.500, 161.500, -2457.500
+  lines:
+  - '&eCharacter Menu'
+  - '&6&lCLICK'
+strongbox:
+  location: world, -1648.500, 161.200, -2456.500
+  lines:
+  - '&eStrongbox'
+  - '&6&lCLICK'
+pvp:
+  location: world, -1688.500, 154.668, -2470.500
+  lines:
+  - '&eWelcome to &6&lYrim''s Glaciation&e!'
+  - ''
+  - '&fMust be &7[B4] &fgrade or'
+  - '&fhigher to mine &bPacked Ice&f!'
+pvp2:
+  location: world, -1720.500, 141.000, -2491.500
+  lines:
+  - '&c&lPVP ENABLED UNDER HERE'
+  - ''
+  - '&fInventory is dropped on death.'
+icepacked:
+  location: world, -1717.500, 142.000, -2488.500
+  lines:
+  - '&fStatus: &aMineable'
+  - '&fEvery: &b30 minute(s)'
+icepacked2:
+  location: world, -1717.500, 142.500, -2494.500
+  lines:
+  - '&eSell your Packed Ice at the'
+  - '&eIce Merchant &e&lWEST &efrom here.'
+  - ''
+  - '&61x Packed Ice &f= &e$5,000'
+coinflip:
+  location: world, -1693.500, 155.500, -2443.500
+  lines:
+  - '&eTeleporter'
+  - '&6&lCLICK'
+enchanting:
+  location: world, -1693.500, 155.500, -2459.500
+  lines:
+  - '&eEnchanter'
+  - '&6&lCLICK'
+petsy:
+  location: world, -1695.500, 155.500, -2455.500
+  lines:
+  - '&ePets'
+  - '&6&lCLICK'
+banky:
+  location: world, -1695.500, 155.500, -2447.500
+  lines:
+  - '&eBank'
+  - '&6&lCLICK'
+m111:
+  location: mines, 2015.500, 103.700, 1009.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m222:
+  location: mines, 2015.500, 103.700, 1509.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m333:
+  location: mines, 1358.500, 145.700, -150.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m444:
+  location: mines, 1358.500, 145.700, 349.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m555:
+  location: mines, 1358.500, 145.700, 849.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+m1123:
+  location: mines, 1358.500, 145.700, 1349.500
+  lines:
+  - '&eSell All'
+  - '&6&lCLICK'
+enderchestspawn:
+  location: world, -1623.500, 162.000, -2480.500
+  lines:
+  - '&eEnder Chest'
+  - '&6&lCLICK'
+gang:
+  location: world, -1697.500, 155.500, -2451.500
+  lines:
+  - '&eGang'
+  - '&6&lCLICK'
+yrimh:
+  location: world, -1695.500, 148.400, -2496.500
+  lines:
+  - '&6&lODIN QUICK SELL'
+  - '&c[Requires Odin''s Rebirth]'
+  - '&fUse the Merchant''s south of here'
+  - '&fif Odin''s rebirth is not completed.'
+  - '&eIce Merchant'

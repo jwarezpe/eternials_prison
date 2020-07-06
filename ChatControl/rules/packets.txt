@@ -1,0 +1,50 @@
+# -------------------------------------------------------------------------------
+# This file manages special rules that can overlap messages by other plugins,
+# or even the server itself. Requires ProtocolLib.
+# 
+# This accepts *ONLY* operators below:
+#
+# Valid operators:
+# match <regex> (A valid regular expression to match the checked message.)
+# then replace <message> (A word to replace the part of the message that is matched.)
+# then rewrite <message> (A message to replace the whole checked message.)
+# then rewritein <world> <message> (A message to replace the whole checked message in specified world. 
+#                                   You can use this together with 'rewrite' as a fallback on other worlds, or
+#                                   add multiple operators in one rule for multiple worlds.)
+# dont verbose (Rule won't print to the console. Ignores 'Verbose' option in settings.yml.)
+# then deny (Hides the message - cancels the packet.)
+#
+# For valid variables (e.g. %world) check the header in the rules.txt file!
+#
+# Supports color codes with & and unicode characters when saved in UTF-8 encoding.
+# -------------------------------------------------------------------------------
+
+
+match ^Block Regen.*
+then deny
+
+match ^Removed 8 of dirt.*
+then deny
+
+match ^Your balance was set.*
+then deny
+
+match ^nomessage
+then deny
+
+match ^Teleported.*
+then deny
+
+match ^to -5.5,.*
+then deny
+
+match ^to -1631.5,.*
+then deny
+
+match ^/ewwfefdwedwe
+then deny
+
+match ^/ewwfefdwedwefrgewwewe
+then deny
+
+#then rewritein hardcore &cThis command is not available in %world world.

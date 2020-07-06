@@ -1,0 +1,249 @@
+    menu_title: » Character Menu
+    open_command:
+    - character
+    size: 54
+    items:
+      'adfsadf':
+        material: 'diamond_pickaxe'
+        glow: true
+        slot: 10
+        update: true
+        priority: 2
+        display_name: '&6&l%player_name%''s Pickaxe'
+        lore:
+        - '&7'
+        - '  &e&l* &fEfficiency: &bX'
+        - '  &e&l* &fUnbreaking: &bXX'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fCooldown: &7%javascript_cooldown_142_1800%'
+        - '  &e&l* &fStatus: &cUnavailable'
+      'asdgdwfgefdfdass':
+        material: 'diamond_pickaxe'
+        update: true
+        slot: 10
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: "%javascript_cooldown_142_1800%"
+              output: "0s"
+        display_name: '&6&l%player_name%''s Pickaxe'
+        lore:
+        - '&7'
+        - '  &e&l* &fEfficiency: &bX'
+        - '  &e&l* &fUnbreaking: &bXX'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &aAvailable'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_142_start%'
+        - '[console] give %player_name% diamond_pickaxe 1 EFFICIENCY:10 UNBREAKING:20 lore:&7|&6&lINFORMATION:|__&e&l*_&fOwner:_&b%player_name%|&7|&e&nRight-click_to_open!'
+        - '[console] titlemanager:tm message %player_name% &7\n&eStart mining!'
+        - '[close]'
+        - '[refresh]'
+      'fgfsddsfsdf':
+        material: 'diamond_pickaxe'
+        glow: true
+        slot: 16
+        update: true
+        priority: 2
+        display_name: '&6&l%player_name%''s Pickaxe'
+        lore:
+        - '&7'
+        - '  &e&l* &fEfficiency: &bX'
+        - '  &e&l* &fUnbreaking: &bXX'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fCooldown: &7%javascript_cooldown_142_1800%'
+        - '  &e&l* &fStatus: &cUnavailable'
+      'asdgdwfgefsafgdssaffdass':
+        material: 'diamond_pickaxe'
+        glow: true
+        slot: 16
+        priority: 1
+        view_requirement:
+          requirements:
+            name:
+              type: string equals
+              input: "%javascript_cooldown_142_1800%"
+              output: "0s"
+        display_name: '&6&l%player_name%''s Pickaxe'
+        lore:
+        - '&7'
+        - '  &e&l* &fEfficiency: &bX'
+        - '  &e&l* &fUnbreaking: &bXX'
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &aAvailable'
+        - ''
+        - '&e&nClick to claim!'
+        left_click_commands:
+        - '[console] papi parse %player_name% %javascript_cooldown_142_start%'
+        - '[console] give %player_name% diamond_pickaxe 1 EFFICIENCY:10 UNBREAKING:20 lore:&7|&6&lINFORMATION:|__&e&l*_&fOwner:_&b%player_name%|&7|&e&nRight-click_to_open!'
+        - '[console] titlemanager:tm message %player_name% &7\n&eStart mining!'
+        - '[close]'
+        - '[refresh]'
+      Close2:
+        material: Book
+        slot: 49
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '14yu674rfd':   
+        material: head-%player_name%
+        slot: 13
+        display_name: '&6&l%player_name%''s Stats'
+        lore:
+        - ''
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7%rankup_current_rank%'
+        - '  &e&l* &fJoined: &b%player_first_join_date%'
+        - '  &e&l* &fKills: &c%statistic_player_kills%'
+        - '  &e&l* &fDeaths: &c%statistic_deaths%'
+        - '  &e&l* &fPlayed: &e%statistic_time_played%'
+      'fghghg23dsdgs':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19
+        slot: 29
+        display_name: '&6&lBank'
+        lore:
+        - '&fStore your most appreciated'
+        - '&fitems or convert your virtual'
+        - '&fcurrencies into cheques!'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] storage'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] storage'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+      '123453dsd':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIzYzRiNjcxZjI0NzNlMzgyYzYzMWRmMTcxZTI3MWYxY2FmNDlhZmMxNTQ4ZWU2NzUzY2Y2MjdiZTBmZDcyIn19fQ==
+        slot: 30
+        display_name: '&6&lColor Customization'
+        lore:
+        - '&fChange your nickname or chat'
+        - '&fcolor and stand out among'
+        - '&fthe others to feel special!'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] chatcolor'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] chatcolor'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+      'cgf234fggfdasdqe':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUzNWZmZDY5N2Q2YzBkOTc2MTc1ODE2ZTQxNjhjYmM0Y2EyOWQzYThlNzFiMTNhMWQ1Zjk1NDNjNTYyY2ExIn19fQ==
+        slot: 31
+        display_name: '&6&lGang'
+        lore:
+        - '&fCreate your own gang or join'
+        - '&fone with your friends to'
+        - '&fshare stuff together!'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] gang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] gang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]' 
+      'cgf3432432re':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRlM2UzNmQyOGRmMTQ3NGEzZjQ2ZWVkZTBkMzNiNGQxYzNmMzhkYjE1MjM4ZTYzN2RiNDZhMzE4MWRlZjBhMSJ9fX0=
+        slot: 32
+        display_name: '&6&lDisguises'
+        lore:
+        - '&fStand out among the others'
+        - '&fconverting yourself into'
+        - '&fa monster or animal!'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] disguises'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] disguises'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'    
+      'cgfdwere':   
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE2YWNlYTBiMjk3NjEyMmUzY2Y1YWZhNjIyMGNhMTU1MTc2MWFkMGJjNTRmYTBkNmVjZWQxMDU0ODIzY2FjMiJ9fX0=
+        slot: 33
+        display_name: '&6&lPets'
+        lore:
+        - '&fStand out among the others'
+        - '&fhaving your very own'
+        - '&fpet following you with'
+        - '&fdifferent characters!'
+        - ''
+        - '&e&nClick to open!'
+        left_click_commands:
+        - '[openguimenu] pets'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'
+        right_click_commands:
+        - '[openguimenu] pets'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[refresh]'    
+      '111122fdsfdsd3':
+        material: black_stained_glass_pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 12
+        - 14
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        priority: 1

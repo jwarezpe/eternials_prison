@@ -1,0 +1,307 @@
+#This is the lore of every auctioned item in the menu:
+#Use %amount% for item's amount
+auction-item-lore:
+  #The lore for items with no bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  #Use %duration% for auction duration
+  auction-item-no-bid:
+    - ''
+    - '  &e&l* &fSeller: &6%display-name-seller%'
+    - '  &e&l* &fStarting bid: &e⛁ %starting-bid%'
+    - ''
+    - '&c&oEnds in %duration%'
+    - ''
+    - '&e&nClick to inspect!'
+  #The lore for items with bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  #Use %duration% for auction duration
+  auction-item-with-bids:
+    - ''
+    - '  &e&l* &fSeller: &6%display-name-seller%'
+    - '  &e&l* &fBids: &b%bids% bids'
+    - ''
+    - '  &e&l* &fTop bid: &d%top-bid% coins'
+    - '  &e&l* &fBidder: &5%top-bid-player%'
+    - ''
+    - '&c&oEnds in %duration%'
+    - ''
+    - '&e&nClick to inspect!'
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  auction-item-ended:
+    - ''
+    - '  &e&l* &fSeller: &6%display-name-seller%'
+    - '  &e&l* &fBids: &a%bids% bids'
+    - ''
+    - '  &e&l* &fTop bid: &d%top-bid% coins'
+    - '  &e&l* &fBidder: &5%top-bid-player%'
+    - ''
+    - '  &e&l* &fStatus: &aEnded!'
+    - ''
+    - '&e&nClick to inspect!'
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  auction-item-expired:
+    - ''
+    - '  &e&l* &fSeller: &6%display-name-seller%'
+    - '  &e&l* &fStarting bid: &e⛁ %starting-bid%'
+    - ''
+    - '  &e&l* &fStatus: &cExpired!'
+    - ''
+    - '&e&nClick to inspect!'
+
+sort-auction-item: '154'
+sort-auction-item-name: '&6&lSort'
+#The lore is dynamic so you can only edit
+#the names of the sortings
+sort-auction-item-sorting:
+  highest-bid: 'Highest Bid'
+  lowest-bid: 'Lowest Bid'
+  ending-soon: 'Ending Soon'
+  most-bids: 'Most Bids'
+  click-to-switch: '&e&nClick to switch sort!'
+
+search-auction-item: 323
+search-auction-item-name: '&6&lSearch'
+search-auction-item-lore:
+  - ''
+  - '&fFind items by name or'
+  - '&flore.'
+  - ''
+  - '&e&nClick to search!'
+
+#The message displayed on the sign when searching for an auction
+#There are only 3 rows because the first is where the user writes
+search-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Type in your'
+  - 'search'
+
+create-menu-name: '&8» Auction House - Creator'
+manage-own-auctions-menu-name: '&8» Auction House - Manager'
+manage-menu-item: '418'
+manage-menu-item-name: '&6&lManage Auctions'
+manage-menu-item-lore:
+  #This lore is displayed when the player has no own auction
+  manage-no-own-auctions:
+    - ''
+    - '&fSet your own items on'
+    - '&fauction for other players'
+    - '&fto purchase.'
+    - ''
+    - '&e&nClick to become rich!'
+  #This lore is displayed when the player has pending auctions
+  #Use %auctions% for the number of auctions the player has
+  #Use %bids% for the total number of bids on their auctions
+  #Use %coins% for the total number of coins on their auctions
+  manage-with-own-auctions:
+    - ''
+    - '&e&lINFORMATION:'
+    - '  &e&l* &fCurrent: &b%auctions%'
+    - '  &e&l* &fBidding: &d%bids% &7with &e⛁ %coins%&7.'
+    - ''
+    - '&e&nClick to manage!'
+
+preview-no-item-selected: '77'
+preview-no-item-selected-name: '&e&nClick an item in your inventory!'
+preview-no-item-selected-lore:
+  - '&fSelects it for auction'
+
+preview-selected-item-name: '&a&n&lAUCTION FOR ITEM'
+preview-selected-item-take-back: '&e&nClick to pickup!'
+
+#This item appears when the player has 2 or more ended auctions
+collect-all-item: '380'
+#Use %auctions% for the number of auctions that could be collected
+#Use %coins% for the total amount of coins that could be collected
+#Use %items% for the expired items that could be collected
+collect-all-item-name: '&aClaim All'
+collect-all-item-lore:
+  own-auctions:
+    - '&8Ended Auctions'
+    - ''
+    - '&fYou have &e%auctions% &fended auctions'
+    - '&ftotaling a value of &6%coins% &fcoins'
+    - '&fand &e%items% &fitems from expired auctions.'
+    - ''
+    - '&eClick to claim!'
+  own-bids:
+    - '&8Ended Auctions'
+    - ''
+    - '&fThere are &e%auctions% &fended auctions'
+    - '&fon which you bid.'
+    - ''
+    - '&fYou have &6%coins% &fcoins to'
+    - '&fclaim back from lost auctions and'
+    - '&e%items% &fitems from won auctions.'
+    - ''
+    - '&eClick to claim!'
+
+#The message sent when the player has a full inventory but tries to claim an item
+not-enough-inventory-space: '&cYou don''t have enough inventory space!'
+
+create-auction-item:
+  no-item-selected-material: '159:14'
+  no-item-selected-name: '&c&lCreate Auction'
+  no-item-selected-lore:
+    - ''
+    - '&fNo item selected!'
+    - ''
+    - '&7(Click an item in your'
+    - '&7inventory to select it for'
+    - '&7this auction).'
+  item-selected-material: '159:13'
+  item-selected-name: '&a&lCreate Auction'
+  #Use %item-name% for item's name
+  #Use %starting-bid% for starting bid amount
+  #Use %duration% for duration of the auction
+  #Use %fee% for the total fee
+  item-selected-lore:
+    - ''
+    - '&fThis item will be added to'
+    - '&fthe auction house for other'
+    - '&fplayers to purchase.'
+    - ''
+    - '&e&lINFORMATION:'
+    - '  &e&l* &fItem: &a%item-name%'
+    - '  &e&l* &fDuration: &d%duration%'
+    - '  &e&l* &fStarting: &e⛁ %starting-bid%'
+    - ''
+    - '&f&lCOST &8| &e%fee%'
+    - ''
+    - '&e&nClick to submit!'
+
+#The default starting bid
+default-starting-bid: '500'
+
+starting-bid-item: '266'
+#Use %starting-bid% for the starting bid amount
+#Use %starting-fee% for the starting bid fee
+starting-bid-item-name: '&6&lStarting Bid: %starting-bid%'
+starting-bid-item-lore:
+  - ''
+  - '&fThe minimum price a player'
+  - '&fcan offer to obtain your'
+  - '&fitem.'
+  - ''
+  - '&fOnce a player bids for your'
+  - '&fitem, other players will'
+  - '&fhave until the auction ends'
+  - '&fto make a higher bid.'
+  - ''
+  - '&f&lFEE &8| &e+%starting-fee% &7(5%)'
+  - ''
+  - '&e&nClick to edit!'
+#The message displayed on the sign when changing the starting bid
+#There are only 3 rows because the first is where the user writes
+starting-bid-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Your auction'
+  - 'starting bid'
+#This message is shown when the starting bid
+#could not be registered
+starting-bid-sign-deny: '&cThat is not a valid number.'
+#Don't use the % symbol, just say how much in 100
+#you want the procent to be
+starting-bid-fee-procent: '5'
+
+#Use m for minute, h for hour, d for day with a space between the number and time unit
+#The maxim auction time is 7 days and you can't set the auction to seconds
+#If you enter the time incorectly it resets to 2 h
+default-starting-duration: '2 h'
+
+#Custom units for time
+#Don't use this in the upper option, these are avalable
+#just in auction messages, in the config please use the syntax from the upper comment
+second: 'Second'
+seconds: 'Seconds'
+minute: 'Minute'
+minutes: 'Minutes'
+hour: 'Hour'
+hours: 'Hours'
+day: 'Day'
+days: 'Days'
+
+
+#This is the formula that calculates the fee for hours
+#x=number of hours
+extra-fee-formula: '5*(x+3)+5*x*(Math.floor(x/9)+Math.floor(x/20))'
+#The fee for minutes is fixed (5 minutes - 59 minutes)
+extra-fee-minutes: '500'
+
+#This is the message used into %extra-fee%
+extra-fee-message: 'Extra fee: '
+
+duration-menu-name: '&8» Auction House - Duration'
+#This is the message used into duration selection menu
+#on the items with time on them
+duration-selection-lore: '&e&lClick to pick!'
+
+duration-item: '347'
+#Use %auction-fee% for the duration fee of the auction
+#Use %auction-time% for the time of the auction
+duration-item-name: '&6&lDuration: %auction-time%'
+duration-item-lore:
+  - ''
+  - '&fHow long players will be'
+  - '&fable to place bids for'
+  - ''
+  - '&d&oNote: Bids automatically'
+  - '&d&oincrease the duration of'
+  - '&d&oauctions.'
+  - ''
+  - '&f&lFEE &8| &e+%auction-fee%'
+  - ''
+  - '&e&nClick to edit!'
+
+#The clock inside the duration menu
+duration-select-item-name: '&aCustom Duration'
+duration-select-item-lore:
+  - '&fSpecify how long you want'
+  - '&fthe auction to last.'
+  - ''
+  - '&bRight Click for minutes!'
+  - '&eClick to set hours!'
+
+#The message displayed on the sign when changing the duration of the bid
+#There are only 3 rows because the first is where the user writes
+#%time-format% is hours/minutes.
+duration-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Auction'
+  - '%time-format%'
+
+#The message shown when the amount of hours/minutes entered is incorrect
+duration-sign-deny: '&cThat is not a valid number.'
+
+not-enough-money-auction: '&cYou don''t have enough money to create this auction.'
+
+auction-confirm-menu-name: '&8» Aution House - Confirm'
+
+auction-confirm-item-material: '159:13'
+auction-confirm-item-name: '&a&lConfirm'
+#Use %cost% for the total price the player
+#has to pay to create the auction
+auction-confirm-item-lore:
+  - ''
+  - '&fAre you sure you want'
+  - '&fto create the auction?'
+  - ''
+  - '&f&lCOST &8| &e%cost%'
+  - ''
+  - '&e&nClick to confirm!'
+
+auction-cancel-item-material: '159:14'
+auction-cancel-item-name: '&c&lCancel'
+auction-cancel-item-lore:
+  - ''
+  - '&fCancel the creation'
+  - '&fof the auction.'
+
+auction-created-message: '&aYour auction was created!'

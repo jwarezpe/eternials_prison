@@ -1,0 +1,7 @@
+murdolator:
+  id: diamond_sword
+  name: '&c&lMurdolator'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 6
+    FIRE_ASPECT: 1

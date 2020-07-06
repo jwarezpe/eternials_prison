@@ -1,0 +1,602 @@
+    menu_title: '&8» Grade Upgrade - E'
+    open_command:
+    - eweewfwe2sfds2ddsd
+    size: 45
+    update_interval: 1
+    items:
+      313asfh21s42:
+        material: black_stained_glass_pane
+        data: 3
+        amount: 1
+        slots:
+        - 0
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 19
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        display_name: ''
+      '3asd32':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY2NjJmMzUzMDFmOTMzOTE1YmFkMmIzOTdkNmRhNmNmMTJmNThmNGJkNGZjNzU3Y2Q3NGYzNjQ2OTUxNTgifX19
+        data: 3
+        amount: 1
+        slots:
+        - 13
+        priority: 1
+        display_name: '&6&lE'
+      '32':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+        priority: 1
+        display_name: '&e%rankup_percent_done_formatted%'
+      '31342':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 2
+        - 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '85'
+        priority: 2
+        display_name: '&e%rankup_percent_done_formatted%'
+      3131saw42:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 5
+        - 4
+        - 3
+        - 2
+        - 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '71'
+        priority: 3
+        display_name: '&e%rankup_percent_done_formatted%'
+      3131saw42123:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 4
+        - 3
+        - 2
+        - 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '57'
+        priority: 4
+        display_name: '&e%rankup_percent_done_formatted%'
+      5333131saw42123:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 3
+        - 2
+        - 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '43'
+        priority: 5
+        display_name: '&e%rankup_percent_done_formatted%'
+      5333aw131saw42123:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 2
+        - 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '29'
+        priority: 6
+        display_name: '&e%rankup_percent_done_formatted%'
+      5333aw131saw421aswr123:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhZjdhYWIxZTE3N2FkMzhlNTFiZmMxOWFiNjYyMTQ5YzMxOTUzYTU2OWE0MGNhYTgxZjdhNDkzMjA2OSJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 2
+        - 1
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%rankup_percent_done_formatted%'
+              output: '15'
+        priority: 7
+        display_name: '&e%rankup_percent_done_formatted%'
+      31321s42:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZjNTU2ZWJkNDgzYmZiMjUzZGI2NzQ0ZjFlZTliZGE1ZDU0ODFmMzE2MTY0Y2E4MmJjYjE4OWVkZmVjNGYxZiJ9fX0=
+        data: 3
+        amount: 1
+        slots:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 2
+        - 1
+        - 7
+        priority: 8
+        display_name: '&e%rankup_percent_done_formatted%'
+      1a2224a:
+        material: gray_dye
+        amount: 1
+        slot: 20
+        priority: 10
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E1'
+        - '  &e&l* &fStatus: &cUnavailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_D4%'
+      1a4:
+        material: lime_dye
+        amount: 1
+        slot: 20
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '19'
+        priority: 1
+        display_name: '&e%rankup_percent_done_formatted%'
+      1a5:
+        material: light_blue_dye
+        amount: 1
+        slot: 21
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '21'
+        priority: 2
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E2'
+        - '  &e&l* &fStatus: &aAvailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_E1%'
+        - '&7(You need %rankup_rank_money_E1_left%).'
+        - ''
+        - '&e&nClick to upgrade!'
+        right_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        right_click_commands:
+        - '[console] titlemanager:tm message &6&lCongratulations!\n&fYou ranked up to &e%rankup_current_rank%<delay=60>'
+        - '[player] rankup:rankup'
+        - '[console] warp %rankup_current_rank% %player_name%'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        left_click_commands:
+        - '[console] titlemanager:tm message &6&lCongratulations!\n&fYou ranked up to &e%rankup_current_rank%<delay=60>'
+        - '[player] rankup:rankup'
+        - '[console] warp %rankup_current_rank% %player_name%'
+        - '[close]'
+      1a4a:
+        material: gray_dye
+        amount: 1
+        slot: 21
+        priority: 10
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E2'
+        - '  &e&l* &fStatus: &cUnavailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_E1%'
+      1a6:
+        material: lime_dye
+        amount: 1
+        slot: 21
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '22'
+        priority: 1
+        display_name: '&e%rankup_percent_done_formatted%'
+      1a7:
+        material: light_blue_dye
+        amount: 1
+        slot: 22
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '22'
+        priority: 2
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E3'
+        - '  &e&l* &fStatus: &aAvailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_E2%'
+        - '&7(You need %rankup_rank_money_E2_left%).'
+        - ''
+        - '&e&nClick to upgrade!'
+        right_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        right_click_commands:
+        - '[console] titlemanager:tm message &6&lCongratulations!\n&fYou ranked up to &e%rankup_current_rank%<delay=60>'
+        - '[player] rankup:rankup'
+        - '[console] warp %rankup_current_rank% %player_name%'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        left_click_commands:
+        - '[console] titlemanager:tm message &6&lCongratulations!\n&fYou ranked up to &e%rankup_current_rank%<delay=60>'
+        - '[player] rankup:rankup'
+        - '[console] warp %rankup_current_rank% %player_name%'
+        - '[close]'
+      1a4aa:
+        material: gray_dye
+        amount: 1
+        slot: 22
+        priority: 10
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E3'
+        - '  &e&l* &fStatus: &cUnavailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_E2%'
+      1a8:
+        material: lime_dye
+        amount: 1
+        slot: 22
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '23'
+        priority: 1
+        display_name: '&e%rankup_percent_done_formatted%'
+      1a9:
+        material: light_blue_dye
+        amount: 1
+        slots:
+        - 23
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '23'
+        priority: 2
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E4'
+        - '  &e&l* &fStatus: &aAvailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_E3%'
+        - '&7(You need %rankup_rank_money_E3_left%).'
+        - ''
+        - '&e&nClick to upgrade!'
+        right_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        right_click_commands:
+        - '[console] titlemanager:tm message &6&lCongratulations!\n&fYou ranked up to &e%rankup_current_rank%<delay=60>'
+        - '[player] rankup:rankup'
+        - '[console] warp %rankup_current_rank% %player_name%'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_percent_done_formatted%'
+              output: '100'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        left_click_commands:
+        - '[console] titlemanager:tm message &6&lCongratulations!\n&fYou ranked up to &e%rankup_current_rank%<delay=60>'
+        - '[player] rankup:rankup'
+        - '[console] warp %rankup_current_rank% %player_name%'
+        - '[close]'
+      1a4aaa:
+        material: gray_dye
+        amount: 1
+        slot: 23
+        priority: 10
+        display_name: '&6&lGrade Upgrade'
+        lore:
+        - '&7'
+        - '&fUpgrade your current grade to'
+        - '&fkeep making your work, and'
+        - '&fmaybe, someday you will escape.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fGrade: &7E4'
+        - '  &e&l* &fStatus: &cUnavailable'
+        - '&7'
+        - '&f&lCOST &8| &e%rankup_rank_money_E3%'
+      1a10:
+        material: lime_dye
+        amount: 1
+        slot: 23
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '24'
+        priority: 1
+        display_name: '&e%rankup_percent_done_formatted%'
+      1a10:
+        material: lime_dye
+        amount: 1
+        slot: 23
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '29'
+        priority: 1
+        display_name: '&e%rankup_percent_done_formatted%'
+      1a11:
+        material: pink_dye
+        amount: 1
+        slot: 24
+        view_requirement:
+          requirements:
+            name:
+              type: '>='
+              input: '%javascript_ranks%'
+              output: '24'
+        priority: 2
+        display_name: '&6&n&lRebirth Upgrade'
+        lore:
+        - '&7'
+        - '&fIt seems you have arrived'
+        - '&fto the latest grade, and'
+        - '&fcompleted all the grades,'
+        - '&fnow you can start again if'
+        - '&fyou want to, and you will'
+        - '&freceive a &d&lREBIRTH &fstar.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &aAvailable'
+        - '&7'
+        - '&e&nClick to check requirements!'
+        right_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_current_rank%'
+              output: 'E4'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        right_click_commands:
+        - '[openguimenu] rebirths'
+        left_click_requirement:
+          requirements:
+            name:
+              type: ==
+              input: '%rankup_current_rank%'
+              output: 'E4'
+              deny_commands:
+              - '[close]'
+              - '[console] titlemanager:tm message %player_name% &7\n&cYou don''t
+                meet the requirements!'
+        left_click_commands:
+        - '[openguimenu] rebirths'
+      1a11121:
+        material: pink_dye
+        amount: 1
+        slot: 24
+        priority: 10
+        display_name: '&6&l&nRebirth Upgrade'
+        lore:
+        - '&7'
+        - '&fIt seems you have arrived'
+        - '&fto the latest grade, and'
+        - '&fcompleted all the grades,'
+        - '&fnow you can start again if'
+        - '&fyou want to, and you will'
+        - '&freceive a &d&lREBIRTH &fstar.'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fStatus: &cUnavailable'
+      234y1a11:
+        material: arrow
+        amount: 1
+        slot: 18
+        right_click_commands:
+        - '[openguimenu] ranks4'
+        left_click_commands:
+        - '[openguimenu] ranks4'
+        priority: 2
+        display_name: '&6Previous'
+      234y1a11pp:
+        material: book
+        amount: 1
+        slot: 40
+        right_click_commands:
+        - '[close]'
+        left_click_commands:
+        - '[close]'
+        display_name: '&c&lClose'
+      currentmine:
+        material: gold_ore
+        amount: 1
+        slot: 38
+        priority: 10
+        display_name: '&6&lGo to the current mine...'
+        lore:
+        - '&7'
+        - '&fKeep mining to get money'
+        - '&fand rank up!'
+        - '&7'
+        - '&6&lINFORMATION:'
+        - '  &e&l* &fCurrent Mine: &7%rankup_current_rank%'
+        - '&7'
+        - '&e&nClick to teleport!'
+        right_click_commands:
+        - '[close]'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lTeleporting to &e&l%rankup_current_rank%'
+        - '[console] warp %rankup_current_rank% %player_name%<delay=80>'
+        left_click_commands:
+        - '[close]'
+        - '[console] titlemanager:tm message %player_name% &7\n&6&lTeleporting to &e&l%rankup_current_rank%'
+        - '[console] warp %rankup_current_rank% %player_name%<delay=80>'
+      dfdfsadvcsdad:
+        material: nether_star
+        amount: 1
+        slot: 42
+        display_name: '&6&lRebirth Challenges'
+        lore:
+        - '&7'
+        - '&fKeep rebirthing to get'
+        - '&fthe norse gods'' honor'
+        - '&f& receive many rewards!'
+        - '&7'
+        - '&6&lREQUIREMENTS:'
+        - '  &e&l* &fGrade: &7E4'
+        - '&c[Latest grade]'
+        - '&7'
+        - '&e&nClick to open!'
+        right_click_commands:
+        - '[openguimenu] rebirths'
+        left_click_commands:
+        - '[openguimenu] rebirths'

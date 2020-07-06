@@ -1,0 +1,17 @@
+sounds:
+  inventoryFull:
+    name: ''
+    volume: 1.0
+    pitch: 1.0
+  onMine:
+    volume: 1.0
+    name: ''
+    pitch: 1.0
+itemAdditions:
+  lore:
+  - ''
+  name: ''
+disabled_worlds:
+- 'cells'
+AutoPicker: true
+AutoSmelt: false

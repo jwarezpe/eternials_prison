@@ -1,0 +1,683 @@
+menu_title: '&r&lENCHANT YOUR PICKAXE ...'
+open_command:
+- 'asdfdasdveds'
+size: 54
+items:
+###########################################
+#         Efficiency Enchantment          #
+###########################################
+  efficiency-maxed:
+    material: 'enchanted_book'
+    slot: 11
+    priority: 1
+    display_name: '&b&lEfficiency'
+    lore:
+    - ''
+    - '&7Your pickaxe will mine'
+    - '&7blocks / ores faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_efficiency_level%/%tokenenchant_efficiency_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_efficiency_level%'
+          output: '%tokenenchant_efficiency_max%'
+  efficiency-not-enough:
+    material: 'enchanted_book'
+    slot: 11
+    priority: 2
+    display_name: '&b&lEfficiency'
+    lore:
+    - ''
+    - '&7Your pickaxe will mine'
+    - '&7blocks / ores faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_efficiency_level%/%tokenenchant_efficiency_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  efficiency-enchant:
+    material: 'enchanted_book'
+    slot: 11
+    priority: 3
+    display_name: '&b&lEfficiency'
+    lore:
+    - ''
+    - '&7Your pickaxe will mine'
+    - '&7blocks / ores faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_efficiency_level%/%tokenenchant_efficiency_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Efficiency'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Efficiency'
+    - '[refresh]'
+###########################################
+#           Fortune Enchantment           #
+###########################################
+  fortune-maxed:
+    material: 'enchanted_book'
+    slot: 12
+    priority: 1
+    display_name: '&b&lFortune'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain'
+    - '&7more minerals from ores.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_fortune_level%/%tokenenchant_fortune_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_fortune_level%'
+          output: '%tokenenchant_fortune_max%'
+  fortune-not-enough:
+    material: 'enchanted_book'
+    slot: 12
+    priority: 2
+    display_name: '&b&lFortune'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain'
+    - '&7more minerals from ores.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_fortune_level%/%tokenenchant_fortune_max%'
+    - ' &8&l* &fCost: &btokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: '%tokenenchant_fortune_cost%'
+  fortune-enchant:
+    material: 'enchanted_book'
+    slot: 12
+    priority: 3
+    display_name: '&b&lFortune'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain'
+    - '&7more minerals from ores.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_fortune_level%/%tokenenchant_fortune_max%'
+    - ' &8&l* &fCost: &btokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Fortune'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Fortune'
+    - '[refresh]'
+###########################################
+#         Unbreaking Enchantment          #
+###########################################
+  unbreaking-maxed:
+    material: 'enchanted_book'
+    slot: 13
+    priority: 1
+    display_name: '&b&lUnbreaking'
+    lore:
+    - ''
+    - '&7Your pickaxe will be able'
+    - '&7to withstand more mining.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_unbreaking_level%/%tokenenchant_unbreaking_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_unbreaking_level%'
+          output: '%tokenenchant_unbreaking_max%'
+  unbreaking-not-enough:
+    material: 'enchanted_book'
+    slot: 13
+    priority: 2
+    display_name: '&b&lUnbreaking'
+    lore:
+    - ''
+    - '&7Your pickaxe will be able'
+    - '&7to withstand more mining.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_unbreaking_level%/%tokenenchant_unbreaking_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  unbreaking-enchant:
+    material: 'enchanted_book'
+    slot: 13
+    priority: 3
+    display_name: '&b&lUnbreaking'
+    lore:
+    - ''
+    - '&7Your pickaxe will be able'
+    - '&7to withstand more mining.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_unbreaking_level%/%tokenenchant_unbreaking_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Unbreaking'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Unbreaking'
+    - '[refresh]'
+###########################################
+#         Jackhammer Enchantment          #
+###########################################
+  jackhammer-maxed:
+    material: 'enchanted_book'
+    slot: 14
+    priority: 1
+    display_name: '&b&lJackhammer'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance to destroy an'
+    - '&7entire layer of a mine.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_jackhammer_level%/%tokenenchant_jackhammer_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_jackhammer_level%'
+          output: '%tokenenchant_jackhammer_max%'
+  jackhammer-not-enough:
+    material: 'enchanted_book'
+    slot: 14
+    priority: 2
+    display_name: '&b&lJackhammer'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance to destroy an'
+    - '&7entire layer of a mine.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_jackhammer_level%/%tokenenchant_jackhammer_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  jackhammer-enchant:
+    material: 'enchanted_book'
+    slot: 14
+    priority: 3
+    display_name: '&b&lJackhammer'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance to destroy an'
+    - '&7entire layer of a mine.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_jackhammer_level%/%tokenenchant_jackhammer_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Jackhammer'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Jackhammer'
+    - '[refresh]'
+###########################################
+#          Explosive Enchantment          #
+###########################################
+  explosive-maxed:
+    material: 'enchanted_book'
+    slot: 15
+    priority: 1
+    display_name: '&b&lExplosive'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance to create a tnt'
+    - '&7explosion while mining.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_explosive_level%/%tokenenchant_explosive_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_explosive_level%'
+          output: '%tokenenchant_explosive_max%'
+  explosive-not-enough:
+    material: 'enchanted_book'
+    slot: 15
+    priority: 2
+    display_name: '&b&lExplosive'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance to create a tnt'
+    - '&7explosion while mining.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_explosive_level%/%tokenenchant_explosive_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  explosive-enchant:
+    material: 'enchanted_book'
+    slot: 15
+    priority: 3
+    display_name: '&b&lExplosive'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance to create a tnt'
+    - '&7explosion while mining.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_explosive_level%/%tokenenchant_explosive_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Explosive'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Explosive'
+    - '[refresh]'
+###########################################
+#            Flight Enchantment           #
+###########################################
+  flight-maxed:
+    material: 'enchanted_book'
+    slot: 20
+    priority: 1
+    display_name: '&b&lFlight'
+    lore:
+    - ''
+    - '&7Your pickaxe will allow'
+    - '&7you to fly.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_flight_level%/%tokenenchant_flight_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_flight_level%'
+          output: '%tokenenchant_flight_max%'
+  flight-not-enough:
+    material: 'enchanted_book'
+    slot: 20
+    priority: 2
+    display_name: '&b&lFlight'
+    lore:
+    - ''
+    - '&7Your pickaxe will allow'
+    - '&7you to fly.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_flight_level%/%tokenenchant_flight_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  flight-enchant:
+    material: 'enchanted_book'
+    slot: 20
+    priority: 3
+    display_name: '&b&lFlight'
+    lore:
+    - ''
+    - '&7Your pickaxe will allow'
+    - '&7you to fly.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_flight_level%/%tokenenchant_flight_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Flight'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Flight'
+    - '[refresh]'
+###########################################
+#         Lucky Miner Enchantment         #
+###########################################
+  lucky-miner-maxed:
+    material: 'enchanted_book'
+    slot: 21
+    priority: 1
+    display_name: '&b&lLucky Miner'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance of finding loot.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_luckymining_level%/%tokenenchant_luckymining_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_luckymining_level%'
+          output: '%tokenenchant_luckymining_max%'
+  lucky-miner-not-enough:
+    material: 'enchanted_book'
+    slot: 21
+    priority: 2
+    display_name: '&b&lLucky Miner'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance of finding loot.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_luckymining_level%/%tokenenchant_luckymining_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  lucky-miner-enchant:
+    material: 'enchanted_book'
+    slot: 21
+    priority: 3
+    display_name: '&b&lLucky Miner'
+    lore:
+    - ''
+    - '&7Your pickaxe will gain a'
+    - '&7chance of finding loot.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_luckymining_level%/%tokenenchant_luckymining_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant LuckyMining'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant LuckyMining'
+    - '[refresh]'
+###########################################
+#            Haste Enchantment            #
+###########################################
+  haste-maxed:
+    material: 'enchanted_book'
+    slot: 22
+    priority: 1
+    display_name: '&b&lHaste'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the haste effect which'
+    - '&7allows you to swing faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_haste_level%/%tokenenchant_haste_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_haste_level%'
+          output: '%tokenenchant_haste_max%'
+  haste-not-enough:
+    material: 'enchanted_book'
+    slot: 22
+    priority: 2
+    display_name: '&b&lHaste'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the haste effect which'
+    - '&7allows you to swing faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_haste_level%/%tokenenchant_haste_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  haste-enchant:
+    material: 'enchanted_book'
+    slot: 22
+    priority: 3
+    display_name: '&b&lHaste'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the haste effect which'
+    - '&7allows you to swing faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_haste_level%/%tokenenchant_haste_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Haste'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Haste'
+    - '[refresh]'
+###########################################
+#            Speed Enchantment            #
+###########################################
+  speed-maxed:
+    material: 'enchanted_book'
+    slot: 23
+    priority: 1
+    display_name: '&b&lSpeed'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the speed effect which'
+    - '&7allows you to move faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_speed_level%/%tokenenchant_speed_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_speed_level%'
+          output: '%tokenenchant_speed_max%'
+  speed-not-enough:
+    material: 'enchanted_book'
+    slot: 23
+    priority: 2
+    display_name: '&b&lSpeed'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the speed effect which'
+    - '&7allows you to move faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_speed_level%/%tokenenchant_speed_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  speed-enchant:
+    material: 'enchanted_book'
+    slot: 23
+    priority: 3
+    display_name: '&b&lSpeed'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the speed effect which'
+    - '&7allows you to move faster.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_speed_level%/%tokenenchant_speed_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Speed'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Speed'
+    - '[refresh]'
+###########################################
+#             Jump Enchantment            #
+###########################################
+  jump-maxed:
+    material: 'enchanted_book'
+    slot: 24
+    priority: 1
+    display_name: '&b&lJump'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the jump boost effect which'
+    - '&7allows you to jump higher.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_jump_level%/%tokenenchant_jump_max%'
+    - ''
+    - '&8» &7Enchantment is maxed!'
+    view_requirement:
+      requirements:
+        maxed:
+          type: string equals
+          input: '%tokenenchant_jump_level%'
+          output: '%tokenenchant_jump_max%'
+  jump-not-enough:
+    material: 'enchanted_book'
+    slot: 24
+    priority: 2
+    display_name: '&b&lJump'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the jump boost effect which'
+    - '&7allows you to jump higher.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_jump_level%/%tokenenchant_jump_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Not enough tokens!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    view_requirement:
+      requirements:
+        not-enough:
+          type: '<'
+          input: '%tokenenchant_token_num%'
+          output: ''
+  jump-enchant:
+    material: 'enchanted_book'
+    slot: 24
+    priority: 3
+    display_name: '&b&lJump'
+    lore:
+    - ''
+    - '&7Your pickaxe will give you'
+    - '&7the jump boost effect which'
+    - '&7allows you to jump higher.'
+    - ''
+    - ' &8&l* &fLevel: &b%tokenenchant_jump_level%/%tokenenchant_jump_max%'
+    - ' &8&l* &fCost: &b tokens'
+    - ''
+    - '&8» &7Click here to apply!'
+    left_click_commands:
+    - '[player] te enchant Jump'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] te enchant Jump'
+    - '[refresh]'
+###########################################
+#              Player Pickaxe             #
+###########################################

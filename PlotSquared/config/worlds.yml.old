@@ -1,0 +1,57 @@
+worlds:
+  cells:
+    plot:
+      size: 5
+      biome: FOREST
+      filling: ''
+      auto_merge: false
+      bedrock: false
+      create_signs: false
+      floor: ''
+      height: 1
+    road:
+      height: 1
+      block: air:100
+      width: 55
+    wall:
+      height: 0
+      filling: air:100
+      block_claimed: air:100
+      block: air:100
+    misc_spawn_unowned: false
+    home:
+      nonmembers: 2,3,-1
+      default: 2,3,-1
+    schematic:
+      specify_on_claim: true
+      on_claim: false
+      file: cellsplot
+      schematics:
+      - cellsplot
+      - pl2
+      - 0;0,cells,Ayxa
+      - cellplot
+      - kddd
+    economy:
+      prices:
+        merge: 100
+        sell: 100
+        claim: 100
+      use: false
+    chat:
+      enabled: true
+    limits:
+      max-members: 128
+    world:
+      max_height: 6
+      gamemode: survival
+      min_height: 3
+      border: false
+    event:
+      spawn:
+        egg: false
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: false
+    flags: {}

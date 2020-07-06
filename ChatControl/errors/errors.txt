@@ -1,0 +1,219 @@
+[31.08.2018 08:34:26] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:26] String checked: unknown message (msg_test_fail   )
+[31.08.2018 08:34:26] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:26] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:26] String checked: quests > reminder: you are currently using a beta version of quests. please send bug reports to https://github.com/fatpigsarefat/quests/issues and check for updates regularly using /quests admin update!
+[31.08.2018 08:34:26] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:27] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:27] String checked: mannorat joined the game
+[31.08.2018 08:34:27] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:28] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:28] String checked: [server: teleported mannorat to -5.5, 91.0, 8.5]
+[31.08.2018 08:34:28] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:29] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:29] String checked: welcome, mannorat!
+[31.08.2018 08:34:29] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:29] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:29] String checked: server >> it seems like someone is trying to login with the same username as you.
+[31.08.2018 08:34:29] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:29] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:29] String checked: type /help for a list of commands.
+[31.08.2018 08:34:29] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:30] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:30] String checked: server >> ip : /127.0.0.1 is trying to access an online player (mannorat)'s account.
+[31.08.2018 08:34:30] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:30] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:30] String checked: type /list to see who else is online.
+[31.08.2018 08:34:30] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:30] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:30] String checked: players online: 1 - world time: 5:00 am
+[31.08.2018 08:34:30] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:30] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:30] String checked: you have no new mail.
+[31.08.2018 08:34:30] Regex: ^[Server: Teleported.*
+[31.08.2018 08:34:53] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:34:53] String checked: server โป unknown command, try again.
+[31.08.2018 08:34:53] Regex: ^[Server: Teleported.*
+[31.08.2018 08:36:02] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:36:02] String checked: server โป unknown command, try again.
+[31.08.2018 08:36:02] Regex: ^[Server: Teleported.*
+[31.08.2018 08:36:12] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:36:12] String checked: server โป unknown command, try again.
+[31.08.2018 08:36:12] Regex: ^[Server: Teleported.*
+[31.08.2018 08:36:20] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:36:20] String checked:  ---- help: vendingmachine -- page 1/1 ----
+[31.08.2018 08:36:20] Regex: ^[Server: Teleported.*
+[31.08.2018 08:36:20] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:36:20] String checked: commands matching "vendingmachine":
+[31.08.2018 08:36:20] Regex: ^[Server: Teleported.*
+[31.08.2018 08:36:21] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:36:21] String checked: /createvendingmachine: command to create vending machines.
+[31.08.2018 08:36:21] Regex: ^[Server: Teleported.*
+[31.08.2018 08:36:43] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:36:43] String checked: an internal error occurred while attempting to perform this command
+[31.08.2018 08:36:43] Regex: ^[Server: Teleported.*
+[31.08.2018 08:37:52] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:37:52] String checked: [server] test console command. mannorat is player name.
+[31.08.2018 08:37:52] Regex: ^[Server: Teleported.*
+[31.08.2018 08:37:52] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:37:52] String checked: * mannorat it is a player command.
+[31.08.2018 08:37:52] Regex: ^[Server: Teleported.*
+[31.08.2018 08:38:49] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:38:49] String checked: [server] test console command. mannorat is player name.
+[31.08.2018 08:38:49] Regex: ^[Server: Teleported.*
+[31.08.2018 08:38:49] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:38:49] String checked: * mannorat it is a player command.
+[31.08.2018 08:38:49] Regex: ^[Server: Teleported.*
+[31.08.2018 08:44:38] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:44:38] String checked: * mannorat is now afk.
+[31.08.2018 08:44:38] Regex: ^[Server: Teleported.*
+[31.08.2018 08:53:30] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:53:30] String checked: * mannorat is no longer afk.
+[31.08.2018 08:53:30] Regex: ^[Server: Teleported.*
+[31.08.2018 08:53:39] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:53:39] String checked: set game mode creative for mannorat.
+[31.08.2018 08:53:39] Regex: ^[Server: Teleported.*
+[31.08.2018 08:53:42] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:53:42] String checked: command set: /give @p skull 1 3 {display:{name:"sandwich"},skullowner:{id:"0e773357-dd3b-4d3e-bd93-6b179dc43a44",properties:{textures:[{value:"eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvngeymtjmnzbmyjy2ntq4zmrmmmfiy2riy2u4zjmxnza0mzriodk5nwuymwqxngy5yjfmzje0otdjnjq4zcj9fx0="}]}}}
+[31.08.2018 08:53:42] Regex: ^[Server: Teleported.*
+[31.08.2018 08:54:19] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:54:19] String checked: command set: /give @p skull 1 3 {display:{name:"ham cheese sandwich"},skullowner:{id:"4544cee0-6c8a-419b-9844-86665e05015b",properties:{textures:[{value:"eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvymflztg0zde5yzg1ywzmnzk2yzg4ywjkytixzwm0yzkyyzy1nwuyzdy3yjcyztvlnzdinwfhnwu5owvkin19fq=="}]}}}
+[31.08.2018 08:54:19] Regex: ^[Server: Teleported.*
+[31.08.2018 08:54:31] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:54:31] String checked: giving 1 of command to mannorat.
+[31.08.2018 08:54:31] Regex: ^[Server: Teleported.*
+[31.08.2018 08:54:39] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:54:39] String checked: command set: /give @p skull 1 3 {display:{name:"ham cheese sandwich"},skullowner:{id:"4544cee0-6c8a-419b-9844-86665e05015b",properties:{textures:[{value:"eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvymflztg0zde5yzg1ywzmnzk2yzg4ywjkytixzwm0yzkyyzy1nwuyzdy3yjcyztvlnzdinwfhnwu5owvkin19fq=="}]}}}
+[31.08.2018 08:54:39] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:10] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:10] String checked: (fawe) left click: select pos #1; right click: select pos #2
+[31.08.2018 08:55:10] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:12] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:12] String checked: (fawe) pos1 set to (3, 100, -51) ().
+[31.08.2018 08:55:12] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:19] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:19] String checked: (fawe) pos2 set to (3, 102, -51) (3).
+[31.08.2018 08:55:19] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:26] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:26] String checked: (fawe) 3 blocks were copied.
+[31.08.2018 08:55:26] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:27] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:27] String checked: (fawe) action completed in 3.172 seconds
+[31.08.2018 08:55:27] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:33] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:33] String checked: (fawe) the clipboard has been pasted at (2, 100, -48)
+[31.08.2018 08:55:33] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:43] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:43] String checked: given armor stand tools. l-click any tool to cycle through tools.
+[31.08.2018 08:55:43] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:43] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:43] String checked: run this command again to return your inventory.
+[31.08.2018 08:55:43] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:53] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:53] String checked: visible: true
+[31.08.2018 08:55:53] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:57] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:57] String checked: pvp: ||||||||||||||| 15s
+[31.08.2018 08:55:57] Regex: ^[Server: Teleported.*
+[31.08.2018 08:55:57] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:55:57] String checked: 
+[31.08.2018 08:55:57] Regex: ^[Server: Teleported.*
+[31.08.2018 08:56:25] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:56:25] String checked: set adjustment to fine
+[31.08.2018 08:56:25] Regex: ^[Server: Teleported.*
+[31.08.2018 08:56:26] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:56:26] String checked: setting axis to x
+[31.08.2018 08:56:26] Regex: ^[Server: Teleported.*
+[31.08.2018 08:56:27] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:56:27] String checked: setting mode to placement
+[31.08.2018 08:56:27] Regex: ^[Server: Teleported.*
+[31.08.2018 08:56:34] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:56:34] String checked: setting axis to z
+[31.08.2018 08:56:34] Regex: ^[Server: Teleported.*
+[31.08.2018 08:57:22] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:57:22] String checked: setting mode to head
+[31.08.2018 08:57:22] Regex: ^[Server: Teleported.*
+[31.08.2018 08:57:22] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:57:22] String checked: setting axis to x
+[31.08.2018 08:57:22] Regex: ^[Server: Teleported.*
+[31.08.2018 08:57:28] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:57:28] String checked: setting axis to z
+[31.08.2018 08:57:28] Regex: ^[Server: Teleported.*
+[31.08.2018 08:57:42] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:57:42] String checked: setting axis to y
+[31.08.2018 08:57:42] Regex: ^[Server: Teleported.*
+[31.08.2018 08:58:06] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:58:06] String checked: setting axis to z
+[31.08.2018 08:58:06] Regex: ^[Server: Teleported.*
+[31.08.2018 08:58:07] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:58:07] String checked: set adjustment to fine
+[31.08.2018 08:58:07] Regex: ^[Server: Teleported.*
+[31.08.2018 08:58:08] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:58:08] String checked: setting mode to placement
+[31.08.2018 08:58:08] Regex: ^[Server: Teleported.*
+[31.08.2018 08:58:08] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:58:08] String checked: setting mode to placement
+[31.08.2018 08:58:08] Regex: ^[Server: Teleported.*
+[31.08.2018 08:58:08] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:58:08] String checked: setting mode to placement
+[31.08.2018 08:58:08] Regex: ^[Server: Teleported.*
+[31.08.2018 08:59:53] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 08:59:53] String checked: command set: /give @p skull 1 3 {display:{name:"sandwich"},skullowner:{id:"870b755a-0d84-4363-90f5-d9d58071a4be",properties:{textures:[{value:"eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvmtvmywzkodk3mmi2yjc2otbmyjezmwrjm2y5mtdjntu5otkzogy4n2i1odrjmmy1ztdkndbhmgrlndflntjmin19fq=="}]}}}
+[31.08.2018 08:59:53] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:20] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:20] String checked: unknown message (msg_test_fail   )
+[31.08.2018 09:10:20] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:20] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:20] String checked: quests > reminder: you are currently using a beta version of quests. please send bug reports to https://github.com/fatpigsarefat/quests/issues and check for updates regularly using /quests admin update!
+[31.08.2018 09:10:20] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:21] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:21] String checked: mannorat joined the game
+[31.08.2018 09:10:21] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:23] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:23] String checked: [server: teleported mannorat to -5.5, 91.0, 8.5]
+[31.08.2018 09:10:23] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:24] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:24] String checked: welcome, mannorat!
+[31.08.2018 09:10:24] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:24] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:24] String checked: type /help for a list of commands.
+[31.08.2018 09:10:24] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:24] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:24] String checked: type /list to see who else is online.
+[31.08.2018 09:10:24] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:25] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:25] String checked: players online: 1 - world time: 5:44 pm
+[31.08.2018 09:10:25] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:25] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:25] String checked: you have no new mail.
+[31.08.2018 09:10:25] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:53] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:53] String checked: set game mode survival for mannorat.
+[31.08.2018 09:10:53] Regex: ^[Server: Teleported.*
+[31.08.2018 09:10:53] Regex check timed out (bad regex?) (plugin ver. 5.6.8)!
+[31.08.2018 09:10:53] String checked: set game mode survival for mannorat.
+[31.08.2018 09:10:53] Regex: ^[Server: Teleported.*
+[13.09.2018 19:39:22] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[13.09.2018 19:39:22] String checked: easybackup is outdated! download: https://www.spigotmc.org/resources/8017
+[13.09.2018 19:39:22] Regex: ^Block Regen.*
+[16.09.2018 12:27:34] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[16.09.2018 12:27:34] String checked:     /tm version - gives you the current running version of titlemanager
+[16.09.2018 12:27:34] Regex: ^Your balance was set.*
+[16.09.2018 17:01:42] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[16.09.2018 17:01:42] String checked: youremsghola
+[16.09.2018 17:01:42] Regex: ^Block Regen.*
+[28.11.2018 12:02:18] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[28.11.2018 12:02:18] String checked: easybackup is outdated! download: https://www.spigotmc.org/resources/8017
+[28.11.2018 12:02:18] Regex: ^/ewwfefdwedwe
+[13.04.2019 19:55:22] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[13.04.2019 19:55:22] String checked: download at spigotmc.org/resources/citizens-cmd.30224/
+[13.04.2019 19:55:22] Regex: ^Teleported.*
+[13.04.2019 20:54:14] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[13.04.2019 20:54:14] String checked: easybackup is outdated! download: https://www.spigotmc.org/resources/8017
+[13.04.2019 20:54:14] Regex: ^Removed 8 of dirt.*
+[13.04.2019 23:55:11] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[13.04.2019 23:55:11] String checked: > clear - [context...] 
+[13.04.2019 23:55:11] Regex: ^/ewwfefdwedwe
+[02.05.2019 22:58:39] Regex check timed out (bad regex?) (plugin ver. 5.6.9)!
+[02.05.2019 22:58:39] String checked: server โป unknown command, try again.
+[02.05.2019 22:58:39] Regex: ^/ewwfefdwedwefrgewwewe

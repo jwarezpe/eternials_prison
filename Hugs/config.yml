@@ -1,0 +1,168 @@
+#
+# Hugs - Developed by ShadowMasterGaming
+#
+
+# Enable update checking?
+check_for_updates: true
+
+# What language is native to your server?
+language_file: en_US
+
+# This is still in development. Right now it only supports yaml and will default to yaml.
+# The method of storing plugin data.
+# Valid settings include: yaml, yml, & MySQL.
+# If an invalid storage setting is detected, the plugin will default to YAML files.
+storage: yaml
+
+#
+# Normal Plugin Settings
+#
+settings:
+  # Force the usage of exact names when using the /hug command. Only applies to the /hug command.
+  force_exact_names: true
+
+  # Upon receiving a hug, restore the receiver's health back to 100%?
+  restore_player_health: false
+
+  # Upon receiving a hug, restore the receiver's hunger back to 100%?
+  restore_player_hunger: false
+
+  # Self Hug Settings
+  self_hugs:
+    # Allow players to give themselves hugs?
+    enabled: true
+    # Allow self hugs to count towards player data?
+    count_towards_playerdata: false
+
+  # Shift Hug Settings
+  shift_hugs:
+    # Allow players to give hugs by shift clicking a player?
+    enabled: true
+    # How do you want players to click the receiver?
+    # Only supports LEFT_CLICK & RIGHT_CLICK
+    # If this setting is invalid, the plugin will default to RIGHT_CLICK.
+    usage: 'LEFT_CLICK'
+
+  # Hug Message Settings
+  hug_messages:
+    enabled: true
+
+  # Broadcast Settings
+  broadcasts:
+    normal_hugs: true
+    mass_hugs: false
+    self_hugs: false
+
+  # Title Settings
+  titles:
+    enabled: true
+    # The interval settings for how titles appear. (In Seconds)
+    fade-in: 1
+    stay: 5
+    fade-out: 1
+
+  # The particle effect that will spawn around the receiver when they receive a hug.
+  # If the particle effect is invalid, you will receive a warning in the console. It won't break the plugin.
+  # This link will take you to a page with all of the available particle effects you can use: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  # As long as the particle effect is valid, it doesn't have to be uppercase. You can write it in lowercase if you want!
+  particles:
+    enabled: true
+    effect: "HEART"
+    # Allow other players to see the particles?
+    global: false
+
+  # The sound effect that will play at the receiver's location when they receive a hug.
+  # If the sound effect is invalid, you will receive a warning in the console. It won't break the plugin.
+  # This link will take you to a page with all of the available sound effects you can use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  # As long as the sound effect is valid, it doesn't have to be uppercase. You can write it in lowercase if you want!
+  sounds:
+    enabled: true
+    sound: "ENTITY_CAT_PURR"
+    # The maximum volume is 10
+    volume: 10
+    # The maximum pitch is 16
+    pitch: 7
+    # Allow other players to hear the sound?
+    global: false
+
+  # Cooldown Settings
+  cooldowns:
+    # The cooldown between hugs. (In Seconds)
+    normal_hugs: 86400
+    # The cooldown between mass hugs. (In Seconds)
+    mass_hugs: 999999999999999
+    # If set to true, the time remaining will be displayed as a decimal. (E.G. 14.3 seconds remaining.)
+    use_exact_time: false
+
+  # Settings for commands that would benefit from confirmations. (E.G. /hugs admin purge <player>)
+  # If the GUIs is not enabled, it will default to a text based confirmation.
+  confirmations:
+    enabled: true
+    use_gui: true
+
+  # Leaderboard settings.
+  # If the GUIs is not enabled, it will default to a text based leaderboard.
+  leaderboard:
+    use_gui: true
+
+  # Players will receive one cookie when they hug the developer. :3
+  developer_reward: false
+
+#
+# The different verbose settings that you can change. This is to help keep track of things.
+#
+verbose:
+  # Settings for file logging. If enabled, all messages that would be sent to the console will be logged to a file.
+  file_logging: true
+
+  # Settings for console logging. If enabled, it will log stuff like who reloaded the config and who gave hugs.
+  console:
+    enabled: false
+    console_name: "Console"
+
+  # Settings for startup verbose.
+  # If both settings are set to true, the plugin will default to show_all_settings.
+  startup:
+    enabled: true
+    show_hooks: true
+    # Available Modes: All, Informative, & None
+    display_settings: 'None'
+
+
+  # Settings for reload verbose.
+  # If both settings are set to true, the plugin will default to show_all_settings.
+  reloads:
+    enabled: false
+    # Available Modes: All, Informative, & None
+    display_settings: 'None'
+
+#
+# Hugs Updater Settings - (In Development)
+#
+updater:
+  # Available Modes: Minimal & Fancy
+  # Fancy Mode makes both the message in game and the message in console look nicer and more functional.
+  # Minimal Mode makes both the message in game and the message in console more compact and simplistic.
+  mode: 'Fancy'
+  send-updates-to-ops: true
+
+#
+# The Experimental Settings
+#
+experimental_settings:
+  # Allow the receiver to have temporary invincibility after they are hugged?
+  temporary_invincibility:
+    enabled: false
+    effects:
+      fall_damage: true
+      pvp: true
+    # The duration of invincibility. (In seconds)
+    duration: 10
+
+  # Deny players from harming each other?
+  passive_mode:
+    enabled: false
+    message:
+      enabled: true
+      # The delay between the passive mode message being sent to the player. (In seconds)
+      delay: 10

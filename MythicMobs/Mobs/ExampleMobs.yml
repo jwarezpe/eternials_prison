@@ -1,0 +1,44 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+bee:
+  Mobtype: bat
+  Health: 100
+  Display: 'Bee'
+  Disguise.Type: babyzombie
+  Skills:
+   - equip{i=bee_head:4} ~onSpawn
+   - potion{t=INVISIBILITY;d=2147483647;l=1} @self ~onSpawn
+   - skill{s=e2} @Self ~onTimer:20
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    Silent: true
+bird:
+  Type: PARROT
+  Health: 100
+  Display: 'Dinnerbone'
+  Disguise:
+    Type: zombie
+  Skills:
+  - equip{i=bird_head:4} ~onSpawn
+  - potion{t=INVISIBILITY;d=2147483647;l=1} @self ~onSpawn
+  - skill{s=BIND} @Self ~onTimer:20
+  Options:
+    PreventRandomEquipment: false
+    PreventOtherDrops: true
+    Silent: true
+fish:
+  Type: SQUID
+  Health: 100
+  Display: 'Fish'
+  Disguise:
+    Type: babyzombie
+  Skills:
+  - equip{i=fish_head:4} ~onSpawn
+  - potion{t=INVISIBILITY;d=2147483647;l=1} @self ~onSpawn
+  - skill{s=e3} @Self ~onTimer:20
+  Options:
+    PreventRandomEquipment: false
+    PreventOtherDrops: true
+    Silent: true

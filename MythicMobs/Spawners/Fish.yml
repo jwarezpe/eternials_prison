@@ -1,0 +1,25 @@
+Fish:
+  MobName: fish
+  World: world
+  X: -43
+  Y: 86
+  Z: -52
+  Radius: 20
+  UseTimer: true
+  MaxMobs: '3'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 60
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 70
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

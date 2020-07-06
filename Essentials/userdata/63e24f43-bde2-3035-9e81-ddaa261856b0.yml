@@ -1,0 +1,20 @@
+lastAccountName: JONACST
+timestamps:
+  login: 1593986608685
+  lastteleport: 1593986749433
+  logout: 1593987245980
+ipAddress: 94.0.124.222
+lastlocation:
+  world: cells
+  x: -28.671114551967673
+  y: 3.0
+  z: 32.32415228682268
+  yaw: -202.34946
+  pitch: 17.099932
+logoutlocation:
+  world: mines
+  x: 2485.1362718339556
+  y: 100.0
+  z: -17.36508788798058
+  yaw: 188.35004
+  pitch: 18.3

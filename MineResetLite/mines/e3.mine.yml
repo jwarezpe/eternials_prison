@@ -1,0 +1,35 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: 861
+  tpYaw: 90
+  maxY: 141
+  maxX: 1370
+  resetPercent: -1.0
+  fillMode: false
+  tpPitch: 0
+  world: mines
+  minY: 117
+  resetWarnings: []
+  minX: 1346
+  composition:
+    RED_TERRACOTTA:0: 0.09
+    DIORITE:0: 0.1
+    GOLD_ORE:0: 0.14
+    ANDESITE:0: 0.04
+    YELLOW_TERRACOTTA:0: 0.03
+    DIAMOND_ORE:0: 0.16
+    PRISMARINE:0: 0.1
+    IRON_ORE:0: 0.09
+    EMERALD_ORE:0: 0.04
+    GRANITE:0: 0.07
+    GRAY_TERRACOTTA:0: 0.14
+  potions: {}
+  name: e3
+  resetClock: 3
+  minZ: 837
+  isSilent: true
+  tpY: 143
+  tpX: 1386
+  tpZ: 849

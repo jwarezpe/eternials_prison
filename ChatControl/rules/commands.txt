@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------------------
+# This file manages rules in commands and includes rules from rules.txt.
+#
+# File by default contain examples that you can safely remove or change.
+#
+# For help, see notes in rules.txt file.
+# -------------------------------------------------------------------------------
+
+# Prevent /op command, but ignore other commands that start with /op, like /openinv
+
+
+match ^/(heal)
+ignore perm essentials.heal
+then warn &dIs the game too hard for ya?
+then deny
+
+match /feed
+then deny
+then console %player &ba
+
+match ^/trade
+ignore gamemode survival
+then warn &cThis command only accessible in survival mode!
+then deny

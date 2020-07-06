@@ -1,0 +1,21 @@
+lastAccountName: colometix
+timestamps:
+  login: 1593986664563
+  lastteleport: 1593986788931
+  logout: 1593987257545
+ipAddress: 91.216.73.63
+lastlocation:
+  world: world
+  x: -1691.699999988079
+  y: 152.0
+  z: -2443.761019456015
+  yaw: -304.92694
+  pitch: 4.2722282
+money: '22810.0'
+logoutlocation:
+  world: mines
+  x: 2495.7658834848244
+  y: 100.0
+  z: -13.69514488873981
+  yaw: 141.64893
+  pitch: 15.133477

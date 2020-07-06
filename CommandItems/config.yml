@@ -1,0 +1,48 @@
+#########################################
+#                                       #
+#       Command Items by Yamakaja       #
+#                                       #
+#########################################
+
+# Note, item use requires the cmdi.item.<name> permission. I.e. to use the fly items you'll have to give the player cmdi.item.fly
+
+items:
+  fly:
+    item:
+      type: FEATHER
+      name: "&a&lFlight token"
+      lore: ["&1Click for 10 seconds of flight!", "&kRandom second line"]
+      glow: true
+    consumed: true
+    cooldown: 20
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "fly {player} on" }
+      - { action: MESSAGE, to: PLAYER, message: "&aFlight has been enabled!" }
+      - { action: REPEAT, from: 9, to: 1, increment: -1, delay: 20, period: 20, actions: [{ action: MESSAGE, to: PLAYER, message: "&a{i}s to go" }]}
+      - { action: WAIT, duration: 200, actions: [
+          { action: COMMAND, by: CONSOLE, command: "fly {player} off" },
+          { action: MESSAGE, to: PLAYER, message: "&cFlight has been disabled!" }
+        ]}
+  helpstick:
+    item:
+      type: STICK
+      name: "&a&lHelp Stick"
+      lore: ["&1Click to send a help request to moderators!"]
+      glow: true
+    consumed: false
+    cooldown: 60
+    actions:
+      - { action: MESSAGE, to: PERMISSION, perm: group.moderator, message: "&6{player} &arequested help!" }
+      - { action: MESSAGE, to: PLAYER, message: "&aModerators have been notified!" }
+  xpparty:
+    item:
+      type: EXP_BOTTLE
+      name: "&a&lEXP PARTY"
+    consumed: true
+    sneaking: true
+    actions:
+      - { action: REPEAT, period: 1, delay: 0, from: 0, to: 99, actions: [
+          { action: ITER, what: ONLINE_PLAYERS, actions: [
+            { action: CALC, a: "{iter_locY}", b: "4", op: ADD, target: "y", actions: [
+              { action: COMMAND, by: CONSOLE, command: "minecraft:summon minecraft:xp_bottle {iter_locX} {y} {iter_locZ}" }]}]}]}
+      - { action: MESSAGE, to: EVERYBODY, message: "&a&l{player} has started an XP party!" }
